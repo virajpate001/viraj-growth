@@ -7,6 +7,7 @@ import Container from "./Container";
 import Button from "./Button";
 
 const links = [
+  { href: "/about", label: "About" },
   { href: "/services", label: "Services" },
   { href: "/case-studies", label: "Case Studies" },
   { href: "/analyzer", label: "Growth Analyzer" },
