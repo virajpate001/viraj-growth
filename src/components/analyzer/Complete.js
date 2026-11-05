@@ -1,23 +1,32 @@
 import Button from "../Button";
+import { encodeAnswers } from "@/lib/share";
 
 export default function Complete({ answers, onReset }) {
+  const code = encodeAnswers(answers);
+
   return (
-    <div className="text-center">
-      <p className="text-5xl">🎉</p>
-      <h2 className="mt-4 text-3xl font-bold">All done!</h2>
+    <div className="py-6 text-center">
+      <p className="text-5xl">📊</p>
+      <h2 className="mt-4 text-3xl font-bold">Your report is ready</h2>
       <p className="mx-auto mt-3 max-w-md text-muted">
-        Your answers are saved. On Day 4 this screen becomes your personalized
-        Growth Report.
+        We analyzed your answers across 5 areas. See your score, top
+        priorities and a 90-day action plan.
       </p>
-
-      {/* Temporary debug view. Delete on Day 4 */}
-      <pre className="mx-auto mt-8 max-h-72 max-w-md overflow-auto rounded-xl bg-surface p-4 text-left text-xs">
-        {JSON.stringify(answers, null, 2)}
-      </pre>
-
-      <Button onClick={onReset} variant="outline" className="mt-8">
-        Start over
+      <Button
+        href={`/analyzer/report?r=${encodeURIComponent(code)}`}
+        className="mt-8"
+      >
+        View my Growth Report
       </Button>
+      <div className="mt-6">
+        <button
+          type="button"
+          onClick={onReset}
+          className="text-xs text-muted underline hover:text-ink"
+        >
+          Start over
+        </button>
+      </div>
     </div>
   );
 }

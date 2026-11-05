@@ -30,3 +30,23 @@ h1, h2, h3, h4 {
   font-family: var(--font-display), system-ui, sans-serif;
   letter-spacing: -0.02em;
 }
+
+@media print {
+  @page {
+    margin: 14mm;
+  }
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  /* Scroll animations leave elements invisible until seen. Force them visible. */
+  [style*="opacity"] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  article,
+  li,
+  figure {
+    break-inside: avoid;
+  }
+}

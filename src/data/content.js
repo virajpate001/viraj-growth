@@ -125,3 +125,9 @@ export const skills = [
   "Shopify", "WooCommerce", "Next.js", "React", "WordPress",
   "Tailwind CSS", "SEO", "Speed Optimization", "UI/UX Design",
 ];
+
+export const contactInfo = {
+  email: "hello@yourdomain.com",
+  whatsapp: "919999999999", // country code + number, no + or spaces
+  calLink: "https://cal.com/your-username/30min",
+};
