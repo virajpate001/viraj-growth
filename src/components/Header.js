@@ -23,7 +23,10 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-line/70 bg-bg/80 backdrop-blur-xl print:hidden">
       <Container className="flex h-[72px] items-center justify-between">
-        <Link href="/" className="font-display text-xl font-bold tracking-tight">
+        <Link
+          href="/"
+          className="font-display text-xl font-bold tracking-tight"
+        >
           Viraj Pate<span className="text-accent">.</span>
         </Link>
 
@@ -36,7 +39,9 @@ export default function Header() {
                 href={l.href}
                 aria-current={active ? "page" : undefined}
                 className={`relative font-heading text-sm font-semibold transition-colors duration-300 after:absolute after:-bottom-1.5 after:left-0 after:h-px after:w-full after:origin-left after:bg-accent after:transition-transform after:duration-300 hover:text-accent hover:after:scale-x-100 ${
-                  active ? "text-accent after:scale-x-100" : "text-muted after:scale-x-0"
+                  active
+                    ? "text-accent after:scale-x-100"
+                    : "text-muted after:scale-x-0"
                 }`}
               >
                 {l.label}
@@ -59,7 +64,10 @@ export default function Header() {
       </Container>
 
       {open && (
-        <nav aria-label="Mobile" className="fixed inset-x-0 top-[72px] bottom-0 overflow-y-auto bg-bg lg:hidden">
+        <nav
+          aria-label="Mobile"
+          className="absolute inset-x-0 top-full h-[calc(100dvh-72px)] overflow-y-auto border-t border-line bg-bg lg:hidden"
+        >
           <Container className="flex flex-col gap-2 py-8">
             {links.map((l) => (
               <Link
@@ -73,7 +81,12 @@ export default function Header() {
                 {l.label}
               </Link>
             ))}
-            <Button href="/analyzer" arrow onClick={() => setOpen(false)} className="mt-6">
+            <Button
+              href="/analyzer"
+              arrow
+              onClick={() => setOpen(false)}
+              className="mt-6"
+            >
               Free growth analysis
             </Button>
           </Container>

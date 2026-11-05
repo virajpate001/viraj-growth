@@ -38,41 +38,33 @@ export default function ScrollEffects() {
     if (reduced()) return;
     const root = document.documentElement;
     let ctx;
+    let io;
+    let mo;
+    let raf = null;
+    const seen = new WeakSet();
+    const queue = [];
+
     try {
+      // Hero intro and parallax (safe to revert on cleanup)
       ctx = gsap.context(() => {
-        // 1. Hero intro: headline lines slide up, then the rest fades in
         const lines = gsap.utils.toArray("[data-line]");
         if (lines.length) {
           gsap
             .timeline({ defaults: { ease: "power4.out" } })
-            .fromTo(lines, { yPercent: 110 }, { yPercent: 0, duration: 1.1, stagger: 0.12 }, 0.1)
-            .fromTo("[data-hero]", { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.9, stagger: 0.1 }, 0.5);
+            .fromTo(
+              lines,
+              { yPercent: 110, opacity: 1 },
+              { yPercent: 0, opacity: 1, duration: 1.1, stagger: 0.12 },
+              0.1
+            )
+            .fromTo(
+              "[data-hero]",
+              { opacity: 0, y: 24 },
+              { opacity: 1, y: 0, duration: 0.9, stagger: 0.1 },
+              0.5
+            );
         }
 
-        // 2. Fade-up with stagger (siblings that enter together are staggered)
-        ScrollTrigger.batch("[data-reveal]", {
-          start: "top 88%",
-          once: true,
-          interval: 0.1,
-          onEnter: (els) =>
-            gsap.to(els, { opacity: 1, y: 0, duration: 0.9, ease: "power3.out", stagger: 0.12 }),
-        });
-
-        // 3. Image mask reveals
-        gsap.utils.toArray("[data-mask]").forEach((el) => {
-          gsap.fromTo(
-            el,
-            { clipPath: "inset(100% 0% 0% 0%)" },
-            {
-              clipPath: "inset(0% 0% 0% 0%)",
-              duration: 1.3,
-              ease: "power4.out",
-              scrollTrigger: { trigger: el, start: "top 88%", once: true },
-            }
-          );
-        });
-
-        // 4. Parallax (the image layer moves slower than the page)
         gsap.utils.toArray("[data-parallax]").forEach((el) => {
           const amount = parseFloat(el.dataset.parallax) || 8;
           gsap.fromTo(
@@ -91,11 +83,68 @@ export default function ScrollEffects() {
           );
         });
       });
+
+      // Fade-up and mask reveals. Works for elements that appear later too.
+      const flush = () => {
+        raf = null;
+        const batch = queue.splice(0);
+        const fades = batch.filter((el) => !el.hasAttribute("data-mask"));
+        const masks = batch.filter((el) => el.hasAttribute("data-mask"));
+
+        if (fades.length) {
+          gsap.to(fades, {
+            opacity: 1,
+            y: 0,
+            duration: 0.9,
+            ease: "power3.out",
+            stagger: 0.12,
+          });
+        }
+        masks.forEach((el) =>
+          gsap.fromTo(
+            el,
+            { clipPath: "inset(100% 0% 0% 0%)" },
+            { clipPath: "inset(0% 0% 0% 0%)", duration: 1.3, ease: "power4.out" }
+          )
+        );
+      };
+
+      io = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e) => {
+            if (e.isIntersecting) {
+              io.unobserve(e.target);
+              queue.push(e.target);
+            }
+          });
+          if (queue.length && raf === null) raf = requestAnimationFrame(flush);
+        },
+        { rootMargin: "0px 0px -8% 0px" }
+      );
+
+      const watch = () => {
+        document.querySelectorAll("[data-reveal], [data-mask]").forEach((el) => {
+          if (!seen.has(el)) {
+            seen.add(el);
+            io.observe(el);
+          }
+        });
+      };
+
+      watch();
+      mo = new MutationObserver(watch);
+      mo.observe(document.body, { childList: true, subtree: true });
     } catch {
       // If anything fails, never leave content hidden
       root.classList.remove("motion");
     }
-    return () => ctx?.revert();
+
+    return () => {
+      io?.disconnect();
+      mo?.disconnect();
+      if (raf !== null) cancelAnimationFrame(raf);
+      ctx?.revert();
+    };
   }, [pathname]);
 
   return null;

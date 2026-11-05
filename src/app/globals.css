@@ -69,7 +69,7 @@ html.lenis, html.lenis body { height: auto; }
    (the class "motion" is added by a tiny script in layout.js). */
 .motion [data-reveal] { opacity: 0; transform: translateY(32px); }
 .motion [data-mask] { clip-path: inset(100% 0 0 0); }
-.motion [data-line] { transform: translateY(110%); }
+.motion [data-line] { opacity: 0; }
 .motion [data-hero] { opacity: 0; }
 
 /* ---------- Marquee ---------- */
