@@ -8,9 +8,9 @@ export default function CaseStudyTeaser() {
     <section className="bg-bg2 py-24 sm:py-32">
       <Container className="grid items-center gap-14 lg:grid-cols-2">
         <ImageFrame
-          src={null}
+           src="/images/vp2.webp"
           alt={`Screenshot of the ${caseStudy.tag} store`}
-          label="Add a project screenshot"
+          label="project"
           ratio="aspect-[4/3]"
         />
         <div data-reveal>

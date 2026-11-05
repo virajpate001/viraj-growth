@@ -7,7 +7,7 @@ const lines = ["Is your website", "growing your", "business, or"];
 export default function Hero() {
   return (
     <section className="relative overflow-hidden">
-      <div
+      <div 
         aria-hidden="true"
         className="pointer-events-none absolute -right-40 -top-40 h-[560px] w-[560px] rounded-full bg-accent/10 blur-[140px]"
       />
@@ -17,7 +17,7 @@ export default function Hero() {
             E-commerce growth partner 
           </p>
 
-          <h1 className="mt-7 text-[clamp(2.75rem,7vw,5rem)] font-bold">
+          <h1 className="mt-7 text-[clamp(2.75rem,7vw,4rem)] font-bold">
             {lines.map((l) => (
               <span key={l} className="block overflow-hidden pb-[0.1em]">
                 <span data-line className="block">{l}</span>

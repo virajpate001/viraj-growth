@@ -9,7 +9,7 @@ function Row({ hidden }) {
       {words.map((w, i) => (
         <li key={w} className="flex items-center gap-10">
           <span
-            className={`font-display text-5xl font-bold sm:text-7xl ${
+            className={`font-display text-5xl font-bold sm:text-6xl ${
               i % 2 ? "text-outline" : "text-ink"
             }`}
           >

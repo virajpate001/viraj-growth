@@ -7,13 +7,13 @@ export default function FinalCTA() {
       <Container>
         <div
           data-reveal
-          className="relative overflow-hidden rounded-3xl border border-line bg-card px-6 py-16 sm:px-14 sm:py-24"
+          className="relative overflow-hidden rounded-3xl border border-line bg-card px-6 py-16 sm:px-14 sm:py-14"
         >
-          <div
-            aria-hidden="true"
+          <div 
+            aria-hidden="true" 
             className="pointer-events-none absolute -bottom-40 -right-20 h-96 w-96 rounded-full bg-accent/15 blur-[110px]"
           />
-          <h2 className="relative max-w-3xl text-[clamp(2.5rem,6vw,4.5rem)]">
+          <h2 className="relative max-w-3xl text-[clamp(2.5rem,6vw,4rem)]">
             Let&apos;s find the <span className="text-accent">one thing</span> holding your business back.
           </h2>
           <p className="relative mt-6 max-w-xl text-lg text-muted">
