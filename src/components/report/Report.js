@@ -180,7 +180,7 @@ export default function Report({ result, code, unlockedByLink = false }) {
                 <FadeIn key={p.category} delay={i * 0.1}>
                   <article className="h-full rounded-2xl border border-line bg-white p-6">
                     <div className="flex items-center justify-between">
-                      <span className="flex h-9 w-9 items-center justify-center rounded-full bg-accent font-display font-bold text-white">
+                      <span className="flex h-9 w-9 items-center justify-center rounded-full bg-accent-dark font-display font-bold text-white">
                         {i + 1}
                       </span>
                       <span className={`rounded-full px-3 py-1 text-xs font-semibold ${style.badge}`}>
@@ -262,12 +262,12 @@ export default function Report({ result, code, unlockedByLink = false }) {
             <Container className="max-w-4xl">
               <FadeIn>
                 <div className="rounded-3xl bg-primary-dark p-8 text-white sm:p-12">
-                  <p className="text-sm font-semibold uppercase tracking-wider text-accent">
+                  <p className="text-sm font-semibold uppercase tracking-wider text-accent-dark">
                     Revenue opportunity
                   </p>
                   <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
                     A modest improvement could add about{" "}
-                    <span className="text-accent">{formatINR(revenue.annualGain)}</span> a year
+                    <span className="text-accent-dark">{formatINR(revenue.annualGain)}</span> a year
                   </h2>
                   <p className="mt-4 text-white/80">
                     If your conversion rate moved from {revenue.conv}% to {revenue.newConv}%,
@@ -294,7 +294,7 @@ export default function Report({ result, code, unlockedByLink = false }) {
               {phases.map((ph, i) => (
                 <FadeIn key={ph.key} delay={i * 0.1}>
                   <div className="h-full rounded-2xl border border-line bg-white p-6">
-                    <p className="font-display text-sm font-bold text-accent">{ph.title}</p>
+                    <p className="font-display text-sm font-bold text-accent-dark">{ph.title}</p>
                     <h3 className="mt-1 text-lg font-bold">{ph.sub}</h3>
                     <ul className="mt-4 space-y-4">
                       {roadmap[ph.key].map((item, n) => (
@@ -319,7 +319,7 @@ export default function Report({ result, code, unlockedByLink = false }) {
         <Container className="max-w-4xl">
           <FadeIn>
             <div className="rounded-3xl border-2 border-accent bg-white p-8 sm:p-10">
-              <p className="text-sm font-semibold uppercase tracking-wider text-accent">
+              <p className="text-sm font-semibold uppercase tracking-wider text-accent-dark">
                 Recommended next step
               </p>
               <h2 className="mt-2 text-2xl font-bold sm:text-3xl">{solution.title}</h2>

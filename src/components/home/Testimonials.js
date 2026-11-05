@@ -13,7 +13,7 @@ export default function Testimonials() {
           {testimonials.map((t, i) => (
             <FadeIn key={i} delay={i * 0.1}>
               <figure className="h-full rounded-2xl border border-line bg-white p-6">
-                <div className="mb-3 flex gap-1 text-accent">
+                <div className="mb-3 flex gap-1 text-accent-dark">
                   {[...Array(5)].map((_, n) => (
                     <Star key={n} size={16} fill="currentColor" />
                   ))}

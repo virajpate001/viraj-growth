@@ -9,7 +9,7 @@ export default function CaseStudyTeaser() {
       <Container>
         <FadeIn>
           <div className="overflow-hidden rounded-3xl bg-primary-dark p-8 text-white sm:p-12">
-            <p className="text-sm font-semibold uppercase tracking-wider text-accent">
+            <p className="text-sm font-semibold uppercase tracking-wider text-accent-dark">
               Featured case study · {caseStudy.tag}
             </p>
             <h2 className="mt-3 max-w-2xl text-3xl font-bold sm:text-4xl">

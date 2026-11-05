@@ -12,6 +12,7 @@ export default function sitemap() {
     { path: "/blog", priority: 0.8 },
     { path: "/about", priority: 0.6 },
     { path: "/contact", priority: 0.7 },
+    { path: "/privacy", priority: 0.2 },
   ].map((p) => ({
     url: `${siteUrl}${p.path}`,
     lastModified: now,

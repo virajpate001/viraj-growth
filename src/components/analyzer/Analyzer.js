@@ -1,7 +1,7 @@
 "use client";
 
 import { useReducer, useEffect, useRef } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, m } from "framer-motion";
 import Container from "../Container";
 import ProgressBar from "./ProgressBar";
 import Intro from "./Intro";
@@ -27,6 +27,8 @@ const variants = {
 export default function Analyzer() {
   const [state, dispatch] = useReducer(reducer, initialState);
   const timer = useRef(null);
+  const wrapRef = useRef(null);
+  const prevStep = useRef(null);
 
   // Load saved progress once
   useEffect(() => {
@@ -54,10 +56,19 @@ export default function Analyzer() {
     try {
       localStorage.setItem(
         STORAGE_KEY,
-        JSON.stringify({ step: state.step, answers: state.answers })
+        JSON.stringify({ step: state.step, answers: state.answers }),
       );
     } catch {}
   }, [state.step, state.answers, state.hydrated]);
+
+  // Move keyboard focus to the new screen after a step change (not on first load)
+  useEffect(() => {
+    if (!state.hydrated) return;
+    if (prevStep.current !== null && prevStep.current !== state.step) {
+      wrapRef.current?.focus({ preventScroll: true });
+    }
+    prevStep.current = state.step;
+  }, [state.step, state.hydrated]);
 
   const go = (type) => {
     clearTimeout(timer.current);
@@ -90,18 +101,19 @@ export default function Analyzer() {
 
   const current = flow[state.step];
 
-  // Progress: questions completed so far
+  // Progress: number of question screens before the current step
   const done = flow
-    .slice(0, state.step + (current.type === "question" ? 0 : 0))
+    .slice(0, state.step)
     .filter((s) => s.type === "question").length;
-  const showProgress = current.type === "question" || current.type === "section";
+  const showProgress =
+    current.type === "question" || current.type === "section";
 
   let screen = null;
   if (current.type === "intro") {
-     screen = (
+    screen = (
       <Intro
         onStart={() => {
-          trackEvent("analyzer_start"); 
+          trackEvent("analyzer_start");
           go("NEXT");
         }}
       />
@@ -128,28 +140,28 @@ export default function Analyzer() {
       />
     );
   } else {
-    screen = (
-      <Complete answers={state.answers} onReset={() => go("RESET")} />
-    );
+    screen = <Complete answers={state.answers} onReset={() => go("RESET")} />;
   }
 
   return (
     <Container className="max-w-2xl py-12 sm:py-16">
       {showProgress && <ProgressBar done={done} total={totalQuestions} />}
 
-      <AnimatePresence mode="wait" custom={state.dir} initial={false}>
-        <motion.div
-          key={state.step}
-          custom={state.dir}
-          variants={variants}
-          initial="enter"
-          animate="center"
-          exit="exit"
-          transition={{ duration: 0.25 }}
-        >
-          {screen}
-        </motion.div>
-      </AnimatePresence>
+      <div ref={wrapRef} tabIndex={-1} className="outline-none">
+        <AnimatePresence mode="wait" custom={state.dir} initial={false}>
+          <m.div
+            key={state.step}
+            custom={state.dir}
+            variants={variants}
+            initial="enter"
+            animate="center"
+            exit="exit"
+            transition={{ duration: 0.25 }}
+          >
+            {screen}
+          </m.div>
+        </AnimatePresence>
+      </div>
 
       {showProgress && (
         <div className="mt-10 text-center">

@@ -58,8 +58,8 @@ export default function ReportGate({ unlocked, onUnlock, code, children }) {
           </p>
 
           <form onSubmit={submit} className="mt-5 space-y-3">
-            <input name="name" type="text" placeholder="Your first name (optional)" autoComplete="given-name" maxLength={100} className={input} />
-            <input name="email" type="email" required placeholder="Your email" autoComplete="email" maxLength={200} className={input} />
+            <input name="name" aria-label="Your first name" type="text" placeholder="Your first name (optional)" autoComplete="given-name" maxLength={100} className={input} />
+            <input name="email" aria-label="Your email" type="email" required placeholder="Your email" autoComplete="email" maxLength={200} className={input} />
             {/* Honeypot, hidden from real users */}
             <input name="website" type="text" tabIndex={-1} autoComplete="off" aria-hidden="true" className="absolute left-[-9999px]" />
             <Button type="submit" disabled={status === "sending"} className="w-full disabled:opacity-60">

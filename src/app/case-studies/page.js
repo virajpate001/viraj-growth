@@ -40,7 +40,7 @@ export default function CaseStudiesPage() {
                 <p className="mt-2 flex-1 text-sm text-muted">{c.summary}</p>
                 <div className="mt-5 flex items-end justify-between">
                   <div>
-                    <p className="font-display text-3xl font-extrabold text-accent">{c.results[0].value}</p>
+                    <p className="font-display text-3xl font-extrabold text-accent-dark">{c.results[0].value}</p>
                     <p className="text-xs text-muted">{c.results[0].label}</p>
                   </div>
                   <ArrowRight className="text-primary" size={20} />

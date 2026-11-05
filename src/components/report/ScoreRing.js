@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { m } from "framer-motion";
 
 export default function ScoreRing({ score, size = 200 }) {
   const stroke = 14;
@@ -19,7 +19,7 @@ export default function ScoreRing({ score, size = 200 }) {
           stroke="#e2e8f0"
           strokeWidth={stroke}
         />
-        <motion.circle
+       <m.circle
           cx={size / 2}
           cy={size / 2}
           r={r}

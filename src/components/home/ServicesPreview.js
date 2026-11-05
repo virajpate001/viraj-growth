@@ -20,7 +20,7 @@ export default function ServicesPreview() {
                 href={`/services#${s.slug}`}
                 className="block h-full rounded-2xl border border-line bg-white p-6 transition-shadow hover:shadow-lg"
               >
-                <s.icon className="text-accent" size={28} />
+                <s.icon className="text-accent-dark" size={28} />
                 <h3 className="mt-4 text-lg font-bold">{s.title}</h3>
                 <p className="mt-2 text-sm text-muted">{s.short}</p>
               </Link>

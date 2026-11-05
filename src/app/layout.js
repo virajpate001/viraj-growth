@@ -1,9 +1,10 @@
 import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
-import { GoogleAnalytics } from "@next/third-parties/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
+import MotionProvider from "@/components/MotionProvider";
+import ConsentAnalytics from "@/components/ConsentAnalytics";
 import { site, siteUrl } from "@/lib/site";
 import "./globals.css";
 
@@ -25,7 +26,6 @@ export const metadata = {
     description: site.description,
   },
   twitter: { card: "summary_large_image" },
-  // Optional: Google Search Console HTML-tag verification token
   verification: process.env.NEXT_PUBLIC_GSC_TOKEN
     ? { google: process.env.NEXT_PUBLIC_GSC_TOKEN }
     : undefined,
@@ -73,14 +73,20 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${inter.variable} ${jakarta.variable}`}>
       <body className="flex min-h-screen flex-col antialiased">
+        <a
+          href="#main"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-lg focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:shadow-lg"
+        >
+          Skip to content
+        </a>
         <JsonLd data={schema} />
         <Header />
-        <main className="flex-1">{children}</main>
+        <main id="main" className="flex-1">
+          <MotionProvider>{children}</MotionProvider>
+        </main>
         <Footer />
         <Analytics />
-        {process.env.NEXT_PUBLIC_GA_ID && (
-          <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
-        )}
+        <ConsentAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
       </body>
     </html>
   );

@@ -11,7 +11,7 @@ import {
 
 export default function CategoryRadar({ data }) {
   return (
-    <div className="h-72 w-full">
+    <div className="h-72 w-full" role="img" aria-label="Radar chart of your five category scores. The same scores are listed beside it.">
       <ResponsiveContainer width="100%" height="100%">
         <RadarChart data={data} outerRadius="70%">
           <PolarGrid />

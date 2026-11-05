@@ -52,7 +52,7 @@ export default async function ContactPage({ searchParams }) {
 
         <aside className="space-y-4 lg:col-span-2">
           <div className="rounded-2xl border border-line bg-white p-6">
-            <Calendar className="text-accent" size={28} />
+            <Calendar className="text-accent-dark" size={28} />
             <h2 className="mt-3 text-lg font-bold">Prefer a call?</h2>
             <p className="mt-1 text-sm text-muted">
               Book a free 30-minute call. We&apos;ll review your goals and I&apos;ll give you honest advice.

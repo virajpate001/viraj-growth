@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const variants = {
-  primary: "bg-accent text-white hover:bg-accent-dark",
+  primary: "bg-accent-dark text-white hover:bg-accent-darker",
   secondary: "bg-primary text-white hover:bg-primary-dark",
   outline: "border border-line text-ink hover:bg-surface",
 };

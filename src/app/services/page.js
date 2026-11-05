@@ -32,7 +32,7 @@ export default function ServicesPage() {
               className="scroll-mt-24 grid gap-8 rounded-2xl border border-line bg-white p-6 sm:p-8 md:grid-cols-2"
             >
               <div>
-                <s.icon className="text-accent" size={32} />
+                <s.icon className="text-accent-dark" size={32} />
                 <h2 className="mt-4 text-2xl font-bold">{s.title}</h2>
                 <p className="mt-2 text-muted">{s.short}</p>
                 <p className="mt-4 text-sm">

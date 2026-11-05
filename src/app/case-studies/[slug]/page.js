@@ -79,7 +79,7 @@ export default async function CaseStudyPage({ params }) {
           <div className="grid gap-6 text-center sm:grid-cols-3">
             {cs.results.map((r) => (
               <div key={r.label} className="rounded-2xl bg-primary-dark p-6 text-white">
-                <p className="font-display text-4xl font-extrabold text-accent">{r.value}</p>
+                <p className="font-display text-4xl font-extrabold text-accent-dark">{r.value}</p>
                 <p className="mt-1 text-sm text-white/80">{r.label}</p>
               </div>
             ))}
@@ -91,7 +91,7 @@ export default async function CaseStudyPage({ params }) {
       <section className="py-10">
         <Container className="max-w-3xl">
           <FadeIn>
-            <p className="text-sm font-semibold uppercase tracking-wider text-accent">The challenge</p>
+            <p className="text-sm font-semibold uppercase tracking-wider text-accent-dark">The challenge</p>
             <h2 className="mt-2 text-2xl font-bold sm:text-3xl">What was going wrong</h2>
             <div className="mt-4 space-y-4 text-muted">
               {cs.challenge.map((p, i) => <p key={i}>{p}</p>)}
@@ -108,7 +108,7 @@ export default async function CaseStudyPage({ params }) {
             {cs.solution.map((s, i) => (
               <FadeIn key={s.title} delay={i * 0.08}>
                 <div className="h-full rounded-2xl border border-line bg-white p-6">
-                  <p className="font-display text-2xl font-extrabold text-accent">0{i + 1}</p>
+                  <p className="font-display text-2xl font-extrabold text-accent-dark">0{i + 1}</p>
                   <h3 className="mt-1 text-lg font-bold">{s.title}</h3>
                   <p className="mt-2 text-sm text-muted">{s.text}</p>
                 </div>
@@ -130,7 +130,7 @@ export default async function CaseStudyPage({ params }) {
       <section className="pb-16">
         <Container className="max-w-3xl">
           <figure className="rounded-2xl border border-line bg-white p-8">
-            <Quote className="text-accent" size={28} />
+            <Quote className="text-accent-dark" size={28} />
             <blockquote className="mt-3 text-lg">{cs.testimonial.quote}</blockquote>
             <figcaption className="mt-4 text-sm">
               <span className="font-semibold">{cs.testimonial.name}</span>
@@ -144,7 +144,7 @@ export default async function CaseStudyPage({ params }) {
       <section className="bg-surface py-16">
         <Container className="max-w-3xl">
           <div className="rounded-3xl border-2 border-accent bg-white p-8 sm:p-10">
-            <Search className="text-accent" size={28} />
+            <Search className="text-accent-dark" size={28} />
             <h2 className="mt-3 text-2xl font-bold">What I&apos;d check on your store</h2>
             <p className="mt-2 text-sm text-muted">
               These three checks found the biggest gains in this project.
