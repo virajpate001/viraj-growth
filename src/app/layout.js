@@ -1,4 +1,4 @@
-import { Inter, Plus_Jakarta_Sans } from "next/font/google";
+
 import { Analytics } from "@vercel/analytics/next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -7,11 +7,13 @@ import MotionProvider from "@/components/MotionProvider";
 import ConsentAnalytics from "@/components/ConsentAnalytics";
 import { site, siteUrl } from "@/lib/site";
 import "./globals.css";
+import { Rubik, Rajdhani } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-const jakarta = Plus_Jakarta_Sans({
+const rubik = Rubik({ subsets: ["latin"], variable: "--font-rubik" });
+const rajdhani = Rajdhani({
   subsets: ["latin"],
-  variable: "--font-jakarta",
+  weight: ["500", "600", "700"],
+  variable: "--font-rajdhani",
 });
 
 export const metadata = {
@@ -71,7 +73,7 @@ const schema = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${inter.variable} ${jakarta.variable}`}>
+   <html lang="en" className={`${rubik.variable} ${rajdhani.variable}`}>
       <body className="flex min-h-screen flex-col antialiased">
         <a
           href="#main"

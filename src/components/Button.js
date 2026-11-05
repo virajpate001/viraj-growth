@@ -1,9 +1,10 @@
 import Link from "next/link";
 
 const variants = {
-  primary: "bg-accent-dark text-white hover:bg-accent-darker",
-  secondary: "bg-primary text-white hover:bg-primary-dark",
-  outline: "border border-line text-ink hover:bg-surface",
+  primary: "bg-accent text-ink hover:bg-accent-dark",
+  secondary: "bg-ink text-white hover:bg-primary-dark",
+  outline: "border-2 border-ink text-ink hover:bg-ink hover:text-white",
+  onDark: "border-2 border-white/30 text-white hover:border-white hover:bg-white/10",
 };
 
 export default function Button({
@@ -13,7 +14,7 @@ export default function Button({
   className = "",
   ...props
 }) {
-  const styles = `inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-semibold transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 ${variants[variant]} ${className}`;
+  const styles = `inline-flex items-center justify-center rounded-md px-6 py-3 font-display text-lg font-semibold tracking-wide transition-colors ${variants[variant]} ${className}`;
 
   if (href) {
     return (

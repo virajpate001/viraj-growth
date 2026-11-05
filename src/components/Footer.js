@@ -1,29 +1,41 @@
 import Link from "next/link";
 import Container from "./Container";
 
+const links = [
+  { href: "/services", label: "Services" },
+  { href: "/case-studies", label: "Case Studies" },
+  { href: "/blog", label: "Blog" },
+  { href: "/analyzer", label: "Growth Analyzer" },
+  { href: "/about", label: "About" },
+  { href: "/contact", label: "Contact" },
+  { href: "/privacy", label: "Privacy" },
+];
+
 export default function Footer() {
   return (
-    <footer className="border-t border-line bg-surface">
-      <Container className="flex flex-col gap-6 py-10 md:flex-row md:items-center md:justify-between">
-        <div>
-          <p className="font-display text-lg font-bold text-primary">
+    <footer className="bg-ink text-white/70 print:hidden">
+      <Container className="flex flex-col gap-8 py-12 md:flex-row md:items-start md:justify-between">
+        <div className="max-w-sm">
+          <p className="flex items-center gap-2 font-display text-2xl font-bold text-white">
+            <span aria-hidden="true" className="h-5 w-5 bg-accent" />
             Viraj Pate
           </p>
-          <p className="mt-1 text-sm text-muted">
-            Shopify & WooCommerce developer helping businesses grow online.
+          <p className="mt-3 text-sm">
+            Shopify and WooCommerce developer helping businesses grow online.
           </p>
         </div>
-        <nav className="flex flex-wrap gap-6 text-sm text-muted">
-          <Link href="/about" className="hover:text-ink">About</Link>
-          <Link href="/services" className="hover:text-ink">Services</Link>
-          <Link href="/case-studies" className="hover:text-ink">Case Studies</Link>
-          <Link href="/analyzer" className="hover:text-ink">Growth Analyzer</Link>
-          <Link href="/privacy" className="hover:text-ink">Privacy</Link>
-          <Link href="/blog" className="hover:text-ink">Blog</Link>
-          <Link href="/contact" className="hover:text-ink">Contact</Link>
+        <nav
+          aria-label="Footer"
+          className="grid grid-cols-2 gap-x-10 gap-y-3 text-sm sm:grid-cols-3"
+        >
+          {links.map((l) => (
+            <Link key={l.href} href={l.href} className="hover:text-accent">
+              {l.label}
+            </Link>
+          ))}
         </nav>
       </Container>
-      <div className="border-t border-line py-4 text-center text-xs text-muted">
+      <div className="border-t border-white/10 py-5 text-center text-xs text-white/50">
         © {new Date().getFullYear()} Viraj Pate. All rights reserved.
       </div>
     </footer>
