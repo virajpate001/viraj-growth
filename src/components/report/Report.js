@@ -97,7 +97,7 @@ export default function Report({ result, code, unlockedByLink = false }) {
       </div>
 
       {/* 1. Score hero */}
-      <section className="bg-gradient-to-b from-surface to-white py-12 sm:py-16">
+      <section className=" from-surface to-white py-12 sm:py-16">
         <Container className="max-w-4xl">
           <div className="flex flex-col items-center gap-8 text-center md:flex-row md:text-left">
             <ScoreRing score={overall} />

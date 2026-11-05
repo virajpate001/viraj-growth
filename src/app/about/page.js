@@ -47,12 +47,12 @@ export default function AboutPage() {
             {/* Replace with your photo later using next/image */}
             <div className="flex aspect-square max-w-md items-center justify-center rounded-3xl bg-gradient-to-br from-primary/20 to-accent/20 text-sm text-muted">
               <Image
-                src="https://res.cloudinary.com/gwy8xgtr/image/upload/v1793866729/unnamed_cwfwwl.webp"
+                src="/images/hero.webp"
                 alt="Viraj Pate, freelance Shopify and WooCommerce developer"
                 width={600}
                 height={600}
                 priority
-                className="rounded-3xl object-cover"
+                className="rounded-3xl object-cover w-full"
               />
             </div>
           </FadeIn>

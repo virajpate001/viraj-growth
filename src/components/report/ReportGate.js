@@ -44,7 +44,7 @@ export default function ReportGate({ unlocked, onUnlock, code, children }) {
       <div aria-hidden="true" className="pointer-events-none select-none blur-sm">
         {children}
       </div>
-      <div className="absolute inset-0 bg-gradient-to-b from-white/30 via-white/90 to-white" />
+      <div className="absolute inset-0  from-white/30 via-white/90 to-white" />
 
       <div className="absolute inset-x-0 top-8 z-10 px-5">
         <div className="mx-auto max-w-md rounded-2xl border border-line bg-white p-6 shadow-xl">
