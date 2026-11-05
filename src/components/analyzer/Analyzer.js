@@ -9,6 +9,7 @@ import SectionBreak from "./SectionBreak";
 import QuestionCard from "./QuestionCard";
 import Complete from "./Complete";
 import { sections } from "@/data/questions";
+import { trackEvent } from "@/lib/analytics";
 import {
   flow,
   totalQuestions,
@@ -97,7 +98,14 @@ export default function Analyzer() {
 
   let screen = null;
   if (current.type === "intro") {
-    screen = <Intro onStart={() => go("NEXT")} />;
+     screen = (
+      <Intro
+        onStart={() => {
+          trackEvent("analyzer_start"); 
+          go("NEXT");
+        }}
+      />
+    );
   } else if (current.type === "section") {
     const index = sections.findIndex((s) => s.id === current.section.id);
     screen = (

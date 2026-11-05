@@ -3,12 +3,14 @@ import FadeIn from "@/components/FadeIn";
 import Button from "@/components/Button";
 import { Check } from "lucide-react";
 import { services } from "@/data/content";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata = {
-  title: "Services",
+export const metadata = pageMeta({
+  title: "Shopify, WooCommerce & Next.js Services",
   description:
-    "Shopify, WooCommerce, custom Next.js, store redesign, speed and SEO optimization for growing online businesses.",
-};
+    "Shopify and WooCommerce development, custom Next.js sites, store redesign, speed optimization and e-commerce SEO for growing online businesses.",
+  path: "/services",
+});
 
 export default function ServicesPage() {
   return (

@@ -3,12 +3,14 @@ import FadeIn from "@/components/FadeIn";
 import SectionHeading from "@/components/SectionHeading";
 import Button from "@/components/Button";
 import { process, skills } from "@/data/content";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata = {
-  title: "About",
+export const metadata = pageMeta({
+  title: "About: 6+ Years Building E-commerce Stores",
   description:
-    "Viraj Pate is a freelance web designer and developer with 6+ years of experience building high-converting Shopify and WooCommerce stores.",
-};
+    "Viraj Pate is a freelance web designer and developer who has built 20+ high-converting Shopify and WooCommerce stores for startups and brands.",
+  path: "/about",
+});
 
 export default function AboutPage() {
   return (

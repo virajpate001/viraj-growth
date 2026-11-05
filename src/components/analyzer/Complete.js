@@ -1,11 +1,13 @@
 import Button from "../Button";
 import { encodeAnswers } from "@/lib/share";
+import TrackOnMount from "../TrackOnMount";
 
 export default function Complete({ answers, onReset }) {
   const code = encodeAnswers(answers);
 
   return (
     <div className="py-6 text-center">
+      <TrackOnMount event="analyzer_complete" />
       <p className="text-5xl">📊</p>
       <h2 className="mt-4 text-3xl font-bold">Your report is ready</h2>
       <p className="mx-auto mt-3 max-w-md text-muted">

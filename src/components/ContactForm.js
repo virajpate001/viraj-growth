@@ -4,6 +4,7 @@ import { useState } from "react";
 import { CheckCircle2 } from "lucide-react";
 import Button from "./Button";
 import { services, contactInfo } from "@/data/content";
+import { trackEvent } from "@/lib/analytics";
 
 const budgets = [
   "Under ₹25,000",
@@ -44,6 +45,7 @@ export default function ContactForm({ initialMessage = "", code = "", score = nu
       const data = await res.json().catch(() => ({}));
       if (!res.ok) throw new Error(data.error || "Something went wrong.");
       setStatus("done");
+            trackEvent("contact_submit", { withReport: Boolean(code) });
     } catch (err) {
       setError(err.message || "Something went wrong.");
       setStatus("error");

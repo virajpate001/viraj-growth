@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Lock } from "lucide-react";
 import Button from "../Button";
-
+import { trackEvent } from "@/lib/analytics";
 export const UNLOCK_KEY = "viraj-analyzer-unlocked";
 
 export default function ReportGate({ unlocked, onUnlock, code, children }) {
@@ -28,6 +28,7 @@ export default function ReportGate({ unlocked, onUnlock, code, children }) {
         }),
       });
       if (!res.ok) throw new Error("failed");
+            trackEvent("report_email_submit");
       onUnlock();
     } catch {
       setStatus("error");
@@ -72,7 +73,7 @@ export default function ReportGate({ unlocked, onUnlock, code, children }) {
             </p>
           )}
 
-          <button type="button" onClick={onUnlock} className="mt-4 w-full text-center text-sm text-muted underline hover:text-ink">
+          <button type="button" onClick={() => { trackEvent("report_skip"); onUnlock(); }} className="mt-4 w-full text-center text-sm text-muted underline hover:text-ink">
             Skip for now, just show me
           </button>
           <p className="mt-3 text-center text-xs text-muted">

@@ -5,6 +5,7 @@ import ServicesPreview from "@/components/home/ServicesPreview";
 import CaseStudyTeaser from "@/components/home/CaseStudyTeaser";
 import Testimonials from "@/components/home/Testimonials";
 import FinalCTA from "@/components/home/FinalCTA";
+export const metadata = { alternates: { canonical: "/" } };
 
 export default function Home() {
   return (

@@ -3,6 +3,7 @@ import Button from "@/components/Button";
 import Report from "@/components/report/Report";
 import { decodeAnswers } from "@/lib/share";
 import { computeReport } from "@/lib/scoring";
+import TrackOnMount from "@/components/TrackOnMount";
 
 export const metadata = {
   title: "Your Business Growth Report",
@@ -30,5 +31,10 @@ export default async function ReportPage({ searchParams }) {
   }
 
   const result = computeReport(answers);
-   return <Report result={result} code={code} unlockedByLink={params?.u === "1"} />;
+   return (
+    <>
+      <TrackOnMount event="report_view" props={{ score: result.overall }} />
+      <Report result={result} code={code} unlockedByLink={params?.u === "1"} />
+    </>
+  );
 }

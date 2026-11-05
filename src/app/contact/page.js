@@ -5,12 +5,14 @@ import { Calendar, Mail, MessageCircle } from "lucide-react";
 import { contactInfo } from "@/data/content";
 import { decodeAnswers } from "@/lib/share";
 import { computeReport } from "@/lib/scoring";
+import { pageMeta } from "@/lib/seo";
 
-export const metadata = {
-  title: "Contact",
+export const metadata = pageMeta({
+  title: "Contact: Free 30-Minute Call",
   description:
     "Get in touch with Viraj Pate to discuss your Shopify, WooCommerce or custom website project. Free 30-minute call available.",
-};
+  path: "/contact",
+});
 
 export default async function ContactPage({ searchParams }) {
   const params = await searchParams;
