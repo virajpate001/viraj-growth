@@ -1,3 +1,7 @@
 export default function FadeIn({ children, className = "" }) {
-  return <div className={className}>{children}</div>;
+  return (
+    <div data-reveal className={className}>
+      {children}
+    </div>
+  );
 }

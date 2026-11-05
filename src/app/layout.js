@@ -1,20 +1,20 @@
-
+import { Sora, Manrope, Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import JsonLd from "@/components/JsonLd";
 import MotionProvider from "@/components/MotionProvider";
 import ConsentAnalytics from "@/components/ConsentAnalytics";
+import ScrollEffects from "@/components/ScrollEffects";
+import Cursor from "@/components/Cursor";
 import { site, siteUrl } from "@/lib/site";
 import "./globals.css";
-import { Rubik, Rajdhani } from "next/font/google";
 
-const rubik = Rubik({ subsets: ["latin"], variable: "--font-rubik" });
-const rajdhani = Rajdhani({
-  subsets: ["latin"],
-  weight: ["500", "600", "700"],
-  variable: "--font-rajdhani",
-});
+const sora = Sora({ subsets: ["latin"], variable: "--font-sora" });
+const manrope = Manrope({ subsets: ["latin"], variable: "--font-manrope" });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+
+export const viewport = { themeColor: "#090A0F" };
 
 export const metadata = {
   metadataBase: new URL(siteUrl),
@@ -73,11 +73,24 @@ const schema = {
 
 export default function RootLayout({ children }) {
   return (
-   <html lang="en" className={`${rubik.variable} ${rajdhani.variable}`}>
-      <body className="flex min-h-screen flex-col antialiased">
+    <html
+      lang="en"
+      suppressHydrationWarning
+      className={`${sora.variable} ${manrope.variable} ${inter.variable}`}
+    >
+      <head>
+        {/* Enables animation start states only when motion is allowed */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches)document.documentElement.classList.add('motion')",
+          }}
+        />
+      </head>
+      <body className="flex min-h-screen flex-col bg-bg text-ink antialiased">
         <a
           href="#main"
-          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-lg focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:shadow-lg"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-lg focus:bg-accent focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-bg"
         >
           Skip to content
         </a>
@@ -89,6 +102,8 @@ export default function RootLayout({ children }) {
         <Footer />
         <Analytics />
         <ConsentAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
+        <ScrollEffects />
+        <Cursor />
       </body>
     </html>
   );

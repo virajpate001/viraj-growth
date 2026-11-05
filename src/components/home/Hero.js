@@ -1,77 +1,64 @@
 import Container from "../Container";
 import Button from "../Button";
+import ImageFrame from "../ImageFrame";
 
-// Sample data so visitors see what the report looks like (labelled as a sample)
-const sample = [
-  { label: "Website & UX", value: 72 },
-  { label: "Traffic & Visibility", value: 44 },
-  { label: "Conversion & Sales", value: 31 },
-  { label: "Customer Retention", value: 52 },
-  { label: "Tech & Operations", value: 68 },
-];
+const lines = ["Is your website", "growing your", "business, or"];
 
 export default function Hero() {
   return (
-    <section className="bg-ink text-white">
-      <Container className="grid items-center gap-12 py-16 sm:py-24 lg:grid-cols-[1.1fr_0.9fr]">
+    <section className="relative overflow-hidden">
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute -right-40 -top-40 h-[560px] w-[560px] rounded-full bg-accent/10 blur-[140px]"
+      />
+      <Container className="relative grid items-center gap-16 pb-24 pt-14 sm:pt-20 lg:grid-cols-[1.25fr_0.75fr] lg:pb-32">
         <div>
-          <h1 className="text-5xl sm:text-7xl">
-            Is your website helping your business grow, or holding it back?
+          <p data-hero className="font-heading text-xs font-bold uppercase tracking-[0.18em] text-accent">
+            E-commerce growth partner 
+          </p>
+
+          <h1 className="mt-7 text-[clamp(2.75rem,7vw,5rem)] font-bold">
+            {lines.map((l) => (
+              <span key={l} className="block overflow-hidden pb-[0.1em]">
+                <span data-line className="block">{l}</span>
+              </span>
+            ))}
+            <span className="block overflow-hidden pb-[0.1em]">
+              <span data-line className="block text-accent">holding it back?</span>
+            </span>
           </h1>
-          <p className="mt-6 max-w-xl text-lg text-white/75">
+
+          <p data-hero className="mt-8 max-w-xl text-lg text-muted">
             Answer 16 questions about your store. You get a score, your top three
             priorities and a 90-day plan. It is free and takes about 3 minutes.
           </p>
-          <div className="mt-9 flex flex-col gap-4 sm:flex-row">
-            <Button href="/analyzer">Get my free growth report</Button>
-            <Button href="/services" variant="onDark">
-              View services
-            </Button>
+          <div data-hero className="mt-10 flex flex-col gap-4 sm:flex-row">
+            <Button href="/analyzer" arrow>Get my free growth report</Button>
+            <Button href="/services" variant="outline">View services</Button>
           </div>
-          <p className="mt-4 text-sm text-white/60">
-            No signup needed to see your score.
-          </p>
         </div>
 
-        {/* Sample report */}
-        <div
-          className="border border-white/15 bg-primary-dark p-6 sm:p-8"
-          role="img"
-          aria-label="Example report: overall score 52 out of 100, with the lowest category being Conversion and Sales"
-        >
-          <div className="flex items-end justify-between gap-4 border-b border-white/10 pb-5">
-            <div>
-              <p className="text-sm text-white/60">Sample growth report</p>
-              <p className="font-display text-7xl font-bold leading-none text-accent">
-                52<span className="text-3xl text-white/50">/100</span>
-              </p>
-            </div>
-            <p className="max-w-[9rem] text-right text-sm text-white/70">
-              Real potential, held back by key gaps
+        <div className="relative">
+          <ImageFrame
+            src="/images/hero.webp"
+            alt="Portrait of Viraj Pate"
+            label="Add your portrait: public/images/hero.webp"
+            priority 
+          />
+          <div
+            data-hero
+            className="absolute -bottom-6 left-4 right-4 rounded-2xl border border-line bg-elevated/90 p-5 backdrop-blur-md sm:-left-8 sm:right-auto sm:w-64"
+          >
+            <p className="text-xs text-muted">Sample growth report</p>
+            <p className="mt-1 flex items-baseline gap-1">
+              <span className="font-display text-4xl font-bold text-accent">52</span>
+              <span className="text-sm text-muted">/100</span>
             </p>
+            <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-line">
+              <div className="bar-fill h-full w-[52%] rounded-full bg-accent" />
+            </div>
+            <p className="mt-3 text-xs text-muted">Top priority: Conversion &amp; Sales</p>
           </div>
-
-          <ul className="mt-6 space-y-4" aria-hidden="true">
-            {sample.map((s, i) => (
-              <li key={s.label}>
-                <div className="mb-1.5 flex justify-between text-sm">
-                  <span>{s.label}</span>
-                  <span className="font-display text-base text-white/70">{s.value}</span>
-                </div>
-                <div className="h-2 bg-white/10">
-                  <div
-                    className="bar-fill h-full bg-accent"
-                    style={{ width: `${s.value}%`, animationDelay: `${0.2 + i * 0.12}s` }}
-                  />
-                </div>
-              </li>
-            ))}
-          </ul>
-
-          <p className="mt-6 border-t border-white/10 pt-5 text-sm text-white/70">
-            Top priority:{" "}
-            <span className="font-semibold text-white">Conversion &amp; Sales</span>
-          </p>
         </div>
       </Container>
     </section>

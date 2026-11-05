@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 import Container from "./Container";
 import Button from "./Button";
@@ -17,37 +18,38 @@ const links = [
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
 
   return (
-    <header className="sticky top-0 z-50 border-b border-white/10 bg-ink/95 backdrop-blur print:hidden">
-      <Container className="flex h-16 items-center justify-between">
-        <Link
-          href="/"
-          className="flex items-center gap-2 font-display text-2xl font-bold text-white"
-        >
-          <span aria-hidden="true" className="h-5 w-5 bg-accent" />
-          Viraj Pate
+    <header className="sticky top-0 z-50 border-b border-line/70 bg-bg/80 backdrop-blur-xl print:hidden">
+      <Container className="flex h-[72px] items-center justify-between">
+        <Link href="/" className="font-display text-xl font-bold tracking-tight">
+          Viraj Pate<span className="text-accent">.</span>
         </Link>
 
-        {/* Desktop nav */}
-        <nav aria-label="Main" className="hidden items-center gap-7 lg:flex">
-          {links.map((l) => (
-            <Link
-              key={l.href}
-              href={l.href}
-              className="font-display text-lg font-medium text-white/75 transition-colors hover:text-white"
-            >
-              {l.label}
-            </Link>
-          ))}
-          <Button href="/analyzer" className="!py-1.5">
-            Free growth analysis
+        <nav aria-label="Main" className="hidden items-center gap-8 lg:flex">
+          {links.map((l) => {
+            const active = pathname.startsWith(l.href);
+            return (
+              <Link
+                key={l.href}
+                href={l.href}
+                aria-current={active ? "page" : undefined}
+                className={`relative font-heading text-sm font-semibold transition-colors duration-300 after:absolute after:-bottom-1.5 after:left-0 after:h-px after:w-full after:origin-left after:bg-accent after:transition-transform after:duration-300 hover:text-accent hover:after:scale-x-100 ${
+                  active ? "text-accent after:scale-x-100" : "text-muted after:scale-x-0"
+                }`}
+              >
+                {l.label}
+              </Link>
+            );
+          })}
+          <Button href="/analyzer" arrow className="!px-5 !py-2.5">
+            Free analysis
           </Button>
         </nav>
 
-        {/* Mobile toggle */}
         <button
-          className="text-white lg:hidden"
+          className="lg:hidden"
           onClick={() => setOpen(!open)}
           aria-label="Toggle menu"
           aria-expanded={open}
@@ -56,21 +58,22 @@ export default function Header() {
         </button>
       </Container>
 
-      {/* Mobile nav */}
       {open && (
-        <nav aria-label="Mobile" className="border-t border-white/10 bg-ink lg:hidden">
-          <Container className="flex flex-col gap-4 py-6">
+        <nav aria-label="Mobile" className="fixed inset-x-0 top-[72px] bottom-0 overflow-y-auto bg-bg lg:hidden">
+          <Container className="flex flex-col gap-2 py-8">
             {links.map((l) => (
               <Link
                 key={l.href}
                 href={l.href}
                 onClick={() => setOpen(false)}
-                className="font-display text-2xl font-semibold text-white"
+                className={`border-b border-line py-4 font-display text-3xl font-bold ${
+                  pathname.startsWith(l.href) ? "text-accent" : ""
+                }`}
               >
                 {l.label}
               </Link>
             ))}
-            <Button href="/analyzer" onClick={() => setOpen(false)} className="mt-2">
+            <Button href="/analyzer" arrow onClick={() => setOpen(false)} className="mt-6">
               Free growth analysis
             </Button>
           </Container>

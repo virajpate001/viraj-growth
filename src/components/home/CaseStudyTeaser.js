@@ -1,34 +1,40 @@
 import Container from "../Container";
-import FadeIn from "../FadeIn";
 import Button from "../Button";
+import ImageFrame from "../ImageFrame";
 import { caseStudy } from "@/data/content";
 
 export default function CaseStudyTeaser() {
   return (
-    <section className="py-20">
-      <Container>
-        <FadeIn>
-          <div className="overflow-hidden rounded-3xl bg-primary-dark p-8 text-white sm:p-12">
-            <p className="text-sm font-semibold uppercase tracking-wider text-accent-dark">
-              Featured case study · {caseStudy.tag}
-            </p>
-            <h2 className="mt-3 max-w-2xl text-3xl font-bold sm:text-4xl">
-              {caseStudy.title}
-            </h2>
-            <p className="mt-4 max-w-2xl text-white/80">{caseStudy.text}</p>
-            <div className="mt-8 grid gap-6 sm:grid-cols-3">
-              {caseStudy.results.map((r) => (
-                <div key={r.label}>
-                  <p className="font-display text-4xl font-extrabold">{r.value}</p>
-                  <p className="mt-1 text-sm text-white/70">{r.label}</p>
-                </div>
-              ))}
-            </div>
-            <div className="mt-8">
-              <Button href="/case-studies">See all case studies</Button>
-            </div>
+    <section className="bg-bg2 py-24 sm:py-32">
+      <Container className="grid items-center gap-14 lg:grid-cols-2">
+        <ImageFrame
+          src={null}
+          alt={`Screenshot of the ${caseStudy.tag} store`}
+          label="Add a project screenshot"
+          ratio="aspect-[4/3]"
+        />
+        <div data-reveal>
+          <p className="font-heading text-xs font-bold uppercase tracking-[0.18em] text-accent">
+            Featured case study
+          </p>
+          <h2 className="mt-5 text-4xl sm:text-5xl">{caseStudy.title}</h2>
+          <p className="mt-5 max-w-lg text-muted">{caseStudy.text}</p>
+
+          <dl className="mt-10 grid grid-cols-3 border-t border-line">
+            {caseStudy.results.map((r, i) => (
+              <div key={r.label} className={`pt-6 ${i > 0 ? "border-l border-line pl-5" : ""}`}>
+                <dd className="font-display text-3xl font-bold text-accent sm:text-4xl">{r.value}</dd>
+                <dt className="mt-1 text-xs text-muted">{r.label}</dt>
+              </div>
+            ))}
+          </dl>
+
+          <div className="mt-10">
+            <Button href="/case-studies/fashion-store-conversion" arrow>
+              Read this case study
+            </Button>
           </div>
-        </FadeIn>
+        </div>
       </Container>
     </section>
   );

@@ -1,25 +1,29 @@
 import Container from "../Container";
-import FadeIn from "../FadeIn";
 import Button from "../Button";
 
 export default function FinalCTA() {
   return (
-    <section className="py-20">
+    <section className="pb-24 sm:pb-32">
       <Container>
-        <FadeIn className="rounded-3xl bg-gradient-to-br from-primary to-primary-dark px-6 py-14 text-center text-white sm:px-12">
-          <h2 className="mx-auto max-w-2xl text-3xl font-bold sm:text-4xl">
-            Ready to find out what your business really needs?
+        <div
+          data-reveal
+          className="relative overflow-hidden rounded-3xl border border-line bg-card px-6 py-16 sm:px-14 sm:py-24"
+        >
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute -bottom-40 -right-20 h-96 w-96 rounded-full bg-accent/15 blur-[110px]"
+          />
+          <h2 className="relative max-w-3xl text-[clamp(2.5rem,6vw,4.5rem)]">
+            Let&apos;s find the <span className="text-accent">one thing</span> holding your business back.
           </h2>
-          <p className="mx-auto mt-4 max-w-xl text-white/80">
-            Get your free Business Growth Report in 2 minutes, or talk to me directly.
+          <p className="relative mt-6 max-w-xl text-lg text-muted">
+            Get your free Business Growth Report in 3 minutes, or talk to me directly.
           </p>
-          <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <Button href="/analyzer">Get My Free Report</Button>
-            <Button href="/contact" variant="outline" className="!border-white/40 !text-white hover:!bg-white/10">
-              Book a Call
-            </Button>
+          <div className="relative mt-10 flex flex-col gap-4 sm:flex-row">
+            <Button href="/analyzer" arrow>Get my free report</Button>
+            <Button href="/contact" variant="outline">Book a call</Button>
           </div>
-        </FadeIn>
+        </div>
       </Container>
     </section>
   );
