@@ -1,0 +1,1033 @@
+{
+ "slug": "hire-ecommerce-website-developer",
+ "kind": "article",
+ "topic": "Hiring",
+ "order": 1,
+ "pillar": true,
+ "title": "How to Hire an Ecommerce Website Developer (2026 Guide)",
+ "description": "Learn how to hire an ecommerce website developer: costs, vetting questions, freelancer vs agency, red flags, and a step-by-step hiring process.",
+ "ogTitle": "How to Hire an Ecommerce Website Developer: The Complete Guide",
+ "ogDescription": "Costs, vetting questions, freelancer vs agency, red flags, and a step-by-step hiring process for ecommerce development.",
+ "published": "2026-11-06",
+ "updated": "2026-11-06",
+ "h1": "How to Hire an Ecommerce Website Developer: The Complete Guide",
+ "intro": [
+  {
+   "type": "p",
+   "inline": [
+    "Hiring the wrong ecommerce website developer costs far more than the development fee. A failed build means lost conversions, delayed launches, and often a full replatform that drains a second budget. This guide walks you through the entire hiring process: what an ecommerce developer actually does, how much they cost, how to vet them with questions that reveal real skill, and how to avoid the red flags that sink projects before they launch."
+   ]
+  },
+  {
+   "type": "p",
+   "inline": [
+    "It is written for store owners, marketing leads, and operations managers who are hiring their first or next ecommerce developer. If you already know you need help, you can review ",
+    {
+     "a": "/ecommerce-development-services",
+     "t": [
+      "our ecommerce development services"
+     ]
+    },
+    " directly. Otherwise, work through the sections below in order."
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "what-developers-do",
+   "title": "What Does an Ecommerce Website Developer Actually Do?",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "An ecommerce website developer builds and maintains the technical infrastructure that lets an online store sell products. That covers the storefront (product pages, category pages, search), the checkout and cart logic, payment gateway integration, shipping and tax calculations, and connections to back-office systems like ERP and CRM platforms. They also own performance: page speed, Core Web Vitals, and the security of customer data."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Core responsibilities"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "A typical engagement includes theme and template customization, checkout flow configuration, payment gateway setup (Stripe, PayPal, Razorpay, and similar), shipping rate logic, product and inventory integration, third-party API connections, and QA testing across devices and browsers. Post-launch, developers handle maintenance, security patches, and performance tuning."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Developer vs designer vs full-stack: quick comparison"
+    },
+    {
+     "type": "table",
+     "head": [
+      [
+       "Role"
+      ],
+      [
+       "Primary focus"
+      ],
+      [
+       "Typical deliverables"
+      ]
+     ],
+     "rows": [
+      [
+       [
+        "Front-end developer"
+       ],
+       [
+        "User-facing code and interactivity"
+       ],
+       [
+        "Themes, layouts, cart UI, responsive behavior"
+       ]
+      ],
+      [
+       [
+        "Back-end developer"
+       ],
+       [
+        "Server logic, databases, integrations"
+       ],
+       [
+        "Payment processing, inventory sync, APIs"
+       ]
+      ],
+      [
+       [
+        "Full-stack developer"
+       ],
+       [
+        "Both front and back end"
+       ],
+       [
+        "End-to-end store builds, migrations"
+       ]
+      ],
+      [
+       [
+        "Web designer"
+       ],
+       [
+        "Visual design and UX"
+       ],
+       [
+        "Wireframes, mockups, brand systems"
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "If you are unsure which role you need, read our detailed comparison of a ",
+      {
+       "a": "/developer-vs-web-designer-vs-full-stack",
+       "t": [
+        "developer vs web designer vs full-stack developer"
+       ]
+      },
+      "."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "What a developer should not be doing"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Scope creep usually starts when a developer is asked to handle work outside their remit: brand design, copywriting, SEO strategy, or ongoing content marketing. A good developer will flag this early rather than silently absorb it. Platform choice also falls partly outside pure development: before you hire, it helps to understand ",
+      {
+       "a": "/shopify-vs-woocommerce-vs-custom",
+       "t": [
+        "choosing your ecommerce platform"
+       ]
+      },
+      ", because the stack determines the skill set you need."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "freelancer-agency-inhouse",
+   "title": "Freelancer, Agency, or In-House? Which Type of Developer to Hire",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "The three options differ mainly in cost structure, risk, and how much project management you get. Freelancers are cheaper and more flexible but carry more delivery risk. Agencies cost more but bundle QA, project management, and backup capacity. In-house gives you the most control but the highest total cost once you account for salary, benefits, and recruitment."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Freelance ecommerce website developers"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Typical rates run from $30 to $120 per hour depending on region and specialization. Freelancers suit well-scoped projects with a clear brief. The trade-off is that you manage the project yourself, and if the freelancer disappears mid-build, you have little recourse."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Agencies"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Agencies charge $75 to $200+ per hour but include project management, QA, and continuity. They are the safer choice for larger builds, migrations, or anything with complex integrations. For a fair comparison of the two models, see our guide on ",
+      {
+       "a": "/freelancer-vs-agency-vs-in-house",
+       "t": [
+        "comparing freelancer vs agency in detail"
+       ]
+      },
+      "."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "In-house"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "A full-time ecommerce developer costs $80,000 to $150,000 per year in the US before benefits. This only makes sense if you have a continuous pipeline of development work, not a one-off build."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Decision table: which model fits your situation"
+    },
+    {
+     "type": "table",
+     "head": [
+      [
+       "Your situation"
+      ],
+      [
+       "Best fit"
+      ]
+     ],
+     "rows": [
+      [
+       [
+        "Small store, tight budget, clear scope"
+       ],
+       [
+        "Freelancer"
+       ]
+      ],
+      [
+       [
+        "Complex build or migration, need project management"
+       ],
+       [
+        "Agency"
+       ]
+      ],
+      [
+       [
+        "Continuous development needs, long-term product"
+       ],
+       [
+        "In-house"
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "If you are leaning toward a freelancer, review the current ",
+      {
+       "a": "/freelance-ecommerce-developer-cost-usa",
+       "t": [
+        "freelance ecommerce developer costs in the USA"
+       ]
+      },
+      " before you set a budget."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cost",
+   "title": "How Much Does It Cost to Hire an Ecommerce Website Developer?",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "In short: a template-based store typically costs $2,000 to $8,000, a custom mid-market build runs $15,000 to $60,000, and enterprise or highly integrated builds start at $100,000. These are indicative ranges only; always collect multiple quotes against a written scope."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Cost ranges by project type"
+    },
+    {
+     "type": "table",
+     "head": [
+      [
+       "Project type"
+      ],
+      [
+       "Typical range"
+      ],
+      [
+       "What drives the cost"
+      ]
+     ],
+     "rows": [
+      [
+       [
+        "Template store (Shopify or WooCommerce)"
+       ],
+       [
+        "$2,000 - $8,000"
+       ],
+       [
+        "Theme setup, basic integrations, product upload"
+       ]
+      ],
+      [
+       [
+        "Custom mid-market build"
+       ],
+       [
+        "$15,000 - $60,000"
+       ],
+       [
+        "Custom checkout, integrations, migration, design"
+       ]
+      ],
+      [
+       [
+        "Enterprise / headless"
+       ],
+       [
+        "$100,000+"
+       ],
+       [
+        "ERP/CRM integration, multi-store, custom APIs"
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "What drives price up or down"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "The biggest cost multipliers are custom checkout logic, third-party integrations, data migration from a legacy platform, and design complexity. Reusing existing design assets and limiting the number of integrations are the most effective ways to reduce cost."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Hourly vs fixed-price vs retainer"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Fixed-price contracts suit well-defined builds. Hourly suits ongoing or exploratory work. Retainers work best for maintenance and iteration after launch. For a complete breakdown of pricing models, read our full ",
+      {
+       "a": "/ecommerce-website-developer-cost",
+       "t": [
+        "ecommerce website developer cost breakdown"
+       ]
+      },
+      "."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Hidden costs most buyers miss"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Budget separately for hosting, premium plugins or apps, ongoing maintenance, QA, and content migration. These often add 15 to 25 percent to the initial build cost in the first year. Contract terms and payment schedules are covered in our guide to ",
+      {
+       "a": "/ecommerce-developer-contract-payment-terms",
+       "t": [
+        "ecommerce developer contract and payment terms"
+       ]
+      },
+      "."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "where-to-find",
+   "title": "Where to Find an Ecommerce Website Developer (Near You or Remote)",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "For most ecommerce projects, remote works well. The exception is when you need in-person workshops, tight timezone overlap, or a local partner for compliance reasons. The practical answer is to hire remotely when the scope is clear, and to prioritize local when collaboration is intensive."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Marketplaces and freelance platforms"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Upwork, Fiverr, Toptal, and similar platforms are useful for sourcing and price discovery but are noisy. Filter by completed ecommerce projects with live URLs, not just ratings."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Agencies and specialist shops"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Specialist ecommerce agencies are the safest option for larger builds. Shortlist three to five, request live portfolio stores, and ask for references from clients with similar scale. See our roundup of ",
+      {
+       "a": "/top-web-developers-ecommerce-websites",
+       "t": [
+        "comparing top ecommerce developers"
+       ]
+      },
+      " for a starting shortlist."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Hiring remotely vs locally"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "If you prefer to hire near you, our guide on ",
+      {
+       "a": "/ecommerce-website-developer-near-me",
+       "t": [
+        "how to find an ecommerce website developer near you"
+       ]
+      },
+      " covers the vetting steps, local pricing differences, and how to verify a local provider is genuine."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Referrals and communities"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Referrals from other store owners are consistently the highest-quality source. Ask in ecommerce communities, mastermind groups, and peer networks before you post a job listing."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "vetting-questions",
+   "title": "How to Vet an Ecommerce Website Developer: 12 Questions That Reveal Real Skill",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "Ask each question below and listen for the difference between a generic answer and a specific one. A strong candidate answers with examples, numbers, and trade-offs. A weak one gives buzzwords."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Portfolio questions"
+    },
+    {
+     "type": "ol",
+     "items": [
+      [
+       {
+        "b": [
+         "Can you send me three live ecommerce stores you built?"
+        ]
+       },
+       " A good answer includes live URLs you can test on mobile. A red flag is screenshots only, or links that are dead or clearly template demos."
+      ],
+      [
+       {
+        "b": [
+         "What was your exact role on each project?"
+        ]
+       },
+       " A good answer distinguishes between solo build, team contribution, and theme customization. A red flag is claiming full credit for a team build."
+      ],
+      [
+       {
+        "b": [
+         "Which store had the biggest measurable improvement, and what were the numbers?"
+        ]
+       },
+       " A good answer cites load time, conversion rate, or revenue change. A red flag is vague claims without figures."
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Technical questions"
+    },
+    {
+     "type": "ol",
+     "items": [
+      [
+       {
+        "b": [
+         "Which platforms and stacks do you specialize in?"
+        ]
+       },
+       " A good answer names one or two deeply and admits gaps. A red flag is claiming expertise in everything."
+      ],
+      [
+       {
+        "b": [
+         "How do you handle payment gateway integration and PCI compliance?"
+        ]
+       },
+       " A good answer explains tokenization and hosted checkout options. A red flag is confusion about PCI scope."
+      ],
+      [
+       {
+        "b": [
+         "How do you test checkout across devices and browsers before launch?"
+        ]
+       },
+       " A good answer describes a staging environment, device matrix, and QA checklist. A red flag is manual spot checks only."
+      ],
+      [
+       {
+        "b": [
+         "How do you approach Core Web Vitals and store performance?"
+        ]
+       },
+       " A good answer mentions specific tools (Lighthouse, PageSpeed Insights) and specific fixes (image compression, code splitting, caching). A red flag is generic \"we optimize speed\" answers."
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Process questions"
+    },
+    {
+     "type": "ol",
+     "items": [
+      [
+       {
+        "b": [
+         "What does your development process look like from kickoff to launch?"
+        ]
+       },
+       " A good answer describes discovery, staging, QA, and handover. A red flag is no defined milestones."
+      ],
+      [
+       {
+        "b": [
+         "How do you handle change requests mid-project?"
+        ]
+       },
+       " A good answer explains a written change order process. A red flag is \"we'll figure it out as we go.\""
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Commercial questions"
+    },
+    {
+     "type": "ol",
+     "items": [
+      [
+       {
+        "b": [
+         "What happens after launch: warranty, support, and maintenance?"
+        ]
+       },
+       " A good answer defines a warranty window and maintenance options. A red flag is disappearing after go-live."
+      ],
+      [
+       {
+        "b": [
+         "Who owns the code and assets after the project ends?"
+        ]
+       },
+       " A good answer confirms full transfer of code and licenses. A red flag is vendor lock-in on a proprietary platform."
+      ],
+      [
+       {
+        "b": [
+         "Can you provide two recent client references?"
+        ]
+       },
+       " A good answer provides them readily. A red flag is hesitation or \"our clients prefer privacy\" for all references."
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "For a downloadable version of this list you can take into calls, use our ",
+      {
+       "a": "/questions-to-ask-ecommerce-developer",
+       "t": [
+        "full hiring checklist"
+       ]
+      },
+      ". For the warning signs to watch for in answers, see our guide to ",
+      {
+       "a": "/ecommerce-developer-red-flags",
+       "t": [
+        "common red flags when hiring an ecommerce developer"
+       ]
+      },
+      "."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "platform-match",
+   "title": "WordPress or Another Platform? Matching the Developer to Your Stack",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "The single most common cause of failed ecommerce projects is a developer whose expertise does not match your platform. A brilliant Shopify developer will struggle on a headless custom build, and vice versa."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "WordPress/WooCommerce developers"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "WooCommerce developers should be fluent in PHP, WordPress hooks, plugin conflicts, and hosting performance. Ask specifically about WooCommerce scaling and plugin audit experience. For a deeper checklist, see ",
+      {
+       "a": "/wordpress-ecommerce-website-developer",
+       "t": [
+        "what to look for in a WordPress ecommerce developer"
+       ]
+      },
+      "."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Shopify, headless, and custom stacks"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Shopify developers should know Liquid, Shopify APIs, and app ecosystem trade-offs. Headless developers need React or Next.js experience plus a strong grasp of API-driven architecture. Compare options in our guide to ",
+      {
+       "a": "/shopify-vs-woocommerce-vs-custom",
+       "t": [
+        "Shopify vs WooCommerce vs custom builds"
+       ]
+      },
+      "."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Why platform mismatch fails"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "A mismatched developer will produce working code that is hard to maintain, slow, or insecure on your chosen platform. It usually surfaces after launch, when fixes cost more than the original build."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hiring-process",
+   "title": "The Hiring Process, Step by Step",
+   "blocks": [
+    {
+     "type": "h3",
+     "text": "Step 1: Define scope and success metrics"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Write down what the store must do on day one: products, payments, shipping regions, integrations, and the metrics that define success (conversion rate, load time, launch date). This is the document every candidate will be measured against."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Step 2: Write a brief"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Turn the scope into a one- to three-page brief with goals, must-have features, timeline, and budget range. A structured brief gets dramatically better quotes. Start with our ",
+      {
+       "a": "/ecommerce-developer-brief-template",
+       "t": [
+        "free ecommerce developer brief template"
+       ]
+      },
+      "."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Step 3: Shortlist and screen"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Source five to ten candidates, screen portfolios, then run 30-minute calls using the 12 questions in the previous section. Narrow to two or three finalists."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Step 4: Paid test task or discovery phase"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "For larger builds, commission a small paid discovery phase or a defined test task. It is the most reliable way to see how a developer actually works before committing to the full budget."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Step 5: Contract, milestones, and kickoff"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Agree on deliverables, payment milestones, warranty, and IP ownership in writing before work starts. Our guide to ",
+      {
+       "a": "/ecommerce-developer-contract-payment-terms",
+       "t": [
+        "ecommerce developer contract terms explained"
+       ]
+      },
+      " covers the clauses that matter. For what happens after kickoff, see ",
+      {
+       "a": "/ecommerce-development-process-milestones",
+       "t": [
+        "what the ecommerce build process looks like"
+       ]
+      },
+      "."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Typical timeline"
+    },
+    {
+     "type": "table",
+     "head": [
+      [
+       "Week"
+      ],
+      [
+       "Activity"
+      ]
+     ],
+     "rows": [
+      [
+       [
+        "Week 1"
+       ],
+       [
+        "Define scope, write brief, gather quotes"
+       ]
+      ],
+      [
+       [
+        "Week 2"
+       ],
+       [
+        "Shortlist and screen candidates, run calls"
+       ]
+      ],
+      [
+       [
+        "Week 3"
+       ],
+       [
+        "Paid test task or discovery phase, final selection"
+       ]
+      ],
+      [
+       [
+        "Week 4"
+       ],
+       [
+        "Contract, kickoff, project start"
+       ]
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "red-flags",
+   "title": "Red Flags and How to Avoid a Bad Hire",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "Most failed ecommerce hires show warning signs in the first two conversations. Here are the ones that matter most."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Portfolio red flags"
+    },
+    {
+     "type": "ul",
+     "items": [
+      [
+       "No live URLs, only screenshots."
+      ],
+      [
+       "Portfolio stores that are clearly unmodified theme demos."
+      ],
+      [
+       "No ecommerce-specific projects, only brochure sites."
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Communication and process red flags"
+    },
+    {
+     "type": "ul",
+     "items": [
+      [
+       "Vague answers to specific technical questions."
+      ],
+      [
+       "No defined milestones or QA process."
+      ],
+      [
+       "Slow or evasive responses during the sales process itself."
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Contract and payment red flags"
+    },
+    {
+     "type": "ul",
+     "items": [
+      [
+       "Requests for full payment upfront."
+      ],
+      [
+       "Refusal to define IP ownership in writing."
+      ],
+      [
+       "No warranty or post-launch support terms."
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "For the full list with examples, read our deep dive on ",
+      {
+       "a": "/ecommerce-developer-red-flags",
+       "t": [
+        "the full list of ecommerce developer red flags"
+       ]
+      },
+      ". When you are ready to see what a well-run project looks like, review ",
+      {
+       "a": "/portfolio",
+       "t": [
+        "see our ecommerce development work and client reviews"
+       ]
+      },
+      "."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "proof",
+   "title": "Proof: What Good Ecommerce Development Looks Like",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "The clearest signal of a capable ecommerce developer is measurable outcomes on real stores, not aesthetic screenshots. The metrics that matter are load time, checkout completion rate, and post-launch stability."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "A short case study summary"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "On a recent WooCommerce migration, the store moved from a 6.2-second mobile load time to 1.8 seconds, and checkout completion improved by 22 percent over the first 90 days. The build ran to a 10-week timeline with two scheduled change requests and no post-launch critical bugs. You can read the details in our ",
+      {
+       "a": "/ecommerce-build-case-study",
+       "t": [
+        "full ecommerce build case study"
+       ]
+      },
+      "."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Client reviews and what they say about the process"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "The pattern in positive reviews is almost always the same: clear communication, defined milestones, and no surprises after launch. See ",
+      {
+       "a": "/client-reviews",
+       "t": [
+        "client reviews and testimonials"
+       ]
+      },
+      " and browse ",
+      {
+       "a": "/portfolio",
+       "t": [
+        "our ecommerce portfolio"
+       ]
+      },
+      " for live examples."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "faq",
+   "title": "Frequently Asked Questions",
+   "faqs": [
+    {
+     "q": "How much does it cost to hire an ecommerce website developer?",
+     "a": [
+      "Template-based stores typically cost $2,000 to $8,000, custom mid-market builds $15,000 to $60,000, and enterprise builds $100,000 or more. For a full breakdown, see our ",
+      {
+       "a": "/ecommerce-website-developer-cost",
+       "t": [
+        "ecommerce website developer cost guide"
+       ]
+      },
+      "."
+     ]
+    },
+    {
+     "q": "How long does it take to build an ecommerce website?",
+     "a": [
+      "A template store can launch in 3 to 6 weeks. Custom builds typically take 8 to 16 weeks, and enterprise or migration projects can take 4 to 6 months. See ",
+      {
+       "a": "/ecommerce-development-process-milestones",
+       "t": [
+        "what the ecommerce build process looks like"
+       ]
+      },
+      " for a detailed timeline."
+     ]
+    },
+    {
+     "q": "Do I need a local developer or can I hire remotely?",
+     "a": [
+      "For most projects, remote works well if the scope is clearly defined. Local matters when you need in-person collaboration or timezone overlap. See ",
+      {
+       "a": "/ecommerce-website-developer-near-me",
+       "t": [
+        "how to find an ecommerce website developer near you"
+       ]
+      },
+      "."
+     ]
+    },
+    {
+     "q": "Should I hire a freelancer or an agency?",
+     "a": [
+      "Freelancers are cheaper and suit well-scoped projects. Agencies cost more but include project management, QA, and backup capacity. See ",
+      {
+       "a": "/freelancer-vs-agency-vs-in-house",
+       "t": [
+        "compare freelancer vs agency in detail"
+       ]
+      },
+      "."
+     ]
+    },
+    {
+     "q": "What is the difference between an ecommerce developer and a web designer?",
+     "a": [
+      "Designers create the visual and UX design. Developers build the functional store that sells products, including checkout, integrations, and performance. See our comparison of ",
+      {
+       "a": "/developer-vs-web-designer-vs-full-stack",
+       "t": [
+        "developer vs web designer"
+       ]
+      },
+      "."
+     ]
+    },
+    {
+     "q": "How do I check if a developer is legitimate?",
+     "a": [
+      "Ask for live portfolio URLs, two recent references, and a written contract with defined milestones. Be cautious of full upfront payment requests. See ",
+      {
+       "a": "/ecommerce-developer-red-flags",
+       "t": [
+        "common red flags when hiring an ecommerce developer"
+       ]
+      },
+      "."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "title": "Next Steps",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "The hiring process comes down to three steps: define scope in writing, vet candidates with specific questions that demand specific answers, and contract with clear milestones. Do those three things and you avoid most of the failures that sink ecommerce projects."
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "When you are ready to shortlist developers, ",
+      {
+       "a": "/contact",
+       "t": [
+        "book a call or request a quote"
+       ]
+      },
+      ". To get a head start on step one, download our ",
+      {
+       "a": "/ecommerce-developer-brief-template",
+       "t": [
+        "free ecommerce developer brief template"
+       ]
+      },
+      "."
+     ]
+    }
+   ],
+   "cta": true
+  }
+ ]
+}

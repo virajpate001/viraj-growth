@@ -1,0 +1,1037 @@
+{
+ "slug": "ecommerce-website-developer-cost",
+ "kind": "article",
+ "topic": "Pricing",
+ "order": 2,
+ "title": "Ecommerce Website Developer Cost: 2026 Pricing Guide",
+ "description": "Full ecommerce website developer cost breakdown for 2026: template vs custom vs enterprise, hourly vs fixed-price, hidden costs, and how to budget correctly.",
+ "ogTitle": "Ecommerce Website Developer Cost: Full 2026 Pricing Breakdown",
+ "ogDescription": "Template vs custom vs enterprise costs, hourly vs fixed-price vs retainer, hidden costs, and how to budget for an ecommerce developer in 2026.",
+ "published": "2026-11-06",
+ "updated": "2026-11-06",
+ "h1": "Ecommerce Website Developer Cost: Full 2026 Pricing Breakdown",
+ "intro": [
+  {
+   "type": "summary",
+   "inline": [
+    {
+     "b": [
+      "In short:"
+     ]
+    },
+    " hiring an ecommerce website developer typically costs ",
+    {
+     "b": [
+      "$2,000 to $8,000"
+     ]
+    },
+    " for a template-based store, ",
+    {
+     "b": [
+      "$15,000 to $60,000"
+     ]
+    },
+    " for a custom mid-market build, and ",
+    {
+     "b": [
+      "$100,000 or more"
+     ]
+    },
+    " for enterprise or headless projects. The price is driven mainly by project type, integrations, and whether you hire a freelancer, an agency, or a full-time employee."
+   ]
+  },
+  {
+   "type": "p",
+   "inline": [
+    "This guide breaks down ecommerce website developer cost by project type, contract model, and region, explains what drives the price up or down, and lists the hidden costs most buyers miss. If you are still choosing what kind of developer to hire, start with our pillar guide on ",
+    {
+     "a": "/hire-ecommerce-website-developer",
+     "t": [
+      "how to hire an ecommerce website developer"
+     ]
+    },
+    "."
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "cost-by-project-type",
+   "title": "Ecommerce Website Developer Cost by Project Type",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "The single biggest driver of cost is what you are asking the developer to build. A theme setup and a full custom checkout are not the same project, even though both are \"ecommerce websites.\" The table below gives realistic 2026 ranges."
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      [
+       "Project type"
+      ],
+      [
+       "Typical range"
+      ],
+      [
+       "Typical timeline"
+      ],
+      [
+       "What is included"
+      ]
+     ],
+     "rows": [
+      [
+       [
+        "Template store (Shopify, WooCommerce theme)"
+       ],
+       [
+        "$2,000 - $8,000"
+       ],
+       [
+        "2 - 5 weeks"
+       ],
+       [
+        "Theme setup, brand colors, product upload, basic apps"
+       ]
+      ],
+      [
+       [
+        "Customized template build"
+       ],
+       [
+        "$8,000 - $20,000"
+       ],
+       [
+        "4 - 8 weeks"
+       ],
+       [
+        "Custom sections, custom cart tweaks, basic integrations"
+       ]
+      ],
+      [
+       [
+        "Custom mid-market build"
+       ],
+       [
+        "$15,000 - $60,000"
+       ],
+       [
+        "8 - 16 weeks"
+       ],
+       [
+        "Custom checkout, ERP/CRM integration, migration, design"
+       ]
+      ],
+      [
+       [
+        "Enterprise / headless build"
+       ],
+       [
+        "$100,000+"
+       ],
+       [
+        "4 - 9 months"
+       ],
+       [
+        "Multi-store, custom APIs, PIM, advanced analytics"
+       ]
+      ],
+      [
+       [
+        "Replatform / migration"
+       ],
+       [
+        "$10,000 - $80,000"
+       ],
+       [
+        "6 - 16 weeks"
+       ],
+       [
+        "Data migration, SEO preservation, redirect mapping"
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "These ranges are indicative, not quotes. A developer who has built the same type of store ten times may beat the low end; a project with unusual integrations can exceed the high end. Always collect three written quotes against the same scope."
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "If you are choosing a platform before you hire, the cost differences are significant. Our comparison of ",
+      {
+       "a": "/shopify-vs-woocommerce-vs-custom",
+       "t": [
+        "Shopify vs WooCommerce vs custom builds"
+       ]
+      },
+      " explains how each platform changes the developer cost."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cost-by-hiring-model",
+   "title": "Cost by Hiring Model: Freelancer, Agency, or In-House",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "The second biggest driver is who does the work. The same build can cost three times more at an agency than at a freelance developer in a lower-cost region, but the agency includes project management, QA, and backup capacity that a solo freelancer does not."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Freelance ecommerce developer costs"
+    },
+    {
+     "type": "table",
+     "head": [
+      [
+       "Freelancer region"
+      ],
+      [
+       "Hourly rate (USD)"
+      ],
+      [
+       "Typical small store"
+      ]
+     ],
+     "rows": [
+      [
+       [
+        "US / Canada"
+       ],
+       [
+        "$50 - $150"
+       ],
+       [
+        "$4,000 - $12,000"
+       ]
+      ],
+      [
+       [
+        "Western Europe / UK"
+       ],
+       [
+        "$40 - $120"
+       ],
+       [
+        "$3,500 - $10,000"
+       ]
+      ],
+      [
+       [
+        "Eastern Europe"
+       ],
+       [
+        "$25 - $60"
+       ],
+       [
+        "$2,000 - $6,000"
+       ]
+      ],
+      [
+       [
+        "India / Southeast Asia"
+       ],
+       [
+        "$15 - $45"
+       ],
+       [
+        "$1,000 - $5,000"
+       ]
+      ],
+      [
+       [
+        "Latin America"
+       ],
+       [
+        "$20 - $50"
+       ],
+       [
+        "$1,500 - $5,500"
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "For a deeper regional breakdown of freelance pricing in the US specifically, see our guide to ",
+      {
+       "a": "/freelance-ecommerce-developer-cost-usa",
+       "t": [
+        "freelance ecommerce developer costs in the USA"
+       ]
+      },
+      "."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Agency costs"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Agencies typically charge $75 to $200 per hour, or quote fixed-price projects from $15,000 upward. The premium buys project management, QA, post-launch support, and continuity if one developer leaves. For builds over $30,000 or any project with complex integrations, the agency premium is usually worth it."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "In-house developer cost"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "A full-time ecommerce developer in the US costs $80,000 to $150,000 per year in salary, plus 20 to 35 percent in benefits, taxes, and equipment. Recruitment adds another $10,000 to $20,000 upfront. In-house makes sense only when you have a continuous pipeline of development work."
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "For a full side-by-side, read our guide comparing ",
+      {
+       "a": "/freelancer-vs-agency-vs-in-house",
+       "t": [
+        "freelancer vs agency vs in-house"
+       ]
+      },
+      "."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cost-by-region",
+   "title": "Ecommerce Developer Cost by Region",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "Region affects hourly rates more than it affects fixed-price quotes, because agencies often scope the project the same way regardless of where the developers are based. The table below shows typical blended hourly rates for mid-level ecommerce developers in 2026."
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      [
+       "Region"
+      ],
+      [
+       "Blended hourly rate (USD)"
+      ],
+      [
+       "Notes"
+      ]
+     ],
+     "rows": [
+      [
+       [
+        "United States"
+       ],
+       [
+        "$75 - $200"
+       ],
+       [
+        "Highest rates; strong timezone overlap for US stores"
+       ]
+      ],
+      [
+       [
+        "Canada"
+       ],
+       [
+        "$60 - $150"
+       ],
+       [
+        "Slightly below US rates; strong overlap"
+       ]
+      ],
+      [
+       [
+        "United Kingdom"
+       ],
+       [
+        "$60 - $150"
+       ],
+       [
+        "Comparable to Canada"
+       ]
+      ],
+      [
+       [
+        "Western Europe"
+       ],
+       [
+        "$55 - $130"
+       ],
+       [
+        "Germany, Netherlands, France"
+       ]
+      ],
+      [
+       [
+        "Eastern Europe"
+       ],
+       [
+        "$30 - $75"
+       ],
+       [
+        "Strong technical talent; reasonable overlap"
+       ]
+      ],
+      [
+       [
+        "India"
+       ],
+       [
+        "$20 - $60"
+       ],
+       [
+        "Widest range; quality varies significantly"
+       ]
+      ],
+      [
+       [
+        "Southeast Asia"
+       ],
+       [
+        "$20 - $55"
+       ],
+       [
+        "Similar to India"
+       ]
+      ],
+      [
+       [
+        "Latin America"
+       ],
+       [
+        "$25 - $70"
+       ],
+       [
+        "Strong timezone overlap for US stores"
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "If you are specifically looking for a developer in your city, see ",
+      {
+       "a": "/ecommerce-website-developer-near-me",
+       "t": [
+        "how to find an ecommerce website developer near you"
+       ]
+      },
+      " and review the city guides on our ",
+      {
+       "a": "/ecommerce-developers-by-city",
+       "t": [
+        "ecommerce developers by city hub"
+       ]
+      },
+      "."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cost-by-platform",
+   "title": "Ecommerce Developer Cost by Platform",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "Platform choice has a large effect on both development cost and long-term maintenance cost. The table below gives typical build costs by platform for a small to mid-market store."
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      [
+       "Platform"
+      ],
+      [
+       "Typical build cost"
+      ],
+      [
+       "Ongoing cost"
+      ]
+     ],
+     "rows": [
+      [
+       [
+        "Shopify"
+       ],
+       [
+        "$3,000 - $25,000"
+       ],
+       [
+        "$39+/month + app subscriptions"
+       ]
+      ],
+      [
+       [
+        "WooCommerce (WordPress)"
+       ],
+       [
+        "$2,000 - $30,000"
+       ],
+       [
+        "$20 - $100/month hosting + plugins"
+       ]
+      ],
+      [
+       [
+        "BigCommerce"
+       ],
+       [
+        "$5,000 - $40,000"
+       ],
+       [
+        "$39+/month + apps"
+       ]
+      ],
+      [
+       [
+        "Custom / headless"
+       ],
+       [
+        "$50,000 - $250,000+"
+       ],
+       [
+        "$500 - $5,000+/month hosting and maintenance"
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "WooCommerce tends to be the cheapest platform to start on, but maintenance and plugin costs add up. Shopify has lower maintenance but higher app and transaction costs at scale. Custom builds are the most expensive up front but give the most flexibility."
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "For a WooCommerce-specific build, see ",
+      {
+       "a": "/wordpress-ecommerce-website-developer",
+       "t": [
+        "what to look for in a WordPress ecommerce developer"
+       ]
+      },
+      ". For the full platform comparison, see ",
+      {
+       "a": "/shopify-vs-woocommerce-vs-custom",
+       "t": [
+        "Shopify vs WooCommerce vs custom builds"
+       ]
+      },
+      "."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "contract-models",
+   "title": "Hourly vs Fixed-Price vs Retainer",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "How you pay matters as much as how much you pay. Each model suits a different project type and carries a different risk profile."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Fixed-price"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Best for well-defined builds with a clear scope document. You get a total number up front, but changes outside the scope become expensive change orders. Ask for a detailed scope document, not a one-line quote."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Hourly"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Best for ongoing, exploratory, or open-ended work. You pay for time actually spent, which is fair for maintenance or bug fixing but risky for a full build with no defined endpoint. Always ask for a weekly timesheet and a cap."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Retainer"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Best for post-launch maintenance, iteration, and support. Typically $500 to $5,000 per month depending on the scope. It gives you priority access to the developer and predictable costs, but you should get a monthly usage report to confirm you are not paying for unused hours."
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Whichever model you choose, get the commercial terms in writing. Our guide to ",
+      {
+       "a": "/ecommerce-developer-contract-payment-terms",
+       "t": [
+        "ecommerce developer contract and payment terms"
+       ]
+      },
+      " covers what to include."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cost-drivers",
+   "title": "What Drives Ecommerce Developer Cost Up or Down",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "Two projects with the same headline scope can come in at wildly different prices. The difference is almost always in the details below."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Things that increase cost"
+    },
+    {
+     "type": "ul",
+     "items": [
+      [
+       {
+        "b": [
+         "Custom checkout logic."
+        ]
+       },
+       " Any deviation from the platform's default checkout multiplies testing and QA time."
+      ],
+      [
+       {
+        "b": [
+         "Third-party integrations."
+        ]
+       },
+       " Each integration (ERP, CRM, PIM, accounting, shipping, loyalty) adds development and testing time."
+      ],
+      [
+       {
+        "b": [
+         "Data migration."
+        ]
+       },
+       " Moving products, customers, and orders from a legacy platform is error-prone and needs careful validation."
+      ],
+      [
+       {
+        "b": [
+         "Multi-currency and multi-language."
+        ]
+       },
+       " Localization adds significant complexity to cart, tax, and content."
+      ],
+      [
+       {
+        "b": [
+         "Design complexity."
+        ]
+       },
+       " A custom design system costs far more than an adapted theme."
+      ],
+      [
+       {
+        "b": [
+         "Performance requirements."
+        ]
+       },
+       " High-traffic stores need optimization work that simple builds skip."
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Things that reduce cost"
+    },
+    {
+     "type": "ul",
+     "items": [
+      [
+       {
+        "b": [
+         "Reusing an existing design or brand."
+        ]
+       },
+       " Design is often 20 to 30 percent of a small build."
+      ],
+      [
+       {
+        "b": [
+         "Limiting integrations to must-haves."
+        ]
+       },
+       " Every \"nice to have\" app adds cost."
+      ],
+      [
+       {
+        "b": [
+         "Phased launches."
+        ]
+       },
+       " Launch a lean core store and add features after launch."
+      ],
+      [
+       {
+        "b": [
+         "Clear scope documents."
+        ]
+       },
+       " Vague briefs cause scope creep, which is the biggest driver of budget overruns."
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "A well-written brief reduces cost more than any negotiation tactic. Use our ",
+      {
+       "a": "/ecommerce-developer-brief-template",
+       "t": [
+        "free ecommerce developer brief template"
+       ]
+      },
+      " to write one before you request quotes."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hidden-costs",
+   "title": "Hidden Costs Most Buyers Miss",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "The build quote is only part of the total cost of ownership. Budget an additional 15 to 25 percent in the first year for the items below, and 10 to 15 percent per year for maintenance thereafter."
+     ]
+    },
+    {
+     "type": "ul",
+     "items": [
+      [
+       {
+        "b": [
+         "Hosting."
+        ]
+       },
+       " From $10 per month for a small WooCommerce store to $500 or more per month for a high-traffic store."
+      ],
+      [
+       {
+        "b": [
+         "Platform subscriptions."
+        ]
+       },
+       " Shopify, BigCommerce, and app subscriptions can add $100 to $500 per month."
+      ],
+      [
+       {
+        "b": [
+         "Plugin and app licenses."
+        ]
+       },
+       " WooCommerce stores typically need 5 to 15 paid plugins at $20 to $200 each per year."
+      ],
+      [
+       {
+        "b": [
+         "Maintenance and updates."
+        ]
+       },
+       " Core, plugin, and theme updates plus security patches, typically $100 to $1,000 per month."
+      ],
+      [
+       {
+        "b": [
+         "Content and product migration."
+        ]
+       },
+       " Copying and reformatting product descriptions, images, and category structure often costs $1,000 to $10,000."
+      ],
+      [
+       {
+        "b": [
+         "QA and testing."
+        ]
+       },
+       " Cross-browser and device testing before launch, often $500 to $3,000."
+      ],
+      [
+       {
+        "b": [
+         "SEO migration."
+        ]
+       },
+       " If you are replatforming, redirect mapping and SEO preservation are essential and often overlooked, $1,000 to $5,000."
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "For the build process itself, see ",
+      {
+       "a": "/ecommerce-development-process-milestones",
+       "t": [
+        "what the ecommerce build process looks like"
+       ]
+      },
+      ", which covers the phases where these extra costs typically appear."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "budget-worksheet",
+   "title": "How to Budget: A Simple Worksheet",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "Use the following approach to turn the ranges above into a realistic budget number for your project."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Step 1: Estimate the build"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Pick the row in the project-type table that matches your scope. Add 15 percent as a contingency for scope changes. This is your build budget."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Step 2: Add first-year running costs"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Add hosting, platform subscriptions, plugin licenses, and maintenance for the first year. For a small WooCommerce store, expect an additional $1,000 to $3,000. For Shopify, $500 to $2,000. For custom builds, $5,000 to $30,000."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Step 3: Add a launch buffer"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Reserve 5 to 10 percent of the build cost for post-launch fixes, unexpected plugin needs, and marketing setup. Most launches reveal something that needs fixing in the first 30 days."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Step 4: Compare total cost across models"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "A template build at $5,000 plus $2,000 of first-year running costs is a $7,000 first-year commitment. A custom build at $40,000 plus $15,000 of first-year running costs is a $55,000 first-year commitment. Compare like for like."
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "If you are weighing models, our comparison of ",
+      {
+       "a": "/freelancer-vs-agency-vs-in-house",
+       "t": [
+        "freelancer vs agency vs in-house"
+       ]
+      },
+      " and the full ",
+      {
+       "a": "/hire-ecommerce-website-developer",
+       "t": [
+        "hiring guide"
+       ]
+      },
+      " will help you weigh total cost of ownership, not just the invoice."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "near-me-cost",
+   "title": "Does Hiring an Ecommerce Developer \"Near Me\" Cost More?",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "Usually, yes. Hiring a developer in your city adds a premium of roughly 10 to 30 percent compared to hiring the same skill level remotely, because local developers carry higher operating costs. The premium buys timezone overlap, in-person meetings, and easier contract and payment handling."
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Whether the premium is worth it depends on the project. Well-defined builds work fine remotely. Complex builds with frequent stakeholder collaboration often benefit from local. For the vetting steps when hiring near you, see ",
+      {
+       "a": "/ecommerce-website-developer-near-me",
+       "t": [
+        "how to find an ecommerce website developer near you"
+       ]
+      },
+      ", and check the local cost context in our city guides on the ",
+      {
+       "a": "/ecommerce-developers-by-city",
+       "t": [
+        "ecommerce developers by city hub"
+       ]
+      },
+      "."
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "If you want cost ranges for your specific area, see the city-specific pages for ",
+      {
+       "a": "/ecommerce-website-developer-ahmedabad",
+       "t": [
+        "Ahmedabad"
+       ]
+      },
+      ", ",
+      {
+       "a": "/ecommerce-website-developer-bangalore",
+       "t": [
+        "Bangalore"
+       ]
+      },
+      ", ",
+      {
+       "a": "/ecommerce-website-developer-mumbai",
+       "t": [
+        "Mumbai"
+       ]
+      },
+      ", and other cities in the hub."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "faq",
+   "title": "Frequently Asked Questions",
+   "faqs": [
+    {
+     "q": "How much does an ecommerce website developer cost per hour?",
+     "a": [
+      "Rates range from about $20 per hour for junior developers in lower-cost regions to $200 or more per hour for senior agency developers in the US. The median for a mid-level ecommerce developer in the US is roughly $75 to $120 per hour."
+     ]
+    },
+    {
+     "q": "Is $5,000 enough to build an ecommerce website?",
+     "a": [
+      "Yes, if you are building a template-based store with a clear scope and minimal custom work. $5,000 typically covers a Shopify or WooCommerce theme setup, product upload, and basic apps. Custom checkouts or multiple integrations will push past that budget."
+     ]
+    },
+    {
+     "q": "Why is a custom ecommerce build so much more expensive?",
+     "a": [
+      "Custom builds require original design, custom checkout logic, third-party integrations, and extensive QA that template builds skip. Each of those phases adds development and testing hours, which multiply quickly as scope grows."
+     ]
+    },
+    {
+     "q": "Should I hire a freelancer or an agency to save money?",
+     "a": [
+      "A freelancer is usually 30 to 60 percent cheaper than an agency for the same scope. The trade-off is that you manage the project, and you carry the risk if the freelancer disappears or delivers late. For projects over $30,000, the agency premium usually pays for itself in delivery reliability."
+     ]
+    },
+    {
+     "q": "Do I need to pay the full amount upfront?",
+     "a": [
+      "No. Standard practice is a deposit of 25 to 50 percent, with the rest tied to milestones and final delivery. Be cautious of any developer who requests full payment upfront, or who refuses to define milestones in writing. See ",
+      {
+       "a": "/ecommerce-developer-red-flags",
+       "t": [
+        "common red flags when hiring an ecommerce developer"
+       ]
+      },
+      "."
+     ]
+    },
+    {
+     "q": "What is included in the quoted cost?",
+     "a": [
+      "A proper quote should list scope, deliverables, timeline, milestones, payment schedule, warranty, and post-launch support. If any of those are missing, ask for them in writing. Our guide to ",
+      {
+       "a": "/ecommerce-developer-contract-payment-terms",
+       "t": [
+        "ecommerce developer contract and payment terms"
+       ]
+      },
+      " covers what to expect."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "title": "Next Steps",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "Use the ranges in this guide to set a realistic budget, then turn that budget into a written scope document before you request quotes. The brief is what gets you comparable quotes, and comparable quotes are what let you make a real decision."
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "If you want a quote against a defined scope, ",
+      {
+       "a": "/contact",
+       "t": [
+        "request a quote"
+       ]
+      },
+      ". To write a better brief before you start, download our ",
+      {
+       "a": "/ecommerce-developer-brief-template",
+       "t": [
+        "free ecommerce developer brief template"
+       ]
+      },
+      ". For the full hiring process, return to ",
+      {
+       "a": "/hire-ecommerce-website-developer",
+       "t": [
+        "how to hire an ecommerce website developer"
+       ]
+      },
+      "."
+     ]
+    }
+   ],
+   "cta": true
+  }
+ ]
+}

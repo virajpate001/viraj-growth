@@ -1,0 +1,1012 @@
+{
+ "slug": "ecommerce-website-developer-jobs",
+ "kind": "article",
+ "topic": "Careers",
+ "order": 6,
+ "title": "Ecommerce Website Developer Jobs: Career & Hiring Guide",
+ "description": "Ecommerce website developer jobs explained: salaries, skills employers want, where the roles are, and how to hire or become one in 2026.",
+ "ogTitle": "Ecommerce Website Developer Jobs: Career & Hiring Market Guide",
+ "ogDescription": "Salaries, required skills, hiring demand, and career paths for ecommerce website developer jobs, plus how employers should scope the role.",
+ "published": "2026-11-06",
+ "updated": "2026-11-06",
+ "h1": "Ecommerce Website Developer Jobs: Career and Hiring Market Guide",
+ "intro": [
+  {
+   "type": "summary",
+   "inline": [
+    {
+     "b": [
+      "In short:"
+     ]
+    },
+    " ecommerce website developer jobs pay roughly ",
+    {
+     "b": [
+      "$65,000 to $150,000"
+     ]
+    },
+    " per year in the US, depending on seniority, platform, and whether the role is front-end, back-end, or full-stack. Demand is strongest for ",
+    {
+     "b": [
+      "Shopify, WooCommerce, and headless React/Next.js"
+     ]
+    },
+    " developers, and remote roles now make up the majority of new postings. Employers hiring for this role usually need one of three profiles: a platform specialist, a full-stack developer, or a front-end developer with strong UX skills."
+   ]
+  },
+  {
+   "type": "p",
+   "inline": [
+    "This guide covers what the role involves, salary ranges by seniority and platform, the skills employers ask for, where the jobs are, and how to hire for the role if you are on the employer side. It is the career-and-hiring counterpart to our pillar guide on ",
+    {
+     "a": "/hire-ecommerce-website-developer",
+     "t": [
+      "how to hire an ecommerce website developer"
+     ]
+    },
+    ". If you are on the employer side and just need pricing, see ",
+    {
+     "a": "/ecommerce-website-developer-cost",
+     "t": [
+      "ecommerce website developer cost"
+     ]
+    },
+    "."
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "what-the-role-involves",
+   "title": "What the Ecommerce Website Developer Role Involves",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "An ecommerce website developer builds and maintains the technical infrastructure of an online store. Depending on the company and platform, the role can lean front-end, back-end, or full-stack, but most ecommerce developer jobs share a common core of responsibilities."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Day-to-day responsibilities"
+    },
+    {
+     "type": "ul",
+     "items": [
+      [
+       "Building and customizing storefronts, product pages, and checkout flows."
+      ],
+      [
+       "Integrating payment gateways, shipping providers, and third-party APIs."
+      ],
+      [
+       "Working with marketing and design teams on promotional features and A/B tests."
+      ],
+      [
+       "Monitoring performance, fixing bugs, and optimizing load times."
+      ],
+      [
+       "Maintaining security patches and platform updates."
+      ],
+      [
+       "Supporting product launches and seasonal campaigns."
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Where ecommerce developers sit in a company"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "In smaller companies, a single ecommerce developer often covers front-end, back-end, and platform administration. In larger companies, the role splits: front-end developers handle UX and performance, back-end developers handle integrations and data, and platform specialists handle the ecommerce engine itself. Full-stack developers bridge the two."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "What the role is not"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Ecommerce developers are not usually responsible for brand design, content writing, or SEO strategy. Those are separate roles, though developers often implement the technical side of design and SEO. If you are hiring for a broader \"growth\" or \"web\" role, that is a different job."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "job-titles",
+   "title": "Common Job Titles and What They Mean",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "\"Ecommerce website developer\" is an umbrella term. Employers use several specific titles, and the title usually hints at the platform and stack."
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      [
+       "Job title"
+      ],
+      [
+       "Primary focus"
+      ],
+      [
+       "Typical stack"
+      ]
+     ],
+     "rows": [
+      [
+       [
+        "Ecommerce Developer"
+       ],
+       [
+        "Storefront, checkout, integrations"
+       ],
+       [
+        "Shopify, WooCommerce, BigCommerce"
+       ]
+      ],
+      [
+       [
+        "Front-End Developer (Ecommerce)"
+       ],
+       [
+        "UI, UX, and performance"
+       ],
+       [
+        "React, Next.js, Liquid, HTML/CSS"
+       ]
+      ],
+      [
+       [
+        "Back-End Developer (Ecommerce)"
+       ],
+       [
+        "Integrations, data, APIs"
+       ],
+       [
+        "Node, PHP, Python, REST/GraphQL"
+       ]
+      ],
+      [
+       [
+        "Full-Stack Ecommerce Developer"
+       ],
+       [
+        "End-to-end builds"
+       ],
+       [
+        "Any of the above combined"
+       ]
+      ],
+      [
+       [
+        "Shopify Developer"
+       ],
+       [
+        "Shopify-specific builds and apps"
+       ],
+       [
+        "Liquid, Shopify APIs, Remix"
+       ]
+      ],
+      [
+       [
+        "WooCommerce Developer"
+       ],
+       [
+        "WordPress-based stores"
+       ],
+       [
+        "PHP, WooCommerce, WordPress"
+       ]
+      ],
+      [
+       [
+        "Headless Commerce Developer"
+       ],
+       [
+        "API-first storefronts"
+       ],
+       [
+        "Next.js, React, GraphQL"
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "The same seniority and responsibilities can carry different titles at different companies, so read the job description rather than the title. If you are evaluating platform-specific skills for a hire, see ",
+      {
+       "a": "/wordpress-ecommerce-website-developer",
+       "t": [
+        "what to look for in a WordPress ecommerce developer"
+       ]
+      },
+      " or the platform comparison in ",
+      {
+       "a": "/shopify-vs-woocommerce-vs-custom",
+       "t": [
+        "Shopify vs WooCommerce vs custom builds"
+       ]
+      },
+      "."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "salaries",
+   "title": "Salary Ranges by Seniority and Region",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "Salaries vary widely by region, platform specialization, and seniority. The ranges below are base salary, before benefits or equity, and are based on 2026 market data for full-time employees."
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      [
+       "Seniority"
+      ],
+      [
+       "US salary range"
+      ],
+      [
+       "UK salary range"
+      ],
+      [
+       "India salary range"
+      ]
+     ],
+     "rows": [
+      [
+       [
+        "Junior (0 - 2 years)"
+       ],
+       [
+        "$55,000 - $80,000"
+       ],
+       [
+        "£30,000 - £45,000"
+       ],
+       [
+        "₹4,00,000 - ₹8,00,000"
+       ]
+      ],
+      [
+       [
+        "Mid-level (2 - 5 years)"
+       ],
+       [
+        "$80,000 - $115,000"
+       ],
+       [
+        "£45,000 - £65,000"
+       ],
+       [
+        "₹8,00,000 - ₹18,00,000"
+       ]
+      ],
+      [
+       [
+        "Senior (5 - 8 years)"
+       ],
+       [
+        "$115,000 - $150,000"
+       ],
+       [
+        "£65,000 - £90,000"
+       ],
+       [
+        "₹18,00,000 - ₹32,00,000"
+       ]
+      ],
+      [
+       [
+        "Lead / Architect (8+ years)"
+       ],
+       [
+        "$150,000 - $200,000+"
+       ],
+       [
+        "£90,000 - £120,000+"
+       ],
+       [
+        "₹32,00,000 - ₹55,00,000+"
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Platform specialization affects salary: Shopify, headless, and enterprise platform specialists command 10 to 25 percent premiums over generalists. Equity, bonuses, and remote-company premiums can also shift the total package."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Freelance and contract rates"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Freelance ecommerce developers often earn more per hour than the equivalent salaried rate, but without benefits, paid time off, or income stability. For freelance hourly rates by region, see ",
+      {
+       "a": "/freelance-ecommerce-developer-cost-usa",
+       "t": [
+        "freelance ecommerce developer costs in the USA"
+       ]
+      },
+      "."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "skills-employers-want",
+   "title": "Skills Employers Ask For",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "The exact skills listed in job postings depend on the platform and stack, but the categories below appear in almost every ecommerce developer job description."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Platform skills"
+    },
+    {
+     "type": "ul",
+     "items": [
+      [
+       {
+        "b": [
+         "Shopify:"
+        ]
+       },
+       " Liquid, Shopify APIs, app ecosystem, theme development."
+      ],
+      [
+       {
+        "b": [
+         "WooCommerce:"
+        ]
+       },
+       " PHP, WordPress hooks, plugin development, performance tuning."
+      ],
+      [
+       {
+        "b": [
+         "Headless commerce:"
+        ]
+       },
+       " React, Next.js, GraphQL, API-driven storefronts."
+      ],
+      [
+       {
+        "b": [
+         "Enterprise platforms:"
+        ]
+       },
+       " Salesforce Commerce Cloud, Adobe Commerce, BigCommerce."
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "General development skills"
+    },
+    {
+     "type": "ul",
+     "items": [
+      [
+       "HTML, CSS, and JavaScript."
+      ],
+      [
+       "Version control (Git) and collaborative workflows."
+      ],
+      [
+       "REST and GraphQL API integration."
+      ],
+      [
+       "Testing frameworks and QA basics."
+      ],
+      [
+       "Basic security practices and PCI awareness."
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Ecommerce-specific skills"
+    },
+    {
+     "type": "ul",
+     "items": [
+      [
+       "Checkout flow optimization."
+      ],
+      [
+       "Payment gateway integration (Stripe, PayPal, Braintree)."
+      ],
+      [
+       "Tax and shipping logic."
+      ],
+      [
+       "Performance optimization for product-heavy pages."
+      ],
+      [
+       "Analytics and conversion tracking."
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Soft skills employers value"
+    },
+    {
+     "type": "ul",
+     "items": [
+      [
+       "Clear written communication, especially with non-technical stakeholders."
+      ],
+      [
+       "Ability to scope and estimate work realistically."
+      ],
+      [
+       "Comfort with the fast pace of ecommerce (sales cycles, seasonal launches)."
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "For the vetting questions that test these skills in an interview, see the 12-question checklist in ",
+      {
+       "a": "/hire-ecommerce-website-developer#vetting-questions",
+       "t": [
+        "how to hire an ecommerce website developer"
+       ]
+      },
+      " and the platform-specific questions in ",
+      {
+       "a": "/wordpress-ecommerce-website-developer#vetting-questions",
+       "t": [
+        "what to look for in a WordPress ecommerce developer"
+       ]
+      },
+      "."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "where-jobs-are",
+   "title": "Where the Jobs Are",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "Ecommerce developer jobs are concentrated in three types of employers: ecommerce companies and DTC brands, agencies that build and maintain stores, and in-house teams at retailers of all sizes. Remote work has expanded the map considerably."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "By employer type"
+    },
+    {
+     "type": "ul",
+     "items": [
+      [
+       {
+        "b": [
+         "DTC brands and retailers."
+        ]
+       },
+       " Usually one or two in-house developers supporting marketing and merchandising."
+      ],
+      [
+       {
+        "b": [
+         "Ecommerce agencies."
+        ]
+       },
+       " Multiple client projects at once, faster pace, broader platform exposure."
+      ],
+      [
+       {
+        "b": [
+         "Platforms and SaaS."
+        ]
+       },
+       " Shopify, BigCommerce, and app developers hire for product-facing roles."
+      ],
+      [
+       {
+        "b": [
+         "Enterprise retailers."
+        ]
+       },
+       " Larger teams, more specialization, more formal processes."
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "By geography"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "The highest concentration of ecommerce developer jobs is in the US (especially New York, San Francisco, Los Angeles, Chicago, and Austin), the UK (London), Germany, Canada, and India (Bangalore, Mumbai, Delhi). Remote roles now make up the majority of new postings, which has increased competition for local roles in high-cost cities."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Remote vs on-site"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Most ecommerce developer roles are now remote-friendly or hybrid. Fully on-site roles are usually at enterprise retailers or agencies with strong in-person cultures. If you are on the employer side and deciding between remote and local, see ",
+      {
+       "a": "/ecommerce-website-developer-near-me",
+       "t": [
+        "how to find an ecommerce website developer near you"
+       ]
+      },
+      "."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "how-to-break-in",
+   "title": "How to Break Into Ecommerce Development",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "If you are on the career side, the fastest path into ecommerce development is to pick a platform, build real stores, and learn the non-technical side of ecommerce well enough to scope work and talk to stakeholders."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Step 1: Learn a platform deeply"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Pick one platform — Shopify or WooCommerce are the most common entry points — and learn it thoroughly before branching out. A developer who knows one platform deeply is more employable than one who knows three shallowly."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Step 2: Build real stores"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Build stores you can show. A portfolio of three real ecommerce projects (even small ones) beats a certificate. Ship something that handles a real checkout, a real product catalog, and a real order."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Step 3: Learn the ecommerce business side"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "The strongest ecommerce developers understand conversion, AOV, checkout friction, and the seasonal cadence of retail. That context is what separates a developer who builds stores from a developer who builds stores that sell."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Step 4: Contribute to open source or build a tool"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Contributing to a WooCommerce or Shopify open-source project, or building a small tool or app, is a strong signal to employers. It also creates a public proof of skill that is easier to verify than a resume."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Step 5: Apply strategically"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Target agencies first. Agencies hire more juniors and give broader platform exposure faster than in-house roles. After two to three years at an agency, move in-house if you want stability and depth."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "career-path",
+   "title": "Career Path and Progression",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "Ecommerce development has a fairly clear career ladder, though the titles vary by company. The most common progression is below."
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      [
+       "Stage"
+      ],
+      [
+       "Typical years"
+      ],
+      [
+       "Focus"
+      ]
+     ],
+     "rows": [
+      [
+       [
+        "Junior developer"
+       ],
+       [
+        "0 - 2"
+       ],
+       [
+        "Executing defined tasks, learning the platform"
+       ]
+      ],
+      [
+       [
+        "Mid-level developer"
+       ],
+       [
+        "2 - 5"
+       ],
+       [
+        "Owning features, scoping small projects"
+       ]
+      ],
+      [
+       [
+        "Senior developer"
+       ],
+       [
+        "5 - 8"
+       ],
+       [
+        "Leading builds, mentoring, architecture decisions"
+       ]
+      ],
+      [
+       [
+        "Lead developer / tech lead"
+       ],
+       [
+        "8+"
+       ],
+       [
+        "Owning the technical direction, managing teams"
+       ]
+      ],
+      [
+       [
+        "Engineering manager / architect"
+       ],
+       [
+        "10+"
+       ],
+       [
+        "People or architecture leadership"
+       ]
+      ],
+      [
+       [
+        "Independent consultant / agency owner"
+       ],
+       [
+        "Varies"
+       ],
+       [
+        "Running your own practice"
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Adjacent career moves"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Ecommerce developers often move sideways into product management, solutions architecture, technical SEO, or growth engineering. Each of these uses the same platform knowledge but shifts the focus toward strategy or cross-functional work."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "employer-side",
+   "title": "Hiring for the Role: Employer Guidance",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "If you are on the employer side and hiring an ecommerce developer, the process below avoids the most common hiring mistakes."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Write a specific job description"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "List the platform, the stack, and the day-to-day work. \"Ecommerce developer\" alone attracts generalists. A specific description attracts candidates who can actually do the job on day one."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Screen for platform depth, not title"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "A candidate's title matters less than their platform depth. Ask for live stores they built, then open them on mobile and go through checkout. That test is more reliable than a resume."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Run a paid test task"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "A small paid task on a real piece of your store work reveals more than a technical interview. For the full process, see ",
+      {
+       "a": "/hire-ecommerce-website-developer#hiring-process",
+       "t": [
+        "the hiring process step by step"
+       ]
+      },
+      " in our pillar guide."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Compare in-house vs contract"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Before you hire, confirm that in-house is the right model. For a small build, a freelancer or agency is cheaper and faster. For a comparison, see ",
+      {
+       "a": "/freelancer-vs-agency-vs-in-house",
+       "t": [
+        "freelancer vs agency vs in-house"
+       ]
+      },
+      "."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Set the salary range correctly"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Underpaying for ecommerce developer roles costs you more in turnover than you save in salary. Use the salary table above as a starting point, and adjust for region and platform specialization."
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "If you are hiring and want the full scoping process, see ",
+      {
+       "a": "/ecommerce-website-developer-cost",
+       "t": [
+        "ecommerce website developer cost"
+       ]
+      },
+      " for budgeting and the ",
+      {
+       "a": "/hire-ecommerce-website-developer",
+       "t": [
+        "pillar hiring guide"
+       ]
+      },
+      " for the end-to-end process."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "job-vs-freelance",
+   "title": "Jobs vs Freelance vs Agency Work",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "The three modes of ecommerce development work have different trade-offs, and many developers move between them over a career."
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      [
+       "Mode"
+      ],
+      [
+       "Pros"
+      ],
+      [
+       "Cons"
+      ]
+     ],
+     "rows": [
+      [
+       [
+        "Full-time job"
+       ],
+       [
+        "Stable income, benefits, deeper context on one store"
+       ],
+       [
+        "Narrower platform exposure, less control over projects"
+       ]
+      ],
+      [
+       [
+        "Freelance"
+       ],
+       [
+        "Higher hourly rate, flexibility, broad exposure"
+       ],
+       [
+        "Income volatility, no benefits, you find your own work"
+       ]
+      ],
+      [
+       [
+        "Agency"
+       ],
+       [
+        "Broadest exposure, team support, clear pipeline"
+       ],
+       [
+        "Fast pace, less deep focus on any one store, client pressure"
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Many developers start in agencies, move in-house for stability, then transition to freelance or consulting after building a reputation. The platform skills are the same; the trade-offs are about stability, income, and control."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "faq",
+   "title": "Frequently Asked Questions",
+   "faqs": [
+    {
+     "q": "How much do ecommerce website developers make?",
+     "a": [
+      "In the US, junior developers earn $55,000 to $80,000, mid-level $80,000 to $115,000, senior $115,000 to $150,000, and leads $150,000 to $200,000 or more. Rates are lower in the UK and India; see the ",
+      {
+       "a": "/#salaries",
+       "t": [
+        "salary table"
+       ]
+      },
+      " for ranges."
+     ]
+    },
+    {
+     "q": "Do I need a degree to become an ecommerce developer?",
+     "a": [
+      "No. Employers care more about a live portfolio and platform depth than a degree. A strong portfolio of three real stores, plus demonstrated platform expertise, is the most common path into the role without a degree."
+     ]
+    },
+    {
+     "q": "Which platform should I learn first?",
+     "a": [
+      "Shopify or WooCommerce are the most common entry points. Shopify has a larger job market for ecommerce developers; WooCommerce has more custom development work. For platform comparison, see ",
+      {
+       "a": "/shopify-vs-woocommerce-vs-custom",
+       "t": [
+        "Shopify vs WooCommerce vs custom builds"
+       ]
+      },
+      "."
+     ]
+    },
+    {
+     "q": "Are ecommerce developer jobs remote?",
+     "a": [
+      "Most new postings are remote-friendly or hybrid. Fully on-site roles are usually at enterprise retailers or in-person agency cultures. Remote work has expanded the talent pool and increased competition for local roles in high-cost cities."
+     ]
+    },
+    {
+     "q": "What is the career path for an ecommerce developer?",
+     "a": [
+      "Typical progression is junior, mid-level, senior, tech lead, then engineering manager, architect, or independent consultant. See the ",
+      {
+       "a": "/#career-path",
+       "t": [
+        "career path section"
+       ]
+      },
+      " for details."
+     ]
+    },
+    {
+     "q": "How do employers hire ecommerce developers?",
+     "a": [
+      "Write a specific job description, screen for platform depth using live stores, run a paid test task, and use salary benchmarks. See ",
+      {
+       "a": "/hire-ecommerce-website-developer",
+       "t": [
+        "how to hire an ecommerce website developer"
+       ]
+      },
+      " for the full process."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "title": "Next Steps",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "If you are on the career side, focus on platform depth and a live portfolio. If you are on the employer side, focus on specific job descriptions, live store checks, and paid test tasks. Both sides benefit from the same underlying skill: the ability to judge real ecommerce development work, not just resumes."
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Employers should start with ",
+      {
+       "a": "/hire-ecommerce-website-developer",
+       "t": [
+        "how to hire an ecommerce website developer"
+       ]
+      },
+      " and ",
+      {
+       "a": "/ecommerce-website-developer-cost",
+       "t": [
+        "ecommerce website developer cost"
+       ]
+      },
+      ". If you want help hiring or scoping a role, ",
+      {
+       "a": "/contact",
+       "t": [
+        "contact us"
+       ]
+      },
+      "."
+     ]
+    }
+   ],
+   "cta": true
+  }
+ ]
+}

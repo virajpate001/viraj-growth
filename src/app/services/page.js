@@ -42,7 +42,7 @@ export default function ServicesPage() {
                     <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-accent/10 text-accent">
                       <s.icon size={22} />
                     </span>
-                    <div>
+                    <div> 
                       <h2 className="text-2xl transition-colors duration-300 group-hover:text-accent sm:text-3xl">
                         {s.title}
                       </h2>

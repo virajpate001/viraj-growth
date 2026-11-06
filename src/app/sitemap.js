@@ -2,6 +2,7 @@ import { siteUrl } from "@/lib/site";
 import { caseStudies } from "@/data/caseStudies";
 import { posts } from "@/data/posts";
 import { services } from "@/data/content";
+import { allGuides } from "@/lib/guides";
 
 export default function sitemap() {
   const now = new Date();
@@ -14,6 +15,7 @@ export default function sitemap() {
     { path: "/about", priority: 0.6 },
     { path: "/contact", priority: 0.7 },
     { path: "/privacy", priority: 0.2 },
+    { path: "/guides", priority: 0.8 },
   ].map((p) => ({
     url: `${siteUrl}${p.path}`,
     lastModified: now,
@@ -38,7 +40,13 @@ export default function sitemap() {
     priority: 0.8,
   }));
 
-  return [...pages, ...servicePages, ...studies, ...articles];
+  const guidePages = allGuides().map((g) => ({
+  url: `${siteUrl}/${g.slug}`,
+  lastModified: new Date(g.updated),
+  priority: 0.8,
+}));
+
+  return [...pages,...guidePages, ...servicePages, ...studies, ...articles ];
 
   
 }

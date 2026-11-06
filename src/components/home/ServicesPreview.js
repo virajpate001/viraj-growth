@@ -17,7 +17,7 @@ export default function ServicesPreview() {
           {services.map((s) => (
             <li key={s.slug} data-reveal>
               <Link
-                href={`/services#${s.slug}`}
+                href={`/services/${s.slug}`}
                 className="group flex items-center gap-5 border-b border-line py-7 transition-colors duration-300 hover:bg-accent/5 sm:gap-8 sm:px-4"
               >
                 <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-accent/10 text-accent">

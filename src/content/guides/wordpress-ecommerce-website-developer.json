@@ -1,0 +1,944 @@
+{
+ "slug": "wordpress-ecommerce-website-developer",
+ "kind": "article",
+ "topic": "WordPress",
+ "order": 5,
+ "title": "WordPress Ecommerce Website Developer: What to Look For",
+ "description": "What to look for in a WordPress ecommerce website developer: WooCommerce skills, plugin experience, performance, security, and the vetting questions that matter.",
+ "ogTitle": "WordPress Ecommerce Website Developer: What to Look For in 2026",
+ "ogDescription": "How to hire a WordPress ecommerce developer: WooCommerce skills, plugin audit experience, performance, security, and the vetting questions that reveal real expertise.",
+ "published": "2026-11-06",
+ "updated": "2026-11-06",
+ "h1": "WordPress Ecommerce Website Developer: What to Look For",
+ "intro": [
+  {
+   "type": "summary",
+   "inline": [
+    {
+     "b": [
+      "In short:"
+     ]
+    },
+    " a good WordPress ecommerce website developer is fluent in ",
+    {
+     "b": [
+      "WooCommerce"
+     ]
+    },
+    ", comfortable with ",
+    {
+     "b": [
+      "PHP and WordPress hooks"
+     ]
+    },
+    ", experienced in ",
+    {
+     "b": [
+      "plugin audits and conflict resolution"
+     ]
+    },
+    ", strong on ",
+    {
+     "b": [
+      "performance and security"
+     ]
+    },
+    ", and able to build a WooCommerce store that stays fast as it grows. They should be able to show you ",
+    {
+     "b": [
+      "three live WooCommerce stores"
+     ]
+    },
+    " and explain trade-offs, not just features."
+   ]
+  },
+  {
+   "type": "p",
+   "inline": [
+    "This guide covers what a WordPress ecommerce developer actually does, the specific skills to verify, the vetting questions that separate real WooCommerce expertise from general WordPress experience, and the platform trade-offs worth understanding before you hire. It expands on the platform-matching section of our pillar guide on ",
+    {
+     "a": "/hire-ecommerce-website-developer",
+     "t": [
+      "how to hire an ecommerce website developer"
+     ]
+    },
+    "."
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "what-they-do",
+   "title": "What a WordPress Ecommerce Developer Actually Does",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "A WordPress ecommerce developer builds and maintains online stores on WordPress, usually using WooCommerce as the ecommerce engine. The work spans theme and template customization, WooCommerce configuration, payment gateway and shipping setup, plugin integration, performance tuning, and ongoing maintenance."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Core responsibilities"
+    },
+    {
+     "type": "ul",
+     "items": [
+      [
+       {
+        "b": [
+         "WooCommerce setup and configuration."
+        ]
+       },
+       " Products, variations, tax, shipping zones, coupons, and checkout flow."
+      ],
+      [
+       {
+        "b": [
+         "Theme development and customization."
+        ]
+       },
+       " Block themes, classic themes, child themes, and custom templates."
+      ],
+      [
+       {
+        "b": [
+         "Plugin integration."
+        ]
+       },
+       " Payment gateways, shipping, subscriptions, memberships, analytics, and CRM connectors."
+      ],
+      [
+       {
+        "b": [
+         "Custom code."
+        ]
+       },
+       " PHP functions, WordPress hooks, and occasionally custom plugins for store-specific logic."
+      ],
+      [
+       {
+        "b": [
+         "Performance and security."
+        ]
+       },
+       " Caching, image optimization, database cleanup, and security hardening."
+      ],
+      [
+       {
+        "b": [
+         "Maintenance."
+        ]
+       },
+       " Core, theme, and plugin updates, backups, and conflict resolution."
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "What they should not be asked to do"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Design, content writing, and SEO strategy are usually separate roles. A developer can implement design and technical SEO, but should not be the source of brand direction or content. If you need a full team, an agency is a better fit; for a comparison of models, see ",
+      {
+       "a": "/freelancer-vs-agency-vs-in-house",
+       "t": [
+        "freelancer vs agency vs in-house"
+       ]
+      },
+      "."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "skills",
+   "title": "The Specific Skills to Verify in a WordPress Ecommerce Developer",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "\"WordPress developer\" is a broad label. A developer who builds content sites is not the same as one who builds WooCommerce stores. The skills below are what separate the two."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "PHP and WordPress hooks"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "WooCommerce is built on PHP and relies on WordPress actions and filters. A capable WooCommerce developer should be able to write a snippet to modify a WooCommerce template or hook, and explain when a hook-based solution is better than a plugin or a template override."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "WooCommerce data model"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Products, variations, attributes, and taxonomies in WooCommerce are not simple database tables. A capable developer should understand how WooCommerce stores and queries product data, and how that affects performance at scale."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Theme and template system"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "The developer should be fluent in both block themes (the modern WordPress default) and classic themes with child themes. Ask how they customize WooCommerce templates without breaking updates. Template overrides in a child theme are the standard answer."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Plugin ecosystem fluency"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "WooCommerce stores typically run 10 to 30 plugins. A capable developer should know the major plugin categories, recognize conflicts, and recommend the minimum set. See the ",
+      {
+       "a": "/#plugins",
+       "t": [
+        "plugin audit section"
+       ]
+      },
+      " below for what to ask."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Performance and caching"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "WooCommerce is more resource-intensive than a content site, and a developer who does not know caching, image optimization, and database tuning will produce a slow store. See the ",
+      {
+       "a": "/#performance",
+       "t": [
+        "performance section"
+       ]
+      },
+      " for what to check."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Security"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "WooCommerce stores handle payment and personal data. A capable developer should understand PCI scope, SSL, hardening, and how to keep customer data safe. See the ",
+      {
+       "a": "/#security",
+       "t": [
+        "security section"
+       ]
+      },
+      "."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "woocommerce-vs-wordpress",
+   "title": "WooCommerce Experience vs General WordPress Experience",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "Many WordPress developers have built content sites but never run a WooCommerce store. That distinction matters because ecommerce introduces challenges a content site never sees: transaction data, checkout edge cases, tax and shipping complexity, and customer data security."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Why general WordPress experience is not enough"
+    },
+    {
+     "type": "ul",
+     "items": [
+      [
+       "Checkout flows have more failure modes than content pages."
+      ],
+      [
+       "Product data scales badly without careful design."
+      ],
+      [
+       "Tax and shipping logic can require custom code."
+      ],
+      [
+       "Payment integrations carry compliance and security obligations."
+      ],
+      [
+       "Conversion optimization requires understanding the whole checkout journey."
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "How to test for real WooCommerce experience"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Ask for three live WooCommerce stores the developer built. Open each on mobile, add a product to cart, and go through checkout. If the store is broken, slow, or clearly a stock demo, you have your answer. Ask specific questions about store scale (product count, order volume) and what challenges they solved."
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "For a broader comparison of platforms and how WooCommerce fits, see ",
+      {
+       "a": "/shopify-vs-woocommerce-vs-custom",
+       "t": [
+        "Shopify vs WooCommerce vs custom builds"
+       ]
+      },
+      "."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "performance",
+   "title": "Performance and Core Web Vitals on WooCommerce",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "WooCommerce stores are harder to make fast than content sites, because product and checkout pages are heavier and caching is more complex. A developer who does not know how to handle this will hand you a store that loads in 5 or more seconds on mobile, which is a real conversion problem."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "What to check in the developer's portfolio"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Open each store on PageSpeed Insights and look at the mobile score, not desktop. Ask the developer what they did to achieve that score, and expect specifics: caching layer, image optimization, critical CSS, and database query tuning. Vague answers about \"we optimize\" are not enough."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Questions to ask about performance"
+    },
+    {
+     "type": "ul",
+     "items": [
+      [
+       "Which caching solution do you use for WooCommerce?"
+      ],
+      [
+       "How do you handle cart and checkout page caching, which is usually excluded from full-page caching?"
+      ],
+      [
+       "What is your approach to image optimization?"
+      ],
+      [
+       "How do you keep the WooCommerce database lean as orders accumulate?"
+      ],
+      [
+       "What mobile load time do you target for a typical WooCommerce store?"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "A capable WooCommerce developer will answer each of these with a specific tool or technique. For the underlying process, see ",
+      {
+       "a": "/ecommerce-development-process-milestones",
+       "t": [
+        "what the ecommerce build process looks like"
+       ]
+      },
+      "."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "security",
+   "title": "Security and PCI Compliance on WooCommerce",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "WooCommerce stores handle payment and customer data, so security is not optional. A capable developer should be able to explain the store's security posture in plain language, not just list plugins."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "What a secure WooCommerce setup looks like"
+    },
+    {
+     "type": "ul",
+     "items": [
+      [
+       "SSL enforced across the whole site, including checkout."
+      ],
+      [
+       "Payments tokenized or processed off-site (Stripe, PayPal) to keep PCI scope minimal."
+      ],
+      [
+       "Automatic backups, ideally off-site."
+      ],
+      [
+       "Strong admin access controls (2FA, limited admin accounts)."
+      ],
+      [
+       "Regular core, theme, and plugin updates."
+      ],
+      [
+       "A security plugin for login protection, firewall, and malware scanning."
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Questions to ask about security"
+    },
+    {
+     "type": "ul",
+     "items": [
+      [
+       "How do you keep PCI scope small for a WooCommerce store?"
+      ],
+      [
+       "What backup solution do you recommend, and how often do backups run?"
+      ],
+      [
+       "How do you handle security patches, and on what schedule?"
+      ],
+      [
+       "What happens if the site is hacked — do you offer incident response?"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "If the developer cannot answer these without hesitation, they do not have enough WooCommerce experience for a production store. For general hiring red flags, see ",
+      {
+       "a": "/ecommerce-developer-red-flags",
+       "t": [
+        "common red flags when hiring an ecommerce developer"
+       ]
+      },
+      "."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "plugins",
+   "title": "Plugin Audit Experience: Why It Matters",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "Most WooCommerce performance and security problems come from plugins, not from WordPress itself. A capable developer should be able to audit an existing plugin stack, recommend removals, and justify every plugin they add."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "What a good plugin audit covers"
+    },
+    {
+     "type": "ul",
+     "items": [
+      [
+       "Which plugins are actually needed, and which overlap."
+      ],
+      [
+       "Which plugins are abandoned or poorly maintained."
+      ],
+      [
+       "Which plugins cause front-end performance problems."
+      ],
+      [
+       "Which plugins carry security risk."
+      ],
+      [
+       "Which functionality should be moved to custom code."
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Questions to ask"
+    },
+    {
+     "type": "ul",
+     "items": [
+      [
+       "How do you decide whether to use a plugin or write custom code?"
+      ],
+      [
+       "How do you keep the plugin count under control?"
+      ],
+      [
+       "What do you do when two plugins conflict?"
+      ],
+      [
+       "How do you evaluate whether a plugin is well maintained?"
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "For what the plugin stack typically looks like in a WooCommerce store, see ",
+      {
+       "a": "/ecommerce-website-developer-cost#hidden-costs",
+       "t": [
+        "hidden costs most buyers miss"
+       ]
+      },
+      " in our cost guide."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "vetting-questions",
+   "title": "Vetting Questions for WordPress Ecommerce Developers",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "Ask these ten questions in a screening call. A strong developer answers each with specificity and trade-offs; a weak one gives generic WordPress answers."
+     ]
+    },
+    {
+     "type": "ol",
+     "items": [
+      [
+       {
+        "b": [
+         "Show me three live WooCommerce stores you built. What was your role on each?"
+        ]
+       },
+       " A good answer distinguishes solo build vs team contribution. A red flag is screenshots only, or links to content sites rather than stores."
+      ],
+      [
+       {
+        "b": [
+         "What is the largest WooCommerce store you have worked on, in products and monthly orders?"
+        ]
+       },
+       " A good answer gives numbers and challenges. A red flag is \"I've worked on large stores\" without specifics."
+      ],
+      [
+       {
+        "b": [
+         "How do you customize WooCommerce templates without breaking updates?"
+        ]
+       },
+       " A good answer mentions child themes and template overrides. A red flag is editing plugin files directly."
+      ],
+      [
+       {
+        "b": [
+         "How do you handle checkout customization?"
+        ]
+       },
+       " A good answer mentions WooCommerce hooks and the checkout block. A red flag is \"we replace the checkout with a plugin.\""
+      ],
+      [
+       {
+        "b": [
+         "What is your approach to WooCommerce performance and caching?"
+        ]
+       },
+       " A good answer names specific tools and techniques. A red flag is generic \"we optimize.\""
+      ],
+      [
+       {
+        "b": [
+         "How do you keep PCI scope small?"
+        ]
+       },
+       " A good answer mentions tokenization and hosted checkout. A red flag is confusion about PCI compliance."
+      ],
+      [
+       {
+        "b": [
+         "How do you audit a plugin stack?"
+        ]
+       },
+       " A good answer describes a structured audit. A red flag is \"we just install what we need.\""
+      ],
+      [
+       {
+        "b": [
+         "How do you handle WooCommerce updates without downtime?"
+        ]
+       },
+       " A good answer mentions staging, backup, and rollback. A red flag is \"we update live.\""
+      ],
+      [
+       {
+        "b": [
+         "What hosting do you recommend for a WooCommerce store at scale?"
+        ]
+       },
+       " A good answer names specific managed hosting providers. A red flag is \"any shared host is fine.\""
+      ],
+      [
+       {
+        "b": [
+         "What does post-launch maintenance look like?"
+        ]
+       },
+       " A good answer gives a schedule and scope. A red flag is \"we disappear after launch.\""
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "For the general hiring checklist that applies regardless of platform, see ",
+      {
+       "a": "/questions-to-ask-ecommerce-developer",
+       "t": [
+        "the full hiring checklist"
+       ]
+      },
+      " and the vetting section of ",
+      {
+       "a": "/hire-ecommerce-website-developer#vetting-questions",
+       "t": [
+        "how to hire an ecommerce website developer"
+       ]
+      },
+      "."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wordpress-vs-shopify",
+   "title": "WordPress vs Shopify for Ecommerce: Does It Change Who You Hire?",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "Yes. WooCommerce and Shopify developers have different skill sets, and hiring a developer whose expertise does not match your platform is a common cause of failed projects."
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      [
+       "Factor"
+      ],
+      [
+       "WooCommerce"
+      ],
+      [
+       "Shopify"
+      ]
+     ],
+     "rows": [
+      [
+       [
+        "Developer skill set"
+       ],
+       [
+        "PHP, WordPress, WooCommerce"
+       ],
+       [
+        "Liquid, Shopify APIs, apps"
+       ]
+      ],
+      [
+       [
+        "Build cost"
+       ],
+       [
+        "$2,000 - $30,000"
+       ],
+       [
+        "$3,000 - $25,000"
+       ]
+      ],
+      [
+       [
+        "Ongoing cost"
+       ],
+       [
+        "Hosting + plugins"
+       ],
+       [
+        "Subscription + apps"
+       ]
+      ],
+      [
+       [
+        "Flexibility"
+       ],
+       [
+        "Very high"
+       ],
+       [
+        "High (within Shopify's model)"
+       ]
+      ],
+      [
+       [
+        "Maintenance burden"
+       ],
+       [
+        "Higher"
+       ],
+       [
+        "Lower"
+       ]
+      ],
+      [
+       [
+        "Best for"
+       ],
+       [
+        "Custom logic, content-heavy stores"
+       ],
+       [
+        "Fast launches, low maintenance"
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "If you are on WooCommerce, hire a WooCommerce developer. If you are on Shopify, hire a Shopify developer. For the full comparison, see ",
+      {
+       "a": "/shopify-vs-woocommerce-vs-custom",
+       "t": [
+        "Shopify vs WooCommerce vs custom builds"
+       ]
+      },
+      ". For the broader question of which platform to choose, that guide covers the decision framework."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cost",
+   "title": "Cost of a WordPress Ecommerce Developer",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "WordPress ecommerce development is usually cheaper up front than Shopify or custom, because the platform is free and the plugin ecosystem is large. But plugin costs and maintenance add up over time."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Typical rates"
+    },
+    {
+     "type": "table",
+     "head": [
+      [
+       "Region"
+      ],
+      [
+       "Hourly rate (USD)"
+      ],
+      [
+       "Typical small store"
+      ]
+     ],
+     "rows": [
+      [
+       [
+        "US / Canada"
+       ],
+       [
+        "$50 - $150"
+       ],
+       [
+        "$4,000 - $12,000"
+       ]
+      ],
+      [
+       [
+        "Western Europe / UK"
+       ],
+       [
+        "$40 - $120"
+       ],
+       [
+        "$3,500 - $10,000"
+       ]
+      ],
+      [
+       [
+        "Eastern Europe"
+       ],
+       [
+        "$25 - $60"
+       ],
+       [
+        "$2,000 - $6,000"
+       ]
+      ],
+      [
+       [
+        "India / Southeast Asia"
+       ],
+       [
+        "$15 - $45"
+       ],
+       [
+        "$1,000 - $5,000"
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "For the full cost picture including project type, contract model, and hidden costs, see ",
+      {
+       "a": "/ecommerce-website-developer-cost",
+       "t": [
+        "ecommerce website developer cost"
+       ]
+      },
+      ". For region-specific context, see ",
+      {
+       "a": "/freelance-ecommerce-developer-cost-usa",
+       "t": [
+        "freelance ecommerce developer costs in the USA"
+       ]
+      },
+      "."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Ongoing costs specific to WooCommerce"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "WooCommerce is free, but a real store runs $500 to $3,000 per year in hosting, premium plugins, and maintenance. Budget for this separately from the build cost."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "faq",
+   "title": "Frequently Asked Questions",
+   "faqs": [
+    {
+     "q": "What should a WordPress ecommerce developer know?",
+     "a": [
+      "WooCommerce, PHP, WordPress hooks, theme and template systems, plugin conflict resolution, performance optimization for ecommerce, and security. General WordPress experience alone is not enough; they need specific WooCommerce experience."
+     ]
+    },
+    {
+     "q": "How much does a WordPress ecommerce developer cost?",
+     "a": [
+      "Rates range from $15 per hour in lower-cost regions to $150 per hour in the US and Western Europe. A typical small WooCommerce store costs $2,000 to $12,000 to build depending on region and scope. For a full breakdown, see ",
+      {
+       "a": "/ecommerce-website-developer-cost",
+       "t": [
+        "ecommerce website developer cost"
+       ]
+      },
+      "."
+     ]
+    },
+    {
+     "q": "Is WooCommerce good for ecommerce?",
+     "a": [
+      "Yes, especially for stores that need custom logic, content-heavy product pages, or integration with WordPress plugins. The trade-off is higher maintenance burden than Shopify. See ",
+      {
+       "a": "/shopify-vs-woocommerce-vs-custom",
+       "t": [
+        "Shopify vs WooCommerce vs custom builds"
+       ]
+      },
+      "."
+     ]
+    },
+    {
+     "q": "How do I test if a developer really knows WooCommerce?",
+     "a": [
+      "Ask for three live WooCommerce stores, then open them on mobile and go through checkout. Ask specific questions about performance, caching, and PCI scope. A capable developer answers each with tools and trade-offs; a general WordPress developer struggles on the WooCommerce-specific questions."
+     ]
+    },
+    {
+     "q": "Can a general WordPress developer build a WooCommerce store?",
+     "a": [
+      "Sometimes, but not reliably. A general developer can install WooCommerce and a theme, but will struggle with performance at scale, plugin conflicts, and checkout customization. For a production store, hire a developer with specific WooCommerce experience."
+     ]
+    },
+    {
+     "q": "How long does a WooCommerce store take to build?",
+     "a": [
+      "A template-based WooCommerce store takes 3 to 6 weeks. A custom build with integrations typically takes 8 to 16 weeks. See ",
+      {
+       "a": "/ecommerce-development-process-milestones",
+       "t": [
+        "what the ecommerce build process looks like"
+       ]
+      },
+      "."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "title": "Next Steps",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "If you are hiring a WordPress ecommerce developer, focus your vetting on WooCommerce-specific experience, not general WordPress experience. The difference shows up in performance, security, and how well the store survives its first plugin update cycle."
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "For the full hiring process, return to ",
+      {
+       "a": "/hire-ecommerce-website-developer",
+       "t": [
+        "how to hire an ecommerce website developer"
+       ]
+      },
+      ". For pricing context, see ",
+      {
+       "a": "/ecommerce-website-developer-cost",
+       "t": [
+        "ecommerce website developer cost"
+       ]
+      },
+      ". If you want help shortlisting WooCommerce developers, ",
+      {
+       "a": "/contact",
+       "t": [
+        "contact us"
+       ]
+      },
+      "."
+     ]
+    }
+   ],
+   "cta": true
+  }
+ ]
+}

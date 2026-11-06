@@ -47,3 +47,7 @@ export function planMessage({ score, reportUrl }) {
 export function serviceMessage(title) {
   return `Hi Viraj, I'm interested in ${title}. Can we talk about my project?`;
 }
+
+export function guideMessage(title) {
+  return `Hi Viraj, I just read your guide "${title}" and have a question.`;
+}

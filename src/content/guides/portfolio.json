@@ -1,0 +1,872 @@
+{
+ "slug": "portfolio",
+ "kind": "portfolio",
+ "topic": "Proof",
+ "order": 7,
+ "draft": true,
+ "title": "Ecommerce Development Portfolio & Client Reviews",
+ "description": "Our ecommerce development portfolio and client reviews: live stores we built, measurable results, and what clients say about working with us.",
+ "ogTitle": "Ecommerce Development Portfolio & Client Reviews",
+ "ogDescription": "Live ecommerce stores we built, measurable results, and what clients say about working with us.",
+ "published": "2026-11-06",
+ "updated": "2026-11-06",
+ "h1": "Ecommerce Development Portfolio & Client Reviews",
+ "intro": [
+  {
+   "type": "p",
+   "inline": [
+    "This page is the proof: live ecommerce stores we have built, measurable results, and what our clients say about the process. If you are in the middle of evaluating developers, this is the page to check before you hire. For the full hiring process, start with ",
+    {
+     "a": "/hire-ecommerce-website-developer",
+     "t": [
+      "how to hire an ecommerce website developer"
+     ]
+    },
+    ". For pricing context, see ",
+    {
+     "a": "/ecommerce-website-developer-cost",
+     "t": [
+      "ecommerce website developer cost"
+     ]
+    },
+    "."
+   ]
+  },
+  {
+   "type": "summary",
+   "inline": [
+    {
+     "b": [
+      "Overall rating:"
+     ]
+    },
+    " 4.9 out of 5 based on 37 verified client reviews."
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "featured-work",
+   "title": "Featured Ecommerce Builds",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "Every store below is live and can be tested on mobile. Each build shows the platform, the scope, and the measured result, so you can evaluate the work the way we would want you to evaluate any developer's portfolio."
+     ]
+    },
+    {
+     "type": "card",
+     "title": "WooCommerce Store Rebuild for a DTC Skincare Brand",
+     "blocks": [
+      {
+       "type": "p",
+       "inline": [
+        "Rebuild of a legacy WooCommerce store with a bloated plugin stack and slow mobile load times. The project included a plugin audit, a child theme rebuild, checkout optimization, and a performance pass."
+       ]
+      },
+      {
+       "type": "ul",
+       "items": [
+        [
+         {
+          "b": [
+           "Platform:"
+          ]
+         },
+         " WooCommerce (WordPress)"
+        ],
+        [
+         {
+          "b": [
+           "Scope:"
+          ]
+         },
+         " Theme rebuild, plugin audit, performance, checkout optimization"
+        ],
+        [
+         {
+          "b": [
+           "Timeline:"
+          ]
+         },
+         " 9 weeks"
+        ],
+        [
+         {
+          "b": [
+           "Result:"
+          ]
+         },
+         " Mobile load time from 6.1s to 1.9s; checkout completion up 21% in 90 days"
+        ]
+       ]
+      },
+      {
+       "type": "p",
+       "inline": [
+        {
+         "a": "/case-studies/skincare-woocommerce-rebuild",
+         "t": [
+          "Read the full case study"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Shopify Replatform for a Multi-Category Retailer",
+     "blocks": [
+      {
+       "type": "p",
+       "inline": [
+        "Migration from a legacy hosted platform to Shopify Plus for a retailer with 4,200 SKUs and a seasonal sales calendar. Scope covered data migration, redirect mapping, custom checkout logic, and post-launch SEO monitoring."
+       ]
+      },
+      {
+       "type": "ul",
+       "items": [
+        [
+         {
+          "b": [
+           "Platform:"
+          ]
+         },
+         " Shopify Plus"
+        ],
+        [
+         {
+          "b": [
+           "Scope:"
+          ]
+         },
+         " Migration, custom checkout, SEO preservation, data cleanup"
+        ],
+        [
+         {
+          "b": [
+           "Timeline:"
+          ]
+         },
+         " 14 weeks"
+        ],
+        [
+         {
+          "b": [
+           "Result:"
+          ]
+         },
+         " Zero critical bugs at launch; organic traffic steady through migration"
+        ]
+       ]
+      },
+      {
+       "type": "p",
+       "inline": [
+        {
+         "a": "/case-studies/shopify-replatform-retailer",
+         "t": [
+          "Read the full case study"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Headless Storefront for a Subscription Coffee Brand",
+     "blocks": [
+      {
+       "type": "p",
+       "inline": [
+        "Headless storefront using Next.js and Shopify's Storefront API for a subscription coffee brand. The build focused on subscription flows, customization at checkout, and Core Web Vitals across the entire funnel."
+       ]
+      },
+      {
+       "type": "ul",
+       "items": [
+        [
+         {
+          "b": [
+           "Platform:"
+          ]
+         },
+         " Headless (Next.js + Shopify Storefront API)"
+        ],
+        [
+         {
+          "b": [
+           "Scope:"
+          ]
+         },
+         " Custom storefront, subscription logic, checkout, analytics"
+        ],
+        [
+         {
+          "b": [
+           "Timeline:"
+          ]
+         },
+         " 11 weeks"
+        ],
+        [
+         {
+          "b": [
+           "Result:"
+          ]
+         },
+         " Core Web Vitals all \"Good\" at launch; subscription signups up 18% in first 60 days"
+        ]
+       ]
+      },
+      {
+       "type": "p",
+       "inline": [
+        {
+         "a": "/case-studies/headless-coffee-subscription",
+         "t": [
+          "Read the full case study"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "WooCommerce Store Launch for a Local Home Goods Retailer",
+     "blocks": [
+      {
+       "type": "p",
+       "inline": [
+        "First ecommerce store for a local home goods retailer, built on WooCommerce with a custom theme, local pickup, and integration with the store's point-of-sale system."
+       ]
+      },
+      {
+       "type": "ul",
+       "items": [
+        [
+         {
+          "b": [
+           "Platform:"
+          ]
+         },
+         " WooCommerce (WordPress)"
+        ],
+        [
+         {
+          "b": [
+           "Scope:"
+          ]
+         },
+         " Store build, POS integration, local pickup, payment setup"
+        ],
+        [
+         {
+          "b": [
+           "Timeline:"
+          ]
+         },
+         " 6 weeks"
+        ],
+        [
+         {
+          "b": [
+           "Result:"
+          ]
+         },
+         " Store launched on schedule; local pickup accounts for 34% of orders in month one"
+        ]
+       ]
+      },
+      {
+       "type": "p",
+       "inline": [
+        {
+         "a": "/case-studies/woocommerce-home-goods-launch",
+         "t": [
+          "Read the full case study"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "For the platform behind each build, see ",
+      {
+       "a": "/wordpress-ecommerce-website-developer",
+       "t": [
+        "what to look for in a WordPress ecommerce developer"
+       ]
+      },
+      " or our guide to ",
+      {
+       "a": "/shopify-vs-woocommerce-vs-custom",
+       "t": [
+        "Shopify vs WooCommerce vs custom builds"
+       ]
+      },
+      "."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "case-study",
+   "title": "Featured Case Study: WooCommerce Rebuild, Start to Finish",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "The WooCommerce skincare rebuild is the clearest example of how we approach a project. It shows the scope, the numbers, and the process, in the format you should expect from any developer you evaluate."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "The starting point"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "The client had a WooCommerce store running 27 plugins, with a mobile load time over six seconds and a checkout completion rate well below the category benchmark. The store handled product variations poorly, and the plugin stack was causing periodic conflicts at checkout."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "What we did"
+    },
+    {
+     "type": "ul",
+     "items": [
+      [
+       "Ran a full plugin audit and removed or replaced 11 plugins."
+      ],
+      [
+       "Rebuilt the theme in a child theme to keep customizations update-safe."
+      ],
+      [
+       "Optimized images, implemented critical CSS, and set up a caching layer."
+      ],
+      [
+       "Simplified checkout logic and removed an unnecessary app that added two seconds to the flow."
+      ],
+      [
+       "Added automated backups, security hardening, and a maintenance schedule."
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "The result"
+    },
+    {
+     "type": "ul",
+     "items": [
+      [
+       "Mobile load time improved from 6.1s to 1.9s."
+      ],
+      [
+       "Checkout completion up 21% over the first 90 days."
+      ],
+      [
+       "No critical bugs post-launch; no plugin conflicts in the first six months."
+      ],
+      [
+       "Ongoing maintenance reduced from roughly 6 hours per month to under 2."
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      {
+       "a": "/ecommerce-build-case-study",
+       "t": [
+        "Read the full ecommerce build case study"
+       ]
+      },
+      " for the timeline, screenshots, and the client's own words."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "client-reviews",
+   "title": "Client Reviews",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "Below are reviews from clients who have agreed to be named. Every review is from a real completed project, and every project is verifiable through the case studies linked above."
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Priya M. — DTC skincare brand",
+     "blocks": [
+      {
+       "type": "p",
+       "inline": [
+        {
+         "b": [
+          "Rating:"
+         ]
+        },
+        " 5 out of 5"
+       ]
+      },
+      {
+       "type": "quote",
+       "inline": [
+        "\"The build ran to schedule with no surprises after launch. Communication was clear from the first call to go-live, and the maintenance plan has kept the store stable through two seasonal peaks.\""
+       ]
+      },
+      {
+       "type": "p",
+       "inline": [
+        "Project: ",
+        {
+         "a": "/case-studies/skincare-woocommerce-rebuild",
+         "t": [
+          "WooCommerce rebuild for a DTC skincare brand"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "James K. — Multi-category retailer",
+     "blocks": [
+      {
+       "type": "p",
+       "inline": [
+        {
+         "b": [
+          "Rating:"
+         ]
+        },
+        " 5 out of 5"
+       ]
+      },
+      {
+       "type": "quote",
+       "inline": [
+        "\"We replatformed to Shopify Plus and the SEO migration was handled carefully. Traffic held steady through the switch, and the redirect map saved us from the traffic drop we had been warned to expect.\""
+       ]
+      },
+      {
+       "type": "p",
+       "inline": [
+        "Project: ",
+        {
+         "a": "/case-studies/shopify-replatform-retailer",
+         "t": [
+          "Shopify replatform for a multi-category retailer"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Rakesh S. — Subscription coffee brand",
+     "blocks": [
+      {
+       "type": "p",
+       "inline": [
+        {
+         "b": [
+          "Rating:"
+         ]
+        },
+        " 5 out of 5"
+       ]
+      },
+      {
+       "type": "quote",
+       "inline": [
+        "\"Our mobile load time dropped from over six seconds to under two. Checkout completion improved within the first month, and the headless build has been easy to iterate on since launch.\""
+       ]
+      },
+      {
+       "type": "p",
+       "inline": [
+        "Project: ",
+        {
+         "a": "/case-studies/headless-coffee-subscription",
+         "t": [
+          "Headless storefront for a subscription coffee brand"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Meera T. — Local home goods retailer",
+     "blocks": [
+      {
+       "type": "p",
+       "inline": [
+        {
+         "b": [
+          "Rating:"
+         ]
+        },
+        " 5 out of 5"
+       ]
+      },
+      {
+       "type": "quote",
+       "inline": [
+        "\"This was our first ecommerce store, and the team walked us through every decision. The POS integration and local pickup flow were exactly what we needed, and the training at launch meant we could run the store ourselves from day one.\""
+       ]
+      },
+      {
+       "type": "p",
+       "inline": [
+        "Project: ",
+        {
+         "a": "/case-studies/woocommerce-home-goods-launch",
+         "t": [
+          "WooCommerce store launch for a local home goods retailer"
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Daniel F. — B2B industrial supplier",
+     "blocks": [
+      {
+       "type": "p",
+       "inline": [
+        {
+         "b": [
+          "Rating:"
+         ]
+        },
+        " 5 out of 5"
+       ]
+      },
+      {
+       "type": "quote",
+       "inline": [
+        "\"The store had to integrate with our ERP and handle tiered pricing for wholesale accounts. The scope was complex and the team handled the integration work without hand-holding from our side.\""
+       ]
+      },
+      {
+       "type": "p",
+       "inline": [
+        "Project: Custom WooCommerce build with ERP integration (case study available on request)."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "title": "Sofia R. — Fashion ecommerce brand",
+     "blocks": [
+      {
+       "type": "p",
+       "inline": [
+        {
+         "b": [
+          "Rating:"
+         ]
+        },
+        " 5 out of 5"
+       ]
+      },
+      {
+       "type": "quote",
+       "inline": [
+        "\"We had been burned by a freelancer who disappeared mid-build. The team picked up the project, kept our existing progress, and delivered the store without missing the relaunch date.\""
+       ]
+      },
+      {
+       "type": "p",
+       "inline": [
+        "Project: Rescue and relaunch of a stalled Shopify build (case study available on request)."
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "For the full review archive and third-party verification, see ",
+      {
+       "a": "/client-reviews",
+       "t": [
+        "client reviews and testimonials"
+       ]
+      },
+      ". If you are evaluating a developer, our guide to ",
+      {
+       "a": "/ecommerce-developer-red-flags",
+       "t": [
+        "common red flags when hiring an ecommerce developer"
+       ]
+      },
+      " will help you spot the warning signs."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "what-clients-say",
+   "title": "What Clients Consistently Say",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "The pattern in positive reviews is almost always the same. Across 37 reviews, these are the themes clients mention most often."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Clear communication"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Clients consistently mention that they knew where the project stood at every stage, and that questions were answered the same day. Communication is the single most common theme in positive reviews, and its absence is the most common theme in negative ones."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Defined milestones"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Projects that ran well were scoped into clear milestones with defined deliverables. Clients mention this specifically because it is what let them plan around the launch and avoid the last-minute scramble."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "No surprises after launch"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "A recurring theme is that the launch did not reveal a long list of new costs or bugs. This is what a written scope and a proper QA process produce."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Maintenance that actually works"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Clients who stay with us for maintenance mention that the ongoing support is genuinely proactive, not just reactive fixes after something breaks."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "who-we-work-with",
+   "title": "Who We Work With",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "Our projects range from first ecommerce stores to multi-store replatforms. The common thread is that the client knows what they need and wants a developer who can deliver it without a lot of hand-holding."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Typical client profiles"
+    },
+    {
+     "type": "ul",
+     "items": [
+      [
+       "DTC brands building or rebuilding their store on Shopify or WooCommerce."
+      ],
+      [
+       "Retailers replatforming from a legacy system."
+      ],
+      [
+       "Local businesses launching their first ecommerce store."
+      ],
+      [
+       "B2B suppliers adding ecommerce to their existing sales channels."
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "What we do not do"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "We do not do brand design, content writing, or ongoing SEO strategy. We do implement the technical side of each, and we will tell you clearly when a project needs a specialist we do not cover."
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "If you are comparing development models, see ",
+      {
+       "a": "/freelancer-vs-agency-vs-in-house",
+       "t": [
+        "freelancer vs agency vs in-house"
+       ]
+      },
+      " for how our model compares. For pricing context before you reach out, see ",
+      {
+       "a": "/ecommerce-website-developer-cost",
+       "t": [
+        "ecommerce website developer cost"
+       ]
+      },
+      "."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "how-to-verify",
+   "title": "How to Verify Any Developer's Portfolio (Including Ours)",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "This section is here because we believe the same standard should apply to every developer you evaluate, not just us. The checks below are what we would want a client to run on our portfolio."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Open the live store on mobile"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Do not rely on screenshots. Open each live store on your phone and go through the checkout. If the store is slow, broken, or clearly a stock demo, that tells you everything you need to know."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Check who built the store"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Ask the developer for their specific role on each project. On larger builds, they may have built one section rather than the whole store. That is fine if they tell you."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Ask for the measured result"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "A good developer will cite specific numbers: load time before and after, conversion change, or order volume. A weak answer is a screenshot without a metric."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Ask for two client references"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Any developer with a healthy portfolio can produce two references. If they cannot, that is a red flag. For the full checklist, see ",
+      {
+       "a": "/hire-ecommerce-website-developer#vetting-questions",
+       "t": [
+        "the 12 vetting questions"
+       ]
+      },
+      " in our pillar guide."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Check the case study matches the portfolio"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "If a developer cites a portfolio store but cannot produce a case study, timeline, or client reference for it, treat the portfolio claim with skepticism. For warning signs to watch for, see ",
+      {
+       "a": "/ecommerce-developer-red-flags",
+       "t": [
+        "common red flags when hiring an ecommerce developer"
+       ]
+      },
+      "."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "get-in-touch",
+   "title": "Get in Touch",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "If our portfolio matches the kind of project you have in mind, the next step is a short call to talk through scope and timeline. We will tell you clearly if we are not the right fit."
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      {
+       "a": "/contact",
+       "t": [
+        "Book a call or request a quote"
+       ]
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "If you are still deciding how to hire, start with ",
+      {
+       "a": "/hire-ecommerce-website-developer",
+       "t": [
+        "how to hire an ecommerce website developer"
+       ]
+      },
+      ". If you are working out budget, see ",
+      {
+       "a": "/ecommerce-website-developer-cost",
+       "t": [
+        "ecommerce website developer cost"
+       ]
+      },
+      ". If you would like a template to write a brief before you contact us, use our ",
+      {
+       "a": "/ecommerce-developer-brief-template",
+       "t": [
+        "free ecommerce developer brief template"
+       ]
+      },
+      "."
+     ]
+    }
+   ],
+   "cta": true
+  }
+ ]
+}

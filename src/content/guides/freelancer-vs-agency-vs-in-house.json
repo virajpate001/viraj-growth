@@ -1,0 +1,999 @@
+{
+ "slug": "freelancer-vs-agency-vs-in-house",
+ "kind": "article",
+ "topic": "Hiring models",
+ "order": 4,
+ "title": "Freelancer vs Agency vs In-House Ecommerce Developer",
+ "description": "Compare freelancer, agency, and in-house ecommerce developers: costs, risks, control, and which model fits your project. Decision table and real pricing included.",
+ "ogTitle": "Freelancer vs Agency vs In-House Ecommerce Developer: Which to Hire?",
+ "ogDescription": "Costs, risks, and control compared across freelancer, agency, and in-house ecommerce developers, with a decision table for each project type.",
+ "published": "2026-11-06",
+ "updated": "2026-11-06",
+ "h1": "Freelancer vs Agency vs In-House Ecommerce Developer: Which Should You Hire?",
+ "intro": [
+  {
+   "type": "summary",
+   "inline": [
+    {
+     "b": [
+      "In short:"
+     ]
+    },
+    " hire a ",
+    {
+     "b": [
+      "freelancer"
+     ]
+    },
+    " for well-scoped builds under $15,000, an ",
+    {
+     "b": [
+      "agency"
+     ]
+    },
+    " for complex builds over $30,000 or any project with heavy integrations, and an ",
+    {
+     "b": [
+      "in-house developer"
+     ]
+    },
+    " only if you have a continuous pipeline of development work. Freelancers are cheapest but carry the most delivery risk; agencies cost more but bundle project management, QA, and backup; in-house costs the most annually but gives the most control."
+   ]
+  },
+  {
+   "type": "p",
+   "inline": [
+    "This guide compares the three models on cost, risk, control, and speed, then gives you a decision table for each project type. It expands on the summary in our pillar guide on ",
+    {
+     "a": "/hire-ecommerce-website-developer",
+     "t": [
+      "how to hire an ecommerce website developer"
+     ]
+    },
+    ". If you are still figuring out your budget, read ",
+    {
+     "a": "/ecommerce-website-developer-cost",
+     "t": [
+      "ecommerce website developer cost"
+     ]
+    },
+    " first."
+   ]
+  }
+ ],
+ "sections": [
+  {
+   "id": "quick-comparison",
+   "title": "Quick Comparison: Freelancer vs Agency vs In-House",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "The table below gives you the one-line version. The rest of this guide expands each column with real numbers, risks, and examples."
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      [
+       "Factor"
+      ],
+      [
+       "Freelancer"
+      ],
+      [
+       "Agency"
+      ],
+      [
+       "In-house"
+      ]
+     ],
+     "rows": [
+      [
+       [
+        "Typical cost"
+       ],
+       [
+        "Lowest"
+       ],
+       [
+        "Highest per project"
+       ],
+       [
+        "Highest per year"
+       ]
+      ],
+      [
+       [
+        "Upfront commitment"
+       ],
+       [
+        "$2,000 - $20,000"
+       ],
+       [
+        "$15,000 - $100,000+"
+       ],
+       [
+        "$80,000 - $180,000/year"
+       ]
+      ],
+      [
+       [
+        "Project management"
+       ],
+       [
+        "You"
+       ],
+       [
+        "Included"
+       ],
+       [
+        "You (as the manager)"
+       ]
+      ],
+      [
+       [
+        "QA and testing"
+       ],
+       [
+        "Varies"
+       ],
+       [
+        "Included"
+       ],
+       [
+        "Your responsibility"
+       ]
+      ],
+      [
+       [
+        "Delivery risk"
+       ],
+       [
+        "High"
+       ],
+       [
+        "Low"
+       ],
+       [
+        "Medium (hiring risk)"
+       ]
+      ],
+      [
+       [
+        "Best for"
+       ],
+       [
+        "Small, well-scoped builds"
+       ],
+       [
+        "Complex or high-stakes builds"
+       ],
+       [
+        "Ongoing development needs"
+       ]
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "freelancer",
+   "title": "Freelance Ecommerce Developers",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "A freelance ecommerce developer is a solo contractor who takes on projects directly. They are the cheapest option per hour, and the fastest to start, but they require you to manage the project and carry the risk of non-delivery."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "When freelancers are the right choice"
+    },
+    {
+     "type": "ul",
+     "items": [
+      [
+       "Well-defined builds with a clear scope document."
+      ],
+      [
+       "Projects under roughly $15,000."
+      ],
+      [
+       "Template-based stores with limited customization."
+      ],
+      [
+       "Ongoing maintenance or iterative work."
+      ],
+      [
+       "You have some technical background or a project manager on your side."
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Cost"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Freelance rates range from $15 to $150 per hour depending on region and skill level. A template-based store from a freelancer typically runs $2,000 to $8,000. For a regional breakdown, see ",
+      {
+       "a": "/freelance-ecommerce-developer-cost-usa",
+       "t": [
+        "freelance ecommerce developer costs in the USA"
+       ]
+      },
+      "."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Risks"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "The main risks are availability (a solo developer can be pulled into another project), continuity (if they disappear mid-build, you have limited recourse), and capacity (they may not have a backup when they are sick or on holiday). You mitigate these by paying against milestones, signing a written contract, and keeping all code and credentials in an account you control."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "How to vet a freelancer"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Ask for three live ecommerce stores they built, two recent references, and a paid test task. The vetting questions in our pillar guide on ",
+      {
+       "a": "/hire-ecommerce-website-developer#vetting-questions",
+       "t": [
+        "how to vet an ecommerce developer"
+       ]
+      },
+      " apply directly. For portfolio and reputation checks, see also ",
+      {
+       "a": "/portfolio",
+       "t": [
+        "our ecommerce portfolio"
+       ]
+      },
+      " and ",
+      {
+       "a": "/client-reviews",
+       "t": [
+        "client reviews and testimonials"
+       ]
+      },
+      " as a benchmark for what a good portfolio looks like."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "agency",
+   "title": "Ecommerce Agencies",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "An agency is a team of developers, designers, project managers, and QA staff working under one contract. Agencies are the most expensive per project but the most reliable, because you are buying a delivery process, not just a person."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "When agencies are the right choice"
+    },
+    {
+     "type": "ul",
+     "items": [
+      [
+       "Builds over roughly $30,000."
+      ],
+      [
+       "Complex integrations (ERP, CRM, PIM, multi-currency)."
+      ],
+      [
+       "Migrations with strict SEO requirements."
+      ],
+      [
+       "Enterprise or headless builds."
+      ],
+      [
+       "You do not have internal project management capacity."
+      ],
+      [
+       "The launch is high-stakes, and a delay carries real business cost."
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Cost"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Agency rates range from $75 to $200+ per hour, or fixed-price projects from $15,000 upward. A custom mid-market build from an agency typically runs $30,000 to $80,000. For the full agency pricing picture, see ",
+      {
+       "a": "/ecommerce-website-developer-cost",
+       "t": [
+        "ecommerce website developer cost"
+       ]
+      },
+      "."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Risks"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "The main risk with agencies is paying for overhead you do not need, especially on smaller builds. Some agencies also subcontract, which means you may not get the senior developers you met during the sales process. Ask directly who will work on your project and how much of the team is permanent staff."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "How to vet an agency"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Ask for the specific team assigned to your project, three client references from similar-scale builds, and the agency's process for scope changes and post-launch support. Request live URLs, not case study screenshots. For a starting shortlist, see ",
+      {
+       "a": "/top-web-developers-ecommerce-websites",
+       "t": [
+        "comparing top ecommerce developers"
+       ]
+      },
+      ". For contract terms, see ",
+      {
+       "a": "/ecommerce-developer-contract-payment-terms",
+       "t": [
+        "ecommerce developer contract and payment terms"
+       ]
+      },
+      "."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "in-house",
+   "title": "In-House Ecommerce Developers",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "An in-house developer is a full-time employee on your payroll. In-house is the most expensive per year, but the developer is fully dedicated to your store and deeply embedded in your team. It makes sense only when you have a continuous pipeline of development work."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "When in-house is the right choice"
+    },
+    {
+     "type": "ul",
+     "items": [
+      [
+       "You have ongoing development needs, not a one-off build."
+      ],
+      [
+       "You need daily iteration and rapid response."
+      ],
+      [
+       "Your store has proprietary logic that requires deep context."
+      ],
+      [
+       "You have the internal capacity to manage a developer day to day."
+      ]
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Cost"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "A full-time ecommerce developer in the US costs $80,000 to $150,000 in salary, plus 20 to 35 percent in benefits and overhead. Recruitment adds another $10,000 to $20,000 upfront, and the first 3 to 6 months are usually a lower-productivity ramp-up. In lower-cost regions, salaries are substantially lower."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Risks"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "The main risks are hiring risk (a bad hire is expensive to unwind), continuity risk (if the developer leaves, you lose the context), and utilization risk (if the development pipeline slows, you are paying for idle time). In-house works well once you have enough work to keep a developer busy, and poorly before that."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "How to vet an in-house hire"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Run a normal technical interview, plus a paid test task on a small piece of real store work. Check references from past employers, not just clients. Ask about their experience with your specific platform. See ",
+      {
+       "a": "/wordpress-ecommerce-website-developer",
+       "t": [
+        "what to look for in a WordPress ecommerce developer"
+       ]
+      },
+      " if you are on WooCommerce, or ",
+      {
+       "a": "/shopify-vs-woocommerce-vs-custom",
+       "t": [
+        "Shopify vs WooCommerce vs custom"
+       ]
+      },
+      " for platform context."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cost-comparison",
+   "title": "Cost Comparison: Same Project, Three Models",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "The clearest way to compare is a specific project. Below is a realistic cost comparison for a mid-market WooCommerce build with a custom checkout and one ERP integration, scoped at roughly 8 to 12 weeks."
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      [
+       "Model"
+      ],
+      [
+       "Upfront cost"
+      ],
+      [
+       "Ongoing cost"
+      ],
+      [
+       "Total first year"
+      ]
+     ],
+     "rows": [
+      [
+       [
+        "Freelancer (Eastern Europe)"
+       ],
+       [
+        "$12,000 - $18,000"
+       ],
+       [
+        "$0 - $2,000"
+       ],
+       [
+        "$12,000 - $20,000"
+       ]
+      ],
+      [
+       [
+        "Freelancer (US)"
+       ],
+       [
+        "$20,000 - $35,000"
+       ],
+       [
+        "$0 - $3,000"
+       ],
+       [
+        "$20,000 - $38,000"
+       ]
+      ],
+      [
+       [
+        "Agency (mid-market)"
+       ],
+       [
+        "$35,000 - $70,000"
+       ],
+       [
+        "$5,000 - $10,000"
+       ],
+       [
+        "$40,000 - $80,000"
+       ]
+      ],
+      [
+       [
+        "In-house (US hire)"
+       ],
+       [
+        "N/A (hire)"
+       ],
+       [
+        "$100,000 - $180,000/year"
+       ],
+       [
+        "$100,000 - $180,000"
+       ]
+      ],
+      [
+       [
+        "In-house (offshore hire)"
+       ],
+       [
+        "N/A (hire)"
+       ],
+       [
+        "$25,000 - $60,000/year"
+       ],
+       [
+        "$25,000 - $60,000"
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "The comparison changes with project size. For a $5,000 template store, in-house is clearly wrong. For a $150,000 enterprise build, freelancer is clearly wrong. Most projects sit somewhere in between, and the \"right\" model is the cheapest one that carries delivery risk you can live with."
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "For the full cost breakdown by project type and region, see ",
+      {
+       "a": "/ecommerce-website-developer-cost",
+       "t": [
+        "ecommerce website developer cost"
+       ]
+      },
+      "."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "risk-comparison",
+   "title": "Risk and Control Comparison",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "Cost is only half the decision. The other half is how much risk you are willing to carry and how much control you need."
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      [
+       "Factor"
+      ],
+      [
+       "Freelancer"
+      ],
+      [
+       "Agency"
+      ],
+      [
+       "In-house"
+      ]
+     ],
+     "rows": [
+      [
+       [
+        "Delivery certainty"
+       ],
+       [
+        "Low"
+       ],
+       [
+        "High"
+       ],
+       [
+        "High (after ramp-up)"
+       ]
+      ],
+      [
+       [
+        "Continuity if key person leaves"
+       ],
+       [
+        "Low"
+       ],
+       [
+        "High"
+       ],
+       [
+        "Low"
+       ]
+      ],
+      [
+       [
+        "Control over priorities"
+       ],
+       [
+        "Medium (contract-dependent)"
+       ],
+       [
+        "Medium (contract-dependent)"
+       ],
+       [
+        "High"
+       ]
+      ],
+      [
+       [
+        "Speed to start"
+       ],
+       [
+        "Fast (1 - 2 weeks)"
+       ],
+       [
+        "Medium (3 - 6 weeks)"
+       ],
+       [
+        "Slow (2 - 4 months)"
+       ]
+      ],
+      [
+       [
+        "Project management burden"
+       ],
+       [
+        "High"
+       ],
+       [
+        "Low"
+       ],
+       [
+        "High"
+       ]
+      ],
+      [
+       [
+        "Knowledge retention"
+       ],
+       [
+        "Low (leaves with the freelancer)"
+       ],
+       [
+        "Medium (agency retains)"
+       ],
+       [
+        "High (institutional)"
+       ]
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Most first-time buyers choose freelancer for the cost and later regret it because they underestimate the project management burden. Most second-time buyers choose agency and find the premium worth it. Buyers with ongoing development needs eventually move to in-house."
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "For the warning signs to watch for in any model, see ",
+      {
+       "a": "/ecommerce-developer-red-flags",
+       "t": [
+        "common red flags when hiring an ecommerce developer"
+       ]
+      },
+      "."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "decision-table",
+   "title": "Decision Table by Project Type",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "Match your project to the table below. The right column gives the best starting model, not a fixed rule; hybrid models are covered in the next section."
+     ]
+    },
+    {
+     "type": "table",
+     "head": [
+      [
+       "Your situation"
+      ],
+      [
+       "Best starting model"
+      ]
+     ],
+     "rows": [
+      [
+       [
+        "First store, template, tight budget"
+       ],
+       [
+        "Freelancer"
+       ]
+      ],
+      [
+       [
+        "Replatform from WooCommerce to Shopify, under $15k"
+       ],
+       [
+        "Freelancer"
+       ]
+      ],
+      [
+       [
+        "Custom build, complex checkout"
+       ],
+       [
+        "Agency"
+       ]
+      ],
+      [
+       [
+        "Migration with SEO risk"
+       ],
+       [
+        "Agency"
+       ]
+      ],
+      [
+       [
+        "Multi-currency, ERP integration"
+       ],
+       [
+        "Agency"
+       ]
+      ],
+      [
+       [
+        "High-traffic launch with marketing deadline"
+       ],
+       [
+        "Agency"
+       ]
+      ],
+      [
+       [
+        "Continuous iteration and daily changes"
+       ],
+       [
+        "In-house"
+       ]
+      ],
+      [
+       [
+        "Proprietary logic tied to your operations"
+       ],
+       [
+        "In-house"
+       ]
+      ],
+      [
+       [
+        "Existing dev team that needs extra capacity"
+       ],
+       [
+        "Hybrid (see below)"
+       ]
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hybrid",
+   "title": "The Hybrid Model: Best of Both",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "Many teams do not pick one model; they combine two. The most common hybrids are below."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Local project manager + remote development team"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "You get local accountability and timezone overlap for coordination, and the cost advantage of remote developers for the build. This works well for mid-market builds with heavy collaboration but a tight budget. See ",
+      {
+       "a": "/ecommerce-website-developer-near-me",
+       "t": [
+        "how to find an ecommerce website developer near you"
+       ]
+      },
+      " for how to source the local half."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "Agency for the build, freelancer for maintenance"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "You pay the agency premium for the complex build, then move to a cheaper freelancer for ongoing maintenance once the site is stable. You keep the build reliability without paying the agency premium indefinitely."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "In-house lead + agency for specialty work"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "You hire one senior in-house developer to own the store, and bring in an agency for periodic specialty projects (e.g., a replatform or a major redesign). You get knowledge retention plus specialist capability when you need it."
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "Hybrids add coordination overhead, so they make sense mainly when the budget or risk demands them. For a single small store, a single model is simpler."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "switching",
+   "title": "When to Switch Models",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "The right model changes as your store grows. The signals below tell you when it is time to move."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "From freelancer to agency"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "You know you have outgrown a freelancer when the project scope keeps growing past their capacity, when a launch deadline is critical, or when a single developer cannot cover the stack (front end, back end, QA, and project management). A freelancer who is honest will tell you this themselves."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "From agency to in-house"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "You know you have outgrown an agency when the majority of your agency work is small, frequent requests that would be faster with a dedicated developer, or when the agency is charging for context they should already have. If you have 20 or more hours of development work per week, in-house starts to make financial sense."
+     ]
+    },
+    {
+     "type": "h3",
+     "text": "From in-house back to agency"
+    },
+    {
+     "type": "p",
+     "inline": [
+      "You know in-house has stopped working when the developer is idle, when you need specialist skills they do not have, or when a major one-off project (replatform, redesign) needs a full team. Keeping one in-house developer and bringing in an agency for big projects is often the best combination at scale."
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "For the full hiring process in any model, return to ",
+      {
+       "a": "/hire-ecommerce-website-developer",
+       "t": [
+        "how to hire an ecommerce website developer"
+       ]
+      },
+      "."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "faq",
+   "title": "Frequently Asked Questions",
+   "faqs": [
+    {
+     "q": "Is it cheaper to hire a freelancer or an agency?",
+     "a": [
+      "A freelancer is typically 30 to 60 percent cheaper for the same scope. An agency costs more but includes project management, QA, and continuity. For projects over $30,000, the agency premium often pays for itself in delivery reliability."
+     ]
+    },
+    {
+     "q": "When should I hire an in-house ecommerce developer?",
+     "a": [
+      "When you have 20 or more hours of development work per week on an ongoing basis. Below that threshold, freelance or agency work is almost always cheaper than a full-time salary plus benefits and recruitment costs."
+     ]
+    },
+    {
+     "q": "Can I mix a freelancer and an agency on one project?",
+     "a": [
+      "Yes, but keep roles clear: usually an agency for the complex build and a freelancer for ongoing maintenance. Blurred responsibilities are the main cause of hybrid-model failures. See the ",
+      {
+       "a": "/#hybrid",
+       "t": [
+        "hybrid model"
+       ]
+      },
+      " section above."
+     ]
+    },
+    {
+     "q": "What is the biggest risk with a freelancer?",
+     "a": [
+      "Delivery risk. If a freelancer disappears mid-project, you have limited recourse beyond the contract. Mitigate by paying against milestones, keeping code and credentials in accounts you control, and signing a written contract."
+     ]
+    },
+    {
+     "q": "What is the biggest risk with an agency?",
+     "a": [
+      "Paying for overhead you do not need, and the risk that the team that pitched you is not the team that builds your project. Ask who specifically will work on your project and confirm how much of the team is permanent staff."
+     ]
+    },
+    {
+     "q": "Which model gives the most control?",
+     "a": [
+      "In-house, in most cases, because the developer is fully dedicated to your store. But control comes at the cost of the highest annual commitment and the most management burden. See the ",
+      {
+       "a": "/#risk-comparison",
+       "t": [
+        "risk and control comparison"
+       ]
+      },
+      " above."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "title": "Next Steps",
+   "blocks": [
+    {
+     "type": "p",
+     "inline": [
+      "Pick the model that fits your budget and your tolerance for delivery risk, then run the same vetting process regardless of model. The model determines the cost structure; the vetting determines whether the project succeeds."
+     ]
+    },
+    {
+     "type": "p",
+     "inline": [
+      "For the full hiring process, return to ",
+      {
+       "a": "/hire-ecommerce-website-developer",
+       "t": [
+        "how to hire an ecommerce website developer"
+       ]
+      },
+      ". For pricing context, see ",
+      {
+       "a": "/ecommerce-website-developer-cost",
+       "t": [
+        "ecommerce website developer cost"
+       ]
+      },
+      ". If you want help shortlisting candidates for your model, ",
+      {
+       "a": "/contact",
+       "t": [
+        "contact us"
+       ]
+      },
+      "."
+     ]
+    }
+   ],
+   "cta": true
+  }
+ ]
+}
