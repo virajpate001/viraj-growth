@@ -128,6 +128,6 @@ export const skills = [
 
 export const contactInfo = {
   email: "hello@yourdomain.com",
-  whatsapp: "919999999999", // country code + number, no + or spaces
+  whatsapp: "919209543850", // country code + number, no + or spaces
   calLink: "https://cal.com/your-username/30min",
 };
