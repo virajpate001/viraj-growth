@@ -1,6 +1,7 @@
 import { siteUrl } from "@/lib/site";
 import { caseStudies } from "@/data/caseStudies";
 import { posts } from "@/data/posts";
+import { services } from "@/data/content";
 
 export default function sitemap() {
   const now = new Date();
@@ -31,5 +32,13 @@ export default function sitemap() {
     priority: 0.7,
   }));
 
-  return [...pages, ...studies, ...articles];
+    const servicePages = services.map((s) => ({
+    url: `${siteUrl}/services/${s.slug}`,
+    lastModified: now,
+    priority: 0.8,
+  }));
+
+  return [...pages, ...servicePages, ...studies, ...articles];
+
+  
 }

@@ -1,8 +1,10 @@
+import Link from "next/link";
+import { ArrowUpRight } from "lucide-react";
 import Container from "@/components/Container";
-import FadeIn from "@/components/FadeIn";
 import Button from "@/components/Button";
-import { Check } from "lucide-react";
+import FadeIn from "@/components/FadeIn";
 import { services } from "@/data/content";
+import { serviceDetails } from "@/data/serviceDetails";
 import { pageMeta } from "@/lib/seo";
 
 export const metadata = pageMeta({
@@ -15,53 +17,55 @@ export const metadata = pageMeta({
 export default function ServicesPage() {
   return (
     <>
-      <section className="bg-surface py-16 text-center">
+      <section className="bg-bg2 py-20 sm:py-28">
         <Container>
-          <h1 className="text-4xl font-extrabold sm:text-4xl">Services</h1>
-          <p className="mx-auto mt-4 max-w-2xl text-muted">
-            Every service is built around one goal: helping your business sell more online.
+          <h1 className="max-w-3xl text-[clamp(2.5rem,6vw,4.5rem)]">
+            Services built around one goal: <span className="text-accent">selling more online</span>.
+          </h1>
+          <p className="mt-6 max-w-xl text-lg text-muted">
+            Choose a service to see what is included, how it works and how long it takes.
           </p>
         </Container>
       </section>
 
-      <Container className="space-y-8 py-16">
-        {services.map((s) => (
-          <FadeIn key={s.slug}>
-            <article
-              id={s.slug}
-              className="scroll-mt-24 grid gap-8 rounded-2xl border border-line bg-white p-6 sm:p-8 md:grid-cols-2"
-            >
-              <div>
-                <s.icon className="text-accent-dark" size={32} />
-                <h2 className="mt-4 text-2xl font-bold">{s.title}</h2>
-                <p className="mt-2 text-muted">{s.short}</p>
-                <p className="mt-4 text-sm">
-                  <span className="font-semibold">Problem it solves: </span>
-                  {s.problem}
-                </p>
-                <p className="mt-2 text-sm">
-                  <span className="font-semibold">Best for: </span>
-                  {s.audience}
-                </p>
-              </div>
-              <div>
-                <p className="mb-3 text-sm font-semibold">What's included</p>
-                <ul className="space-y-2">
-                  {s.includes.map((item) => (
-                    <li key={item} className="flex items-start gap-2 text-sm text-muted">
-                      <Check size={18} className="mt-0.5 shrink-0 text-primary" />
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </article>
-          </FadeIn>
-        ))}
+      <Container className="py-20">
+        <ul className="border-t border-line">
+          {services.map((s) => {
+            const d = serviceDetails[s.slug];
+            return (
+              <li key={s.slug}>
+                <FadeIn>
+                  <Link
+                    href={`/services/${s.slug}`}
+                    className="group grid items-center gap-4 border-b border-line py-8 transition-colors duration-300 hover:bg-accent/5 md:grid-cols-[auto_1fr_1fr_auto] md:gap-10 md:px-4"
+                  >
+                    <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-accent/10 text-accent">
+                      <s.icon size={22} />
+                    </span>
+                    <div>
+                      <h2 className="text-2xl transition-colors duration-300 group-hover:text-accent sm:text-3xl">
+                        {s.title}
+                      </h2>
+                      <p className="mt-1 text-sm text-muted">{s.short}</p>
+                    </div>
+                    <p className="text-sm text-muted">
+                      <span className="font-semibold text-ink">Best for: </span>
+                      {d?.bestFor || s.audience}
+                    </p>
+                    <ArrowUpRight
+                      size={26}
+                      className="hidden text-subtle transition-all duration-300 group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:text-accent md:block"
+                    />
+                  </Link>
+                </FadeIn>
+              </li>
+            );
+          })}
+        </ul>
 
-        <div className="pt-8 text-center">
-          <p className="mb-4 text-muted">Not sure which service you need?</p>
-          <Button href="/analyzer">Take the Free Growth Analyzer</Button>
+        <div className="mt-16 flex flex-col items-start gap-5 sm:flex-row sm:items-center sm:justify-between">
+          <p className="max-w-md text-lg text-muted">Not sure which service you need?</p>
+          <Button href="/analyzer" arrow>Take the free growth analyzer</Button>
         </div>
       </Container>
     </>

@@ -42,3 +42,8 @@ export function planMessage({ score, reportUrl }) {
   lines.push("", "Can you walk me through my full action plan?");
   return lines.join("\n");
 }
+
+// Message sent from a single service page
+export function serviceMessage(title) {
+  return `Hi Viraj, I'm interested in ${title}. Can we talk about my project?`;
+}
