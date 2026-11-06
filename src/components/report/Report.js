@@ -208,7 +208,7 @@ export default function Report({ result, code, unlockedByLink = false }) {
       </section>
 
       {/* Sections 4 to 7 are behind the soft email gate */}
-      <ReportGate unlocked={unlocked} onUnlock={unlock} code={code}>
+    <ReportGate unlocked={unlocked} onUnlock={unlock} code={code} score={overall}>
         {/* 4. Smart insights (only if any rule matched) */}
         {insights.length > 0 && (
           <section className="py-16">

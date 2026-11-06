@@ -34,3 +34,11 @@ export function callMessage({ score, reportUrl } = {}) {
   lines.push("", "What times work for you?");
   return lines.join("\n");
 }
+
+// Message sent from the report's "Unlock your full action plan" box
+export function planMessage({ score, reportUrl }) {
+  const lines = [`Hi Viraj, I just took your Business Growth Analyzer and scored ${score}/100.`];
+  if (reportUrl) lines.push("", `My report: ${reportUrl}`);
+  lines.push("", "Can you walk me through my full action plan?");
+  return lines.join("\n");
+}
