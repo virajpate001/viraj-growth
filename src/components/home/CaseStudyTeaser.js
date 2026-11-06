@@ -17,7 +17,7 @@ export default function CaseStudyTeaser() {
           <p className="font-heading text-xs font-bold uppercase tracking-[0.18em] text-accent">
             Featured case study
           </p>
-          <h2 className="mt-5 text-4xl sm:text-5xl">{caseStudy.title}</h2>
+          <h2 className="mt-5 text-4xl sm:text-4xl">{caseStudy.title}</h2>
           <p className="mt-5 max-w-lg text-muted">{caseStudy.text}</p>
 
           <dl className="mt-10 grid grid-cols-3 border-t border-line">

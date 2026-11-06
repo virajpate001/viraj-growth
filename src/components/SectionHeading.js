@@ -7,7 +7,7 @@ export default function SectionHeading({ eyebrow, title, text }) {
           {eyebrow}
         </p>
       )}
-      <h2 className="text-4xl sm:text-5xl ">{title}</h2>
+      <h2 className="text-4xl sm:text-4xl ">{title}</h2>
       {text && <p className="mt-5 max-w-xl text-lg text-muted">{text}</p>}
     </div>
   );

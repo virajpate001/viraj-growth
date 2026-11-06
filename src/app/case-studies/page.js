@@ -19,14 +19,14 @@ export default function CaseStudiesPage() {
     <>
       <section className="bg-bg2 py-20 sm:py-28">
         <Container>
-          <h1 className="max-w-3xl text-[clamp(2.5rem,6vw,4.5rem)]">
+          <h1 className="max-w-3xl text-[clamp(2.5rem,6vw,4rem)]">
             Real problems. Clear decisions.{" "}
             <span className="text-accent">Measurable results.</span>
           </h1>
           <p className="mt-6 max-w-xl text-lg text-muted">
             Every project below started with a store that was not selling as well as it should.
           </p>
-        </Container>
+        </Container> 
       </section>
 
       <Container className="py-20">

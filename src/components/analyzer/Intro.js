@@ -13,7 +13,7 @@ export default function Intro({ onStart }) {
       <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-primary">
         Business Growth Analyzer
       </p>
-      <h1 className="text-3xl font-extrabold sm:text-5xl">
+      <h1 className="text-3xl font-extrabold sm:text-4xl">
         Find out what is really holding your business back
       </h1>
       <p className="mx-auto mt-5 max-w-xl text-muted">

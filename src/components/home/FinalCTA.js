@@ -1,5 +1,7 @@
 import Container from "../Container";
 import Button from "../Button";
+import WhatsAppButton from "../WhatsAppButton";
+import { whatsappUrl, callMessage } from "@/lib/whatsapp";
 
 export default function FinalCTA() {
   return (
@@ -21,7 +23,9 @@ export default function FinalCTA() {
           </p>
           <div className="relative mt-10 flex flex-col gap-4 sm:flex-row">
             <Button href="/analyzer" arrow>Get my free report</Button>
-            <Button href="/contact" variant="outline">Book a call</Button>
+            <WhatsAppButton href={whatsappUrl(callMessage())} source="home_cta" variant="outline">
+  Book a call
+</WhatsAppButton>
           </div>
         </div>
       </Container>

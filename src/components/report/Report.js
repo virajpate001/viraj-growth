@@ -217,9 +217,9 @@ export default function Report({ result, code, unlockedByLink = false }) {
               <div className="space-y-4">
                 {insights.map((ins) => (
                   <FadeIn key={ins.id}>
-                    <div className="flex gap-4 rounded-2xl border border-amber-200 bg-amber-50 p-5">
+                    <div className="flex gap-4 rounded-2xl border border-amber-200 bg-amber-50 p-5 bg-white/95">
                       <AlertTriangle className="mt-0.5 shrink-0 text-amber-600" size={22} />
-                      <div>
+                      <div> 
                         <h3 className="font-bold">{ins.title}</h3>
                         <p className="mt-1 text-sm text-muted">{ins.text}</p>
                       </div>

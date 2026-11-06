@@ -21,9 +21,9 @@ export default function BlogPage() {
     <>
       <section className="bg-bg2 py-20 sm:py-28">
         <Container>
-          <h1 className="max-w-3xl text-[clamp(2.5rem,6vw,4.5rem)]">
+          <h1 className="max-w-3xl text-[clamp(2.5rem,6vw,4rem)]">
             Practical advice to help your store{" "}
-            <span className="text-accent">grow</span>.
+            <span className="text-accent">grow</span>. 
           </h1>
           <p className="mt-6 max-w-xl text-lg text-muted">
             Plain-language guides on platforms, conversion, speed and SEO.

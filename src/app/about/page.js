@@ -22,7 +22,7 @@ export default function AboutPage() {
             <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-primary">
               About me
             </p>
-            <h1 className="text-4xl font-extrabold sm:text-5xl">
+            <h1 className="text-4xl font-extrabold sm:text-4xl">
               Hi, I'm Viraj Pate
             </h1>
             <p className="mt-5 text-muted">

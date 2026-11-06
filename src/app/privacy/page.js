@@ -38,8 +38,7 @@ export default function PrivacyPage() {
               they are saved with your lead.
             </li>
             <li>
-              <strong>Contact and report forms:</strong> your name, email, phone
-              (optional), service interest, budget (optional) and message.
+              <strong>Contact form:</strong>when you press Send message, the details you typed are placed in a WhatsApp message to me. They are not stored on this website.
             </li>
             <li>
               <strong>Analytics:</strong> anonymous page views and events, such as
@@ -64,7 +63,7 @@ export default function PrivacyPage() {
             <li><strong>Supabase</strong>: secure storage of leads.</li>
             <li><strong>Resend</strong>: sending emails.</li>
             <li><strong>Google Analytics</strong>: usage statistics. It sets cookies only if you accept them in the banner.</li>
-            <li><strong>Cal.com</strong>: call booking, if you choose to book.</li>
+            <li><strong>WhatsApp (Meta)</strong>: if you choose to message me or book a call, your message is handled by WhatsApp under its own privacy policy.</li>
           </ul>
           <p className="mt-2">
             Some of these providers store data outside India, for example in the

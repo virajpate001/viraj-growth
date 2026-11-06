@@ -74,7 +74,7 @@ export default async function PostPage({ params }) {
             <p className="mt-6 text-xs font-semibold uppercase tracking-wider text-primary">
               {post.category} · {formatDate(post.date)} · {post.readingTime}
             </p>
-            <h1 className="mt-3 text-3xl font-extrabold sm:text-5xl">
+            <h1 className="mt-3 text-3xl font-extrabold sm:text-4xl">
               {post.title}
             </h1>
             <p className="mt-4 text-lg text-muted">{post.description}</p>

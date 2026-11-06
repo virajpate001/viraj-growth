@@ -1,5 +1,6 @@
 import { questions, categories } from "@/data/questions";
 import { contactInfo } from "@/data/content";
+import { whatsappUrl, callMessage } from "@/lib/whatsapp";
 
 const esc = (s) =>
   String(s ?? "").replace(/[&<>"']/g, (c) => ({
@@ -68,8 +69,7 @@ export function ownerEmail({ lead, report, answers, reportUrl }) {
 // Email to the VISITOR
 export function visitorEmail({ lead, report, reportUrl }) {
   const hi = `<p>Hi ${esc(lead.name || "there")},</p>`;
-  const bookLine = `<p>Want help turning this into results? <a href="${esc(contactInfo.calLink)}">Book a free 30-minute call</a> or just reply to this email.</p><p>Viraj Pate</p>`;
-
+  const bookLine = `<p>Want help turning this into results? <a href="${esc(whatsappUrl(callMessage()))}">Book a free 30-minute call on WhatsApp</a> or just reply to this email.</p><p>Viraj Pate</p>`;
   if (lead.type === "contact") {
     return {
       subject: "Thanks for reaching out",

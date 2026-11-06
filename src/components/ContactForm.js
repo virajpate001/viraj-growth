@@ -1,10 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { CheckCircle2 } from "lucide-react";
+import { MessageCircle } from "lucide-react";
 import Button from "./Button";
-import { services, contactInfo } from "@/data/content";
+import { services } from "@/data/content";
 import { trackEvent } from "@/lib/analytics";
+import { whatsappUrl, buildContactMessage } from "@/lib/whatsapp";
 
 const budgets = [
   "Under ₹25,000",
@@ -15,63 +16,42 @@ const budgets = [
 ];
 
 const field =
-  "mt-1 w-full rounded-xl border border-line bg-white px-4 py-3 text-sm focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20";
+  "mt-1 w-full rounded-xl border border-line bg-bg px-4 py-3 text-sm text-ink placeholder:text-subtle focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent/20";
 
-export default function ContactForm({ initialMessage = "", code = "", score = null }) {
-  const [status, setStatus] = useState("idle"); // idle | sending | done | error
-  const [error, setError] = useState("");
+export default function ContactForm({ initialMessage = "", reportUrl = "", score = null }) {
+  const [waUrl, setWaUrl] = useState("");
 
-  async function submit(e) {
+  function submit(e) {
     e.preventDefault();
-    setStatus("sending");
-    setError("");
     const fd = new FormData(e.currentTarget);
-    try {
-      const res = await fetch("/api/lead", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          type: "contact",
-          name: fd.get("name"),
-          email: fd.get("email"),
-          phone: fd.get("phone"),
-          service: fd.get("service"),
-          budget: fd.get("budget"),
-          message: fd.get("message"),
-          website: fd.get("website"), // honeypot
-          code,
-        }),
-      });
-      const data = await res.json().catch(() => ({}));
-      if (!res.ok) throw new Error(data.error || "Something went wrong.");
-      setStatus("done");
-            trackEvent("contact_submit", { withReport: Boolean(code) });
-    } catch (err) {
-      setError(err.message || "Something went wrong.");
-      setStatus("error");
-    }
-  }
 
-  if (status === "done") {
-    return (
-      <div className="rounded-2xl border border-line bg-white p-8 text-center">
-        <CheckCircle2 className="mx-auto text-green-600" size={48} />
-        <h2 className="mt-4 text-2xl font-bold">Message sent</h2>
-        <p className="mt-2 text-muted">
-          Thanks! I&apos;ll reply within 24 hours. Want to talk sooner?
-        </p>
-        <Button href={contactInfo.calLink} target="_blank" rel="noopener noreferrer" className="mt-6">
-          Book a free 30-minute call
-        </Button>
-      </div>
-    );
+    const text = buildContactMessage({
+      name: fd.get("name"),
+      email: fd.get("email"),
+      phone: fd.get("phone"),
+      service: fd.get("service"),
+      budget: fd.get("budget"),
+      message: fd.get("message"),
+      score,
+      reportUrl,
+    });
+    const url = whatsappUrl(text);
+
+    trackEvent("contact_submit", { channel: "whatsapp", withReport: Boolean(reportUrl) });
+
+    // Must run directly inside the click, or browsers block the new tab
+    const win = window.open(url, "_blank");
+    if (win) win.opener = null;
+    else window.location.href = url; // popup blocked: redirect this tab instead
+
+    setWaUrl(url);
   }
 
   return (
-    <form onSubmit={submit} className="space-y-4 rounded-2xl border border-line bg-white p-6 sm:p-8">
-      {score !== null && (
-        <p className="rounded-xl bg-primary/5 px-4 py-3 text-sm text-primary">
-          Your Growth Report ({score}/100) will be sent along with this message, so I can see your results.
+    <form onSubmit={submit} className="space-y-4 rounded-2xl border border-line bg-card p-6 sm:p-8">
+      {reportUrl && (
+        <p className="rounded-xl bg-accent/10 px-4 py-3 text-sm text-accent">
+          Your Growth Report ({score}/100) link will be added to the WhatsApp message.
         </p>
       )}
 
@@ -81,11 +61,11 @@ export default function ContactForm({ initialMessage = "", code = "", score = nu
           <input name="name" required minLength={2} maxLength={100} autoComplete="name" className={field} />
         </label>
         <label className="text-sm font-medium">
-          Email *
-          <input name="email" type="email" required maxLength={200} autoComplete="email" className={field} />
+          Email (optional)
+          <input name="email" type="email" maxLength={200} autoComplete="email" className={field} />
         </label>
         <label className="text-sm font-medium">
-          Phone / WhatsApp (optional)
+          Phone (optional)
           <input name="phone" type="tel" maxLength={30} autoComplete="tel" className={field} />
         </label>
         <label className="text-sm font-medium">
@@ -115,7 +95,7 @@ export default function ContactForm({ initialMessage = "", code = "", score = nu
           name="message"
           required
           minLength={10}
-          maxLength={3000}
+          maxLength={800}
           rows={6}
           defaultValue={initialMessage}
           placeholder="Tell me about your business and what you'd like to achieve."
@@ -123,16 +103,28 @@ export default function ContactForm({ initialMessage = "", code = "", score = nu
         />
       </label>
 
-      {/* Honeypot */}
-      <input name="website" type="text" tabIndex={-1} autoComplete="off" aria-hidden="true" className="absolute left-[-9999px]" />
-
-      {status === "error" && (
-        <p className="text-sm text-red-600" role="alert">{error}</p>
-      )}
-
-      <Button type="submit" disabled={status === "sending"} className="w-full disabled:opacity-60">
-        {status === "sending" ? "Sending..." : "Send message"}
+      <Button type="submit" arrow className="w-full">
+        Send message
       </Button>
+      <p className="flex items-center justify-center gap-2 text-xs text-subtle">
+        <MessageCircle size={14} aria-hidden="true" />
+        This opens WhatsApp with your details filled in. Press send there to reach me.
+      </p>
+
+      {waUrl && (
+        <p role="status" className="rounded-xl border border-line bg-bg px-4 py-3 text-sm text-muted">
+          WhatsApp should have opened with your message ready. If it didn&apos;t,{" "}
+          <a
+            href={waUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold text-accent underline"
+          >
+            open it here
+          </a>
+          .
+        </p>
+      )}
     </form>
   );
 }

@@ -17,7 +17,7 @@ export default function ServicesPage() {
     <>
       <section className="bg-surface py-16 text-center">
         <Container>
-          <h1 className="text-4xl font-extrabold sm:text-5xl">Services</h1>
+          <h1 className="text-4xl font-extrabold sm:text-4xl">Services</h1>
           <p className="mx-auto mt-4 max-w-2xl text-muted">
             Every service is built around one goal: helping your business sell more online.
           </p>

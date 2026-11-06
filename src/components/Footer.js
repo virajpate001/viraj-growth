@@ -17,7 +17,7 @@ export default function Footer() {
     <footer className="border-t border-line bg-bg2 print:hidden">
       <Container className="py-16">
         <div className="flex flex-col gap-10 lg:flex-row lg:items-end lg:justify-between">
-          <h2 className="max-w-2xl text-4xl sm:text-5xl">
+          <h2 className="max-w-2xl text-4xl sm:text-4xl">
             Let&apos;s build a store that <span className="text-accent">sells</span>.
           </h2>
           <Button href="/contact" arrow>

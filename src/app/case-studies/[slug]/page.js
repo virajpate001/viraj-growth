@@ -60,7 +60,7 @@ export default async function CaseStudyPage({ params }) {
           <p className="mt-6 text-sm font-semibold uppercase tracking-wider text-primary">
             {cs.industry} · {cs.platform}
           </p>
-          <h1 className="mt-3 text-3xl font-extrabold sm:text-5xl">
+          <h1 className="mt-3 text-3xl font-extrabold sm:text-4xl">
             {cs.title}
           </h1>
           <p className="mt-4 text-lg text-muted">{cs.summary}</p>
