@@ -1,6 +1,8 @@
 export const caseStudies = [
   {
     slug: "fashion-store-conversion",
+    image: "/images/case-studies/fashion-store.jpg", // later: "/images/case-studies/fashion-store.jpg"
+    imageAlt: "Mobile and desktop view of the redesigned fashion store",
     title: "How a fashion brand doubled its conversion rate",
     client: "Fashion D2C brand",
     industry: "Fashion & apparel",
@@ -14,10 +16,22 @@ export const caseStudies = [
       "Most of their customers shopped on phones, which was exactly where the store worked worst.",
     ],
     solution: [
-      { title: "Speed first", text: "Compressed images, removed unused apps and cleaned up scripts to cut mobile load time from 5.2s to 1.4s." },
-      { title: "Mobile-first redesign", text: "Rebuilt the homepage and product pages with larger photos, clear sizing info and a sticky Add to Cart button." },
-      { title: "Simpler checkout", text: "Added guest checkout, UPI and COD options, and showed shipping costs earlier." },
-      { title: "Cart recovery", text: "Set up automated abandoned-cart emails and WhatsApp reminders." },
+      {
+        title: "Speed first",
+        text: "Compressed images, removed unused apps and cleaned up scripts to cut mobile load time from 5.2s to 1.4s.",
+      },
+      {
+        title: "Mobile-first redesign",
+        text: "Rebuilt the homepage and product pages with larger photos, clear sizing info and a sticky Add to Cart button.",
+      },
+      {
+        title: "Simpler checkout",
+        text: "Added guest checkout, UPI and COD options, and showed shipping costs earlier.",
+      },
+      {
+        title: "Cart recovery",
+        text: "Set up automated abandoned-cart emails and WhatsApp reminders.",
+      },
     ],
     results: [
       { value: "+112%", label: "Conversion rate" },
@@ -25,12 +39,25 @@ export const caseStudies = [
       { value: "+68%", label: "Monthly revenue" },
     ],
     metrics: [
-      { label: "Mobile load time", before: 5.2, after: 1.4, suffix: "s", lowerIsBetter: true },
+      {
+        label: "Mobile load time",
+        before: 5.2,
+        after: 1.4,
+        suffix: "s",
+        lowerIsBetter: true,
+      },
       { label: "Conversion rate", before: 0.85, after: 1.8, suffix: "%" },
-      { label: "Cart abandonment", before: 78, after: 61, suffix: "%", lowerIsBetter: true },
+      {
+        label: "Cart abandonment",
+        before: 78,
+        after: 61,
+        suffix: "%",
+        lowerIsBetter: true,
+      },
     ],
     testimonial: {
-      quote: "Sample testimonial. The new store is faster, cleaner and our sales went up within weeks.",
+      quote:
+        "Sample testimonial. The new store is faster, cleaner and our sales went up within weeks.",
       name: "Client Name",
       role: "Founder, Fashion Brand",
     },
@@ -42,6 +69,8 @@ export const caseStudies = [
   },
   {
     slug: "jewelry-woocommerce-to-shopify",
+    image: "/images/case-studies/fashion-store.jpg", // later: "/images/case-studies/jewelry-store.jpg"
+    imageAlt: "Product page of the jewelry store after moving to Shopify",
     title: "Moving a jewelry store from WooCommerce to Shopify",
     client: "Jewelry brand",
     industry: "Jewelry & accessories",
@@ -55,10 +84,22 @@ export const caseStudies = [
       "The owner worried that moving platforms would lose their Google rankings and existing customers.",
     ],
     solution: [
-      { title: "Safe migration", text: "Moved products, customers and order history, then mapped every old URL to its new page with 301 redirects." },
-      { title: "Premium design", text: "Designed a clean, image-led store that matches the brand's higher price point." },
-      { title: "Fewer moving parts", text: "Replaced 18 plugins with a small set of well-chosen Shopify apps." },
-      { title: "Team handover", text: "Trained the team to manage products and orders on their own." },
+      {
+        title: "Safe migration",
+        text: "Moved products, customers and order history, then mapped every old URL to its new page with 301 redirects.",
+      },
+      {
+        title: "Premium design",
+        text: "Designed a clean, image-led store that matches the brand's higher price point.",
+      },
+      {
+        title: "Fewer moving parts",
+        text: "Replaced 18 plugins with a small set of well-chosen Shopify apps.",
+      },
+      {
+        title: "Team handover",
+        text: "Trained the team to manage products and orders on their own.",
+      },
     ],
     results: [
       { value: "+50%", label: "Checkout completion" },
@@ -66,12 +107,25 @@ export const caseStudies = [
       { value: "14 hrs", label: "Saved on maintenance each month" },
     ],
     metrics: [
-      { label: "Page load time", before: 4.8, after: 1.9, suffix: "s", lowerIsBetter: true },
+      {
+        label: "Page load time",
+        before: 4.8,
+        after: 1.9,
+        suffix: "s",
+        lowerIsBetter: true,
+      },
       { label: "Checkout completion", before: 38, after: 57, suffix: "%" },
-      { label: "Admin hours per month", before: 20, after: 6, suffix: "h", lowerIsBetter: true },
+      {
+        label: "Admin hours per month",
+        before: 20,
+        after: 6,
+        suffix: "h",
+        lowerIsBetter: true,
+      },
     ],
     testimonial: {
-      quote: "Sample testimonial. The move was smooth, and we never lost a single ranking or customer.",
+      quote:
+        "Sample testimonial. The move was smooth, and we never lost a single ranking or customer.",
       name: "Client Name",
       role: "Owner, Jewelry Brand",
     },
@@ -83,12 +137,18 @@ export const caseStudies = [
   },
   {
     slug: "b2b-wholesale-portal",
+    image: "/images/case-studies/fashion-store.jpg", // later: "/images/case-studies/b2b-portal.jpg"
+    imageAlt: "Wholesale ordering portal with bulk order form",
     title: "A wholesale portal that cut order handling time by 68%",
     client: "B2B home goods supplier",
     industry: "B2B / wholesale",
     platform: "WooCommerce",
     duration: "8 weeks",
-    services: ["Custom WooCommerce build", "B2B pricing", "Workflow automation"],
+    services: [
+      "Custom WooCommerce build",
+      "B2B pricing",
+      "Workflow automation",
+    ],
     summary:
       "A supplier was taking most wholesale orders by phone and WhatsApp. A custom B2B portal moved ordering online and made repeat orders effortless.",
     challenge: [
@@ -96,10 +156,22 @@ export const caseStudies = [
       "Different retailers had different prices, and no simple template could handle that.",
     ],
     solution: [
-      { title: "Customer-specific pricing", text: "Built price tiers by customer group, shown after login." },
-      { title: "Quick reorder", text: "Added one-click reorder and bulk order forms that use SKUs." },
-      { title: "Approval flow", text: "Added credit-limit checks and order approval for new accounts." },
-      { title: "Accounting sync", text: "Connected orders to their accounting software to remove manual entry." },
+      {
+        title: "Customer-specific pricing",
+        text: "Built price tiers by customer group, shown after login.",
+      },
+      {
+        title: "Quick reorder",
+        text: "Added one-click reorder and bulk order forms that use SKUs.",
+      },
+      {
+        title: "Approval flow",
+        text: "Added credit-limit checks and order approval for new accounts.",
+      },
+      {
+        title: "Accounting sync",
+        text: "Connected orders to their accounting software to remove manual entry.",
+      },
     ],
     results: [
       { value: "-68%", label: "Order handling time" },
@@ -107,12 +179,25 @@ export const caseStudies = [
       { value: "25%", label: "Orders still taken by phone (from 70%)" },
     ],
     metrics: [
-      { label: "Minutes to process an order", before: 25, after: 8, suffix: " min", lowerIsBetter: true },
+      {
+        label: "Minutes to process an order",
+        before: 25,
+        after: 8,
+        suffix: " min",
+        lowerIsBetter: true,
+      },
       { label: "Repeat order rate", before: 32, after: 51, suffix: "%" },
-      { label: "Orders taken by phone", before: 70, after: 25, suffix: "%", lowerIsBetter: true },
+      {
+        label: "Orders taken by phone",
+        before: 70,
+        after: 25,
+        suffix: "%",
+        lowerIsBetter: true,
+      },
     ],
     testimonial: {
-      quote: "Sample testimonial. Our retailers now order in minutes, and my team finally has time to sell.",
+      quote:
+        "Sample testimonial. Our retailers now order in minutes, and my team finally has time to sell.",
       name: "Client Name",
       role: "Director, Home Goods Supplier",
     },

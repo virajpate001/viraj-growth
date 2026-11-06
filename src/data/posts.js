@@ -2,6 +2,8 @@
 export const posts = [
   {
     slug: "shopify-vs-woocommerce",
+    image: "/images/case-studies/fashion-store.jpg", // later: "/images/blog/shopify-vs-woocommerce.jpg"
+imageAlt: "Shopify and WooCommerce dashboards side by side",
     title: "Shopify vs WooCommerce: Which Is Right for Your Business?",
     description:
       "An honest comparison of Shopify and WooCommerce on cost, speed, flexibility and maintenance, with a quick guide to help you choose.",
@@ -42,6 +44,8 @@ export const posts = [
   },
   {
     slug: "why-your-store-is-not-converting",
+    image: "/images/case-studies/fashion-store.jpg", // later: "/images/blog/store-not-converting.jpg"
+imageAlt: "Online store analytics showing low conversion",
     title: "7 Reasons Your Online Store Isn't Converting (and How to Fix Them)",
     description:
       "If visitors are not buying, one of these seven problems is usually the cause. Learn how to spot each one and what to do about it.",

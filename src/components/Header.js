@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
@@ -20,6 +20,14 @@ export default function Header() {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
 
+    // Stop the page scrolling behind the open mobile menu
+  useEffect(() => {
+    document.body.style.overflow = open ? "hidden" : "";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [open]);
+
   return (
     <header className="sticky top-0 z-50 border-b border-line/70 bg-bg/80 backdrop-blur-xl print:hidden">
       <Container className="flex h-[72px] items-center justify-between">
@@ -30,7 +38,7 @@ export default function Header() {
           Viraj Pate<span className="text-accent">.</span>
         </Link>
 
-        <nav aria-label="Main" className="hidden items-center gap-8 lg:flex">
+        <nav aria-label="Main" data-lenis-prevent className="hidden items-center gap-8 lg:flex">
           {links.map((l) => {
             const active = pathname.startsWith(l.href);
             return (

@@ -17,7 +17,7 @@ export default function Hero() {
             E-commerce growth partner 
           </p>
 
-          <h1 className="mt-7 text-[clamp(2.75rem,7vw,4rem)] font-bold">
+          <h1 className="mt-7 text-[clamp(2.25rem,7vw,4rem)] font-bold">
             {lines.map((l) => (
               <span key={l} className="block overflow-hidden pb-[0.1em]">
                 <span data-line className="block">{l}</span>
@@ -40,7 +40,7 @@ export default function Hero() {
 
         <div className="relative">
           <ImageFrame
-            src="/images/hero.webp"
+            src="/images/hero.webp" 
             alt="Portrait of Viraj Pate"
             label="Add your portrait: public/images/hero.webp"
             priority 

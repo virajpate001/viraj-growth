@@ -7,21 +7,31 @@ export default function ImageFrame({
   ratio = "aspect-[4/5]",
   priority = false,
   parallax = 8,
+  reveal = true,
+  bare = false,
+  sizes = "(min-width: 1024px) 45vw, 100vw",
   className = "",
 }) {
+  const moves = parallax > 0;
+
   return (
     <div
-      data-mask
-      className={`group relative overflow-hidden rounded-2xl border border-line bg-elevated ${ratio} ${className}`}
+      data-mask={reveal ? "" : undefined}
+      className={`group relative overflow-hidden bg-elevated ${
+        bare ? "" : "rounded-2xl border border-line"
+      } ${ratio} ${className}`}
     >
-      <div data-parallax={parallax} className="absolute inset-x-0 -inset-y-[12%]">
+      <div
+        data-parallax={moves ? parallax : undefined}
+        className={`absolute ${moves ? "inset-x-0 -inset-y-[12%]" : "inset-0"}`}
+      >
         {src ? (
           <Image
             src={src}
             alt={alt}
             fill
             priority={priority}
-            sizes="(min-width: 1024px) 45vw, 100vw"
+            sizes={sizes}
             className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
           />
         ) : (
@@ -32,7 +42,7 @@ export default function ImageFrame({
           />
         )}
       </div>
-      {!src && (
+      {!src && process.env.NODE_ENV !== "production" && (
         <p className="absolute bottom-4 left-4 text-xs text-subtle">{label}</p>
       )}
     </div>
