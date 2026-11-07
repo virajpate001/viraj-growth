@@ -1,3 +1,5 @@
+// src/app/guides/page.js
+
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import Container from "@/components/Container";

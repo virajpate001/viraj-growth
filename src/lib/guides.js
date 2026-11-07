@@ -1,3 +1,5 @@
+// src/lib/guides.js
+
 import "server-only";
 import fs from "node:fs";
 import path from "node:path";
@@ -55,6 +57,7 @@ const ALIASES = {
   "/ecommerce-build-case-study": "/case-studies",
   "/client-reviews": "/portfolio#client-reviews",
   "/shopify-vs-woocommerce-vs-custom": "/blog/shopify-vs-woocommerce",
+  
 };
 
 export function resolveHref(href) {

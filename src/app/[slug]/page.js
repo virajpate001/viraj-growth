@@ -1,3 +1,5 @@
+// src/app/[slug]/page.js
+
 import { notFound } from "next/navigation";
 import GuideArticle from "@/components/guides/GuideArticle";
 import JsonLd from "@/components/JsonLd";
@@ -15,7 +17,7 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const { slug } = await params;
   const g = getGuide(slug);
-  if (!g) return {};
+  if (!g) return {}; 
 
   const meta = pageMeta({
     title: { absolute: g.title }, // keeps your own title, without the " | Viraj Pate" suffix
