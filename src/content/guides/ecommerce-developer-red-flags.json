@@ -1,0 +1,509 @@
+{
+  "slug": "ecommerce-developer-red-flags",
+  "kind": "article",
+  "topic": "Hiring",
+  "order": 20,
+  "title": "Ecommerce Developer Red Flags: 20 Warning Signs to Avoid",
+  "description": "The 20 biggest red flags when hiring an ecommerce developer, organized by category, with what each one looks like and how to verify before you sign.",
+  "ogTitle": "Ecommerce Developer Red Flags: 20 Warning Signs to Avoid",
+  "ogDescription": "The 20 biggest red flags when hiring an ecommerce developer, organized by category, with verification steps for each.",
+  "published": "2026-11-06",
+  "updated": "2026-11-06",
+  "h1": "Ecommerce Developer Red Flags: 20 Warning Signs to Avoid",
+  "intro": [
+    {
+      "type": "summary",
+      "inline": [
+        { "b": ["In short:"] },
+        " the 20 red flags below cluster into four categories — ",
+        { "b": ["portfolio, communication, commercial terms, and technical/process"] },
+        ". Any single red flag is a warning; three or more is a pattern that should end the conversation. The most reliable way to spot them is to run the same questions and checks on every candidate, which is what our ",
+        { "a": "/questions-to-ask-ecommerce-developer", "t": ["hiring checklist"] },
+        " is built for."
+      ]
+    },
+    {
+      "type": "p",
+      "inline": [
+        "This page is the negative counterpart to that checklist. Where the checklist tells you what to look for, this page tells you what to run from. It expands on the vetting sections in ",
+        { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+        ", and it pairs with ",
+        { "a": "/questions-to-ask-ecommerce-developer", "t": ["questions to ask an ecommerce developer"] },
+        " — use them together."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "how-to-use",
+      "title": "How to Use This List",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Red flags are not all equally serious. Some are a warning that means \"probe further\"; others are a hard stop. The list below is organized by category, and within each category the flags are roughly ordered from most serious to least."
+          ]
+        },
+        { "type": "h3", "text": "The three-tier system" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Tier 1 — Hard stop."] }, " Stop the conversation. Do not proceed, regardless of how strong the rest of the pitch looked."],
+            [{ "b": ["Tier 2 — Serious warning."] }, " Ask one direct follow-up. If the answer does not resolve it, treat it as a hard stop."],
+            [{ "b": ["Tier 3 — Yellow flag."] }, " Note it, watch for the pattern. Any two Tier 3 flags in the same category should be treated as Tier 2."]
+          ]
+        },
+        { "type": "h3", "text": "Why patterns matter more than individual flags" },
+        {
+          "type": "p",
+          "inline": [
+            "Most developers will trip one or two yellow flags in a sales conversation — they are human, and the conversation is a sales conversation. What matters is the pattern. Three or more yellow flags in the same category usually indicates a structural problem with how the developer works, not a one-off bad answer."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the positive version of this list — the questions and strong answers to look for — see ",
+            { "a": "/questions-to-ask-ecommerce-developer", "t": ["questions to ask an ecommerce developer"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "portfolio-red-flags",
+      "title": "Portfolio Red Flags",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The portfolio is where red flags are easiest to spot and hardest to fake. The five below are the ones that matter most."
+          ]
+        },
+        { "type": "h3", "text": "1. No live URLs, only screenshots" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Tier 1 — hard stop:"] },
+            " Screenshots prove nothing. Any developer can find a good-looking design and screenshot it, or screenshot a theme demo. Live URLs are the only credible portfolio evidence. If a developer refuses to provide live URLs, do not proceed."
+          ]
+        },
+        { "type": "h3", "text": "2. \"Our portfolio is confidential\"" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Tier 1 — hard stop:"] },
+            " Live URLs are public by definition. A developer claiming their portfolio is confidential is either misrepresenting their work or has no ecommerce portfolio to show. Either way, do not proceed."
+          ]
+        },
+        { "type": "h3", "text": "3. Portfolio stores are stock theme demos" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Tier 1 — hard stop:"] },
+            " Open the stores. If the design matches a well-known theme demo with brand colors swapped and no custom content, the developer did not build the store — they installed a theme. This is the most common form of portfolio misrepresentation in this market."
+          ]
+        },
+        { "type": "h3", "text": "4. No ecommerce stores at all, only content sites" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Tier 2 — serious warning:"] },
+            " A developer whose portfolio shows only content sites, marketing sites, or brochure sites is not an ecommerce developer, regardless of what their bio says. Ask for three live ecommerce stores specifically. If they cannot provide them, you are not hiring an ecommerce developer."
+          ]
+        },
+        { "type": "h3", "text": "5. Cannot say what they specifically built on each project" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Tier 2 — serious warning:"] },
+            " On team builds, the developer may have built one section rather than the whole store — which is fine if they say so. The flag is claiming full credit without being able to describe their specific contribution. Ask: \"What did you personally build?\" If the answer is vague, the portfolio credit is questionable."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the portfolio checks to run instead, see the portfolio sections of ",
+            { "a": "/hire-ecommerce-website-developer#vetting-questions", "t": ["how to hire an ecommerce website developer"] },
+            ". For what a strong portfolio looks like, see ",
+            { "a": "/portfolio", "t": ["our ecommerce portfolio"] },
+            " and ",
+            { "a": "/client-reviews", "t": ["client reviews and testimonials"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "communication-red-flags",
+      "title": "Communication Red Flags",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "How a developer communicates during the sales process predicts how they will communicate during the project. The five flags below are the ones that matter."
+          ]
+        },
+        { "type": "h3", "text": "6. Slow or evasive responses during the sales process" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Tier 2 — serious warning:"] },
+            " A developer who takes three days to answer a simple question during the sales process — when they are actively trying to win your business — will take even longer once they have your deposit. Response time during the sales process is the single most reliable predictor of response time during the project."
+          ]
+        },
+        { "type": "h3", "text": "7. Vague answers to specific questions" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Tier 2 — serious warning:"] },
+            " Ask a specific question (\"how do you handle PCI scope on a WooCommerce store?\"). A strong developer answers specifically, with tools and techniques. A weak developer answers with generalities (\"we take security seriously\"). Ask one direct follow-up. If the second answer is also vague, the first answer was evasion."
+          ]
+        },
+        { "type": "h3", "text": "8. Refuses to define milestones or deliverables" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Tier 2 — serious warning:"] },
+            " A developer who cannot describe the project's milestones in specific terms is not planning to manage the project professionally. \"We'll figure it out as we go\" is not a project management approach. It is a plan to make changes expensive through change orders."
+          ]
+        },
+        { "type": "h3", "text": "9. Defensive when asked about past projects" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Tier 2 — serious warning:"] },
+            " A strong developer can talk openly about what went wrong on past projects and how they handled it. A developer who becomes defensive at any question about past challenges has likely not resolved them. Ask: \"Tell me about a project that did not go to plan, and what you did.\" A strong developer answers openly; a weak one deflects."
+          ]
+        },
+        { "type": "h3", "text": "10. Annoyed by thorough vetting" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Tier 3 — yellow flag:"] },
+            " Vetting protects both sides. A developer who is annoyed by being asked the standard questions — references, portfolio, contracts — is telling you something about how they will handle your questions during the project. A single moment of impatience is forgivable; a persistent dismissive tone is a pattern."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the questions to ask and the answers to expect, see ",
+            { "a": "/questions-to-ask-ecommerce-developer", "t": ["questions to ask an ecommerce developer"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commercial-red-flags",
+      "title": "Commercial Terms Red Flags",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Commercial terms are where the biggest asymmetries between you and the developer live. These flags are the ones that most often lead to a bad financial outcome."
+          ]
+        },
+        { "type": "h3", "text": "11. Requires full payment upfront" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Tier 1 — hard stop:"] },
+            " Standard practice is a 25 to 50 percent deposit, with the remainder tied to milestones and final delivery. Full payment upfront removes all leverage from you and all motivation from the developer to finish on time. This is a hard stop regardless of how strong the rest of the pitch was."
+          ]
+        },
+        { "type": "h3", "text": "12. Refuses to define IP ownership" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Tier 1 — hard stop:"] },
+            " You should own the code, the designs, and any licenses purchased for the project. A developer who refuses to state this in writing is either planning to retain IP (which means you are licensing, not buying, your own store) or does not understand why it matters. Either way, do not proceed."
+          ]
+        },
+        { "type": "h3", "text": "13. No written contract" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Tier 1 — hard stop:"] },
+            " \"We work on trust\" is not a contract. A developer who does not provide a written contract covering scope, milestones, payment schedule, IP ownership, warranty, and dispute resolution is not a developer you can safely hire. This is the single most important commercial red flag."
+          ]
+        },
+        { "type": "h3", "text": "14. Payment to an offshore account with no local entity" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Tier 2 — serious warning:"] },
+            " A developer asking for payment to an offshore account, with no local entity, no local contract, and no way to enforce a dispute, is a delivery risk. There may be legitimate reasons (currency, tax structure), but the developer should be able to explain them clearly and provide a contract you can enforce."
+          ]
+        },
+        { "type": "h3", "text": "15. Refuses to provide references" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Tier 2 — serious warning:"] },
+            " Any developer with a healthy portfolio can provide two recent references. A developer who refuses to provide any references — or provides only references that cannot speak to the work — is hiding something. Ask for two recent references whose projects are similar in scope to yours."
+          ]
+        },
+        { "type": "h3", "text": "16. Unlimited revisions that mean no revisions" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Tier 2 — serious warning:"] },
+            " \"Unlimited revisions\" sounds generous but usually means either shallow revisions or an indefinite timeline. A fixed-scope contract with a defined change-order process is usually better for both sides. When a developer offers \"unlimited revisions,\" ask exactly what is covered and what is not."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the contract terms to look for, see ",
+            { "a": "/ecommerce-developer-contract-payment-terms", "t": ["ecommerce developer contract and payment terms"] },
+            ". For the full cost context, see ",
+            { "a": "/ecommerce-website-developer-cost", "t": ["ecommerce website developer cost"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "technical-red-flags",
+      "title": "Technical and Process Red Flags",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "These flags indicate that the developer either does not have the technical depth to build your store or does not have the process discipline to deliver it reliably."
+          ]
+        },
+        { "type": "h3", "text": "17. Claims deep expertise in every platform" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Tier 2 — serious warning:"] },
+            " No one is genuinely deep in Shopify, WooCommerce, Magento, headless, custom, and Salesforce Commerce Cloud. A developer who claims deep expertise across all of them is a generalist with shallow experience, which is exactly what you do not want on a complex build. Look for one or two platforms of genuine depth, with gaps acknowledged."
+          ]
+        },
+        { "type": "h3", "text": "18. No staging environment or QA process" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Tier 1 — hard stop:"] },
+            " A developer who develops directly on the live site, or who has no defined QA process before launch, is a serious risk to your store. Staging environments exist precisely to catch the bugs that would otherwise hit paying customers. A developer without one is not a developer you should hire for ecommerce."
+          ]
+        },
+        { "type": "h3", "text": "19. \"We don't test checkout separately\"" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Tier 1 — hard stop:"] },
+            " Checkout is the single most important part of an ecommerce store. A developer who treats checkout testing as part of general QA, rather than as a dedicated phase, has not worked on enough stores to know where the real bugs are. This is a hard stop."
+          ]
+        },
+        { "type": "h3", "text": "20. \"We don't expect anything to go wrong\"" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Tier 1 — hard stop:"] },
+            " Every ecommerce project has surprises — plugin conflicts, integration issues, edge cases. A developer who claims not to expect anything to go wrong is either inexperienced or disingenuous. A strong developer names specific risks and specific mitigations. This is the single most reliable behavioral red flag in the entire evaluation."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For platform-specific technical vetting, see ",
+            { "a": "/wordpress-ecommerce-website-developer#vetting-questions", "t": ["WordPress ecommerce developer vetting questions"] },
+            ". For the platform comparison, see ",
+            { "a": "/shopify-vs-woocommerce-vs-custom", "t": ["Shopify vs WooCommerce vs custom builds"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "disqualifying",
+      "title": "Answers That Should End the Conversation",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The red flags above describe patterns. The statements below describe direct answers that should end the conversation immediately, regardless of how the rest of the conversation went."
+          ]
+        },
+        { "type": "h3", "text": "Disqualifying portfolio answers" },
+        {
+          "type": "ul",
+          "items": [
+            ["\"We cannot share live URLs.\""],
+            ["\"Our portfolio is confidential, but we can share it after you sign an NDA.\""],
+            ["\"All our work is under NDA.\""]
+          ]
+        },
+        { "type": "h3", "text": "Disqualifying commercial answers" },
+        {
+          "type": "ul",
+          "items": [
+            ["\"We require full payment upfront.\""],
+            ["\"We do not sign contracts.\""],
+            ["\"Payment to an offshore account only.\""],
+            ["\"We do not provide references.\""]
+          ]
+        },
+        { "type": "h3", "text": "Disqualifying technical answers" },
+        {
+          "type": "ul",
+          "items": [
+            ["\"We build on everything.\""],
+            ["\"We do not need a staging environment.\""],
+            ["\"We update live.\""],
+            ["\"We do not test before launch.\""]
+          ]
+        },
+        { "type": "h3", "text": "Disqualifying behavioral answers" },
+        {
+          "type": "ul",
+          "items": [
+            ["\"We do not expect anything to go wrong.\""],
+            ["\"Our clients never have complaints.\""],
+            ["Any deflection that persists after one direct follow-up."]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the positive version of these questions — and the strong answers to listen for — see ",
+            { "a": "/questions-to-ask-ecommerce-developer#red-flags", "t": ["questions to ask an ecommerce developer"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verify",
+      "title": "How to Verify Before You Sign",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The point of watching for red flags is to avoid signing a bad contract. Before you sign, verify these four things directly."
+          ]
+        },
+        { "type": "h3", "text": "Verify the portfolio" },
+        {
+          "type": "p",
+          "inline": [
+            "Open each portfolio store on mobile and take it through checkout. If the developer built the store, it will work. If they installed a theme, you will usually be able to spot the theme in the URL structure or the design elements."
+          ]
+        },
+        { "type": "h3", "text": "Verify the references" },
+        {
+          "type": "p",
+          "inline": [
+            "Call the references, not just check that they exist. Ask what went well, what did not, and whether they would hire the developer again. The hesitation in the answer to the last question is informative."
+          ]
+        },
+        { "type": "h3", "text": "Verify the contract" },
+        {
+          "type": "p",
+          "inline": [
+            "Read the contract yourself before you sign. Confirm that scope, milestones, payment schedule, IP ownership, warranty, and dispute resolution are all covered. If any are missing, ask for them to be added before you sign."
+          ]
+        },
+        { "type": "h3", "text": "Verify the process" },
+        {
+          "type": "p",
+          "inline": [
+            "Ask for the developer's staging URL, their QA checklist, and their handover documentation. A strong developer will share these without hesitation. A weak developer will not have them."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the full hiring process, see ",
+            { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+            ". For the comparison framework across multiple candidates, see ",
+            { "a": "/top-web-developers-ecommerce-websites", "t": ["top web developers offering ecommerce websites"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "title": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "How many red flags are too many?",
+          "a": [
+            "One Tier 1 flag is too many. Two Tier 2 flags in the same category is too many. Three Tier 3 flags in the same category is too many. If any of those are present, look for other candidates before continuing."
+          ]
+        },
+        {
+          "q": "What is the single biggest red flag when hiring an ecommerce developer?",
+          "a": [
+            "\"We do not expect anything to go wrong.\" Every ecommerce project has surprises, and a developer who claims otherwise is either inexperienced or disingenuous. A strong developer names specific risks and specific mitigations."
+          ]
+        },
+        {
+          "q": "Are red flags different for agencies vs freelancers?",
+          "a": [
+            "The categories are the same, but the specific flags differ. For agencies, watch for \"our global team\" (you may be pitching one team and getting another), and always confirm who specifically will work on your project. For freelancers, watch for \"I'm the only one\" (no continuity plan) and \"no documentation\" (you may not be able to hand over). For the model comparison, see ",
+            { "a": "/freelancer-vs-agency-vs-in-house", "t": ["freelancer vs agency vs in-house"] },
+            "."
+          ]
+        },
+        {
+          "q": "Are red flags different by platform?",
+          "a": [
+            "The behavioral and commercial flags are the same across platforms. The technical flags differ: for WooCommerce, watch for plugin conflicts and staging discipline; for Shopify, watch for theme demos and app dependency; for headless, watch for \"we've done it a few times\" without specific headless portfolio. For platform-specific vetting, see ",
+            { "a": "/wordpress-ecommerce-website-developer#vetting-questions", "t": ["WordPress ecommerce developer vetting questions"] },
+            "."
+          ]
+        },
+        {
+          "q": "What should I do if I've already signed and the red flags appeared?",
+          "a": [
+            "Review the contract first. If the contract covers milestones and deliverables, enforce them. If it does not, document the issues in writing, propose a specific remediation plan, and set a deadline. If the developer does not meet it, consult a lawyer about your options. Prevention is much cheaper than recovery — which is why the vetting process matters."
+          ]
+        },
+        {
+          "q": "Can I skip the vetting if the developer was referred by someone I trust?",
+          "a": [
+            "No. A referral is a strong signal, but it does not replace verification. The person who referred you may have had a different project scope, a different timeline, or a different experience. Run the same checks on every candidate, including referred ones — a strong developer will welcome it."
+          ]
+        },
+        {
+          "q": "What if the developer has some red flags but their portfolio is excellent?",
+          "a": [
+            "Excellent portfolio + commercial red flags is the worst combination, not the best. The portfolio is what is visible; the commercial terms are what binds you. A developer with a strong portfolio who will not sign a contract, or wants full payment upfront, is a developer who is likely to give you a portfolio-quality build with a portfolio-quality dispute. Trust the commercial and behavioral flags over the portfolio."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "title": "Next Steps",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Use this list as a checklist during the sales process. Any Tier 1 flag is a hard stop. Two or more Tier 2 flags in the same category means look elsewhere. And always run the verification steps in the final section before you sign."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the positive version of this list, see ",
+            { "a": "/questions-to-ask-ecommerce-developer", "t": ["questions to ask an ecommerce developer"] },
+            ". For the full hiring process, return to ",
+            { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+            ". For the comparison framework, see ",
+            { "a": "/top-web-developers-ecommerce-websites", "t": ["top web developers offering ecommerce websites"] },
+            ". If you want a shortlist of developers who pass these checks, ",
+            { "a": "/contact", "t": ["contact us"] },
+            "."
+          ]
+        }
+      ],
+      "cta": true
+    }
+  ]
+}

@@ -1,0 +1,539 @@
+{
+  "slug": "shopify-vs-woocommerce-vs-custom",
+  "kind": "article",
+  "topic": "Platforms",
+  "order": 18,
+  "title": "Shopify vs WooCommerce vs Custom: Ecommerce Platform Guide",
+  "description": "Shopify vs WooCommerce vs custom ecommerce builds compared: costs, control, maintenance, and which platform fits your store, with a decision table by project type.",
+  "ogTitle": "Shopify vs WooCommerce vs Custom: Which Ecommerce Platform Fits Your Store?",
+  "ogDescription": "Costs, control, maintenance, and platform fit compared across Shopify, WooCommerce, and custom ecommerce builds.",
+  "published": "2026-11-06",
+  "updated": "2026-11-06",
+  "h1": "Shopify vs WooCommerce vs Custom: Which Ecommerce Platform Fits Your Store?",
+  "intro": [
+    {
+      "type": "summary",
+      "inline": [
+        { "b": ["In short:"] },
+        " choose ",
+        { "b": ["Shopify"] },
+        " if you want the fastest launch and the lowest maintenance burden; choose ",
+        { "b": ["WooCommerce"] },
+        " if you need custom logic, content-heavy product pages, or tighter integration with WordPress; choose a ",
+        { "b": ["custom or headless build"] },
+        " only if your store has requirements that no hosted platform can meet — and only if you can support the ongoing cost. For 80 to 90 percent of small and mid-market stores, Shopify or WooCommerce is the right answer, and the choice usually comes down to how much custom logic you actually need."
+      ]
+    },
+    {
+      "type": "p",
+      "inline": [
+        "This guide compares the three options on cost, control, maintenance, developer availability, and platform fit, then gives you a decision table by project type. It's the platform counterpart to ",
+        { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+        " and the natural next step after ",
+        { "a": "/developer-vs-web-designer-vs-full-stack", "t": ["developer vs web designer vs full-stack"] },
+        ". If you already know your platform and just need pricing, see ",
+        { "a": "/ecommerce-website-developer-cost", "t": ["ecommerce website developer cost"] },
+        "."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "quick-comparison",
+      "title": "Quick Comparison",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The table below is the one-glance summary. Each section below expands on one platform, and the later sections compare them on cost, developer availability, and fit."
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            ["Factor"],
+            ["Shopify"],
+            ["WooCommerce"],
+            ["Custom / Headless"]
+          ],
+          "rows": [
+            [["Build cost (small store)"], ["$3,000 - $25,000"], ["$2,000 - $30,000"], ["$50,000 - $250,000+"]],
+            [["Ongoing cost"], ["Subscription + apps"], ["Hosting + plugins"], ["Hosting + maintenance"]],
+            [["Maintenance burden"], ["Low"], ["High"], ["Very high"]],
+            [["Flexibility"], ["High, within Shopify's model"], ["Very high"], ["Unlimited"]],
+            [["Launch speed"], ["Fastest"], ["Moderate"], ["Slowest"]],
+            [["Developer availability"], ["Very high"], ["High"], ["Low"]],
+            [["Best for"], ["Fast launch, low maintenance"], ["Custom logic, content-heavy stores"], ["Enterprise, unique requirements"]]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shopify",
+      "title": "Shopify: Strengths and Trade-offs",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Shopify is the most common choice for D2C brands, and for good reason: it is the fastest way to launch an ecommerce store, it handles most of the technical maintenance for you, and there is a deep pool of Shopify developers to hire from. The trade-off is that you are building on someone else's platform, and some customization you want will be limited by what Shopify supports."
+          ]
+        },
+        { "type": "h3", "text": "Where Shopify is strongest" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Fast launch."] }, " A standard Shopify store can go live in a few weeks, not months."],
+            [{ "b": ["Low maintenance."] }, " Shopify handles hosting, security, and platform updates, which removes a large ongoing burden."],
+            [{ "b": ["Deep developer pool."] }, " There are more Shopify developers than any other platform, especially in India and Southeast Asia."],
+            [{ "b": ["App ecosystem."] }, " Most standard ecommerce features (subscriptions, reviews, loyalty, email) are available as apps."],
+            [{ "b": ["Payment processing."] }, " Shopify Payments simplifies PCI compliance significantly."]
+          ]
+        },
+        { "type": "h3", "text": "Where Shopify has limits" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Customization ceiling."] }, " Some checkout, cart, and backend logic cannot be customised on Shopify, and you have to work within the platform's model."],
+            [{ "b": ["App dependency."] }, " Many features require apps, and each app adds subscription cost and potential performance impact."],
+            [{ "b": ["Transaction fees."] }, " If you use a third-party payment gateway instead of Shopify Payments, Shopify charges an additional transaction fee."],
+            [{ "b": ["Data portability."] }, " Migrating away from Shopify is possible but non-trivial. You are committing to the platform for the medium term."]
+          ]
+        },
+        { "type": "h3", "text": "When Shopify is the right fit" },
+        {
+          "type": "p",
+          "inline": [
+            "Shopify is the right fit for D2C brands launching fast, subscription and membership stores, stores with a standard product catalog and standard checkout needs, and teams that do not want to maintain hosting and infrastructure. If your requirements are mostly standard ecommerce and you want to be live quickly, Shopify is almost always the right answer."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For Shopify developer vetting specifically, see the vetting questions in ",
+            { "a": "/hire-ecommerce-website-developer#vetting-questions", "t": ["how to hire an ecommerce website developer"] },
+            ". For the cost of a Shopify build, see ",
+            { "a": "/ecommerce-website-developer-cost", "t": ["ecommerce website developer cost"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "woocommerce",
+      "title": "WooCommerce: Strengths and Trade-offs",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "WooCommerce is the WordPress-based ecommerce plugin, and it is the most flexible of the three options. It is the right choice when your requirements are non-standard, when your content and commerce need to coexist on the same site, or when you want full ownership of the platform and the data. The trade-off is that you own the maintenance burden, and that burden is real."
+          ]
+        },
+        { "type": "h3", "text": "Where WooCommerce is strongest" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Flexibility."] }, " Custom logic, custom post types, complex taxonomies, and integration with the broader WordPress plugin ecosystem."],
+            [{ "b": ["Content and commerce combined."] }, " If your marketing strategy is content-heavy (blog, guides, recipes, editorial), WordPress is the strongest platform for combining content and ecommerce on one site."],
+            [{ "b": ["Ownership."] }, " You own the code, the data, and the hosting. There is no platform vendor."],
+            [{ "b": ["Cost of entry."] }, " The core platform and plugin are free, which makes the initial build cheaper than Shopify for the same feature set."],
+            [{ "b": ["Developer pool."] }, " There are many WooCommerce developers, especially in India, Eastern Europe, and Latin America."]
+          ]
+        },
+        { "type": "h3", "text": "Where WooCommerce has limits" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Maintenance burden."] }, " You are responsible for hosting, security, plugin updates, and conflict resolution. This is a real ongoing cost, not a one-off."],
+            [{ "b": ["Performance."] }, " WooCommerce is more resource-intensive than Shopify, and a poorly optimized store can be slow."],
+            [{ "b": ["Plugin quality varies."] }, " The plugin ecosystem includes many poorly maintained plugins, and it is easy to accumulate technical debt."],
+            [{ "b": ["PCI compliance."] }, " WooCommerce does not handle PCI compliance for you, which means you have to be more careful about how you set up payments."]
+          ]
+        },
+        { "type": "h3", "text": "When WooCommerce is the right fit" },
+        {
+          "type": "p",
+          "inline": [
+            "WooCommerce is the right fit for content-heavy stores, stores with complex custom logic, stores that need deep integration with other WordPress plugins (memberships, courses, events), and businesses that want full ownership of their platform. If your requirements are standard and you want a hands-off platform, WooCommerce is usually more work than it is worth."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For WooCommerce-specific vetting, see ",
+            { "a": "/wordpress-ecommerce-website-developer", "t": ["what to look for in a WordPress ecommerce developer"] },
+            ". For the cost of a WooCommerce build, see ",
+            { "a": "/ecommerce-website-developer-cost", "t": ["ecommerce website developer cost"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "custom",
+      "title": "Custom / Headless: Strengths and Trade-offs",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "A custom build (or a headless build, which is a specific type of custom build) means building the storefront and the backend separately, or building the whole stack from scratch. Headless builds typically use a modern front end (Next.js, React) and an API-first backend (Shopify's Storefront API, a headless CMS, or a custom backend). Custom builds go further and replace the backend as well."
+          ]
+        },
+        { "type": "h3", "text": "Where custom builds are strongest" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Unlimited flexibility."] }, " You can build exactly what you need, including features no hosted platform supports."],
+            [{ "b": ["Performance."] }, " A well-built headless or custom store can be significantly faster than a standard Shopify or WooCommerce store."],
+            [{ "b": ["Multi-channel commerce."] }, " Headless architectures make it easier to sell across web, mobile, marketplaces, and in-store systems from a single backend."],
+            [{ "b": ["Enterprise integration."] }, " Custom builds integrate cleanly with complex ERP, PIM, and CRM systems."]
+          ]
+        },
+        { "type": "h3", "text": "Where custom builds have limits" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Cost."] }, " A custom or headless build typically starts at $50,000 and can go well past $250,000 for enterprise deployments."],
+            [{ "b": ["Timeline."] }, " Custom builds take months, not weeks. A standard build is usually 4 to 9 months, sometimes longer."],
+            [{ "b": ["Maintenance burden."] }, " You own everything — hosting, security, updates, performance. This is the highest maintenance of the three options."],
+            [{ "b": ["Developer availability."] }, " The pool of headless and custom developers is much smaller than the pool of Shopify or WooCommerce developers, which makes hiring harder and more expensive."]
+          ]
+        },
+        { "type": "h3", "text": "When a custom build is the right fit" },
+        {
+          "type": "p",
+          "inline": [
+            "A custom or headless build is the right fit for enterprise stores with complex requirements, for stores that need genuine multi-channel commerce, and for businesses where the storefront experience is the product and a standard platform cannot deliver it. For most small and mid-market stores, a custom build is overkill, and a Shopify or WooCommerce store will serve you better for years."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For headless-specific developer vetting, see the headless discussion in ",
+            { "a": "/top-web-developers-ecommerce-websites", "t": ["how to compare top web developers"] },
+            ". For the cost, see ",
+            { "a": "/ecommerce-website-developer-cost", "t": ["ecommerce website developer cost"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cost-comparison",
+      "title": "Cost Comparison by Platform",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The table below gives typical 2026 cost ranges by platform, for a small to mid-market store. Costs include the initial build and the first year of ongoing costs; the total column is the first-year commitment, which is what you should budget against."
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            ["Platform"],
+            ["Build cost"],
+            ["First-year running cost"],
+            ["Total first year"]
+          ],
+          "rows": [
+            [["Shopify (standard)"], ["$3,000 - $25,000"], ["$500 - $3,000"], ["$3,500 - $28,000"]],
+            [["WooCommerce (standard)"], ["$2,000 - $30,000"], ["$1,000 - $4,000"], ["$3,000 - $34,000"]],
+            [["Shopify Plus (mid-market)"], ["$25,000 - $75,000"], ["$3,000 - $10,000"], ["$28,000 - $85,000"]],
+            [["Headless (Shopify backend + Next.js front end)"], ["$50,000 - $150,000"], ["$8,000 - $25,000"], ["$58,000 - $175,000"]],
+            [["Fully custom build"], ["$80,000 - $250,000+"], ["$15,000 - $50,000+"], ["$95,000 - $300,000+"]]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "First-year running costs include hosting, platform subscription, apps or plugins, maintenance, and backups. They do not include marketing, content, or in-house staff time. For the full cost breakdown including hidden costs, see ",
+            { "a": "/ecommerce-website-developer-cost#hidden-costs", "t": ["hidden costs most buyers miss"] },
+            " in our cost guide."
+          ]
+        },
+        { "type": "h3", "text": "What the cost comparison actually shows" },
+        {
+          "type": "p",
+          "inline": [
+            "For a standard small store, Shopify and WooCommerce are roughly comparable on total first-year cost. Shopify tends to be slightly higher on platform subscriptions and apps, WooCommerce tends to be slightly higher on hosting and maintenance. The difference becomes decisive at the mid-market and enterprise levels, where custom builds cost 3 to 10 times more than a hosted platform."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "The most common mistake is choosing a custom build for a project that would be fine on Shopify or WooCommerce, and then paying two to three times the cost for features that are not actually used. Custom builds are the right choice for a small number of stores; they are the wrong choice for most."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "platform-fit",
+      "title": "Platform Fit by Project Type",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Match your project to the table below. The right column gives the best starting platform, not a fixed rule — some projects cross over."
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            ["Your situation"],
+            ["Best fit"]
+          ],
+          "rows": [
+            [["First store, standard features, want to launch fast"], ["Shopify"]],
+            [["D2C brand with standard checkout and product catalog"], ["Shopify"]],
+            [["Subscription or membership store"], ["Shopify (or WooCommerce with subscriptions plugin)"]],
+            [["Content-heavy store (blog, guides, recipes)"], ["WooCommerce"]],
+            [["Store with complex custom logic or unique workflows"], ["WooCommerce"]],
+            [["Existing WordPress site adding ecommerce"], ["WooCommerce"]],
+            [["Mid-market store outgrowing standard Shopify"], ["Shopify Plus"]],
+            [["Enterprise store with complex ERP/PIM integration"], ["Custom or headless"]],
+            [["Multi-channel commerce (web + app + marketplace + in-store)"], ["Headless"]],
+            [["Performance-critical storefront where the experience is the product"], ["Headless"]]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "developer-market",
+      "title": "Developer Availability by Platform",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Platform choice affects how easy it is to hire a developer, how much you will pay, and how much choice you have. The table below summarizes what to expect."
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            ["Platform"],
+            ["Developer availability"],
+            ["Typical premium"]
+          ],
+          "rows": [
+            [["Shopify"], ["Very high — the largest pool in India and Southeast Asia"], ["Baseline"]],
+            [["WooCommerce"], ["High — strong pool in India, Eastern Europe, and Latin America"], ["Baseline (sometimes lower)"]],
+            [["Shopify Plus"], ["Moderate — smaller pool of Plus-experienced developers"], ["+10 to 20%"]],
+            [["Headless"], ["Low — concentrated in Bangalore, Mumbai, and major Western tech hubs"], ["+25 to 50%"]],
+            [["Magento / Adobe Commerce"], ["Moderate — strong in enterprise agencies, thin in freelancers"], ["+20 to 40%"]],
+            [["Fully custom"], ["Very low — requires a full-stack team, usually an agency"], ["+50%+"]]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "The developer market is a major reason most small and mid-market stores choose Shopify or WooCommerce: the platform is mainstream enough that you can find a competent developer at a reasonable rate. For headless and custom builds, the developer premium is real and reflects a genuinely thinner pool."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For city-specific developer availability, see ",
+            { "a": "/ecommerce-developers-by-city", "t": ["ecommerce developers by city"] },
+            ". For platform-specific vetting, see ",
+            { "a": "/wordpress-ecommerce-website-developer#vetting-questions", "t": ["WordPress ecommerce developer vetting questions"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "migration",
+      "title": "Migrating Between Platforms",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "If you already have a store and are considering a platform change, the migration itself is a project — and it is often the biggest reason buyers overpay for a build they did not need."
+          ]
+        },
+        { "type": "h3", "text": "Migrating from WooCommerce to Shopify" },
+        {
+          "type": "p",
+          "inline": [
+            "The most common migration. Products, customers, and orders can be moved, but custom checkout and cart logic usually cannot be preserved. Expect to rebuild features rather than port them. Migrations usually take 6 to 12 weeks, and the cost is typically $10,000 to $40,000 depending on the store's scale."
+          ]
+        },
+        { "type": "h3", "text": "Migrating from Shopify to WooCommerce" },
+        {
+          "type": "p",
+          "inline": [
+            "Less common, but happens when a store outgrows Shopify's customization limits. The migration is more complex than the reverse, because you are now responsible for hosting, security, and plugins. Expect 8 to 16 weeks and $15,000 to $50,000."
+          ]
+        },
+        { "type": "h3", "text": "Migrating to headless" },
+        {
+          "type": "p",
+          "inline": [
+            "A headless migration is not a platform migration — it is a rebuild of the front end while keeping the existing backend (usually Shopify). Expect 3 to 6 months and $50,000 to $150,000. Worth it only if the storefront experience is a genuine competitive advantage."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the full migration and SEO considerations, see ",
+            { "a": "/ecommerce-development-process-milestones", "t": ["what the ecommerce build process looks like"] },
+            ". For the SEO risk in migration, see ",
+            { "a": "/ecommerce-website-developer-cost#hidden-costs", "t": ["hidden costs most buyers miss"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "which-platform",
+      "title": "Which Platform to Choose: A Summary",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "If you are still deciding, here is the short version:"
+          ]
+        },
+        { "type": "h3", "text": "Choose Shopify if..." },
+        {
+          "type": "ul",
+          "items": [
+            ["You want to launch fast and minimize maintenance."],
+            ["Your store has standard ecommerce features — catalog, cart, checkout, standard payments."],
+            ["You want the largest developer pool to hire from."],
+            ["You do not need content and commerce tightly integrated."]
+          ]
+        },
+        { "type": "h3", "text": "Choose WooCommerce if..." },
+        {
+          "type": "ul",
+          "items": [
+            ["Your store has custom logic that Shopify cannot support."],
+            ["You have content-heavy marketing (blog, guides, recipes) that should live with the store."],
+            ["You want full ownership of the platform, code, and data."],
+            ["You already have a WordPress site you want to add ecommerce to."]
+          ]
+        },
+        { "type": "h3", "text": "Choose a custom or headless build if..." },
+        {
+          "type": "ul",
+          "items": [
+            ["You have complex requirements no hosted platform can support."],
+            ["You need genuine multi-channel commerce."],
+            ["The storefront experience is your competitive advantage, and performance is critical."],
+            ["You have the budget for a $50,000+ build and the resources to maintain it."]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For most stores under $30,000 in build budget, the answer is Shopify or WooCommerce. For most stores above $100,000 in build budget, the answer is a custom or headless build. The interesting decisions happen in the middle, and the right answer depends on specifics."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "If you want help deciding between platforms for your specific project, ",
+            { "a": "/contact", "t": ["contact us"] },
+            ". For the full pricing context, see ",
+            { "a": "/ecommerce-website-developer-cost", "t": ["ecommerce website developer cost"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "title": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "Is Shopify better than WooCommerce?",
+          "a": [
+            "Neither is universally better. Shopify is faster to launch and easier to maintain. WooCommerce is more flexible and gives you full ownership. For a standard store that needs to launch fast, Shopify is usually the better choice. For a content-heavy or custom-logic store, WooCommerce is usually the better choice. See the ",
+            { "a": "#platform-fit", "t": ["platform fit table"] },
+            "."
+          ]
+        },
+        {
+          "q": "Should I build a custom ecommerce store?",
+          "a": [
+            "Only if your requirements genuinely cannot be met by Shopify or WooCommerce. Custom builds are 3 to 10 times more expensive, take 3 to 9 months, and require more maintenance. For most stores under $100,000 in build budget, a custom build is overkill. See the ",
+            { "a": "#custom", "t": ["custom build section"] },
+            "."
+          ]
+        },
+        {
+          "q": "Can I migrate from WooCommerce to Shopify easily?",
+          "a": [
+            "Products, customers, and orders can be migrated, but custom checkout and cart logic usually cannot be preserved. Migrations typically take 6 to 12 weeks and cost $10,000 to $40,000. See the ",
+            { "a": "#migration", "t": ["migration section"] },
+            "."
+          ]
+        },
+        {
+          "q": "Is WooCommerce cheaper than Shopify?",
+          "a": [
+            "The core platform is free, which makes the initial build cheaper. But WooCommerce's ongoing costs (hosting, plugins, maintenance) often close the gap within a year or two. On a total first-year basis, the two are usually comparable for a standard store. See the ",
+            { "a": "#cost-comparison", "t": ["cost comparison"] },
+            "."
+          ]
+        },
+        {
+          "q": "What is headless commerce, and do I need it?",
+          "a": [
+            "Headless commerce means separating the storefront (front end) from the backend ecommerce platform. It offers more flexibility and performance, but costs 2 to 5 times more than a standard Shopify store and requires a much smaller pool of developers. You need it only if your requirements genuinely cannot be met by a standard platform. See the ",
+            { "a": "#custom", "t": ["custom / headless section"] },
+            "."
+          ]
+        },
+        {
+          "q": "Which platform is best for SEO?",
+          "a": [
+            "All three can rank well if implemented correctly. Shopify's SEO is good out of the box. WooCommerce requires more SEO attention but gives you more control. Custom builds are as good as the developer builds them. Platform choice matters less than implementation and content strategy."
+          ]
+        },
+        {
+          "q": "Which platform has the most developers available?",
+          "a": [
+            "Shopify, by a wide margin. WooCommerce is second. Headless and custom developers are much harder to find. For city-specific availability, see ",
+            { "a": "/ecommerce-developers-by-city", "t": ["ecommerce developers by city"] },
+            "."
+          ]
+        },
+        {
+          "q": "Can I run a store on WooCommerce without hiring a developer?",
+          "a": [
+            "You can launch a very small store with a WordPress theme and WooCommerce plugin without hiring a developer, but maintaining it yourself becomes a real burden as the store grows. For anything beyond a small store, a developer is worth the cost. See ",
+            { "a": "/wordpress-ecommerce-website-developer", "t": ["what to look for in a WordPress ecommerce developer"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "title": "Next Steps",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Choose the platform that fits your actual requirements, not the one with the best marketing. For most stores, Shopify or WooCommerce is the right answer, and the choice comes down to how much custom logic you genuinely need. If you are unsure, start with your requirements document, then match it to the platform that best supports it."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the full hiring process, return to ",
+            { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+            ". For pricing context, see ",
+            { "a": "/ecommerce-website-developer-cost", "t": ["ecommerce website developer cost"] },
+            ". If you want help deciding between platforms for your specific project, ",
+            { "a": "/contact", "t": ["contact us"] },
+            "."
+          ]
+        }
+      ],
+      "cta": true
+    }
+  ]
+}

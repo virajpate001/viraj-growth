@@ -116,7 +116,10 @@ export default function GuidesPage() {
             </WhatsAppButton>
            
           </div>
-           <p className="mt-6 text-sm text-muted">
+          
+        </div>
+
+         <p className="mt-6 text-sm text-muted">
               Looking for a developer in your city? See{" "}
               <Link
                 href="/ecommerce-developers-by-city"
@@ -126,7 +129,6 @@ export default function GuidesPage() {
               </Link>
               .
             </p>
-        </div>
         
       </Container>
     </>

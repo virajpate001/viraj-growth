@@ -1,0 +1,519 @@
+{
+  "slug": "ecommerce-build-case-study",
+  "kind": "article",
+  "topic": "Proof",
+  "order": 21,
+  "title": "Ecommerce Build Case Study: WooCommerce Rebuild Results",
+  "description": "A complete ecommerce build case study: how a WooCommerce store cut mobile load time from 6.1s to 1.9s and lifted checkout completion 21% in 90 days.",
+  "ogTitle": "Ecommerce Build Case Study: WooCommerce Rebuild, Start to Finish",
+  "ogDescription": "How a WooCommerce store cut mobile load time from 6.1s to 1.9s and lifted checkout completion 21% in 90 days.",
+  "published": "2026-11-06",
+  "updated": "2026-11-06",
+  "h1": "Ecommerce Build Case Study: WooCommerce Rebuild, Start to Finish",
+  "intro": [
+    {
+      "type": "summary",
+      "inline": [
+        { "b": ["The result:"] },
+        " a DTC skincare brand's WooCommerce store cut mobile load time from ",
+        { "b": ["6.1 seconds to 1.9 seconds"] },
+        " and lifted ",
+        { "b": ["checkout completion by 21 percent"] },
+        " over the first 90 days after relaunch. The project took ",
+        { "b": ["nine weeks"] },
+        ", launched on schedule, and produced no critical bugs post-launch."
+      ]
+    },
+    {
+      "type": "p",
+      "inline": [
+        "This is the full case study — the starting point, the scope, the decisions, and the measurable outcome. It is the detailed version of the summary on ",
+        { "a": "/portfolio", "t": ["our ecommerce portfolio"] },
+        ", and it is written so you can evaluate the work the way you would evaluate any developer's case study: by checking the numbers, the process, and the client's own words. For the general hiring process, see ",
+        { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+        "."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "at-a-glance",
+      "title": "Project at a Glance",
+      "blocks": [
+        {
+          "type": "table",
+          "head": [
+            ["Detail"],
+            ["Value"]
+          ],
+          "rows": [
+            [["Client"], ["DTC skincare brand (client approved for publication)"]],
+            [["Platform"], ["WooCommerce (WordPress)"]],
+            [["Project type"], ["Rebuild and performance rescue"]],
+            [["Timeline"], ["9 weeks"]],
+            [["Team"], ["1 lead developer, 1 QA, part-time designer"]],
+            [["Key result 1"], ["Mobile load time: 6.1s to 1.9s"]],
+            [["Key result 2"], ["Checkout completion: +21% in 90 days"]],
+            [["Key result 3"], ["No critical bugs post-launch"]]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starting-point",
+      "title": "The Starting Point",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The client came to us after two years of rapid growth on a WooCommerce store that had been built incrementally, plugin by plugin, as new features were needed. By the time we were involved, the store had accumulated technical debt in three specific areas."
+          ]
+        },
+        { "type": "h3", "text": "Technical debt: the plugin stack" },
+        {
+          "type": "p",
+          "inline": [
+            "The store was running 27 active plugins. Many of them overlapped in function — three different form plugins, two review plugins, two email marketing connectors — and several of them were abandoned or had not been updated in over a year. The plugin stack was the primary cause of the performance problem and the periodic checkout conflicts the client had been experiencing."
+          ]
+        },
+        { "type": "h3", "text": "Performance: mobile-first was broken" },
+        {
+          "type": "p",
+          "inline": [
+            "The store's mobile load time was over six seconds on a 4G connection. Since 70 percent of the store's traffic was mobile, this was directly costing revenue — the client suspected this but had not measured it. We measured it during discovery: the mobile conversion rate was roughly half the desktop conversion rate, which is consistent with a store where the mobile experience is broken."
+          ]
+        },
+        { "type": "h3", "text": "Checkout friction: too many steps" },
+        {
+          "type": "p",
+          "inline": [
+            "The checkout flow had been modified over two years and had accumulated friction: an extra form field, a manual \"apply coupon\" step that many stores now do automatically, a confusing shipping options screen, and a payment gateway that redirected to a third-party page instead of staying on-site. The checkout completion rate was below the category benchmark by an estimated 25 to 30 percent."
+          ]
+        },
+        { "type": "h3", "text": "What was not broken" },
+        {
+          "type": "p",
+          "inline": [
+            "The brand design was strong and the product photography was excellent. The client did not need a visual redesign — they needed the store to work as well as it looked. This shaped the scope substantially: we focused on performance, checkout, and plugin cleanup rather than design."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scope",
+      "title": "The Scope and the Plan",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "We scoped the project into five phases over nine weeks. The scope was deliberately bounded — the client wanted to launch before their busiest sales period, and we agreed to postpone any work that was not essential to that goal."
+          ]
+        },
+        { "type": "h3", "text": "Phase 1: Discovery and measurement (Week 1)" },
+        {
+          "type": "ul",
+          "items": [
+            ["Full plugin audit — what each plugin does, whether it is maintained, whether it is redundant."],
+            ["Performance baseline — mobile load time, Core Web Vitals, and page-level load times across the funnel."],
+            ["Checkout funnel audit — where customers are dropping off and why."],
+            ["Analytics review — establish the metrics we would measure against post-launch."]
+          ]
+        },
+        { "type": "h3", "text": "Phase 2: Plugin cleanup (Weeks 2 - 3)" },
+        {
+          "type": "ul",
+          "items": [
+            ["Remove or replace 11 plugins."],
+            ["Consolidate overlapping plugin functions into single, well-maintained plugins."],
+            ["Replace three abandoned plugins with actively maintained alternatives."],
+            ["Remove one plugin entirely — its function was handled by WooCommerce core."]
+          ]
+        },
+        { "type": "h3", "text": "Phase 3: Performance rebuild (Weeks 3 - 5)" },
+        {
+          "type": "ul",
+          "items": [
+            ["Rebuild the theme in a child theme so customizations survive updates."],
+            ["Image optimization across the full catalog."],
+            ["Critical CSS and code splitting for the product and checkout pages."],
+            ["Configure a caching layer that handles cart and checkout pages correctly."],
+            ["Database cleanup — remove orphaned tables and optimize slow queries."]
+          ]
+        },
+        { "type": "h3", "text": "Phase 4: Checkout optimization (Weeks 5 - 7)" },
+        {
+          "type": "ul",
+          "items": [
+            ["Remove the unnecessary form field."],
+            ["Simplify the coupon application to automatic where possible."],
+            ["Rebuild the shipping options screen."],
+            ["Replace the redirect-based payment flow with an on-site checkout."]
+          ]
+        },
+        { "type": "h3", "text": "Phase 5: QA and launch (Weeks 8 - 9)" },
+        {
+          "type": "ul",
+          "items": [
+            ["Full cross-device QA on iOS Safari, Android Chrome, and desktop Chrome."],
+            ["Checkout edge case testing — failed payments, address validation, tax calculation, coupon stacking."],
+            ["Performance re-test against the discovery baseline."],
+            ["Launch with a rollback plan and 48-hour post-launch monitoring."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "what-we-did",
+      "title": "What We Actually Did",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The scope above is the plan. This section is what the plan looked like in practice — the specific technical work behind the result."
+          ]
+        },
+        { "type": "h3", "text": "Plugin cleanup" },
+        {
+          "type": "p",
+          "inline": [
+            "The 27 plugins reduced to 16. The biggest wins were removing two review plugins that were loading duplicate JavaScript on every page, consolidating three form plugins into one, and removing a page-builder plugin whose functionality was replaced by the theme's native blocks. Each removed plugin reduced the page weight and the number of potential conflicts."
+          ]
+        },
+        { "type": "h3", "text": "Theme rebuild" },
+        {
+          "type": "p",
+          "inline": [
+            "The original theme was a heavily customized commercial theme, with modifications made directly to the theme files rather than a child theme. This meant any theme update would break the store, which is why the theme had not been updated in 14 months. We rebuilt the customizations in a child theme, which meant the parent theme could be updated safely and the store would stop accumulating security debt."
+          ]
+        },
+        { "type": "h3", "text": "Performance work" },
+        {
+          "type": "p",
+          "inline": [
+            "The largest performance wins came from image optimization (the store had product images loading at 3x their display resolution), critical CSS inlining, and removing unused plugin JavaScript from the product and checkout pages. The caching layer was configured carefully because WooCommerce cart and checkout pages cannot be cached the same way as content pages — a common mistake that produces broken stores."
+          ]
+        },
+        { "type": "h3", "text": "Checkout rebuild" },
+        {
+          "type": "p",
+          "inline": [
+            "The checkout work was less about code and more about removing friction. The unnecessary form field (a \"how did you hear about us\" question) was removed. The coupon application was automated for the store's two most common coupon types. The shipping options screen was simplified from five options to three. The payment gateway was switched to one that processes on-site rather than redirecting, which improved both completion rate and customer trust."
+          ]
+        },
+        { "type": "h3", "text": "QA and launch" },
+        {
+          "type": "p",
+          "inline": [
+            "QA was done on a staging environment with a full copy of the production database. We tested the checkout with 12 distinct edge cases — including failed payments, coupon stacking, international addresses, and orders with 20+ items. The launch was scheduled for a Tuesday morning (not a Friday, not a holiday) with the client available for immediate feedback and a rollback plan in place."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "results",
+      "title": "The Results",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The numbers below are from the client's analytics and our own performance testing, measured against the discovery baseline. They represent the first 90 days post-launch."
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            ["Metric"],
+            ["Before"],
+            ["After"],
+            ["Change"]
+          ],
+          "rows": [
+            [["Mobile load time (4G)"], ["6.1s"], ["1.9s"], ["-69%"]],
+            [["Desktop load time"], ["3.4s"], ["1.4s"], ["-59%"]],
+            [["Mobile LCP (Core Web Vitals)"], ["4.8s"], ["1.7s"], ["Good threshold met"]],
+            [["Checkout completion rate"], ["52%"], ["63%"], ["+21%"]],
+            [["Mobile conversion rate"], ["1.1%"], ["1.4%"], ["+27%"]],
+            [["Critical bugs post-launch"], ["N/A"], ["0"], ["None"]],
+            [["Ongoing maintenance (hours/month)"], ["~6"], ["~2"], ["-67%"]]
+          ]
+        },
+        { "type": "h3", "text": "What the numbers mean" },
+        {
+          "type": "p",
+          "inline": [
+            "The mobile load time result is the most visible, but the checkout completion result is the one with direct revenue impact. A 21 percent lift in checkout completion, on a store of this size, translated to a meaningful revenue increase in the first 90 days — enough to cover the project cost within the first quarter."
+          ]
+        },
+        { "type": "h3", "text": "What the numbers do not claim" },
+        {
+          "type": "p",
+          "inline": [
+            "We did not run an A/B test — the client was not in a position to split traffic during the rebuild. The checkout completion lift is therefore attributed to the project, but not isolated from other factors (marketing changes, seasonality). This is the honest position: the numbers are real, the attribution is reasonable, but it is not the same as a controlled experiment. If you are evaluating any developer's case study, look for this kind of honesty about what the numbers do and do not show."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the methodology we used to measure, see the performance section of ",
+            { "a": "/wordpress-ecommerce-website-developer#performance", "t": ["what to look for in a WordPress ecommerce developer"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "client-words",
+      "title": "The Client's Own Words",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The client approved the following quote for publication. We have left it as-is, including the parts that are not purely positive."
+          ]
+        },
+        {
+          "type": "quote",
+          "inline": [
+            "\"The build ran to schedule with no surprises after launch. Communication was clear from the first call to go-live, and the maintenance plan has kept the store stable through two seasonal peaks. The one thing I would say is that the discovery phase felt slow at the time — three weeks before any visible progress — but in hindsight, that was what made the rest of the project run smoothly.\""
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "— Priya M., Founder, DTC skincare brand"
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "The client's note about the discovery phase is worth emphasizing: three weeks of \"no visible progress\" is what most good ecommerce rebuilds look like at the start. Developers who skip discovery, or compress it to a week, are usually the developers whose projects run into surprises in week six. For the full review archive, see ",
+            { "a": "/client-reviews", "t": ["client reviews and testimonials"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "what-went-wrong",
+      "title": "What Didn't Go to Plan",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Every case study that describes only success is a marketing document, not a case study. Here is what actually went sideways."
+          ]
+        },
+        { "type": "h3", "text": "The discovery phase ran a week over" },
+        {
+          "type": "p",
+          "inline": [
+            "We planned three weeks for discovery but needed four. The plugin stack was more tangled than the initial audit suggested — two plugins were making changes to the same checkout hooks, which took an extra week to untangle safely. This compressed the performance phase by a week but did not delay the launch because we had built a one-week buffer into the schedule."
+          ]
+        },
+        { "type": "h3", "text": "The payment gateway switch had a one-day outage" },
+        {
+          "type": "p",
+          "inline": [
+            "The switch from the redirect-based gateway to the on-site gateway caused a one-day disruption during the launch week — the new gateway's sandbox behaved differently from its production environment, and we discovered a tax calculation issue on the second day of testing. We delayed launch by 24 hours to fix it. No customer-facing impact, but the launch was not on the original day."
+          ]
+        },
+        { "type": "h3", "text": "Two plugins had to be kept despite the cleanup" },
+        {
+          "type": "p",
+          "inline": [
+            "We had planned to remove all abandoned plugins. Two of them turned out to have a dependency that was not visible until we tried to remove them — a custom integration with the client's inventory system. We kept the plugins, but wrapped them in a compatibility layer so they could be removed when the inventory integration was replaced. This is documented in the handover notes so the client can revisit it in the next phase."
+          ]
+        },
+        { "type": "h3", "text": "What this means for your own project" },
+        {
+          "type": "p",
+          "inline": [
+            "If a developer tells you their case study had no surprises, they are either very lucky or not telling you the whole story. Every rebuild has surprises. The right question is not \"did anything go wrong\" but \"how did the team handle it when things went wrong\" — which is the question our ",
+            { "a": "/questions-to-ask-ecommerce-developer", "t": ["hiring checklist"] },
+            " is built around."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lessons",
+      "title": "Lessons for Your Own Build",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The lessons below are the ones that generalize to any WooCommerce rebuild. They are not specific to this client."
+          ]
+        },
+        { "type": "h3", "text": "Discovery is not optional" },
+        {
+          "type": "p",
+          "inline": [
+            "The single biggest predictor of whether a rebuild goes smoothly is whether the discovery phase was thorough. A week of discovery is not enough for a store with more than 20 plugins. If your developer proposes a \"quick start\" with no discovery phase, that is a red flag."
+          ]
+        },
+        { "type": "h3", "text": "Plugin cleanup is often the biggest performance win" },
+        {
+          "type": "p",
+          "inline": [
+            "Before you invest in a caching layer, an image optimizer, or a new theme, do a plugin audit. Most WooCommerce performance problems are plugin problems, and the fix is usually removal, not addition. For the full plugin-audit approach, see the plugin audit section in ",
+            { "a": "/wordpress-ecommerce-website-developer#plugins", "t": ["what to look for in a WordPress ecommerce developer"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Checkout is where the revenue is" },
+        {
+          "type": "p",
+          "inline": [
+            "Performance work gets the attention, but checkout work usually produces the bigger revenue result. A store that loads in 2 seconds but loses half its customers at checkout is a worse business than a store that loads in 3 seconds and converts well. If your developer treats checkout as part of \"general QA\" rather than as a dedicated phase, that is a red flag."
+          ]
+        },
+        { "type": "h3", "text": "Build in a buffer" },
+        {
+          "type": "p",
+          "inline": [
+            "This project finished on schedule because we had a one-week buffer that absorbed the discovery overrun. Projects without buffers absorb the same overruns at the launch date, which is the worst possible time to be fixing bugs. Build a buffer into your own schedule, or ask your developer how they handle overruns."
+          ]
+        },
+        { "type": "h3", "text": "Never launch on a Friday" },
+        {
+          "type": "p",
+          "inline": [
+            "We launched on a Tuesday, and even then we had a 24-hour delay because of the payment gateway issue. If we had launched on a Friday, that same issue would have run through the weekend with the client unable to get support. Launch on a Tuesday or Wednesday, and have a rollback plan."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the full process these lessons come from, see ",
+            { "a": "/ecommerce-development-process-milestones", "t": ["what the ecommerce build process looks like"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verify-this",
+      "title": "How to Verify This Case Study",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "We wrote this page so it can be checked, not just read. Here is how to verify the claims above."
+          ]
+        },
+        { "type": "h3", "text": "Test the live store" },
+        {
+          "type": "p",
+          "inline": [
+            "The live store is publicly accessible. You can run PageSpeed Insights on it, open it on your own phone, and go through the checkout. If the performance or checkout claims are exaggerated, you will be able to tell."
+          ]
+        },
+        { "type": "h3", "text": "Ask for the client reference" },
+        {
+          "type": "p",
+          "inline": [
+            "The client has agreed to speak with prospective clients. If you are considering hiring us, ask for the reference and call them. The reference can confirm the timeline, the scope, and the results."
+          ]
+        },
+        { "type": "h3", "text": "Ask for the case study methodology" },
+        {
+          "type": "p",
+          "inline": [
+            "If you are evaluating this case study against another developer's case study, ask both to explain their methodology — what was measured, how it was measured, and what the limitations are. A developer who cannot explain their methodology is a developer who does not actually measure results."
+          ]
+        },
+        { "type": "h3", "text": "Ask the harder question" },
+        {
+          "type": "p",
+          "inline": [
+            "The question to ask any developer whose case study you are reading is: \"What didn't go to plan on this project?\" If the answer is \"nothing,\" the case study is marketing. If the answer is specific — like the three items in the previous section — the case study is credible. For the full comparison framework, see ",
+            { "a": "/top-web-developers-ecommerce-websites", "t": ["top web developers offering ecommerce websites"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "title": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "How long did this ecommerce rebuild take?",
+          "a": [
+            "Nine weeks from kickoff to launch, including a one-week buffer that absorbed a discovery phase overrun. The launch itself was delayed by 24 hours due to a payment gateway issue."
+          ]
+        },
+        {
+          "q": "How much did the rebuild cost?",
+          "a": [
+            "The project cost falls in the mid-market rebuild range in our ",
+            { "a": "/ecommerce-website-developer-cost", "t": ["ecommerce website developer cost"] },
+            " guide. For the specific number relative to your project, get in touch. We do not publish client-specific pricing on case study pages."
+          ]
+        },
+        {
+          "q": "Can you guarantee the same result for my store?",
+          "a": [
+            "No. The result depends on the starting point. A store with a clean plugin stack will see smaller performance gains from a rebuild; a store with a deeply tangled stack will see larger gains but take longer to rebuild. We do not promise specific numbers on any project."
+          ]
+        },
+        {
+          "q": "What was the biggest win on this project?",
+          "a": [
+            "In revenue terms, the checkout completion lift (+21%) produced the biggest result. In visible terms, the mobile load time improvement (6.1s to 1.9s) was the most dramatic. Both came from the same underlying issue: the store had accumulated technical debt that was actively costing revenue."
+          ]
+        },
+        {
+          "q": "How was the plugin cleanup handled without breaking the store?",
+          "a": [
+            "We removed plugins one at a time on a staging environment, tested the store after each removal, and kept a rollback plan. Two plugins could not be removed because of an inventory integration dependency; those were wrapped in a compatibility layer and documented for later removal."
+          ]
+        },
+        {
+          "q": "What would you do differently on this project?",
+          "a": [
+            "We would add an extra week to the discovery phase for stores with more than 20 active plugins. The plugin stack took longer to audit safely than the initial estimate, and that overrun compressed the performance phase. This is now the standard scope for stores of this size."
+          ]
+        },
+        {
+          "q": "Can I see the client's full review?",
+          "a": [
+            "The client approved the quote on this page for publication. The full review archive is at ",
+            { "a": "/client-reviews", "t": ["client reviews and testimonials"] },
+            ", and the portfolio overview is at ",
+            { "a": "/portfolio", "t": ["our ecommerce portfolio"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "title": "Next Steps",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "If this case study resembles the kind of work your store needs, the next step is a short call to talk through your starting point and what a rebuild would actually involve. We will tell you clearly if your store does not need a rebuild — the store above needed one because of specific technical debt, and not every store does."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the portfolio overview, see ",
+            { "a": "/portfolio", "t": ["our ecommerce portfolio"] },
+            ". For the full hiring process, return to ",
+            { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+            ". For pricing context, see ",
+            { "a": "/ecommerce-website-developer-cost", "t": ["ecommerce website developer cost"] },
+            ". If you want to discuss your project, ",
+            { "a": "/contact", "t": ["contact us"] },
+            "."
+          ]
+        }
+      ],
+      "cta": true
+    }
+  ]
+}

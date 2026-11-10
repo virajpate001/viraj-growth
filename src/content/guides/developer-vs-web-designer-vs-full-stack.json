@@ -1,0 +1,509 @@
+{
+  "slug": "developer-vs-web-designer-vs-full-stack",
+  "kind": "article",
+  "topic": "Hiring",
+  "order": 16,
+  "title": "Developer vs Web Designer vs Full-Stack: Who to Hire",
+  "description": "Ecommerce developer vs web designer vs full-stack developer: what each role does, what they cost, and how to choose the right one for your store project.",
+  "ogTitle": "Developer vs Web Designer vs Full-Stack: Which Role Do You Need?",
+  "ogDescription": "What each role does, what they cost, and how to decide who to hire for your ecommerce project.",
+  "published": "2026-11-06",
+  "updated": "2026-11-06",
+  "h1": "Developer vs Web Designer vs Full-Stack: Which Role Do You Actually Need?",
+  "intro": [
+    {
+      "type": "summary",
+      "inline": [
+        { "b": ["In short:"] },
+        " hire a ",
+        { "b": ["web designer"] },
+        " if you need brand direction, layout, and visual design; hire a ",
+        { "b": ["front-end developer"] },
+        " if you need someone to build the store against an existing design; hire a ",
+        { "b": ["back-end developer"] },
+        " if the work is integration, checkout logic, and data; and hire a ",
+        { "b": ["full-stack developer"] },
+        " if you need one person to own the whole build end to end. For most ecommerce projects, the right answer is a ",
+        { "b": ["full-stack ecommerce developer"] },
+        " — or a designer plus a full-stack developer — rather than a specialist on either extreme."
+      ]
+    },
+    {
+      "type": "p",
+      "inline": [
+        "This guide breaks down each role, what each costs, and how to choose the right combination for your project. It is the role-clarification companion to ",
+        { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+        ", and it answers the question most buyers get stuck on before they even start shortlisting candidates."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "quick-comparison",
+      "title": "Quick Comparison",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The table below is the one-glance version. Each section below expands on one role."
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            ["Role"],
+            ["Primary output"],
+            ["Best for"],
+            ["Typical cost"]
+          ],
+          "rows": [
+            [["Web designer"], ["Visual design, UX, brand system"], ["New store, redesign, or brand refresh"], ["$2,000 - $15,000 project"]],
+            [["Front-end developer"], ["HTML, CSS, JavaScript, UI implementation"], ["Building against an existing design"], ["$40 - $150/hr"]],
+            [["Back-end developer"], ["Server logic, APIs, integrations, data"], ["Complex checkout, ERP/CRM, payments"], ["$50 - $175/hr"]],
+            [["Full-stack developer"], ["End-to-end build"], ["Most ecommerce builds, particularly mid-market"], ["$50 - $200/hr"]],
+            [["Ecommerce specialist (any of the above)"], ["Store-specific depth"], ["When you need a store builder, not a generalist"], ["Premium of 10 - 25%"]]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "The most important distinction is between ",
+            { "i": ["web"] },
+            " experience and ",
+            { "i": ["ecommerce"] },
+            " experience. A brilliant web designer who has only designed content sites will miss the specifics of product pages, checkout, and cart abandonment. A full-stack developer who has only built SaaS apps will miss the same specifics. Ecommerce experience is a distinct specialization, and it matters more than whether the developer is front-end, back-end, or full-stack."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "web-designer",
+      "title": "Web Designer: What They Do",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "A web designer creates the visual design and user experience of your store: layout, typography, color, imagery, and the overall look and feel. Designers produce wireframes, mockups, and sometimes a design system your developer will implement."
+          ]
+        },
+        { "type": "h3", "text": "What a web designer delivers" },
+        {
+          "type": "ul",
+          "items": [
+            ["Wireframes and information architecture."],
+            ["High-fidelity mockups (in Figma, Sketch, or Adobe XD)."],
+            ["Design system components (buttons, forms, cards)."],
+            ["Brand visual direction, sometimes a logo refresh."],
+            ["Sometimes: interaction design for checkout and cart flows."]
+          ]
+        },
+        { "type": "h3", "text": "What a web designer does not do" },
+        {
+          "type": "ul",
+          "items": [
+            ["Write code that runs the store."],
+            ["Configure payment gateways, shipping, or tax."],
+            ["Handle performance, security, or hosting."],
+            ["Set up analytics or integrate with your back-office systems."]
+          ]
+        },
+        { "type": "h3", "text": "When you need a designer" },
+        {
+          "type": "p",
+          "inline": [
+            "You need a designer if you are launching a store for the first time with no brand, if you are redesigning an existing store with a dated look, or if you are replatforming and want the new store to look fresh rather than carry over the old design. If you are launching on a strong template and your brand is already well-defined, you may not need a dedicated designer — a developer can adapt the theme to your brand without a full design engagement."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "Design is often 20 to 30 percent of the cost of a small ecommerce build. For the full cost breakdown, see ",
+            { "a": "/ecommerce-website-developer-cost", "t": ["ecommerce website developer cost"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "front-end",
+      "title": "Front-End Developer: What They Do",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "A front-end developer builds the parts of the store that users see and interact with: the theme, product pages, cart, and checkout. They translate design into working code — HTML, CSS, JavaScript, and increasingly frameworks like React or Next.js for headless storefronts."
+          ]
+        },
+        { "type": "h3", "text": "What a front-end developer delivers" },
+        {
+          "type": "ul",
+          "items": [
+            ["Theme and template implementation."],
+            ["Responsive layouts across mobile, tablet, and desktop."],
+            ["Interactive components (product search, filters, cart, checkout UI)."],
+            ["Performance optimization on the front end (Core Web Vitals)."],
+            ["Accessibility improvements."]
+          ]
+        },
+        { "type": "h3", "text": "What a front-end developer does not do" },
+        {
+          "type": "ul",
+          "items": [
+            ["Configure payment gateways, shipping, or tax logic."],
+            ["Build back-end integrations (ERP, CRM, custom APIs)."],
+            ["Design — they implement designs, they do not create them."],
+            ["Own performance at the infrastructure level (server, CDN, caching)."]
+          ]
+        },
+        { "type": "h3", "text": "When you need a front-end developer" },
+        {
+          "type": "p",
+          "inline": [
+            "You need a front-end developer if you already have a design (from a designer or an existing brand system) and you need someone to implement it well. You also need one if you are building a headless storefront, where the front end is a separate project from the back end. In most standard Shopify or WooCommerce projects, the front-end and back-end work are combined into a full-stack role."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "back-end",
+      "title": "Back-End Developer: What They Do",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "A back-end developer builds the logic that runs behind the store: order processing, payment integration, shipping calculations, tax logic, and connections to other systems (ERP, CRM, accounting, inventory). They work in server-side languages (Node, PHP, Python) and with databases and APIs."
+          ]
+        },
+        { "type": "h3", "text": "What a back-end developer delivers" },
+        {
+          "type": "ul",
+          "items": [
+            ["Payment gateway integration (Stripe, PayPal, Razorpay, etc.)."],
+            ["Shipping and tax calculation logic."],
+            ["ERP, CRM, and PIM integrations."],
+            ["Custom checkout logic for complex rules."],
+            ["Data migration and order import/export."],
+            ["Security, PCI compliance, and data handling."]
+          ]
+        },
+        { "type": "h3", "text": "What a back-end developer does not do" },
+        {
+          "type": "ul",
+          "items": [
+            ["Visual design or UX."],
+            ["Front-end layout and interactivity (though they may collaborate with the front end)."],
+            ["Marketing or content work."]
+          ]
+        },
+        { "type": "h3", "text": "When you need a back-end developer" },
+        {
+          "type": "p",
+          "inline": [
+            "You need a back-end specialist if your project has complex integrations (ERP, custom checkout rules, multi-currency, subscriptions with custom logic) or if you are building a headless storefront where the back end is a distinct project. For a standard Shopify or WooCommerce store with a few apps, you usually do not need a dedicated back-end developer — the front-end or full-stack developer can handle the integrations."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the specific skills to verify, see ",
+            { "a": "/wordpress-ecommerce-website-developer", "t": ["what to look for in a WordPress ecommerce developer"] },
+            " for WooCommerce-specific depth, or ",
+            { "a": "/shopify-vs-woocommerce-vs-custom", "t": ["Shopify vs WooCommerce vs custom builds"] },
+            " for platform context."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "full-stack",
+      "title": "Full-Stack Developer: What They Do",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "A full-stack developer works across both front end and back end. They can build the theme, wire up payment and shipping, connect integrations, and handle the performance and security work that sits between the two. In ecommerce, a full-stack developer is often the practical default: one person who can take a store from design to launch."
+          ]
+        },
+        { "type": "h3", "text": "What a full-stack developer delivers" },
+        {
+          "type": "ul",
+          "items": [
+            ["Everything a front-end developer delivers."],
+            ["Everything a back-end developer delivers."],
+            ["End-to-end project ownership, including QA and launch."],
+            ["Direct communication with you across the whole build, not just one part of it."]
+          ]
+        },
+        { "type": "h3", "text": "What a full-stack developer does not necessarily do well" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Deep specialization."] }, " A full-stack developer is usually strong across the stack but not as deep in any one layer as a specialist. For very complex integrations or very demanding front-end performance work, a specialist may be better."],
+            [{ "b": ["Design."] }, " Full-stack developers implement designs; they usually do not create them. Some are strong designers, but that is not the core skill."],
+            [{ "b": ["Content and marketing."] }, " Full-stack covers code, not copy or SEO strategy."]
+          ]
+        },
+        { "type": "h3", "text": "When you need a full-stack developer" },
+        {
+          "type": "p",
+          "inline": [
+            "Most ecommerce projects need a full-stack developer, because most projects span both front end and back end and benefit from having one person own the whole build. The exceptions are headless builds (where the front end and back end are genuinely separate projects), very complex integrations (where a back-end specialist is worth it), and projects where you already have a strong design team and only need implementation."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the full-stack vs freelancer vs agency comparison, see ",
+            { "a": "/freelancer-vs-agency-vs-in-house", "t": ["freelancer vs agency vs in-house"] },
+            ". For the full hiring process, see ",
+            { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cost-comparison",
+      "title": "Cost Comparison by Role",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Rates vary widely by region and platform specialization, but the table below gives typical 2026 ranges for a small-to-mid ecommerce project. Rates assume a mid-level developer or designer in the US or Western Europe; adjust for your region using the ranges in ",
+            { "a": "/ecommerce-website-developer-cost", "t": ["ecommerce website developer cost"] },
+            "."
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            ["Role"],
+            ["Hourly rate (USD)"],
+            ["Typical small project"]
+          ],
+          "rows": [
+            [["Web designer"], ["$40 - $150"], ["$2,000 - $15,000"]],
+            [["Front-end developer"], ["$40 - $150"], ["$3,000 - $20,000 (depending on design complexity)"]],
+            [["Back-end developer"], ["$50 - $175"], ["$4,000 - $25,000 (depending on integrations)"]],
+            [["Full-stack developer"], ["$50 - $200"], ["$5,000 - $30,000 (end-to-end build)"]],
+            [["Designer + full-stack developer"], ["N/A (combined)"], ["$8,000 - $40,000 (full project)"]]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "A full-stack developer is usually cheaper than hiring a front-end and back-end specialist separately, and simpler to manage. A designer plus a full-stack developer is the most common combination for a new store that needs both brand-level design and technical implementation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "which-role",
+      "title": "Which Role Fits Your Project",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Use the table below to match your situation to the right role or combination."
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            ["Your situation"],
+            ["Best fit"]
+          ],
+          "rows": [
+            [["First store, no brand, template platform"], ["Designer + full-stack developer"]],
+            [["First store, strong existing brand, template platform"], ["Full-stack developer"]],
+            [["Redesign of an existing store"], ["Designer (or design agency)"]],
+            [["Standard Shopify or WooCommerce build"], ["Full-stack ecommerce developer"]],
+            [["Headless build with a modern front end"], ["Front-end developer + back-end developer"]],
+            [["Complex integrations (ERP, multi-currency, custom checkout)"], ["Full-stack developer with back-end depth (or specialist)"]],
+            [["Ongoing maintenance and small changes"], ["Full-stack developer on retainer"]],
+            [["Very complex enterprise build"], ["Agency team (front end + back end + PM + QA)"]]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hiring-combinations",
+      "title": "Hiring Combinations That Work",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Most successful ecommerce builds use one of the three combinations below. Each has a different cost and coordination profile."
+          ]
+        },
+        { "type": "h3", "text": "Combination 1: One full-stack developer" },
+        {
+          "type": "p",
+          "inline": [
+            "Best for small and mid-market builds where the design is already defined or can be adapted from a template. Simplest to manage, cheapest overall, and fastest to start. The trade-off is that the developer is a generalist, not a specialist."
+          ]
+        },
+        { "type": "h3", "text": "Combination 2: Designer + full-stack developer" },
+        {
+          "type": "p",
+          "inline": [
+            "Best for new stores that need brand-level design and technical implementation. Most common combination for mid-market D2C builds. The trade-off is that the two roles need to be coordinated, so a project manager (often you) is required."
+          ]
+        },
+        { "type": "h3", "text": "Combination 3: Front-end + back-end + designer (or agency)" },
+        {
+          "type": "p",
+          "inline": [
+            "Best for complex or headless builds where the front end and back end are genuinely separate projects. An agency typically bundles this combination, along with project management and QA. The trade-off is cost and a longer lead time to start."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the agency vs freelancer comparison, see ",
+            { "a": "/freelancer-vs-agency-vs-in-house", "t": ["freelancer vs agency vs in-house"] },
+            ". For a step-by-step hiring process across any combination, see ",
+            { "a": "/hire-ecommerce-website-developer#hiring-process", "t": ["the hiring process"] },
+            " in our pillar guide."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "common-mistakes",
+      "title": "Common Role-Selection Mistakes",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "These are the mistakes that show up most often in failed ecommerce projects."
+          ]
+        },
+        { "type": "h3", "text": "Hiring a web designer to build a store" },
+        {
+          "type": "p",
+          "inline": [
+            "Designers create the visual direction but do not write code. If you hire a designer expecting them to build the store, you will get mockups and no working ecommerce site. Always pair a designer with a developer."
+          ]
+        },
+        { "type": "h3", "text": "Hiring a general web developer for ecommerce" },
+        {
+          "type": "p",
+          "inline": [
+            "A general web developer with no ecommerce experience will miss the specifics of product data, checkout flows, tax, and shipping. Always verify platform-specific ecommerce experience, not just \"web development\" experience."
+          ]
+        },
+        { "type": "h3", "text": "Hiring a front-end developer for a project that needs a full-stack one" },
+        {
+          "type": "p",
+          "inline": [
+            "Front-end developers are excellent at what they do, but if your project requires payment gateway integration, ERP connection, or custom checkout logic, they are the wrong hire. Ask directly what back-end work they have done."
+          ]
+        },
+        { "type": "h3", "text": "Hiring a full-stack developer for a project that genuinely needs specialists" },
+        {
+          "type": "p",
+          "inline": [
+            "Full-stack developers are strong generalists, but for very complex integrations or very demanding front-end performance work, a specialist delivers better results. Know the limits of the role."
+          ]
+        },
+        { "type": "h3", "text": "Combining roles without acknowledging the coordination cost" },
+        {
+          "type": "p",
+          "inline": [
+            "Designer + developer combinations work, but they require someone to coordinate them. If you do not have the time to project manage, hire an agency that provides the coordination. For warning signs to watch for in any model, see ",
+            { "a": "/ecommerce-developer-red-flags", "t": ["common red flags when hiring an ecommerce developer"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "title": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "Is a full-stack developer better than a specialist for ecommerce?",
+          "a": [
+            "For most ecommerce builds, yes — a full-stack developer can own the whole project and is simpler to work with. For headless builds, complex integrations, or very demanding front-end performance work, a specialist (or a team) is usually a better fit. See the ",
+            { "a": "#which-role", "t": ["which role section"] },
+            "."
+          ]
+        },
+        {
+          "q": "Do I need a designer and a developer?",
+          "a": [
+            "If you are launching a new store with no brand, or redesigning an existing one, yes — a designer creates the visual direction and a developer implements it. If you have a strong existing brand and are using a template, a full-stack developer alone is often sufficient."
+          ]
+        },
+        {
+          "q": "What is the difference between a web developer and an ecommerce developer?",
+          "a": [
+            "A web developer builds websites generally. An ecommerce developer specializes in the specifics of online stores: product data, checkout flows, payment gateways, shipping, tax, and integration with back-office systems. The distinction matters more than the front-end/back-end distinction for most projects. See ",
+            { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+            "."
+          ]
+        },
+        {
+          "q": "Can one person build my whole ecommerce store?",
+          "a": [
+            "For most small and mid-market stores, yes — a full-stack ecommerce developer can build the entire store, including design implementation, payment integration, and launch. The exception is a project that needs original brand design, which requires a separate designer."
+          ]
+        },
+        {
+          "q": "What is the cheapest combination for a new ecommerce store?",
+          "a": [
+            "One full-stack developer adapting a strong template to your brand. That is the cheapest end-to-end option. Adding a designer increases cost but improves the visual result; adding a specialist increases cost but improves depth on the specific part they own."
+          ]
+        },
+        {
+          "q": "What is the most expensive combination?",
+          "a": [
+            "An agency team with a designer, a front-end developer, a back-end developer, a project manager, and QA. That combination is worth it for complex or high-stakes builds, but overkill for most small stores. See ",
+            { "a": "/freelancer-vs-agency-vs-in-house", "t": ["freelancer vs agency vs in-house"] },
+            " for the model comparison."
+          ]
+        },
+        {
+          "q": "Does a full-stack developer do design?",
+          "a": [
+            "Usually not as a core skill. A full-stack developer implements a design, but does not create the visual direction. Some full-stack developers are strong designers, but that is the exception, not the rule. If you need design, hire a designer."
+          ]
+        },
+        {
+          "q": "How do I verify a developer's role experience in an interview?",
+          "a": [
+            "Ask them to walk you through a recent project and describe exactly what they built versus what others built. A strong candidate distinguishes clearly; a weak candidate claims credit for the whole build without specifics. See the vetting questions in ",
+            { "a": "/hire-ecommerce-website-developer#vetting-questions", "t": ["the pillar guide"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "title": "Next Steps",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Match your situation to the role table above, then run the same vetting process regardless of which role you hire. The role determines what you need; the vetting determines whether the person you hire can deliver it."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the full hiring process, return to ",
+            { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+            ". For pricing context, see ",
+            { "a": "/ecommerce-website-developer-cost", "t": ["ecommerce website developer cost"] },
+            ". If you want help deciding which role your project needs, ",
+            { "a": "/contact", "t": ["contact us"] },
+            "."
+          ]
+        }
+      ],
+      "cta": true
+    }
+  ]
+}

@@ -1,0 +1,747 @@
+{
+  "slug": "questions-to-ask-ecommerce-developer",
+  "kind": "article",
+  "topic": "Hiring",
+  "order": 17,
+  "title": "Questions to Ask an Ecommerce Developer: Hiring Checklist",
+  "description": "A complete checklist of questions to ask before hiring an ecommerce developer, organized by category, with what a strong answer sounds like and red flags to watch for.",
+  "ogTitle": "Questions to Ask an Ecommerce Developer: The Complete Hiring Checklist",
+  "ogDescription": "Every question worth asking before hiring an ecommerce developer, with strong-answer and red-flag examples for each.",
+  "published": "2026-11-06",
+  "updated": "2026-11-06",
+  "h1": "Questions to Ask an Ecommerce Developer: The Complete Hiring Checklist",
+  "intro": [
+    {
+      "type": "summary",
+      "inline": [
+        { "b": ["In short:"] },
+        " before hiring an ecommerce developer, ask questions in six categories: ",
+        { "b": ["portfolio, technical skill, process, commercial terms, post-launch support, and references"] },
+        ". For each question, there are two things to listen for: a ",
+        { "i": ["strong answer"] },
+        " (specific, numbers-based, acknowledges trade-offs) and a ",
+        { "i": ["red flag answer"] },
+        " (vague, evasive, or claims expertise in everything). This page gives you both, for every question worth asking."
+      ]
+    },
+    {
+      "type": "p",
+      "inline": [
+        "The checklist below is the full version of the vetting questions summarized in ",
+        { "a": "/hire-ecommerce-website-developer#vetting-questions", "t": ["how to hire an ecommerce website developer"] },
+        ". It's designed to be used live on a call — or printed and taken into an interview. Print or bookmark it before your next conversation."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "how-to-use",
+      "title": "How to Use This Checklist",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The checklist is organized into six categories. Use the categories in this order on a screening call, because each one builds on the previous. If a developer fails the portfolio questions, there is no point asking the technical questions; if they fail the technical questions, do not waste time on the commercial terms."
+          ]
+        },
+        { "type": "h3", "text": "On the call" },
+        {
+          "type": "ul",
+          "items": [
+            ["Have the checklist open on your screen."],
+            ["Ask each question and listen to the answer, not just the content."],
+            ["Note which questions they answered easily, and which they deflected."],
+            ["Score each answer 1 to 5 in the moment, not after the call."]
+          ]
+        },
+        { "type": "h3", "text": "What you are listening for" },
+        {
+          "type": "p",
+          "inline": [
+            "The single most reliable signal in any answer is ",
+            { "b": ["specificity"] },
+            ". A strong developer cites numbers, names, and trade-offs. A weak developer speaks in generalities. \"We build great ecommerce stores\" is a red flag. \"We rebuilt a WooCommerce store from 6.1 seconds to 1.9 seconds mobile load time in nine weeks\" is a green flag, even if the numbers are modest."
+          ]
+        },
+        { "type": "h3", "text": "What to do with a weak answer" },
+        {
+          "type": "p",
+          "inline": [
+            "Do not move on. Ask one follow-up: \"Can you give me a specific example?\" If the second answer is also vague, that is the answer. A strong developer becomes more specific under a follow-up; a weak one repeats the generalities."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "portfolio-questions",
+      "title": "Portfolio Questions",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The portfolio is the first filter. A developer without a real portfolio is not a developer you should hire, regardless of anything else they say."
+          ]
+        },
+        { "type": "h3", "text": "1. Can you send me three live ecommerce stores you built?" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Strong answer:"] },
+            " The developer sends live URLs immediately and encourages you to open them on mobile. They may preemptively note which stores are WooCommerce, which are Shopify, and which were team builds."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Red flag:"] },
+            " Screenshots only. Dead links. Links to stock theme demos. Links to content sites instead of stores. \"We'll send them after we sign.\""
+          ]
+        },
+        { "type": "h3", "text": "2. What was your specific role on each project?" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Strong answer:"] },
+            " The developer distinguishes clearly between solo builds, team contributions, and theme customizations. They may say \"on the first one I was the sole developer; on the second I did the front end and a colleague did the integrations.\""
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Red flag:"] },
+            " Claiming full credit for every project, especially if the stores have clearly different design and code quality. Being unable to say what they specifically built."
+          ]
+        },
+        { "type": "h3", "text": "3. What was the biggest measurable result on any of these projects?" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Strong answer:"] },
+            " Specific numbers — load time before and after, conversion rate lift, order volume change, post-launch bug count. \"We took mobile load from 6.1 to 1.9 seconds, and checkout completion went up 21 percent in 90 days.\""
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Red flag:"] },
+            " Aesthetic results only (\"the client loved the design\"). No numbers. Or numbers that are clearly invented (\"we always deliver 300 percent ROI\")."
+          ]
+        },
+        { "type": "h3", "text": "4. Which store are you most proud of, and why?" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Strong answer:"] },
+            " A specific project with a specific challenge — a complex integration, a difficult migration, a high-traffic launch. The developer can explain what was hard and why the result mattered."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Red flag:"] },
+            " A vague answer (\"all of them\"). Or a store that turns out to be a simple template build with no real challenge."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "technical-questions",
+      "title": "Technical Questions",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "These test whether the developer actually has the depth to build your store, not just talk about building it."
+          ]
+        },
+        { "type": "h3", "text": "5. Which platforms and stacks do you specialize in?" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Strong answer:"] },
+            " A clear specialization in one or two platforms, with a stated trade-off. \"We specialize in Shopify and WooCommerce; for headless we usually partner with a React developer.\" Naming a gap is a strength, not a weakness."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Red flag:"] },
+            " Claiming deep expertise in everything — Shopify, WooCommerce, Magento, headless, custom, Salesforce Commerce Cloud. No one is genuinely deep on all of them."
+          ]
+        },
+        { "type": "h3", "text": "6. How do you handle payment gateway integration and PCI compliance?" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Strong answer:"] },
+            " Specific gateways they have integrated (Stripe, PayPal, Razorpay, Braintree, Adyen), and clear understanding of PCI scope — tokenization, hosted checkout, minimizing the scope of card data on the store's servers."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Red flag:"] },
+            " Confusion about what PCI compliance actually means. \"We just install the plugin.\" No awareness of tokenization or scope."
+          ]
+        },
+        { "type": "h3", "text": "7. How do you test checkout across devices and browsers before launch?" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Strong answer:"] },
+            " A staging environment, a defined device matrix (at minimum iOS Safari, Android Chrome, desktop Chrome), a QA checklist covering edge cases (failed payments, address validation, tax, coupons), and post-launch monitoring."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Red flag:"] },
+            " \"We test on our own phones.\" No defined QA process. No staging environment. Treating checkout testing as a box to tick rather than the most important QA phase."
+          ]
+        },
+        { "type": "h3", "text": "8. How do you approach performance and Core Web Vitals?" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Strong answer:"] },
+            " Specific tools (PageSpeed Insights, Lighthouse, WebPageTest), specific techniques (image optimization, critical CSS, code splitting, caching, database query tuning), and specific targets (mobile LCP under 2.5s, CLS under 0.1)."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Red flag:"] },
+            " \"We optimize the site.\" No specific tool or technique. No awareness of what Core Web Vitals are."
+          ]
+        },
+        { "type": "h3", "text": "9. How do you handle security and updates?" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Strong answer:"] },
+            " Automatic backups, a defined update cadence (core, plugins, themes), a staging environment for updates, a rollback plan, and a security plugin or monitoring setup."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Red flag:"] },
+            " \"We update live.\" No backup strategy. No rollback plan. Treating security as someone else's problem."
+          ]
+        },
+        { "type": "h3", "text": "10. What is your experience with [your specific platform — WooCommerce, Shopify, headless]?" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Strong answer:"] },
+            " Specific examples on that platform — WooCommerce plugin audits and checkout customization, Shopify Liquid theming and app ecosystem, headless React and Storefront API work. Plus a sense of the limits: \"I've done X, but Y is usually better handled by a specialist.\""
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Red flag:"] },
+            " Claims of deep experience on a platform they have not actually built on. For platform-specific vetting, see ",
+            { "a": "/wordpress-ecommerce-website-developer#vetting-questions", "t": ["WordPress ecommerce developer vetting questions"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "process-questions",
+      "title": "Process Questions",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "These test how the developer actually works, not just what they can build. Most failed ecommerce projects fail on process, not technology."
+          ]
+        },
+        { "type": "h3", "text": "11. What does your development process look like, from kickoff to launch?" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Strong answer:"] },
+            " A clear sequence: discovery, scope, design, build, staging, QA, launch, handover. Milestones with deliverables at each stage. Regular check-ins and status reports."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Red flag:"] },
+            " \"We just start building and see how it goes.\" No defined phases. No milestones. No clear handover at the end."
+          ]
+        },
+        { "type": "h3", "text": "12. How do you handle change requests mid-project?" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Strong answer:"] },
+            " A written change-order process. Each change request has a scope, a cost, and a timeline impact, documented before work begins. Some developers include a small change allowance in the base quote."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Red flag:"] },
+            " \"We'll figure it out as we go.\" No change-order process. Scope creep is the single most common cause of budget overruns."
+          ]
+        },
+        { "type": "h3", "text": "13. Who specifically will work on my project?" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Strong answer:"] },
+            " The developer names the team. If it is an agency, they can distinguish between permanent staff and contractors. If a specific person is being pitched, that person is named."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Red flag:"] },
+            " \"Our global team.\" \"Our senior developers.\" No specific name. Or the team that pitches you turns out to be different from the team that builds your project."
+          ]
+        },
+        { "type": "h3", "text": "14. How do you communicate during a project?" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Strong answer:"] },
+            " A specific communication cadence — weekly status calls, written updates, a shared project board, defined response times for questions. The developer is clear about their preferred channels."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Red flag:"] },
+            " \"Whenever you need us.\" No defined cadence. Slow or evasive responses during the sales process itself, which predict slow or evasive responses during the build."
+          ]
+        },
+        { "type": "h3", "text": "15. What does handover look like at the end of the project?" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Strong answer:"] },
+            " Full code transfer, credentials, documentation, and a training session if needed. The client owns all accounts. There is no lock-in."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Red flag:"] },
+            " The developer keeps credentials. No documentation. No training. The client is dependent on the developer for basic access — the classic vendor lock-in setup."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commercial-questions",
+      "title": "Commercial Terms Questions",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "These test whether the developer's commercial terms are fair and clear. Do not skip them even if everything else has gone well."
+          ]
+        },
+        { "type": "h3", "text": "16. What is included in the quote, and what would be billed as a change order?" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Strong answer:"] },
+            " A written scope document. Clear inclusions and exclusions. A stated change-order process for anything outside the scope."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Red flag:"] },
+            " A one-line quote. A price without a scope. A statement like \"we include everything\" that has no documented limits."
+          ]
+        },
+        { "type": "h3", "text": "17. What is your payment schedule?" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Strong answer:"] },
+            " A deposit of 25 to 50 percent, with the remainder tied to milestones and final delivery. Payments are made against deliverables, not dates."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Red flag:"] },
+            " Full payment upfront. Payment tied only to dates, not milestones. Requests to pay to an offshore account with no local contract."
+          ]
+        },
+        { "type": "h3", "text": "18. Who owns the code, designs, and licenses after the project ends?" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Strong answer:"] },
+            " The client owns the code, designs, and any licenses purchased for the project. This is documented in the contract."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Red flag:"] },
+            " The developer retains IP ownership. Or the site runs on a proprietary platform the client cannot move away from."
+          ]
+        },
+        { "type": "h3", "text": "19. What is the total cost of ownership for the first year?" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Strong answer:"] },
+            " A breakdown of build cost plus first-year running costs — hosting, plugins, apps, maintenance, backups. A clear total that the client can budget against."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Red flag:"] },
+            " Only the build cost. No mention of ongoing costs. The client is surprised by hosting and plugin bills in month two."
+          ]
+        },
+        { "type": "h3", "text": "20. Do you have a written contract?" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Strong answer:"] },
+            " Yes. The contract covers scope, milestones, payment schedule, IP ownership, warranty, and dispute resolution. The developer expects you to review it with a lawyer."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Red flag:"] },
+            " \"We work on trust.\" No written contract. \"We'll send it after the project starts.\" Treat the absence of a contract as a hard stop. For what to include, see ",
+            { "a": "/ecommerce-developer-contract-payment-terms", "t": ["ecommerce developer contract and payment terms"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "support-questions",
+      "title": "Post-Launch Support Questions",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "These test what happens after the project goes live. This is where most developers become less responsive, and where the actual ongoing work of maintaining an ecommerce store begins."
+          ]
+        },
+        { "type": "h3", "text": "21. What warranty do you offer after launch?" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Strong answer:"] },
+            " A defined warranty period — typically 30 to 90 days — during which bugs in the delivered scope are fixed at no charge."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Red flag:"] },
+            " No warranty. \"We'll fix anything that comes up.\" An unlimited warranty that no developer can actually honor, which means it will be ignored."
+          ]
+        },
+        { "type": "h3", "text": "22. What maintenance options do you offer after the warranty period?" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Strong answer:"] },
+            " A defined maintenance plan (typically monthly) that covers updates, security patches, backups, and a set number of support hours. Clear pricing and clear scope."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Red flag:"] },
+            " \"We offer hourly support when you need it.\" No proactive maintenance plan. The store will not get updated, and security patches will be missed."
+          ]
+        },
+        { "type": "h3", "text": "23. What are your response times for urgent issues?" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Strong answer:"] },
+            " Specific response-time commitments — for example, same-day response for critical issues like checkout being down, and 1 to 2 business days for non-urgent requests."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Red flag:"] },
+            " No response-time commitment. \"We're flexible.\" A checkout outage during a sales campaign can cost thousands in an hour, and you need a developer who treats it as urgent."
+          ]
+        },
+        { "type": "h3", "text": "24. What happens if you are unavailable — sickness, holidays, or departure?" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Strong answer:"] },
+            " A clear continuity plan. If it is an agency, another team member can cover. If it is a solo developer, they have documented the code and can hand over to a colleague if needed."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Red flag:"] },
+            " \"I'm the only one.\" No documentation. No continuity plan. This is the single biggest risk of hiring a solo freelancer."
+          ]
+        },
+        { "type": "h3", "text": "25. Can I see an example of your maintenance work — a store you have maintained for a year or more?" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Strong answer:"] },
+            " The developer names a specific store and describes the maintenance cadence, the issues that came up, and how they were handled."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Red flag:"] },
+            " No long-term maintenance references. The developer is a build specialist who does not do ongoing work — which means you will need a separate maintenance arrangement after launch."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reference-questions",
+      "title": "Reference Questions",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "References are the most reliable signal in the entire evaluation. But only if you actually call them and ask the right questions. Many buyers skip the reference call, which is a mistake — a good reference call can reveal more than the entire sales process."
+          ]
+        },
+        { "type": "h3", "text": "26. Can you provide two recent references whose projects were similar to mine?" },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Strong answer:"] },
+            " Yes, with the client's permission. The references are recent, relevant to your project scope, and willing to speak by phone."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Red flag:"] },
+            " Hesitation. \"Our clients prefer privacy\" for all references. References that are years old or clearly irrelevant to your scope."
+          ]
+        },
+        { "type": "h3", "text": "What to ask on the reference call" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["\"What went well, and what did not?\""] }, " A reference who can name specific issues and how they were handled is far more valuable than one who gives generic praise."],
+            [{ "b": ["\"Did the project come in on budget and on time?\""] }, " Direct question; the answer is often revealing."],
+            [{ "b": ["\"How did they handle change requests?\""] }, " Tests whether the developer's process held up under pressure."],
+            [{ "b": ["\"How responsive were they after launch?\""] }, " Tests the post-launch claim against reality."],
+            [{ "b": ["\"Would you hire them again?\""] }, " The single most predictive question. Any hesitation is informative."]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For more on what to look for during the reference call, see the portfolio and reviews sections of ",
+            { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scoring",
+      "title": "How to Score the Answers",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Score each answer 1 to 5 as you go. The scoring is less important than the pattern — a developer who scores well across categories is a strong hire; a developer who scores well on some and poorly on others deserves more scrutiny."
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            ["Score"],
+            ["What it means"]
+          ],
+          "rows": [
+            [["5"], ["Specific, numbers-based, acknowledges trade-offs and limitations"]],
+            [["4"], ["Specific but incomplete — answers the question but misses nuance"]],
+            [["3"], ["Generic but reasonable — no specificity, no red flags"]],
+            [["2"], ["Vague or evasive — consistent pattern of non-answers"]],
+            [["1"], ["Clearly misleading, or refuses to answer a basic question"]]
+          ]
+        },
+        { "type": "h3", "text": "How to use the score" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Total above 100 (out of 130):"] }, " strong candidate, proceed to references."],
+            [{ "b": ["Total between 80 and 100:"] }, " acceptable, but probe the low-scoring categories more."],
+            [{ "b": ["Total below 80:"] }, " do not hire, regardless of how strong other areas seemed."],
+            [{ "b": ["Any single score of 1:"] }, " do not hire, regardless of total."]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For a structured comparison across multiple finalists, see the scoring framework in ",
+            { "a": "/top-web-developers-ecommerce-websites#comparison-table", "t": ["how to compare top web developers"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "red-flags",
+      "title": "Answers That Should End the Conversation",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Some answers are not just weak — they are disqualifying. If you hear any of the following, stop the conversation and move to the next candidate."
+          ]
+        },
+        { "type": "h3", "text": "Disqualifying portfolio answers" },
+        {
+          "type": "ul",
+          "items": [
+            ["\"We cannot share live URLs for privacy reasons.\" (Live URLs are public. There is no privacy concern.)"],
+            ["\"Our portfolio is confidential, but we can share it after you sign an NDA.\" (Portfolio is public. An NDA is not required to see it.)"],
+            ["\"All our work is under NDA.\" (No developer works exclusively under NDA across all projects.)"]
+          ]
+        },
+        { "type": "h3", "text": "Disqualifying commercial answers" },
+        {
+          "type": "ul",
+          "items": [
+            ["\"We require full payment upfront.\""],
+            ["\"We do not sign contracts.\""],
+            ["\"Payment to an offshore account, no local entity.\""],
+            ["\"We do not provide references.\""]
+          ]
+        },
+        { "type": "h3", "text": "Disqualifying technical answers" },
+        {
+          "type": "ul",
+          "items": [
+            ["\"We build on everything.\" (No one does.)"],
+            ["\"We do not test before launch.\""],
+            ["\"We update live.\""],
+            ["\"We do not need a staging environment.\""]
+          ]
+        },
+        { "type": "h3", "text": "Disqualifying behavioral answers" },
+        {
+          "type": "ul",
+          "items": [
+            ["\"We do not expect anything to go wrong.\""],
+            ["\"Our clients never have complaints.\""],
+            ["\"We cannot provide any references.\""],
+            ["Any deflection that persists after one direct follow-up."]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the full list of red flags with examples, see ",
+            { "a": "/ecommerce-developer-red-flags", "t": ["common red flags when hiring an ecommerce developer"] },
+            ". For what a strong developer looks like in practice, see ",
+            { "a": "/portfolio", "t": ["our ecommerce portfolio"] },
+            " and ",
+            { "a": "/client-reviews", "t": ["client reviews and testimonials"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "title": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "How many of these questions should I actually ask?",
+          "a": [
+            "Ask all of them, but not all in one call. Use the first call for portfolio, technical, and process questions (categories 1 to 3). Use a second call, after you have checked the portfolio and want to proceed, for commercial, support, and reference questions. Trying to cover all 26 questions in one call produces a rushed, uninformative conversation for both sides."
+          ]
+        },
+        {
+          "q": "What if the developer is annoyed by the questions?",
+          "a": [
+            "That is itself a red flag. A strong developer welcomes thorough vetting, because it protects both sides from a bad fit. A developer who resists being asked questions is telling you something important about how they will handle project questions later."
+          ]
+        },
+        {
+          "q": "Are these questions different for agencies vs freelancers?",
+          "a": [
+            "Most of them apply to both. The differences: agencies should be asked specifically which team members will work on your project and whether they are permanent staff, and references from agencies should be from clients whose projects are similar in scale to yours. For the model comparison, see ",
+            { "a": "/freelancer-vs-agency-vs-in-house", "t": ["freelancer vs agency vs in-house"] },
+            "."
+          ]
+        },
+        {
+          "q": "Are these questions different for different platforms?",
+          "a": [
+            "The categories are the same, but the technical questions should be platform-specific. For WooCommerce, see the WooCommerce-specific vetting questions in ",
+            { "a": "/wordpress-ecommerce-website-developer#vetting-questions", "t": ["what to look for in a WordPress ecommerce developer"] },
+            ". For Shopify, ask about Liquid, the app ecosystem, and Shopify Plus experience. For headless, ask about React, Next.js, and Storefront API."
+          ]
+        },
+        {
+          "q": "Can I just use a scored checklist without asking all the questions?",
+          "a": [
+            "You can, but the score is only as good as the answers it's based on. The value of the checklist is that it forces you to hear specific answers, not that it produces a number. The number is a summary; the answers are the substance."
+          ]
+        },
+        {
+          "q": "How do I verify a developer's answers to these questions?",
+          "a": [
+            "Verify through live portfolio stores, references, and the contract. A developer who answers well but whose portfolio is weak is still a weak hire. The questions and the verification work together — the questions tell you what to verify, and the verification tells you whether the answers were honest."
+          ]
+        },
+        {
+          "q": "What if the developer passes the questions but fails the reference call?",
+          "a": [
+            "The reference call is the tiebreaker. A developer who interviews well but whose references are lukewarm is not a strong hire. The questions are a filter; the references are the confirmation. Trust the reference call over the sales call, every time."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "title": "Next Steps",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Print this checklist or keep it open before your next developer call. Use the scoring framework to compare candidates, and treat any disqualifying answer as a hard stop. The checklist is what turns a gut-feel hire into a structured decision."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the full hiring process, return to ",
+            { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+            ". For the comparison framework across multiple finalists, see ",
+            { "a": "/top-web-developers-ecommerce-websites", "t": ["top web developers offering ecommerce websites"] },
+            ". For the warning signs to watch for, see ",
+            { "a": "/ecommerce-developer-red-flags", "t": ["common red flags when hiring an ecommerce developer"] },
+            ". If you want help shortlisting developers who pass these questions, ",
+            { "a": "/contact", "t": ["contact us"] },
+            "."
+          ]
+        }
+      ],
+      "cta": true
+    }
+  ]
+}
