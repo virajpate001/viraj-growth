@@ -28,6 +28,7 @@ export default function Footer() {
 
         <div className="mt-16 flex flex-col gap-8 border-t border-line pt-8 md:flex-row md:items-center md:justify-between">
           <p className="font-display text-lg font-bold">
+            <img src="/logo.svg" alt="Viraj Pate" className="h-8 w-auto inline-block mr-2" />
             Viraj Pate<span className="text-accent">.</span>
           </p>
           <nav aria-label="Footer" className="flex flex-wrap gap-x-7 gap-y-3 text-sm text-muted">

@@ -35,6 +35,7 @@ export default function Header() {
           href="/"
           className="font-display text-xl font-bold tracking-tight"
         >
+          <img src="/logo.svg" alt="Viraj Pate" className="h-8 w-auto inline-block mr-2" />
           Viraj Pate<span className="text-accent">.</span>
         </Link>
 
