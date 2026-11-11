@@ -1,0 +1,514 @@
+{
+  "slug": "ecommerce-development-social-content-plan",
+  "kind": "article",
+  "topic": "Marketing",
+  "order": 22,
+  "title": "Ecommerce Development Social Content: 30-Day Plan",
+  "description": "A social content plan for an ecommerce development brand: Instagram, LinkedIn, and repurposing strategy to distribute your topical cluster content to a wider audience.",
+  "ogTitle": "Ecommerce Development Social Content: 30-Day Distribution Plan",
+  "ogDescription": "How to repurpose the content cluster into Instagram carousels, LinkedIn posts, and short-form video that actually drive traffic and leads.",
+  "published": "2026-11-06",
+  "updated": "2026-11-06",
+  "h1": "Ecommerce Development Social Content: 30-Day Distribution Plan",
+  "intro": [
+    {
+      "type": "summary",
+      "inline": [
+        { "b": ["In short:"] },
+        " your content cluster is the source of truth, and social is the distribution channel. You should not create new content for social — you should ",
+        { "b": ["carve up the pillar, the checklist, the red flags, and the case study into 30 days of short-form posts"] },
+        " that drive readers back to the full pages. The goal is not to build a social audience from scratch; it is to use social to amplify the SEO authority you are already building."
+      ]
+    },
+    {
+      "type": "p",
+      "inline": [
+        "This page is the operating plan. It covers what to post on each platform, how to repurpose each cluster page into specific post types, a 30-day calendar, and the performance signals to watch. It assumes you have already published the cluster (Days 1–21 of the roadmap). If you have not, publish first — social amplifies existing content, it does not replace it."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "strategy",
+      "title": "The Strategy: Distribute, Don't Duplicate",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The most common mistake with social content for a service business is treating it as a separate content operation. The result is two parallel content streams that do not reinforce each other — SEO content nobody sees because it is not promoted, and social content that does not accumulate authority because it lives and dies in the feed."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "The correct approach is the reverse: build the cluster once, then carve it into social posts that drive readers back to the full pages. Every social post is a preview of a page. The page is the destination, not the social post."
+          ]
+        },
+        { "type": "h3", "text": "What this means in practice" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Do not write new content for social."] }, " Every post is repurposed from an existing cluster page."],
+            [{ "b": ["Every post has a link."] }, " Even if the platform does not favor links, there is a link in the bio or in the first comment."],
+            [{ "b": ["The post is not the full answer."] }, " It is a teaser for the page, not a substitute for it."],
+            [{ "b": ["Social is distribution, not production."] }, " You should be able to produce 30 posts in one sitting from your existing cluster."]
+          ]
+        },
+        { "type": "h3", "text": "What this strategy is not" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Not a growth strategy."] }, " Social distribution does not build an audience from zero; it amplifies existing authority to people who already have some interest."],
+            [{ "b": ["Not a replacement for SEO."] }, " Social reach is temporary; search rankings compound. Social supports SEO, not the other way around."],
+            [{ "b": ["Not a paid ads strategy."] }, " This is organic distribution. Paid social is a separate decision with different economics."]
+          ]
+        },
+        { "type": "h3", "text": "Why this works for a service business" },
+        {
+          "type": "p",
+          "inline": [
+            "B2B service buyers, especially in ecommerce, are highly engaged on LinkedIn and increasingly on Instagram. They follow agencies and developers they are considering hiring, and they read posts that speak directly to their concerns. A post like \"5 signs your ecommerce developer is not really an ecommerce developer\" reaches exactly the audience you want — founders and marketing leads evaluating developers — and it is directly sourced from ",
+            { "a": "/ecommerce-developer-red-flags", "t": ["the red flags page"] },
+            "."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "The social post does not need to be brilliant. It needs to be specific, useful, and clearly linked to a deeper page. That is achievable with a one-page plan per post, and it is how most successful B2B service brands operate on social."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "platforms",
+      "title": "Platform Choices and Why",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Not every platform is worth the effort. For an ecommerce development brand, the following platforms matter and the following do not."
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            ["Platform"],
+            ["Priority"],
+            ["Why"]
+          ],
+          "rows": [
+            [["LinkedIn"], ["High"], ["Where ecommerce founders, marketing leads, and agency owners actually spend time. Best channel for direct engagement from buyers."]],
+            [["Instagram"], ["High"], ["Strong for D2C brand founders and ecommerce operators. Carousels and reels work well for the \"checklist\" and \"red flags\" content."]],
+            [["YouTube"], ["Medium"], ["Valuable for longer educational content, but requires video production investment. Worth adding after LinkedIn and Instagram are stable."]],
+            [["Twitter / X"], ["Low"], ["Smaller audience for this topic, though developers are active there. Useful for repurposing but not worth primary investment."]],
+            [["TikTok"], ["Skip"], ["Your CSV shows all TikTok queries are zero-volume and navigational. Not worth the content investment for this topic."]],
+            [["Facebook"], ["Skip"], ["Low engagement for B2B service content. Not worth the effort unless you have a specific community to serve."]],
+            [["Pinterest"], ["Skip"], ["Wrong audience for B2B development services."]]
+          ]
+        },
+        { "type": "h3", "text": "Platform-specific strategy" },
+        {
+          "type": "p",
+          "inline": [
+            "LinkedIn is the primary channel. It is where a $30,000+ ecommerce build decision is most likely to be influenced by content. Instagram is the secondary channel, especially for D2C brand founders. Both should get the same core content, adapted to the format. YouTube is a longer-term investment, best added once the two primary channels are producing consistent engagement."
+          ]
+        },
+        { "type": "h3", "text": "What about the hashtag" },
+        {
+          "type": "p",
+          "inline": [
+            "Your CSV includes the Instagram hashtag ecommercewebsitedevelopment with 2.4K volume and a $22.57 CPC, which is a genuine signal that the hashtag has commercial intent. Use it on relevant posts, but do not rely on hashtags as a discovery mechanism — Instagram's algorithm has moved away from hashtag-based discovery. Hashtags are a small signal, not a strategy."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "source-pages",
+      "title": "Source Pages for Social Content",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Not every cluster page produces good social content. The following pages are the highest-leverage sources, ranked by how easy they are to carve into posts."
+          ]
+        },
+        { "type": "h3", "text": "Tier 1: Pages that produce 5+ social posts each" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": [{ "a": "/questions-to-ask-ecommerce-developer", "t": ["Questions to ask an ecommerce developer"] }] }, " — 26 questions, each of which is a self-contained social post. This is the single richest source in the cluster."],
+            [{ "b": [{ "a": "/ecommerce-developer-red-flags", "t": ["Ecommerce developer red flags"] }] }, " — 20 flags, each with a \"Tier\" tag and a specific behavioral example. Perfect for carousels and single-image posts."],
+            [{ "b": [{ "a": "/ecommerce-build-case-study", "t": ["Ecommerce build case study"] }] }, " — the numbers, the \"what went wrong\" section, and the \"lessons\" section are all highly shareable."],
+            [{ "b": [{ "a": "/ecommerce-website-developer-cost", "t": ["Ecommerce website developer cost"] }] }, " — every cost table row is a standalone post, and the \"hidden costs\" section is a strong hook."]
+          ]
+        },
+        { "type": "h3", "text": "Tier 2: Pages that produce 2–4 social posts each" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": [{ "a": "/freelancer-vs-agency-vs-in-house", "t": ["Freelancer vs agency vs in-house"] }] }, " — the comparison table and the \"when to switch models\" section."],
+            [{ "b": [{ "a": "/shopify-vs-woocommerce-vs-custom", "t": ["Shopify vs WooCommerce vs custom"] }] }, " — the platform comparison table and the \"which platform\" summary."],
+            [{ "b": [{ "a": "/wordpress-ecommerce-website-developer", "t": ["WordPress ecommerce developer"] }] }, " — the \"WooCommerce vs general WordPress\" distinction is a strong post."],
+            [{ "b": [{ "a": "/developer-vs-web-designer-vs-full-stack", "t": ["Developer vs web designer vs full-stack"] }] }, " — the role comparison table and the \"common mistakes\" section."]
+          ]
+        },
+        { "type": "h3", "text": "Tier 3: Pages that produce 1 social post each" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": [{ "a": "/hire-ecommerce-website-developer", "t": ["Pillar page"] }] }, " — one \"complete guide\" post with the framework."],
+            [{ "b": [{ "a": "/portfolio", "t": ["Portfolio"] }] }, " — one portfolio showcase post."],
+            [{ "b": [{ "a": "/client-reviews", "t": ["Client reviews"] }] }, " — one review highlight post."],
+            [{ "b": [{ "a": "/ecommerce-developers-by-city", "t": ["Geo hub"] }] }, " — one \"hiring across cities\" post."]
+          ]
+        },
+        { "type": "h3", "text": "What not to source from" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Individual city pages"] }, " — they are geo-specific and rarely interesting to a general audience."],
+            [{ "b": ["Contract terms page"] }, " — too niche; better as a link in a longer post than as a standalone social post."],
+            [{ "b": ["Brief template page"] }, " — this is a lead magnet, not a social post. Promote the download, not the page content."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "post-formats",
+      "title": "Post Formats by Platform",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The format matters as much as the content. Different platforms reward different formats, and the same content needs to be adapted to each."
+          ]
+        },
+        { "type": "h3", "text": "LinkedIn formats" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Text-first post"] }, " — a strong opening line, 3–5 short paragraphs, and a link to the page in the comments (LinkedIn suppresses external links in the post body)."],
+            [{ "b": ["Carousel"] }, " — 6–10 slides, one idea per slide. Best for \"5 signs,\" \"5 questions,\" or \"the 3 hiring models.\""],
+            [{ "b": ["Single-image quote card"] }, " — a single strong quote or stat over a simple graphic. Best for one-line insights from the case study or red flags."],
+            [{ "b": ["Short video"] }, " — 60–90 seconds, talking-head or screen-recorded. Best for \"here is the single most important question to ask\" style content."]
+          ]
+        },
+        { "type": "h3", "text": "Instagram formats" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Carousel"] }, " — the primary format. 6–10 slides, visually consistent, with the first slide being a strong hook and the last slide being a call to action."],
+            [{ "b": ["Reel"] }, " — 15–30 seconds, vertical, with captions. Best for \"one key lesson\" content extracted from the case study or the checklist."],
+            [{ "b": ["Static single-image post"] }, " — best for quotes, stats, and short announcements."],
+            [{ "b": ["Story"] }, " — best for behind-the-scenes, teasers, and reposts of the main feed content."]
+          ]
+        },
+        { "type": "h3", "text": "Post length and hook rules" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Hook in the first line."] }, " The first 1–2 lines are all most people will see. Make them specific and, if possible, a little uncomfortable."],
+            [{ "b": ["One idea per post."] }, " If a post tries to cover two ideas, it lands neither."],
+            [{ "b": ["End with a specific CTA."] }, " Not \"let me know what you think\" but \"if you are evaluating a developer, the full 26-question checklist is linked below.\""],
+            [{ "b": ["Do not bury the link."] }, " LinkedIn comment link is fine; Instagram link in bio is fine; both should be mentioned explicitly in the post."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calendar",
+      "title": "The 30-Day Calendar",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The calendar below is a complete 30-day posting schedule. It assumes 1 post per day on LinkedIn and 3–4 posts per week on Instagram. Every post maps to a specific cluster page and uses a specific format."
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            ["Day"],
+            ["Platform"],
+            ["Format"],
+            ["Source page"],
+            ["Hook"]
+          ],
+          "rows": [
+            [["1"], ["LinkedIn"], ["Text"], ["Questions to ask"], ["\"The single most important question to ask an ecommerce developer before you hire\""]],
+            [["2"], ["Instagram"], ["Carousel"], ["Red flags"], ["\"5 signs your developer is not actually an ecommerce developer\""]],
+            [["3"], ["LinkedIn"], ["Text"], ["Case study"], ["\"We cut a store's mobile load time from 6.1s to 1.9s. Here is the one thing that mattered most.\""]],
+            [["4"], ["Instagram"], ["Static"], ["Case study"], ["\"6.1s → 1.9s in nine weeks. The full case study is in the comments.\""]],
+            [["5"], ["LinkedIn"], ["Carousel"], ["Freelancer vs agency"], ["\"Freelancer vs agency vs in-house: which model fits your project?\""]],
+            [["6"], ["Instagram"], ["Reel"], ["Cost guide"], ["\"Here is what a $5,000 store actually looks like\""]],
+            [["7"], ["LinkedIn"], ["Text"], ["Red flags"], ["\"If your developer says 'we don't expect anything to go wrong,' do not hire them.\""]],
+            [["8"], ["Instagram"], ["Carousel"], ["Questions to ask"], ["\"6 questions that reveal whether a developer actually knows WooCommerce\""]],
+            [["9"], ["LinkedIn"], ["Text"], ["Shopify vs WooCommerce"], ["\"Shopify vs WooCommerce: the honest comparison most articles won't give you\""]],
+            [["10"], ["Instagram"], ["Static"], ["Cost guide"], ["\"What $50,000 buys you on Shopify vs WooCommerce vs custom\""]],
+            [["11"], ["LinkedIn"], ["Text"], ["Case study"], ["\"What didn't go to plan on our last rebuild\""]],
+            [["12"], ["Instagram"], ["Carousel"], ["Red flags"], ["\"3 commercial red flags that should end the conversation\""]],
+            [["13"], ["LinkedIn"], ["Text"], ["Developer vs designer"], ["\"Do you need a designer or a developer? The 30-second answer.\""]],
+            [["14"], ["Instagram"], ["Reel"], ["Questions to ask"], ["\"The question that catches 90% of bad developers\""]],
+            [["15"], ["LinkedIn"], ["Carousel"], ["Top developers"], ["\"How to compare 3 finalists on the same framework\""]],
+            [["16"], ["Instagram"], ["Static"], ["Red flags"], ["\"'We cannot share live URLs' is a hard stop. Here is why.\""]],
+            [["17"], ["LinkedIn"], ["Text"], ["Cost guide"], ["\"The 5 hidden costs most ecommerce builds miss\""]],
+            [["18"], ["Instagram"], ["Carousel"], ["Freelancer vs agency"], ["\"Freelancer vs agency: what the premium actually buys you\""]],
+            [["19"], ["LinkedIn"], ["Text"], ["WordPress developer"], ["\"WooCommerce vs general WordPress: this distinction matters more than you think\""]],
+            [["20"], ["Instagram"], ["Reel"], ["Case study"], ["\"One plugin change that saved this store 4 seconds of load time\""]],
+            [["21"], ["LinkedIn"], ["Carousel"], ["Questions to ask"], ["\"The 6 categories of questions that separate top developers from good marketers\""]],
+            [["22"], ["Instagram"], ["Static"], ["Top developers"], ["\"Reference quality is the single most reliable vetting signal\""]],
+            [["23"], ["LinkedIn"], ["Text"], ["Case study"], ["\"Never launch on a Friday. Here is what happened when we almost did.\""]],
+            [["24"], ["Instagram"], ["Carousel"], ["Developer vs designer"], ["\"3 combinations that work (and what each one costs)\""]],
+            [["25"], ["LinkedIn"], ["Text"], ["Red flags"], ["\"Tier 1 vs Tier 2 vs Tier 3 red flags: how to prioritize what you're hearing\""]],
+            [["26"], ["Instagram"], ["Reel"], ["Questions to ask"], ["\"What a strong answer to 'what could go wrong' actually sounds like\""]],
+            [["27"], ["LinkedIn"], ["Carousel"], ["Shopify vs WooCommerce"], ["\"The platform comparison table we use internally\""]],
+            [["28"], ["Instagram"], ["Static"], ["Portfolio"], ["\"Live store. Mobile checkout. Open it yourself.\""]],
+            [["29"], ["LinkedIn"], ["Text"], ["Client reviews"], ["\"The pattern in 37 positive reviews — and what it says about what to look for\""]],
+            [["30"], ["Instagram"], ["Carousel"], ["Case study"], ["\"The full rebuild case study in 8 slides\""]]
+          ]
+        },
+        { "type": "h3", "text": "How to produce this in one sitting" },
+        {
+          "type": "p",
+          "inline": [
+            "The calendar above should take ",
+            { "b": ["one working day"] },
+            " to produce, not 30. Open each source page, extract the relevant snippet, write a hook, note the format, and paste the link. For carousels, write the 6–10 slide titles at the same time. For reels, write the 15–30 second script at the same time. Do not try to produce social content day by day — batch it."
+          ]
+        },
+        { "type": "h3", "text": "What to do with the batching output" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Schedule everything in advance"] }, " using a tool like Buffer, Hootsuite, or Later. The point of the calendar is that you do not have to think about it again for 30 days."],
+            [{ "b": ["Do not schedule the carousel graphics without producing them."] }, " Carousels require design, not just text. If you do not have a designer, use Canva templates — the visual quality matters less than the content quality for this audience."],
+            [{ "b": ["Leave room for reactive content."] }, " Keep 2–3 slots per month for reactive posts (industry news, a new case study, a response to something happening in the ecommerce world). The calendar is a floor, not a ceiling."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "repurposing",
+      "title": "Repurposing Rules",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Repurposing is not copying. A good repurposed post changes the format, the length, and the framing — it does not just paste the source paragraph into a social post."
+          ]
+        },
+        { "type": "h3", "text": "The four rules of repurposing" },
+        {
+          "type": "ol",
+          "items": [
+            [{ "b": ["Change the length."] }, " A 400-word section becomes a 100-word post or a 10-slide carousel. Never a 400-word post."],
+            [{ "b": ["Change the frame."] }, " A question becomes a list of \"what a strong answer sounds like.\" A red flag becomes \"5 signs you are about to be ghosted.\" A case study result becomes \"how we cut load time in half in 9 weeks.\""],
+            [{ "b": ["Change the entry point."] }, " Start with the specific moment the reader is in, not the general topic. Not \"ecommerce developer vetting\" but \"you are on the third sales call and still not sure.\""],
+            [{ "b": ["Add one thing that is not on the page."] }, " A personal aside, a more specific number, a \"what I would do if I were you\" line. The post should feel like it was written for the platform, not extracted from the page."]
+          ]
+        },
+        { "type": "h3", "text": "What to change for each platform" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["LinkedIn:"] }, " more professional tone, longer paragraphs, no emoji, direct link in the comments."],
+            [{ "b": ["Instagram:"] }, " more visual, shorter text, one idea per slide, link in bio, hashtags at the end."],
+            [{ "b": ["Reels:"] }, " scripted, 15–30 seconds, one point, captions on, hook in the first 2 seconds."]
+          ]
+        },
+        { "type": "h3", "text": "How to keep the source pages and the social posts in sync" },
+        {
+          "type": "p",
+          "inline": [
+            "Every social post should link to the specific cluster page it comes from. When a page is updated, the social posts that point to it still work — they do not need to be updated. This is why social is distribution, not production: the source pages live and evolve independently, and social posts are cheap pointers to them."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "measurement",
+      "title": "What to Measure",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Social is harder to measure than SEO, because the attribution is indirect and the time lag is longer. But there are four metrics that actually matter for this strategy, and three that look like they matter but do not."
+          ]
+        },
+        { "type": "h3", "text": "What matters" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Click-throughs to cluster pages."] }, " Not impressions, not likes — actual clicks to the source pages. Use UTM parameters on every link."],
+            [{ "b": ["Time on page for social-sourced traffic."] }, " If readers land on the cluster page and leave in 10 seconds, the post was misleading. If they spend 2+ minutes, the post was a good teaser."],
+            [{ "b": ["Conversion rate from social-sourced traffic."] }, " The percentage of social-sourced visitors who request a quote, download the brief template, or contact you."],
+            [{ "b": ["Inbound mentions and DMs."] }, " \"I saw your post about X\" is a direct signal that the post reached a real buyer."]
+          ]
+        },
+        { "type": "h3", "text": "What does not matter (as much)" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Impressions."] }, " Impressions measure reach, not interest. A post with 50,000 impressions and 3 clicks is worse than a post with 500 impressions and 20 clicks."],
+            [{ "b": ["Follower count."] }, " A growing follower count is nice, but for a B2B service business, it is not the metric that predicts revenue."],
+            [{ "b": ["Likes and engagement."] }, " Likes are a weak signal because they are easy to give and do not correlate with buying intent. Comment quality matters more than comment count."]
+          ]
+        },
+        { "type": "h3", "text": "How to set up measurement" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["UTM parameters on every link."] }, " Use utm_source (linkedin / instagram), utm_medium (social), and utm_campaign (the source page slug). This lets you attribute traffic and conversions to specific posts."],
+            [{ "b": ["Google Analytics 4 events."] }, " Set up conversion events for quote requests, brief template downloads, and contact form submissions. Segment by UTM source."],
+            [{ "b": ["Weekly review."] }, " Every Monday, review the previous week's posts: which posts drove clicks, which pages got the most time-on-page, and which posts generated the highest conversion rate. Adjust the next week's calendar accordingly."]
+          ]
+        },
+        { "type": "h3", "text": "What to do if the numbers are flat" },
+        {
+          "type": "p",
+          "inline": [
+            "If after 30 days the click-throughs are minimal, the problem is almost always one of three things: (1) the hooks are not specific enough, (2) the posts are too generic, or (3) the audience on the platform is not the right audience for this topic. Do not add more posts — fix the hooks and the framing first. One specific post that generates 50 clicks is worth more than 30 generic posts that generate none."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "what-not-to-do",
+      "title": "What Not to Do on Social",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "These are the patterns that waste the most effort and produce the least return for a B2B service brand."
+          ]
+        },
+        { "type": "h3", "text": "Do not post generic advice" },
+        {
+          "type": "p",
+          "inline": [
+            "\"5 tips for a better ecommerce store\" is generic. \"The one question that catches 90% of bad developers\" is specific. Generic advice is easy to scroll past; specific advice is hard to ignore."
+          ]
+        },
+        { "type": "h3", "text": "Do not post without a specific CTA" },
+        {
+          "type": "p",
+          "inline": [
+            "Every post should end with a clear next step. \"Let me know what you think\" is not a CTA. \"The full 26-question checklist is linked in the comments\" is a CTA."
+          ]
+        },
+        { "type": "h3", "text": "Do not post only wins" },
+        {
+          "type": "p",
+          "inline": [
+            "The \"what didn't go to plan\" content from the case study is the highest-engagement content on your site, because most agencies post only wins. Post the failure stories. They build more trust than the success stories do."
+          ]
+        },
+        { "type": "h3", "text": "Do not treat Instagram as a portfolio" },
+        {
+          "type": "p",
+          "inline": [
+            "Instagram is not a gallery of your best work. It is a channel for teaching, opinion, and insight. Portfolio work belongs on ",
+            { "a": "/portfolio", "t": ["the portfolio page"] },
+            ", not in a carousel."
+          ]
+        },
+        { "type": "h3", "text": "Do not use TikTok for this topic" },
+        {
+          "type": "p",
+          "inline": [
+            "Your CSV data confirms this: every TikTok query related to ecommerce website developer has zero volume, and the ones that exist are navigational (e.g., \"ecommerce website developer 1\"). There is no meaningful audience for this topic on TikTok, and the effort-to-return ratio is poor. Skip it."
+          ]
+        },
+        { "type": "h3", "text": "Do not post on a schedule that you cannot maintain" },
+        {
+          "type": "p",
+          "inline": [
+            "1 post per day on LinkedIn and 3–4 posts per week on Instagram is a sustainable schedule for a small team. 3 posts per day is not. The calendar above is designed to be sustainable, not impressive. A sustainable schedule that lasts 6 months beats an aggressive schedule that collapses after 3 weeks."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "title": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "Do I need to be on every platform?",
+          "a": [
+            "No. LinkedIn and Instagram are the two that matter for this topic. Everything else is optional, and TikTok is a skip. Focus your effort on the two channels that reach buyers, and ignore the ones that do not."
+          ]
+        },
+        {
+          "q": "How long before social starts driving traffic?",
+          "a": [
+            "If the cluster is already published and indexed, social can start driving traffic within the first week. Real measurable lift — a steady flow of social-sourced visitors to specific pages — usually takes 30 to 60 days of consistent posting. Expecting faster results is the most common reason social programs get abandoned."
+          ]
+        },
+        {
+          "q": "Should I post the same content on LinkedIn and Instagram?",
+          "a": [
+            "Same core idea, different format. A LinkedIn carousel is not the same as an Instagram carousel, and a LinkedIn text post is not the same as an Instagram reel. The source is the same; the format adapts to the platform."
+          ]
+        },
+        {
+          "q": "How much time does this take per week?",
+          "a": [
+            "If the calendar is produced once per month (one working day), the weekly effort is roughly 1–2 hours for scheduling, engagement, and comments. Producing content daily — rather than batching — multiplies that time by 4–5x and usually leads to burnout."
+          ]
+        },
+        {
+          "q": "Do I need a designer to produce carousels?",
+          "a": [
+            "No, but the carousels should not look sloppy. Canva templates designed for B2B content are sufficient. What matters more than design is the content: the hook, the one idea per slide, and the specific CTA."
+          ]
+        },
+        {
+          "q": "What if I hate social media?",
+          "a": [
+            "Then do not do it. Social is a distribution channel, not a moral requirement. If you have the cluster, the pillar, and the internal linking right, SEO alone can generate meaningful traffic and leads. Social amplifies existing authority; it does not create it. If you would rather spend the effort on more cluster pages or a stronger case study, that is a reasonable choice."
+          ]
+        },
+        {
+          "q": "How does this connect back to the SEO roadmap?",
+          "a": [
+            "Every post links to a cluster page, which builds internal page authority through engagement signals and (indirectly) through brand searches. The SEO roadmap is the source of truth; social is the amplifier. If a post performs well, it is a signal that the source page has strong hooks — which is useful information for optimizing the page itself."
+          ]
+        },
+        {
+          "q": "What is the single most important post to get right?",
+          "a": [
+            "The first post. If the first post performs well, it establishes momentum for the calendar. If it does not, fix the hook and try again before moving on. Do not run a full 30-day calendar with a hook that has already been proven weak."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "title": "Next Steps",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Batch-produce the 30 days of content in one sitting, schedule it, and then spend your weekly social time on engagement and comments — not on production. The calendar above is a floor, not a ceiling: leave room for reactive posts and for the posts that surprise you by performing well."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the source pages, start with ",
+            { "a": "/questions-to-ask-ecommerce-developer", "t": ["questions to ask an ecommerce developer"] },
+            " and ",
+            { "a": "/ecommerce-developer-red-flags", "t": ["ecommerce developer red flags"] },
+            " — those two alone produce 40+ posts. For the case study content, see ",
+            { "a": "/ecommerce-build-case-study", "t": ["the ecommerce build case study"] },
+            ". For the full SEO cluster, return to ",
+            { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+            "."
+          ]
+        }
+      ],
+      "cta": true
+    }
+  ]
+}

@@ -1,0 +1,708 @@
+{
+  "slug": "ecommerce-development-process-milestones",
+  "kind": "article",
+  "topic": "Process",
+  "order": 22,
+  "title": "Ecommerce Development Process: Phases & Milestones",
+  "description": "What the ecommerce development process actually looks like: every phase, every milestone, the timeline, and what to expect at each stage of a build.",
+  "ogTitle": "Ecommerce Development Process: Every Phase and Milestone Explained",
+  "ogDescription": "The full ecommerce development process, phase by phase, with timelines, deliverables, and what to expect at each stage.",
+  "published": "2026-11-06",
+  "updated": "2026-11-06",
+  "h1": "Ecommerce Development Process: Every Phase and Milestone Explained",
+  "intro": [
+    {
+      "type": "summary",
+      "inline": [
+        { "b": ["In short:"] },
+        " a standard ecommerce build runs through ",
+        { "b": ["six phases"] },
+        " — discovery, scope and contract, design, build, QA, and launch — plus an ongoing ",
+        { "b": ["maintenance phase"] },
+        " after launch. A small store typically takes ",
+        { "b": ["6 to 10 weeks"] },
+        "; a mid-market build with integrations takes ",
+        { "b": ["10 to 16 weeks"] },
+        "; a headless or enterprise build takes ",
+        { "b": ["4 to 9 months"] },
+        ". Each phase ends with a specific deliverable that you sign off on before the next phase begins."
+      ]
+    },
+    {
+      "type": "p",
+      "inline": [
+        "This guide walks through each phase in detail — what happens, what you get at the end, how long it takes, and what can go wrong. It is the process companion to ",
+        { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+        " and the reference page that the case study and contract guide both point to. If you have already hired and are trying to understand what is happening, this page is the answer."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Process Overview and Timeline",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Every phase has a deliverable, a sign-off, and a defined timeline. The table below is the summary; each section below expands on one phase."
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            ["Phase"],
+            ["Duration (small store)"],
+            ["Key deliverable"],
+            ["Who is involved"]
+          ],
+          "rows": [
+            [["1. Discovery"], ["1 - 2 weeks"], ["Discovery document"], ["Client + developer"]],
+            [["2. Scope and contract"], ["1 week"], ["Signed scope and contract"], ["Client + developer"]],
+            [["3. Design"], ["1 - 3 weeks"], ["Approved design"], ["Client + designer + developer"]],
+            [["4. Build"], ["3 - 6 weeks"], ["Staging site"], ["Developer"]],
+            [["5. QA and testing"], ["1 - 2 weeks"], ["QA sign-off"], ["Developer + QA + client"]],
+            [["6. Launch"], ["1 - 3 days"], ["Live store"], ["Developer + client"]],
+            [["Maintenance"], ["Ongoing"], ["Monthly reports"], ["Developer + client"]]
+          ]
+        },
+        { "type": "h3", "text": "How the phases connect" },
+        {
+          "type": "p",
+          "inline": [
+            "The phases are sequential, but the boundaries are not always sharp. Design and build overlap on some projects; QA overlaps with the last week of build. What matters is that the milestones are defined clearly enough that you know what \"done\" looks like at each phase boundary. A project without defined milestones is a project where scope creep happens invisibly, and where the launch date slips without anyone noticing until it's too late."
+          ]
+        },
+        { "type": "h3", "text": "What \"sign-off\" actually means" },
+        {
+          "type": "p",
+          "inline": [
+            "Sign-off means you have reviewed the deliverable and confirmed it is what you want to move forward with. It does not mean the phase is perfect — it means the phase is complete enough that the next phase can start without rework. Every sign-off should be documented in writing (even just an email confirmation), because that documentation is what prevents disputes about scope later."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phase-1",
+      "title": "Phase 1: Discovery (1 - 2 weeks)",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Discovery is where the project is understood. It is the phase that most clients want to skip and the phase most responsible for whether the rest of the project goes smoothly. A developer who proposes starting without discovery is a red flag — see ",
+            { "a": "/ecommerce-developer-red-flags", "t": ["ecommerce developer red flags"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "What happens in discovery" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Requirements gathering."] }, " What the store needs to do on day one — products, customers, payments, shipping, integrations."],
+            [{ "b": ["Stakeholder interviews."] }, " Conversations with the people who will actually use the store — marketing, operations, customer service, fulfillment."],
+            [{ "b": ["Technical audit (for rebuilds)."] }, " Current platform, plugin stack, performance baseline, known issues."],
+            [{ "b": ["Competitive and reference review."] }, " What other stores in the category are doing well, and what to avoid."],
+            [{ "b": ["Success criteria."] }, " What \"success\" looks like — a specific conversion target, a launch date, a specific feature that must work."],
+            [{ "b": ["Constraints and risks."] }, " Budget, timeline, platform, integrations, and known unknowns."]
+          ]
+        },
+        { "type": "h3", "text": "Deliverable: Discovery document" },
+        {
+          "type": "p",
+          "inline": [
+            "The discovery document is usually 3–8 pages. It covers the requirements, the success criteria, the constraints, the technical audit (if applicable), the recommended approach, and the estimated timeline. It is the input to the scope phase, not the scope itself."
+          ]
+        },
+        { "type": "h3", "text": "What can go wrong" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Discovery is skipped or compressed."] }, " The client wants to \"just start building.\" The result is usually rework in week six, when the developer discovers a requirement nobody mentioned."],
+            [{ "b": ["Discovery is treated as a sales exercise."] }, " The document is padded with marketing language and no real technical detail. Sign of an agency that cannot execute."],
+            [{ "b": ["Discovery is too broad."] }, " The document covers every feature the client might want, rather than the features the store actually needs on day one. This inflates the scope and the cost."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phase-2",
+      "title": "Phase 2: Scope and Contract (1 week)",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The scope phase turns the discovery document into a written scope of work, and the contract formalizes the commercial terms. This is the most important phase for protecting both sides."
+          ]
+        },
+        { "type": "h3", "text": "What the scope document contains" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["In-scope deliverables."] }, " What is being built, feature by feature."],
+            [{ "b": ["Out-of-scope items."] }, " What is explicitly not included, even if it was discussed during discovery."],
+            [{ "b": ["Assumptions."] }, " What the estimate depends on (e.g., \"the client provides product copy by week 3\")."],
+            [{ "b": ["Change-order process."] }, " How out-of-scope requests are handled, priced, and approved."],
+            [{ "b": ["Timeline and milestones."] }, " What happens when, and what triggers payment at each milestone."],
+            [{ "b": ["Acceptance criteria."] }, " What \"done\" means at each milestone."]
+          ]
+        },
+        { "type": "h3", "text": "What the contract covers" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Payment schedule."] }, " Deposit, milestone payments, final payment."],
+            [{ "b": ["IP ownership."] }, " Who owns the code, designs, and licenses."],
+            [{ "b": ["Warranty."] }, " Post-launch bug-fix coverage period."],
+            [{ "b": ["Support and maintenance."] }, " What is included after launch, and at what cost."],
+            [{ "b": ["Termination and dispute resolution."] }, " How the engagement ends if it needs to."],
+            [{ "b": ["Confidentiality and data handling."] }, " How the developer protects your data and customer information."]
+          ]
+        },
+        { "type": "h3", "text": "Deliverable: Signed scope and contract" },
+        {
+          "type": "p",
+          "inline": [
+            "Nothing should be built until both are signed. A developer who starts building before the scope and contract are signed is a developer who is planning to make change orders expensive later. For what to look for in the contract, see ",
+            { "a": "/ecommerce-developer-contract-payment-terms", "t": ["ecommerce developer contract and payment terms"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "What can go wrong" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Scope is vague."] }, " \"A complete ecommerce store\" is not a scope. Every vague scope becomes a dispute about whether a specific feature is included."],
+            [{ "b": ["Out-of-scope items are not listed."] }, " The most common cause of change-order disputes is that both sides assumed something was in or out of scope but it was never written down."],
+            [{ "b": ["The contract is signed but not read."] }, " Read the contract yourself, even if the developer says it is standard. It is your money and your store."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phase-3",
+      "title": "Phase 3: Design (1 - 3 weeks)",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The design phase produces the visual direction for the store. On some projects, the design is a full brand direction; on others, it is adapting an existing brand to a theme. The scope document should specify which."
+          ]
+        },
+        { "type": "h3", "text": "What happens in design" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Wireframes."] }, " Low-fidelity layouts for the key pages — home, category, product, cart, checkout."],
+            [{ "b": ["Design system."] }, " Typography, color, buttons, form elements, spacing."],
+            [{ "b": ["High-fidelity mockups."] }, " The visual design of the key pages, in Figma, Sketch, or Adobe XD."],
+            [{ "b": ["Design review."] }, " Your feedback, followed by revisions."],
+            [{ "b": ["Design handoff."] }, " The developer receives the files in a format they can implement."]
+          ]
+        },
+        { "type": "h3", "text": "Deliverable: Approved design" },
+        {
+          "type": "p",
+          "inline": [
+            "The design deliverable is usually a Figma file or a PDF with the key pages mocked up. It includes the design system and, ideally, interactive prototypes for the checkout flow. On small template builds, the \"design\" is often just brand adaptation on top of a chosen theme — the scope should say so explicitly."
+          ]
+        },
+        { "type": "h3", "text": "How many revisions" },
+        {
+          "type": "p",
+          "inline": [
+            "Standard practice is 2–3 rounds of revisions included in the design phase. Unlimited revisions are a sign that the design phase will drag or that the designer will produce shallow work. See ",
+            { "a": "/ecommerce-developer-red-flags#commercial-red-flags", "t": ["the red flags section on unlimited revisions"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "What can go wrong" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Design is rushed."] }, " Wireframes are skipped and the team goes straight to high-fidelity mockups, which means the layout is decided before the requirements are fully understood."],
+            [{ "b": ["Design is over-scoped."] }, " Full custom design for a small store that could have used a well-adapted theme. This is a common and expensive mistake."],
+            [{ "b": ["Design is not signed off."] }, " The team moves to build before the client has formally approved the design, and the build has to be redone."],
+            [{ "b": ["Design does not account for the platform."] }, " A design that looks great as a mockup but cannot be built on your platform without extensive custom work. The design and the platform should be decided together."]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the role distinction between design and development, see ",
+            { "a": "/developer-vs-web-designer-vs-full-stack", "t": ["developer vs web designer vs full-stack"] },
+            ". For platform-specific design constraints, see ",
+            { "a": "/shopify-vs-woocommerce-vs-custom", "t": ["Shopify vs WooCommerce vs custom builds"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phase-4",
+      "title": "Phase 4: Build (3 - 6 weeks)",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The build phase is where the store is actually constructed. This is the longest phase and the one where most clients get anxious, because the visible progress is slower than they expect. The right way to manage that anxiety is to have a staging URL from week one, so you can see the store coming together even before it is polished."
+          ]
+        },
+        { "type": "h3", "text": "What happens during build" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Environment setup."] }, " Staging environment, version control, access controls."],
+            [{ "b": ["Theme and template implementation."] }, " The design is implemented against the chosen platform."],
+            [{ "b": ["Platform configuration."] }, " Products, categories, tax, shipping, payment gateways."],
+            [{ "b": ["Integrations."] }, " Connecting to ERP, CRM, accounting, email, analytics."],
+            [{ "b": ["Custom logic."] }, " Any bespoke functionality specified in the scope."],
+            [{ "b": ["Weekly check-ins."] }, " Progress updates against the milestone plan."]
+          ]
+        },
+        { "type": "h3", "text": "Deliverable: Staging site" },
+        {
+          "type": "p",
+          "inline": [
+            "The staging site is a working version of the store that you can test, review, and give feedback on. It is not the live store — it lives at a separate URL — but it should be functional enough that you can go through the entire customer flow: browse products, add to cart, and complete checkout."
+          ]
+        },
+        { "type": "h3", "text": "How to review progress during build" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Test the staging site weekly."] }, " Do not wait until the end of the build to open it. If something is wrong, finding it in week two is much cheaper than finding it in week six."],
+            [{ "b": ["Batch feedback."] }, " Collect your feedback into a single document per week rather than sending a message every time you notice something. Batched feedback is easier to process and less likely to be lost."],
+            [{ "b": ["Raise scope changes immediately."] }, " If you realize you need something that is not in scope, raise it during build rather than after. Change orders are cheaper when the build is still in progress."]
+          ]
+        },
+        { "type": "h3", "text": "What can go wrong" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["No staging environment."] }, " The developer builds directly on the live site, which means bugs hit customers. This is a Tier 1 red flag — see ", { "a": "/ecommerce-developer-red-flags#technical-red-flags", "t": ["the technical red flags section"] }, "."],
+            [{ "b": ["Silent progress."] }, " The developer goes quiet for weeks and then delivers a nearly-finished store. Silent progress usually means a major issue is being hidden until it cannot be hidden anymore."],
+            [{ "b": ["Scope creep."] }, " Small additions pile up and the build runs weeks over schedule. The change-order process from phase 2 is what prevents this from becoming a dispute."],
+            [{ "b": ["Integration surprises."] }, " A third-party API behaves differently than documented, or an integration is more complex than estimated. This is why discovery includes a technical audit of current systems."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phase-5",
+      "title": "Phase 5: QA and Testing (1 - 2 weeks)",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "QA is where the store is tested thoroughly before it goes live. It is the phase most likely to be compressed or skipped under time pressure, and it is the phase that most directly protects your revenue. A store that launches with a broken checkout is worse than a store that launches a week late."
+          ]
+        },
+        { "type": "h3", "text": "What a proper QA phase covers" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Cross-browser testing."] }, " At minimum, iOS Safari, Android Chrome, and desktop Chrome. Older browsers and non-standard mobile devices if relevant to your audience."],
+            [{ "b": ["Cross-device testing."] }, " Mobile, tablet, and desktop at multiple viewport sizes."],
+            [{ "b": ["Checkout edge cases."] }, " Failed payments, coupon stacking, address validation, tax calculation, orders with 20+ items, international addresses."],
+            [{ "b": ["Payment gateway testing."] }, " All payment methods the store supports, in both success and failure modes."],
+            [{ "b": ["Shipping and tax testing."] }, " Multiple shipping zones, tax rates, and edge cases (e.g., a single item over the free-shipping threshold)."],
+            [{ "b": ["Performance testing."] }, " Load time on the pages that matter — home, category, product, cart, checkout."],
+            [{ "b": ["Security testing."] }, " Basic checks for exposed admin pages, missing SSL, weak passwords."],
+            [{ "b": ["Content review."] }, " Product copy, category descriptions, legal pages, contact information."],
+            [{ "b": ["Accessibility checks."] }, " Contrast, alt text, keyboard navigation on the key flows."]
+          ]
+        },
+        { "type": "h3", "text": "Deliverable: QA sign-off" },
+        {
+          "type": "p",
+          "inline": [
+            "The QA sign-off is a documented confirmation that the store has passed the QA checklist. It should include the specific tests that were run and their results. If a developer cannot produce this document, they have not done proper QA — see ",
+            { "a": "/ecommerce-developer-red-flags#technical-red-flags", "t": ["the technical red flags section"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "How much QA is enough" },
+        {
+          "type": "p",
+          "inline": [
+            "For a small template build, 1 week of QA is usually sufficient. For a mid-market build with integrations, 2 weeks. For a headless or enterprise build, 3–4 weeks. Compressing QA below these baselines is how stores launch with broken checkouts, missing payment methods, and tax miscalculations."
+          ]
+        },
+        { "type": "h3", "text": "What can go wrong" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["QA is skipped."] }, " The developer tests on their own phone and ships. Bugs hit customers within hours."],
+            [{ "b": ["Checkout is not tested separately."] }, " Checkout is the highest-risk part of the store and the one where bugs cost money. Testing it as part of \"general QA\" is not enough."],
+            [{ "b": ["Only happy paths are tested."] }, " Everything works when the payment succeeds on the first try. The failures (declined card, expired coupon, out-of-stock item) are where the real bugs are."],
+            [{ "b": ["No staging environment."] }, " QA cannot happen without a staging environment. If the developer is testing on the live site, that is not QA — that is a live test."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phase-6",
+      "title": "Phase 6: Launch (1 - 3 days)",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Launch is the phase everyone focuses on, but it is short. If discovery, scope, build, and QA went well, launch is a controlled deployment. If anything went wrong earlier, launch is where it becomes visible."
+          ]
+        },
+        { "type": "h3", "text": "What happens during launch" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Final data migration."] }, " If you are moving from another platform, the final data sync happens close to launch."],
+            [{ "b": ["DNS and SSL cutover."] }, " The domain is pointed at the new store, and SSL is confirmed working across all pages."],
+            [{ "b": ["Smoke testing."] }, " A short list of critical tests done on the live store to confirm it works as expected."],
+            [{ "b": ["Monitoring."] }, " The developer watches error logs, checkout rates, and performance for the first 24–48 hours."],
+            [{ "b": ["Rollback plan."] }, " If something breaks badly, the ability to revert to the previous state."]
+          ]
+        },
+        { "type": "h3", "text": "Deliverable: Live store" },
+        {
+          "type": "p",
+          "inline": [
+            "A live store is not a store that has been launched — it is a store that has been launched successfully. The difference is whether the smoke tests pass, the monitoring is clean, and there are no urgent issues in the first 48 hours."
+          ]
+        },
+        { "type": "h3", "text": "What can go wrong" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Launch on a Friday."] }, " If something breaks, you cannot get support over the weekend. Launch on a Tuesday or Wednesday, with the developer available for the following 48 hours."],
+            [{ "b": ["No rollback plan."] }, " If the new store breaks and there is no way to revert, you are stuck debugging on a live store with customers trying to buy."],
+            [{ "b": ["Data migration is incomplete."] }, " Customers, orders, or product data did not fully migrate, and the store loses history or inventory accuracy."],
+            [{ "b": ["SEO migration is unmanaged."] }, " Old URLs are not redirected to new ones, and search traffic drops within a week. For the migration and SEO risk, see ", { "a": "/ecommerce-website-developer-cost#hidden-costs", "t": ["hidden costs most buyers miss"] }, "."],
+            [{ "b": ["Analytics is not verified."] }, " The store launches without confirmed analytics, and you cannot measure anything for the first week. Always verify analytics BEFORE launch."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maintenance",
+      "title": "Ongoing: Maintenance and Iteration",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Maintenance is not a phase — it is an ongoing relationship. The work after launch is often more valuable than the work before launch, because it is when the store actually operates and evolves."
+          ]
+        },
+        { "type": "h3", "text": "What maintenance usually covers" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Security and platform updates."] }, " Core, theme, and plugin updates, applied safely and tested."],
+            [{ "b": ["Backups."] }, " Automated backups with confirmed restore capability."],
+            [{ "b": ["Bug fixes."] }, " A defined scope for post-launch bug fixes, either within warranty or on retainer."],
+            [{ "b": ["Performance monitoring."] }, " Regular checks on load time, Core Web Vitals, and error rates."],
+            [{ "b": ["Small enhancements."] }, " Minor features and improvements that come up as the store grows."],
+            [{ "b": ["Seasonal support."] }, " Extra availability around major sales events."]
+          ]
+        },
+        { "type": "h3", "text": "Deliverable: Monthly reports and stable store" },
+        {
+          "type": "p",
+          "inline": [
+            "A good maintenance agreement produces a monthly report showing what was updated, what was fixed, and what the performance and uptime look like. It also produces a store that continues to work, which sounds obvious until you have seen what happens to an unmaintained store over a year."
+          ]
+        },
+        { "type": "h3", "text": "Warranty vs maintenance" },
+        {
+          "type": "p",
+          "inline": [
+            "These are different. A ",
+            { "i": ["warranty"] },
+            " is a defined period (typically 30–90 days after launch) during which bugs in the delivered scope are fixed at no charge. ",
+            { "i": ["Maintenance"] },
+            " is ongoing and typically paid. A developer who offers a warranty but no maintenance is telling you that they will support the store for a few months and then expect you to find someone else. A developer who offers maintenance but no warranty is telling you that they will charge you for fixing their own bugs. You want both, and you want both documented."
+          ]
+        },
+        { "type": "h3", "text": "What can go wrong" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["No maintenance agreement."] }, " The store is updated sporadically, plugins fall behind, and a security vulnerability eventually gets exploited."],
+            [{ "b": ["Maintenance is undefined."] }, " \"We fix things when you need us\" is not a maintenance agreement. It is an hourly rate with no proactive work."],
+            [{ "b": ["Warranty is used as a substitute for maintenance."] }, " The store is fine for 90 days and then degrades slowly for two years."]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For what a maintenance agreement should include, see ",
+            { "a": "/ecommerce-developer-contract-payment-terms", "t": ["ecommerce developer contract and payment terms"] },
+            ". For the cost of maintenance, see ",
+            { "a": "/ecommerce-website-developer-cost#hidden-costs", "t": ["hidden costs most buyers miss"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "milestones",
+      "title": "Milestones and Deliverables: What \"Done\" Looks Like at Each Phase",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The milestone table below is the sign-off checklist. Each phase is complete when its milestone is met and documented in writing."
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            ["Milestone"],
+            ["Definition of done"],
+            ["Typical trigger"]
+          ],
+          "rows": [
+            [["Discovery sign-off"], ["Discovery document approved by client"], ["Start of scope phase"]],
+            [["Scope sign-off"], ["Scope document and contract signed"], ["Start of design or build"]],
+            [["Design approval"], ["Designs approved, or theme adaptation confirmed"], ["Start of build"]],
+            [["Staging review"], ["Staging site functional and reviewed by client"], ["Start of QA"]],
+            [["QA sign-off"], ["QA checklist passed and documented"], ["Start of launch"]],
+            [["Launch"], ["Live store passes smoke tests and monitoring is clean"], ["Start of warranty and maintenance"]],
+            [["Handover"], ["Full code, credentials, and documentation delivered to client"], ["End of engagement or start of maintenance"]]
+          ]
+        },
+        { "type": "h3", "text": "How to document sign-offs" },
+        {
+          "type": "p",
+          "inline": [
+            "Every sign-off should be documented in writing. An email saying \"I have reviewed the design and approve it\" is sufficient. The point is not legal formality — it is that later, when someone asks \"was this in scope,\" you have a clear record. Developers who do not document sign-offs are usually the same developers who end up in scope disputes."
+          ]
+        },
+        { "type": "h3", "text": "What to do if a milestone is missed" },
+        {
+          "type": "p",
+          "inline": [
+            "If a phase does not meet its milestone, do not proceed to the next phase. That is the whole point of milestones: they are checkpoints that prevent small problems from compounding. If the developer wants to proceed anyway, that is a warning sign. If the milestone is late because of scope changes, that is a different situation — the change order process should have caught it."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "timeline-factors",
+      "title": "What Affects the Timeline",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The base timeline for a small store is 6–10 weeks. The factors below push it up or down."
+          ]
+        },
+        { "type": "h3", "text": "Factors that extend the timeline" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Complex integrations."] }, " ERP, CRM, or PIM integrations add weeks."],
+            [{ "b": ["Data migration."] }, " Especially from a legacy platform with poor data quality."],
+            [{ "b": ["Custom design."] }, " Full custom design adds 1–3 weeks compared to adapting a theme."],
+            [{ "b": ["Multi-language or multi-currency."] }, " Localization adds significant testing and configuration time."],
+            [{ "b": ["Client review delays."] }, " Every phase requires your sign-off. If your team takes a week to review each deliverable, add three weeks to the total."],
+            [{ "b": ["Third-party dependencies."] }, " Payment provider approval, shipping API access, or other external dependencies."],
+            [{ "b": ["Summer and holiday periods."] }, " Both clients and developers are slower in July–August and December."]
+          ]
+        },
+        { "type": "h3", "text": "Factors that shorten the timeline" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Template-based build."] }, " Adapting a strong theme is faster than custom design."],
+            [{ "b": ["Clear scope from day one."] }, " Vague scope always extends timelines because it produces rework."],
+            [{ "b": ["Client availability."] }, " Fast client review and sign-off compresses the total timeline significantly."],
+            [{ "b": ["No data migration."] }, " A brand-new store is faster than a replatform."],
+            [{ "b": ["Experienced developer on the specific platform."] }, " A Shopify specialist builds a Shopify store faster than a generalist."]
+          ]
+        },
+        { "type": "h3", "text": "How to estimate your own timeline" },
+        {
+          "type": "p",
+          "inline": [
+            "Take the base timeline for your project type, add 15 percent as a buffer for surprises, and add 1 week for each client-side dependency (design feedback, content delivery, product photography). If the total timeline is longer than your business can tolerate, the answer is usually to reduce scope, not to compress the process."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "what-goes-wrong",
+      "title": "What Goes Wrong, and How to Avoid It",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Most project failures trace back to a small number of recurring issues. Here are the ones that show up most often, and the phases that prevent them."
+          ]
+        },
+        { "type": "h3", "text": "Failure 1: Undefined scope" },
+        {
+          "type": "p",
+          "inline": [
+            "The most common failure. The client and developer have different ideas of what \"done\" means, and the project ends in a dispute about whether a specific feature is included. This is prevented in phase 2 by listing both in-scope and out-of-scope items explicitly."
+          ]
+        },
+        { "type": "h3", "text": "Failure 2: Skipped discovery" },
+        {
+          "type": "p",
+          "inline": [
+            "The project moves straight to build, and a requirement emerges in week six that nobody asked about in week one. Rework costs 3–5x what it would have cost to identify the requirement upfront. This is prevented in phase 1 by thorough requirements gathering."
+          ]
+        },
+        { "type": "h3", "text": "Failure 3: No staging environment" },
+        {
+          "type": "p",
+          "inline": [
+            "The developer builds directly on the live site. Bugs hit real customers. This is prevented by requiring a staging environment as a non-negotiable part of the build phase — and by treating its absence as a hard stop during vetting."
+          ]
+        },
+        { "type": "h3", "text": "Failure 4: Compressed QA" },
+        {
+          "type": "p",
+          "inline": [
+            "Launch is rushed and QA is squeezed. The store goes live with a broken checkout, missing payment method, or tax miscalculation. This is prevented by protecting the QA phase from compression — if the timeline is tight, reduce scope, not QA."
+          ]
+        },
+        { "type": "h3", "text": "Failure 5: Unmanaged launch" },
+        {
+          "type": "p",
+          "inline": [
+            "Launch happens on a Friday, without a rollback plan, without verified analytics. When something breaks, it takes the whole weekend to fix. This is prevented by scheduling launch on a Tuesday or Wednesday, verifying analytics before launch, and having a rollback plan documented."
+          ]
+        },
+        { "type": "h3", "text": "Failure 6: Disappearing developer" },
+        {
+          "type": "p",
+          "inline": [
+            "The developer finishes the build and becomes unresponsive when post-launch issues emerge. This is prevented by having a written warranty and maintenance agreement before launch, and by keeping all credentials in an account you control."
+          ]
+        },
+        { "type": "h3", "text": "Failure 7: Unmaintained store" },
+        {
+          "type": "p",
+          "inline": [
+            "The store launches successfully and then slowly degrades over the following year as plugins fall behind and security patches are missed. This is prevented by a maintenance agreement from day one, not from when something breaks."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the full list of developer red flags, see ",
+            { "a": "/ecommerce-developer-red-flags", "t": ["ecommerce developer red flags"] },
+            ". For the full vetting checklist, see ",
+            { "a": "/questions-to-ask-ecommerce-developer", "t": ["questions to ask an ecommerce developer"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "title": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "How long does an ecommerce build take?",
+          "a": [
+            "A small standard store takes 6–10 weeks. A mid-market build with integrations takes 10–16 weeks. A headless or enterprise build takes 4–9 months. The exact timeline depends on scope, platform, integrations, and how quickly your team reviews and signs off at each milestone. See the ",
+            { "a": "#overview", "t": ["overview table"] },
+            " and the ",
+            { "a": "#timeline-factors", "t": ["timeline factors section"] },
+            "."
+          ]
+        },
+        {
+          "q": "Can I skip the discovery phase to save time?",
+          "a": [
+            "No. Skipping discovery almost always costs more time than it saves, because requirements that emerge in week six cost 3–5x what they would have cost to identify upfront. A developer who proposes skipping discovery is a red flag. See ",
+            { "a": "/ecommerce-developer-red-flags", "t": ["ecommerce developer red flags"] },
+            "."
+          ]
+        },
+        {
+          "q": "What is a milestone in an ecommerce build?",
+          "a": [
+            "A milestone is a defined deliverable that must be completed and signed off before the next phase begins. The standard milestones are discovery sign-off, scope sign-off, design approval, staging review, QA sign-off, launch, and handover. See the ",
+            { "a": "#milestones", "t": ["milestones table"] },
+            "."
+          ]
+        },
+        {
+          "q": "How much should I be involved during the build?",
+          "a": [
+            "You should be involved weekly. The right involvement is: review the staging site every week, batch your feedback into one document per week, and raise scope changes immediately rather than at the end. What you should not do is micromanage daily — the developer needs room to work. The right cadence is a weekly check-in plus asynchronous feedback."
+          ]
+        },
+        {
+          "q": "What if my developer wants to skip staging and build directly on the live site?",
+          "a": [
+            "That is a hard stop. A developer who builds directly on the live site is one who does not understand why staging exists. This is a Tier 1 red flag. See ",
+            { "a": "/ecommerce-developer-red-flags#technical-red-flags", "t": ["the technical red flags section"] },
+            "."
+          ]
+        },
+        {
+          "q": "How much QA is enough?",
+          "a": [
+            "1 week for a small template build, 2 weeks for a mid-market build, 3–4 weeks for headless or enterprise. QA should not be compressed below these baselines under any circumstances. If the timeline is tight, reduce scope, not QA."
+          ]
+        },
+        {
+          "q": "What is the difference between warranty and maintenance?",
+          "a": [
+            "A warranty is a defined period (typically 30–90 days after launch) during which bugs in the delivered scope are fixed at no charge. Maintenance is ongoing, paid, and covers updates, security, backups, and small enhancements. You want both, documented in writing. See the ",
+            { "a": "#maintenance", "t": ["maintenance section"] },
+            "."
+          ]
+        },
+        {
+          "q": "How do I prevent a project from going over budget?",
+          "a": [
+            "The three most effective steps are: (1) write a clear scope that lists both in-scope and out-of-scope items, (2) raise scope changes immediately during the build rather than after, and (3) document every sign-off in writing. Most over-budget projects are caused by vague scope and delayed change requests, not by developer inefficiency."
+          ]
+        },
+        {
+          "q": "Can the phases overlap?",
+          "a": [
+            "Yes, to a limited extent. Design and build can overlap on the later pages while the earlier pages are still being built. QA can start on the first completed pages while the later pages are still in build. What cannot overlap is sign-off — each milestone must be met before the dependent phase can begin."
+          ]
+        },
+        {
+          "q": "What does \"done\" mean at each phase?",
+          "a": [
+            "The milestones table above defines done for each phase. The general principle is: done means the deliverable is what you agreed to, it has been reviewed, and it has been signed off in writing. If any of those three are missing, the phase is not done."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "title": "Next Steps",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "If you are hiring a developer, this process is the framework to expect. A developer who proposes a different process — skipping discovery, skipping staging, skipping QA — is a developer whose process will cost you more than it saves."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the full hiring process, return to ",
+            { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+            ". For the contract and payment terms that go with each milestone, see ",
+            { "a": "/ecommerce-developer-contract-payment-terms", "t": ["ecommerce developer contract and payment terms"] },
+            ". For the case study this process produced, see ",
+            { "a": "/ecommerce-build-case-study", "t": ["the ecommerce build case study"] },
+            ". If you want help scoping a project against this process, ",
+            { "a": "/contact", "t": ["contact us"] },
+            "."
+          ]
+        }
+      ],
+      "cta": true
+    }
+  ]
+}
