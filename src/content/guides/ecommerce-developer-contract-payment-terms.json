@@ -1,0 +1,735 @@
+{
+  "slug": "ecommerce-developer-contract-payment-terms",
+  "kind": "article",
+  "topic": "Hiring",
+  "order": 24,
+  "title": "Ecommerce Developer Contract & Payment Terms Explained",
+  "description": "Ecommerce developer contract and payment terms explained: what to include, what to avoid, payment schedules, IP ownership, warranty, and change orders.",
+  "ogTitle": "Ecommerce Developer Contract & Payment Terms: What to Include",
+  "ogDescription": "The clauses that matter in an ecommerce developer contract, plus fair payment schedules and the terms to avoid.",
+  "published": "2026-11-06",
+  "updated": "2026-11-06",
+  "h1": "Ecommerce Developer Contract and Payment Terms Explained",
+  "intro": [
+    {
+      "type": "summary",
+      "inline": [
+        { "b": ["In short:"] },
+        " a fair ecommerce developer contract includes ",
+        { "b": ["scope, deliverables, milestones, payment schedule, IP ownership, warranty, post-launch support, and change-order terms"] },
+        ", all in writing. The standard payment schedule is a ",
+        { "b": ["25–50 percent deposit"] },
+        ", with the remainder tied to milestones and final delivery. ",
+        { "b": ["Full payment upfront, no written contract, and no IP ownership clause"] },
+        " are the three terms you should never accept."
+      ]
+    },
+    {
+      "type": "p",
+      "inline": [
+        "This guide covers every clause that matters in an ecommerce developer contract, the payment schedules that are standard in the market, the clauses that should make you walk away, and how to handle changes mid-project. It is the commercial companion to ",
+        { "a": "/ecommerce-development-process-milestones", "t": ["the ecommerce development process"] },
+        " — the process defines what happens, and this page defines how it is formalized. If you are still in the hiring phase, see ",
+        { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+        "."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-contract",
+      "title": "Why a Written Contract Matters",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Ecommerce projects are long, involve multiple phases, and depend on the developer delivering on time and to scope. A written contract is not about distrust — it is about making sure both sides know what \"done\" means, when payment happens, and what happens when something goes wrong. In practice, the projects that go smoothly are almost always the ones with clear contracts."
+          ]
+        },
+        { "type": "h3", "text": "What a contract is for" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Defines scope."] }, " What is being built, feature by feature, and what is not."],
+            [{ "b": ["Defines payment."] }, " When you pay, how much, and against what milestones."],
+            [{ "b": ["Defines ownership."] }, " Who owns the code, the designs, and the licenses."],
+            [{ "b": ["Defines post-launch."] }, " Warranty period, maintenance terms, response times."],
+            [{ "b": ["Defines what happens if things go wrong."] }, " Change orders, termination, dispute resolution."]
+          ]
+        },
+        { "type": "h3", "text": "What a contract is not" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Not a substitute for vetting."] }, " The best contract in the world does not fix a developer who cannot build the store. See ", { "a": "/questions-to-ask-ecommerce-developer", "t": ["questions to ask an ecommerce developer"] }, "."],
+            [{ "b": ["Not a guarantee of quality."] }, " It defines what \"quality\" means for this project, but it does not produce quality."],
+            [{ "b": ["Not necessarily a lawyer-drafted document."] }, " For small projects, a clear written agreement in plain language is often enough. For larger projects, involve a lawyer."]
+          ]
+        },
+        { "type": "h3", "text": "When to involve a lawyer" },
+        {
+          "type": "p",
+          "inline": [
+            "For projects under $10,000, a plain-language agreement covering the essential clauses is usually sufficient. For projects over $25,000, or for projects involving significant IP, data, or compliance risk, have a lawyer review the contract before signing. The cost of a lawyer review is usually 1–3 percent of the project cost, and it is worth it for any project you cannot afford to lose."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contract-clauses",
+      "title": "The 8 Clauses Every Contract Needs",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Every ecommerce developer contract should contain the eight clauses below. If any are missing, ask for them to be added before you sign."
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            ["#"],
+            ["Clause"],
+            ["What it does"]
+          ],
+          "rows": [
+            [["1"], ["Scope of work"], ["Defines exactly what is being built and what is not"]],
+            [["2"], ["Deliverables and acceptance criteria"], ["Defines what \"done\" looks like for each deliverable"]],
+            [["3"], ["Timeline and milestones"], ["Defines when each phase is complete and when payment is due"]],
+            [["4"], ["Payment schedule"], ["Defines how much, when, and against what triggers"]],
+            [["5"], ["IP ownership"], ["Defines who owns the code, designs, and licenses after completion"]],
+            [["6"], ["Warranty and support"], ["Defines post-launch bug coverage and ongoing maintenance terms"]],
+            [["7"], ["Change-order process"], ["Defines how out-of-scope work is priced and approved"]],
+            [["8"], ["Termination and dispute resolution"], ["Defines what happens if the engagement ends early or a dispute arises"]]
+          ]
+        },
+        { "type": "h3", "text": "Clause 1: Scope of work" },
+        {
+          "type": "p",
+          "inline": [
+            "The scope clause should list both in-scope deliverables and out-of-scope items. Out-of-scope is the more important of the two, because it is what prevents disputes about whether a specific feature was included. \"The scope includes rebuilding the checkout as described in Appendix A\" is a real scope clause. \"The scope includes a complete ecommerce store\" is not — see ",
+            { "a": "/ecommerce-developer-brief-template", "t": ["the brief template"] },
+            " for what a proper scope looks like."
+          ]
+        },
+        { "type": "h3", "text": "Clause 2: Deliverables and acceptance criteria" },
+        {
+          "type": "p",
+          "inline": [
+            "Each deliverable should have a stated acceptance criterion — what specifically needs to be true for it to be considered complete. \"The checkout flow processes test orders successfully across iOS Safari, Android Chrome, and desktop Chrome, with all payment methods and edge cases from Appendix B\" is an acceptance criterion. \"The checkout works\" is not."
+          ]
+        },
+        { "type": "h3", "text": "Clause 3: Timeline and milestones" },
+        {
+          "type": "p",
+          "inline": [
+            "The timeline should be specific: dates, not durations. \"Launch by October 1\" is a specific date. \"Launch in 12 weeks from signing\" is a duration that shifts every time the start date shifts. Milestones should have both a date and a definition of done — see ",
+            { "a": "/ecommerce-development-process-milestones#milestones", "t": ["the milestones section"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Clause 4: Payment schedule" },
+        {
+          "type": "p",
+          "inline": [
+            "The payment schedule should tie payments to specific, verifiable milestones, not to dates alone. \"50 percent on signing, 25 percent on delivery of staging site, 25 percent on launch\" is a milestone-based schedule. \"50 percent on signing, 50 percent in 6 weeks\" is a date-based schedule that removes your leverage if the developer is late. See the ",
+            { "a": "#payment-schedules", "t": ["payment schedules section"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Clause 5: IP ownership" },
+        {
+          "type": "p",
+          "inline": [
+            "IP ownership should state clearly that you own the code, the designs, and any licenses purchased for the project after final payment. This is the clause most often missing in small projects, and it is the one that determines whether you can move to a different developer later without rebuilding from scratch. See the ",
+            { "a": "#ip-ownership", "t": ["IP ownership section"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Clause 6: Warranty and support" },
+        {
+          "type": "p",
+          "inline": [
+            "The warranty clause should state the duration (typically 30–90 days after launch) and what is covered (bugs in the delivered scope). The support clause should state what is included after the warranty (maintenance, response times, cost). These are two separate clauses, and both matter. See the ",
+            { "a": "#warranty-support", "t": ["warranty section"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Clause 7: Change-order process" },
+        {
+          "type": "p",
+          "inline": [
+            "The change-order clause should define how out-of-scope work is requested, priced, and approved. A proper process is: written request, written estimate, written approval, then work begins. A weak process is \"we will agree on changes as they come up,\" which is how scope creep becomes a dispute. See the ",
+            { "a": "#change-orders", "t": ["change orders section"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Clause 8: Termination and dispute resolution" },
+        {
+          "type": "p",
+          "inline": [
+            "The termination clause should define what happens if either party wants to end the engagement — what has been paid, what has been delivered, and what happens to work in progress. The dispute-resolution clause should define how disputes are resolved — usually through negotiation first, then mediation, then arbitration or court. These clauses seem bureaucratic until you need them."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "payment-schedules",
+      "title": "Payment Schedules Explained",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Payment structure is one of the most important clauses because it determines your leverage over the developer throughout the project. The three models below are the most common, and they are not equally good for the client."
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            ["Model"],
+            ["How it works"],
+            ["Leverage"]
+          ],
+          "rows": [
+            [["Full upfront"], ["100% before work begins"], ["None"]],
+            [["Date-based"], ["50% on signing, 50% on a specific date"], ["Low — payment happens even if late"]],
+            [["Milestone-based"], ["25–50% deposit, remainder tied to milestones"], ["High — payment follows delivery"]],
+            [["Phased"], ["Payment at each phase boundary (discovery, design, build, launch)"], ["Highest — payment follows sign-off"]]
+          ]
+        },
+        { "type": "h3", "text": "Full upfront: never accept" },
+        {
+          "type": "p",
+          "inline": [
+            "Full payment upfront is a hard stop. It removes all your leverage — you cannot withhold payment if the developer is late, delivers poor work, or disappears. It is also a red flag in itself: a developer who requires full payment upfront is usually either desperate for cash flow or has a history of disputes with clients. See ",
+            { "a": "/ecommerce-developer-red-flags#commercial-red-flags", "t": ["the commercial red flags section"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Date-based: not recommended" },
+        {
+          "type": "p",
+          "inline": [
+            "Date-based payment is common but weak. If the developer is late, you still pay on the date — which means late delivery has no financial consequence. Date-based payment is acceptable only if the timeline is short (a few weeks) and the developer has strong references."
+          ]
+        },
+        { "type": "h3", "text": "Milestone-based: the standard" },
+        {
+          "type": "p",
+          "inline": [
+            "Milestone-based payment is the market standard. A typical schedule is:"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            ["25–50 percent on signing (the deposit)."],
+            ["25–50 percent on delivery of the staging site."],
+            ["25 percent on launch (after QA sign-off)."]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "The exact percentages vary by project size and developer preference, but the principle is the same: each payment is tied to a specific, verifiable deliverable."
+          ]
+        },
+        { "type": "h3", "text": "Phased: best for large projects" },
+        {
+          "type": "p",
+          "inline": [
+            "For larger projects — discovery plus design plus build plus launch — phased payment aligns the payment schedule with the process phases:"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            ["10–20 percent on discovery sign-off."],
+            ["20–30 percent on design approval."],
+            ["30–40 percent on staging delivery."],
+            ["20–30 percent on launch."]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "This gives you the most leverage because every phase is a checkpoint. If the project goes badly at any phase, you can pause before the next payment."
+          ]
+        },
+        { "type": "h3", "text": "What about retainers" },
+        {
+          "type": "p",
+          "inline": [
+            "For ongoing maintenance, a monthly retainer is standard. A retainer usually covers a defined number of hours per month plus priority support, with a monthly invoice. For the maintenance phase, see ",
+            { "a": "/ecommerce-development-process-milestones#maintenance", "t": ["maintenance and iteration"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ip-ownership",
+      "title": "IP Ownership and Licensing",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "IP ownership is the clause that determines whether you can take your store to a different developer later, or whether you are locked into the current one. It is the most under-negotiated clause in small ecommerce contracts and the one that causes the biggest problems later."
+          ]
+        },
+        { "type": "h3", "text": "What should be owned by the client" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Custom code."] }, " Any code written specifically for your project."],
+            [{ "b": ["Design files."] }, " The Figma or Sketch files used for your store."],
+            [{ "b": ["Content."] }, " Product copy, images, and other content you have provided."],
+            [{ "b": ["Licenses."] }, " Any licenses purchased for the project (themes, plugins, fonts)."],
+            [{ "b": ["Accounts and credentials."] }, " Access to the hosting, domain, analytics, and any third-party services."]
+          ]
+        },
+        { "type": "h3", "text": "What the developer typically retains" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Pre-existing code."] }, " Code the developer had before your project, which may be reused in your project under a license."],
+            [{ "b": ["Frameworks and libraries."] }, " Open-source libraries (Shopify's Liquid, React, WordPress) are under their own licenses and are not yours to own."],
+            [{ "b": ["General methods and know-how."] }, " The developer's general expertise is not IP — only the specific code and designs are."]
+          ]
+        },
+        { "type": "h3", "text": "What to look for in the IP clause" },
+        {
+          "type": "p",
+          "inline": [
+            "The IP clause should state clearly:"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            ["Client owns all custom code and designs upon final payment."],
+            ["Developer may reuse pre-existing code and frameworks under a defined license."],
+            ["Client owns all accounts and credentials."],
+            ["Transfer of code and credentials happens at handover, regardless of the engagement's end date."]
+          ]
+        },
+        { "type": "h3", "text": "Red flags in IP clauses" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Developer retains ownership of custom code."] }, " This means you cannot take your store to another developer without rebuilding. Hard stop."],
+            [{ "b": ["No IP clause at all."] }, " The default legal position in most jurisdictions is that the developer retains copyright unless explicitly transferred. Hard stop."],
+            [{ "b": ["\"We grant you a perpetual license to use the code.\""] }, " A license is not ownership. If you cannot take the code with you, you do not own it. Hard stop."],
+            [{ "b": ["Proprietary platform."] }, " The site runs on a proprietary platform the developer built and controls. This is vendor lock-in by design. Hard stop unless it is a deliberate, well-understood choice (e.g., a SaaS platform you are knowingly subscribing to)."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "warranty-support",
+      "title": "Warranty vs Support vs Maintenance",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "These three terms sound similar but mean different things, and the contract should treat them separately. Most disputes about post-launch work happen because one of them was undefined."
+          ]
+        },
+        { "type": "h3", "text": "Warranty" },
+        {
+          "type": "p",
+          "inline": [
+            "A warranty is a defined period after launch during which bugs in the delivered scope are fixed at no charge. Standard warranty periods are:"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Small projects:"] }, " 30 days."],
+            [{ "b": ["Mid-market projects:"] }, " 60 days."],
+            [{ "b": ["Complex projects:"] }, " 90 days."]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "The warranty covers only bugs — not new features, not changes to the design, and not issues caused by the client's own changes (e.g., a plugin installed by the client after launch). The contract should be specific about what is covered."
+          ]
+        },
+        { "type": "h3", "text": "Support" },
+        {
+          "type": "p",
+          "inline": [
+            "Support is the ongoing availability of the developer for questions, issues, and small fixes. It is usually included at a low level within the warranty period and available on an hourly basis afterward. Support is not the same as maintenance — it is reactive, not proactive."
+          ]
+        },
+        { "type": "h3", "text": "Maintenance" },
+        {
+          "type": "p",
+          "inline": [
+            "Maintenance is the ongoing proactive work of keeping the store up to date, secure, and performing well. It includes:"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            ["Core, theme, and plugin updates."],
+            ["Security patches and monitoring."],
+            ["Backups and restore testing."],
+            ["Performance monitoring."],
+            ["Small enhancements and fixes."]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "Maintenance is usually priced as a monthly retainer, from $500 to $3,000+ per month depending on the store's scale. It is not included in the build cost — it is a separate ongoing cost."
+          ]
+        },
+        { "type": "h3", "text": "How the contract should define each" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Warranty:"] }, " duration, scope of coverage, and response time for warranty issues."],
+            [{ "b": ["Support:"] }, " what is included at no charge, what is billed hourly, and the hourly rate."],
+            [{ "b": ["Maintenance:"] }, " what the retainer covers, what is not included, and the monthly cost."]
+          ]
+        },
+        { "type": "h3", "text": "What to avoid" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["\"Unlimited warranty.\""] }, " Sounds generous, means nothing — no developer will honor it indefinitely. Ask for a specific duration."],
+            [{ "b": ["Warranty without support."] }, " The warranty covers bugs, but there is no defined support for anything else. You will be charged hourly for every question."],
+            [{ "b": ["No maintenance option."] }, " The developer will fix the store during the warranty and then disappear. You will need a maintenance agreement from day one, not from when something breaks."]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the maintenance phase as part of the wider process, see ",
+            { "a": "/ecommerce-development-process-milestones#maintenance", "t": ["maintenance and iteration"] },
+            ". For the cost of maintenance, see ",
+            { "a": "/ecommerce-website-developer-cost#hidden-costs", "t": ["hidden costs most buyers miss"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "change-orders",
+      "title": "Change Orders and Scope Creep",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Change orders are how scope changes are handled. Most projects have some — the question is not whether you will need one, but whether the process for handling them is fair and clear."
+          ]
+        },
+        { "type": "h3", "text": "What a good change-order process looks like" },
+        {
+          "type": "ol",
+          "items": [
+            [{ "b": ["Written request."] }, " You describe the change you want, in writing."],
+            [{ "b": ["Written estimate."] }, " The developer responds with the cost and timeline impact of the change."],
+            [{ "b": ["Written approval."] }, " You approve or reject the change before work begins."],
+            [{ "b": ["Change added to the scope."] }, " The scope document (or a separate change log) is updated."]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "Every step should be documented in writing (email is fine). The point is not legal formality — it is that both sides know exactly what is being added and what it costs."
+          ]
+        },
+        { "type": "h3", "text": "What a bad change-order process looks like" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["\"We'll figure it out as we go.\""] }, " Changes are made, then billed at the end. You have no control over cost."],
+            [{ "b": ["Changes billed without estimate."] }, " The developer makes the change and invoices you for what they decided it was worth. Dispute risk is high."],
+            [{ "b": ["Changes treated as new projects."] }, " Every small change becomes a new scope of work, with a new contract. This is overkill for small changes and usually a sign the developer wants to minimize change volume."]
+          ]
+        },
+        { "type": "h3", "text": "How to reduce the number of change orders" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Write a better brief."] }, " The more thorough the brief, the fewer changes needed — see ", { "a": "/ecommerce-developer-brief-template", "t": ["the brief template"] }, "."],
+            [{ "b": ["Batch changes."] }, " Instead of making ten small change requests, collect them into one batch per week. This is easier for the developer and usually cheaper for you."],
+            [{ "b": ["Decide changes during the build, not after."] }, " Changes made during the build are cheaper because the developer is still in the code. Changes made after launch are new projects."]
+          ]
+        },
+        { "type": "h3", "text": "What to do if a change order is disputed" },
+        {
+          "type": "p",
+          "inline": [
+            "If you and the developer disagree about whether something is in scope, refer to the scope document. If it is clearly in scope, the change should not be a change order — it is a bug fix or a missed deliverable. If it is clearly out of scope, the change order is valid. If it is ambiguous, the scope document was not specific enough — which is a lesson for next time, not a dispute for this project."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the change-order process as part of the wider build, see ",
+            { "a": "/ecommerce-development-process-milestones#phase-2", "t": ["the scope and contract phase"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clauses-to-avoid",
+      "title": "Clauses That Should Make You Walk Away",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Some contract clauses are not just unfavorable — they are reasons to walk away from the engagement. If any of the clauses below are present and the developer will not remove them, do not sign."
+          ]
+        },
+        { "type": "h3", "text": "Full payment upfront" },
+        {
+          "type": "p",
+          "inline": [
+            "Already covered above, but worth repeating: 100% payment before work begins removes all your leverage. Do not sign. See ",
+            { "a": "#payment-schedules", "t": ["payment schedules"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Developer retains IP ownership" },
+        {
+          "type": "p",
+          "inline": [
+            "If the developer retains ownership of the code and designs, you cannot take your store to another developer without rebuilding. This is a hard stop. See ",
+            { "a": "#ip-ownership", "t": ["IP ownership"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "No warranty or no support" },
+        {
+          "type": "p",
+          "inline": [
+            "A developer who will not offer any warranty is a developer who expects their own work to break. A developer who will not offer any support after launch is a developer who will disappear. Either is a hard stop."
+          ]
+        },
+        { "type": "h3", "text": "Unilateral change to scope or price" },
+        {
+          "type": "p",
+          "inline": [
+            "The contract should not allow the developer to change the scope, price, or timeline without your written approval. If it does, the contract is not protecting you."
+          ]
+        },
+        { "type": "h3", "text": "Non-compete on the store concept" },
+        {
+          "type": "p",
+          "inline": [
+            "A non-compete that prevents you from working with another developer in the future is a form of lock-in. Non-competes for the developer (preventing them from working with direct competitors) are reasonable; non-competes on you are not."
+          ]
+        },
+        { "type": "h3", "text": "Automatic renewal of maintenance" },
+        {
+          "type": "p",
+          "inline": [
+            "Maintenance agreements with automatic renewal and no cancellation clause are worth avoiding. You should be able to cancel with 30 days' notice and take your store elsewhere."
+          ]
+        },
+        { "type": "h3", "text": "Arbitration in an inconvenient jurisdiction" },
+        {
+          "type": "p",
+          "inline": [
+            "A dispute-resolution clause that requires arbitration in a city you have no connection to is a clause that makes it impractical to enforce your rights. Ask for arbitration in your own city, or in a neutral location both sides agree to."
+          ]
+        },
+        { "type": "h3", "text": "Clawback or penalty clauses that are one-sided" },
+        {
+          "type": "p",
+          "inline": [
+            "A clause that allows the developer to charge penalties for late client feedback, but does not penalize the developer for late delivery, is one-sided. Both sides should have defined consequences for late performance."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the full list of developer red flags beyond contracts, see ",
+            { "a": "/ecommerce-developer-red-flags", "t": ["ecommerce developer red flags"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "negotiating",
+      "title": "What to Negotiate, and What Not To",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Not every clause is equally important. Some are worth negotiating hard; others are usually a waste of time. This section covers which is which."
+          ]
+        },
+        { "type": "h3", "text": "Worth negotiating hard" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["IP ownership."] }, " Non-negotiable. If the developer will not transfer IP on final payment, walk away."],
+            [{ "b": ["Payment schedule."] }, " A fair milestone-based schedule is a reasonable ask. A developer who will not move off full-upfront is a hard stop."],
+            [{ "b": ["Warranty period."] }, " 30 days is standard for small projects; pushing for 60–90 days is reasonable for larger ones."],
+            [{ "b": ["Handover process."] }, " Code, credentials, and documentation at handover, regardless of the engagement's end date."],
+            [{ "b": ["Scope clarity."] }, " The scope should be specific enough that both sides agree on what \"done\" means. This is worth spending time on."]
+          ]
+        },
+        { "type": "h3", "text": "Worth negotiating, but usually flexible" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Payment percentages."] }, " The split between deposit and milestone payments can usually be adjusted. 25/75 and 50/50 are both reasonable starting points."],
+            [{ "b": ["Response times for support."] }, " The specific SLA (e.g., 4 hours vs 8 hours for critical issues) can usually be negotiated."],
+            [{ "b": ["Maintenance pricing."] }, " The monthly retainer amount is usually a market rate, but the scope of what it covers can be negotiated."]
+          ]
+        },
+        { "type": "h3", "text": "Usually not worth fighting" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Payment currency and method."] }, " Unless there is a specific reason to care, this is usually not worth a fight."],
+            [{ "b": ["Standard mutual confidentiality."] }, " This is normal and generally not worth negotiating."],
+            [{ "b": ["Jurisdiction of arbitration"] }, " if the developer is in the same country. If you are in different countries, worth negotiating."]
+          ]
+        },
+        { "type": "h3", "text": "How to negotiate without ruining the relationship" },
+        {
+          "type": "p",
+          "inline": [
+            "Negotiation on a contract is normal and expected. The right posture is: \"These are the clauses that matter to us, and here is why. Can we discuss?\" A developer who is defensive about standard contract terms is a warning sign — see ",
+            { "a": "/questions-to-ask-ecommerce-developer#red-flags", "t": ["the red flags section in the questions page"] },
+            ". A developer who engages openly with contract terms is usually a good partner."
+          ]
+        },
+        { "type": "h3", "text": "When to walk away from negotiation" },
+        {
+          "type": "p",
+          "inline": [
+            "If the developer will not budge on IP ownership, full-upfront payment, or any of the disqualifying clauses in the previous section, walk away. There are other developers. The cost of signing a bad contract — disputes, rebuilds, or lost IP — is much higher than the cost of finding a different developer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "title": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "What is the standard deposit for an ecommerce project?",
+          "a": [
+            "25–50 percent of the total project cost, paid on signing. This is market standard and gives the developer the cash flow to begin work while leaving you with leverage. See the ",
+            { "a": "#payment-schedules", "t": ["payment schedules section"] },
+            "."
+          ]
+        },
+        {
+          "q": "Should I pay full upfront for a discount?",
+          "a": [
+            "No. Some developers offer a discount (5–10 percent) for full upfront payment. The discount is not worth the risk — you lose all leverage if the developer is late, delivers poor work, or disappears. The only exception is if you have a long, verified working relationship with the developer, and even then, milestone payments are the safer default."
+          ]
+        },
+        {
+          "q": "Who should own the code?",
+          "a": [
+            "You should own all custom code and designs written specifically for your project, upon final payment. The developer may retain rights to pre-existing code and general frameworks, but the specific custom code should transfer to you. See the ",
+            { "a": "#ip-ownership", "t": ["IP ownership section"] },
+            "."
+          ]
+        },
+        {
+          "q": "What is a fair warranty period?",
+          "a": [
+            "30 days for small projects, 60 days for mid-market, 90 days for complex builds. The warranty should cover bugs in the delivered scope, not new features or changes. See the ",
+            { "a": "#warranty-support", "t": ["warranty section"] },
+            "."
+          ]
+        },
+        {
+          "q": "How do change orders work?",
+          "a": [
+            "A change order is a written agreement to modify the scope, with a defined cost and timeline impact. The standard process is: written request, written estimate, written approval, then work begins. See the ",
+            { "a": "#change-orders", "t": ["change orders section"] },
+            "."
+          ]
+        },
+        {
+          "q": "Do I need a lawyer to review the contract?",
+          "a": [
+            "For projects under $10,000, a plain-language contract covering the essential clauses is usually sufficient. For projects over $25,000, or any project with significant IP or compliance risk, a lawyer review is worth the cost (typically 1–3 percent of the project cost)."
+          ]
+        },
+        {
+          "q": "What if the developer does not have a written contract?",
+          "a": [
+            "Do not proceed. A written contract is not optional for any project. If the developer does not have one, provide your own or find a different developer. See ",
+            { "a": "/ecommerce-developer-red-flags#commercial-red-flags", "t": ["commercial red flags"] },
+            "."
+          ]
+        },
+        {
+          "q": "What if the developer will not transfer IP on final payment?",
+          "a": [
+            "Do not sign. This is a hard stop. If the developer will not transfer IP, you cannot take your store to another developer later without rebuilding. See the ",
+            { "a": "#clauses-to-avoid", "t": ["clauses to avoid section"] },
+            "."
+          ]
+        },
+        {
+          "q": "Can I cancel the contract mid-project?",
+          "a": [
+            "Usually yes, with defined terms. A standard cancellation clause allows you to terminate with written notice, pay for work completed to date, and receive all code and credentials delivered so far. The exact terms should be in the contract before you sign."
+          ]
+        },
+        {
+          "q": "What is a fair response time for critical issues?",
+          "a": [
+            "For a live store, same-day response for critical issues (checkout down, security issue) is standard. For non-urgent issues, 1–2 business days is typical. Anything slower than same-day for critical issues is a warning sign, because a checkout outage can cost significant revenue per hour."
+          ]
+        },
+        {
+          "q": "Should I agree to a retainer for maintenance from day one?",
+          "a": [
+            "Yes, if the retainer is clearly defined and cancellable with 30 days' notice. A maintenance agreement from day one prevents the store from slowly degrading as plugins fall behind. The alternative — waiting for something to break — is much more expensive over time."
+          ]
+        },
+        {
+          "q": "What if the contract is in a language I do not fully understand?",
+          "a": [
+            "Ask for a translation, or have a lawyer review it. Signing a contract you do not fully understand is a risk you should not take. If the developer cannot provide a translation, that is a signal that they may not be the right partner for you."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "title": "Next Steps",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Before you sign any ecommerce developer contract, confirm that all eight essential clauses are present, that the payment schedule is milestone-based, that you own the IP on final payment, and that the warranty and support are defined in writing. If any of those are missing or unfavorable, ask for changes before you sign."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the full hiring process, return to ",
+            { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+            ". For what happens during each phase that the contract formalizes, see ",
+            { "a": "/ecommerce-development-process-milestones", "t": ["the ecommerce development process"] },
+            ". For the brief that feeds into the scope document, see ",
+            { "a": "/ecommerce-developer-brief-template", "t": ["the brief template"] },
+            ". If you want a contract reviewed or a project scoped, ",
+            { "a": "/contact", "t": ["contact us"] },
+            "."
+          ]
+        }
+      ],
+      "cta": true
+    }
+  ]
+}

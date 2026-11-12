@@ -57,6 +57,8 @@ const ALIASES = {
   "/ecommerce-build-case-study": "/case-studies",
   "/client-reviews": "/portfolio#client-reviews",
   "/shopify-vs-woocommerce-vs-custom": "/blog/shopify-vs-woocommerce",
+  // Add this line — the download file, not a guide
+  "/downloads/ecommerce-developer-brief-template.docx": "/downloads/ecommerce-developer-brief-template.docx",
   
 };
 

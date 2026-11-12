@@ -1,0 +1,551 @@
+{
+  "slug": "ecommerce-developer-brief-template",
+  "kind": "article",
+  "topic": "Hiring",
+  "order": 23,
+  "title": "Ecommerce Developer Brief Template (Free Download)",
+  "description": "A free ecommerce developer brief template: the exact sections to include, what to write in each, and why a clear brief gets you better quotes and fewer change orders.",
+  "ogTitle": "Ecommerce Developer Brief Template: Free Download + Guide",
+  "ogDescription": "The exact brief structure that gets you comparable quotes and avoids scope creep, with a free template.",
+  "published": "2026-11-06",
+  "updated": "2026-11-06",
+  "h1": "Ecommerce Developer Brief Template: The Exact Structure to Use",
+  "intro": [
+    {
+      "type": "p",
+      "inline": [
+        { "b": ["Get the template:"] },
+        " ",
+        { "a": "/downloads/ecommerce-developer-brief-template.docx", "t": ["Download the free brief template (Word, editable)"] },
+        " — or copy the structure directly from this page. It covers the 10 sections a proper ecommerce brief needs, and it's what we recommend before you request quotes from any developer."
+      ]
+    },
+    {
+      "type": "summary",
+      "inline": [
+        { "b": ["Why a brief matters:"] },
+        " developers can only quote accurately against a clear scope. A vague brief gets you vague quotes — and vague quotes get you change orders. A well-written brief reduces the total project cost, shortens the timeline, and is the single most effective thing you can do to avoid scope creep. This page gives you the exact structure to write one."
+      ]
+    },
+    {
+      "type": "p",
+      "inline": [
+        "This page is the downloadable companion to ",
+        { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+        " and the step that comes after ",
+        { "a": "/ecommerce-website-developer-cost", "t": ["ecommerce website developer cost"] },
+        ". If you are already mid-project, see ",
+        { "a": "/ecommerce-development-process-milestones", "t": ["the ecommerce development process"] },
+        " for what should be happening at each phase."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-brief",
+      "title": "Why a Brief Matters",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "A brief is not a formality. It is the document that determines whether your project goes smoothly or ends up in a dispute about what was in scope."
+          ]
+        },
+        { "type": "h3", "text": "The three things a brief does" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["It gets you comparable quotes."] }, " Three developers quoting against the same brief produce quotes you can actually compare. Three developers quoting against a vague description produce quotes that mean different things."],
+            [{ "b": ["It reduces the total cost."] }, " The biggest driver of cost overruns is scope creep — features added mid-project that were not in the original estimate. A clear brief prevents most of that."],
+            [{ "b": ["It reveals developer quality."] }, " A strong developer will ask smart questions about your brief and suggest trade-offs. A weak developer will accept it without engaging with it. The brief itself is a vetting tool — see ", { "a": "/questions-to-ask-ecommerce-developer", "t": ["questions to ask an ecommerce developer"] }, "."]
+          ]
+        },
+        { "type": "h3", "text": "What a brief is not" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Not a full specification."] }, " The brief is the input to the developer's scope proposal. The scope document, which comes after, is more detailed."],
+            [{ "b": ["Not a contract."] }, " The brief is what you send to a developer to get a quote; the contract is what you sign. See ", { "a": "/ecommerce-developer-contract-payment-terms", "t": ["ecommerce developer contract and payment terms"] }, "."],
+            [{ "b": ["Not a way to skip discovery."] }, " A good brief is the foundation of discovery, not a replacement for it. See ", { "a": "/ecommerce-development-process-milestones#phase-1", "t": ["the discovery phase"] }, " for what happens next."]
+          ]
+        },
+        { "type": "h3", "text": "How long a brief should be" },
+        {
+          "type": "p",
+          "inline": [
+            "For a small or mid-market build, a brief of 2–4 pages is usually right. It should be detailed enough that a developer can quote against it, and short enough that the developer actually reads it. Briefs longer than 6 pages tend to bury the key requirements, and briefs under 1 page are usually too vague to quote accurately."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brief-structure",
+      "title": "The 10 Sections of a Good Ecommerce Brief",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The structure below is what a proper ecommerce brief contains. Each section has a specific purpose — skipping one usually produces a gap in the quotes or a dispute later."
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            ["#"],
+            ["Section"],
+            ["Purpose"]
+          ],
+          "rows": [
+            [["1"], ["Business context"], ["Who you are, what you sell, and what the store is for"]],
+            [["2"], ["Current situation"], ["What exists now and why it needs to change"]],
+            [["3"], ["Goals and success metrics"], ["What \"success\" looks like in measurable terms"]],
+            [["4"], ["Scope of work"], ["What is in and what is out"]],
+            [["5"], ["Platform and technical requirements"], ["Platform choice, integrations, hosting"]],
+            [["6"], ["Content and design"], ["Whether design is included, who provides content"]],
+            [["7"], ["Timeline and constraints"], ["Deadlines, blackout periods, dependencies"]],
+            [["8"], ["Budget"], ["Budget range, or expectation of what the project will cost"]],
+            [["9"], ["Decision process"], ["Who decides, what criteria, what timeline"]],
+            [["10"], ["Attachments"], ["Reference stores, brand assets, existing documentation"]]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-details",
+      "title": "What to Write in Each Section",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The descriptions below explain what to write in each section, with examples. The full template file contains all of this as pre-formatted fields you can fill in directly."
+          ]
+        },
+        { "type": "h3", "text": "1. Business context" },
+        {
+          "type": "p",
+          "inline": [
+            "One paragraph on who you are, what you sell, and who your customers are. The developer should be able to understand the business without reading the rest of the brief. Include things like: company size, product category, target market, and any seasonal revenue patterns."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Example:"] },
+            " \"We are a DTC skincare brand with 12 SKUs, selling primarily to women aged 25–45 in the US. We currently do about $200k/year in revenue and are growing 40% year over year. Our peak season is Q4.\""
+          ]
+        },
+        { "type": "h3", "text": "2. Current situation" },
+        {
+          "type": "p",
+          "inline": [
+            "What exists today, and what is prompting the project. This is where you describe the current store — platform, traffic, revenue, known pain points, and what you want to change. If this is a new store, say so explicitly."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Example:"] },
+            " \"We are currently on Shopify (basic plan), running a modified theme. Mobile load time is over 6 seconds. Checkout completion is below category benchmark. We suspect the theme customization is the problem but are not certain. We are considering moving to Shopify Plus or rebuilding on the same platform.\""
+          ]
+        },
+        { "type": "h3", "text": "3. Goals and success metrics" },
+        {
+          "type": "p",
+          "inline": [
+            "What \"success\" looks like in measurable terms. This is the section most briefs skip, and it is the most important one. Without a measurable success criterion, the developer cannot prioritize — and you cannot evaluate whether the project achieved what it was for."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Example:"] },
+            " \"Reduce mobile load time to under 2.5 seconds. Increase checkout completion rate by at least 15% within 90 days of launch. Launch before Q4 peak season (by October 1).\""
+          ]
+        },
+        { "type": "h3", "text": "4. Scope of work" },
+        {
+          "type": "p",
+          "inline": [
+            "What is in scope and — critically — what is explicitly out of scope. In-scope items should be listed as concrete deliverables. Out-of-scope items should be listed explicitly, because the things you forgot to exclude are the things that become disputes later."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Example:"] },
+            " \"In scope: theme rebuild, plugin audit and cleanup, performance optimization, checkout rebuild, migration of existing products and customers. Out of scope: new brand design, product photography, copywriting for product pages, email marketing setup.\""
+          ]
+        },
+        { "type": "h3", "text": "5. Platform and technical requirements" },
+        {
+          "type": "p",
+          "inline": [
+            "The platform you are on or want to move to, the integrations you need, and any technical constraints. This is where you name the payment gateway, the ERP, the CRM, and the shipping provider. If you do not know the platform yet, say so — the developer can recommend one. For the platform comparison, see ",
+            { "a": "/shopify-vs-woocommerce-vs-custom", "t": ["Shopify vs WooCommerce vs custom builds"] },
+            "."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Example:"] },
+            " \"Platform: Shopify preferred, but open to recommendation. Required integrations: Klaviyo (email), ReCharge (subscriptions), ShipStation (fulfillment). Existing payment gateway: Stripe. Preferred hosting: Shopify's native or a recommended managed option.\""
+          ]
+        },
+        { "type": "h3", "text": "6. Content and design" },
+        {
+          "type": "p",
+          "inline": [
+            "Whether design is included in the project, who is providing the design, and who is providing the content. These are two of the most common sources of scope confusion — clarify them explicitly."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Example:"] },
+            " \"Design: we have an existing brand system and will provide a Figma file with the key pages. We do not need new design work — we need it implemented. Content: we will provide all product copy and images. We do not expect the developer to write copy or source photography.\""
+          ]
+        },
+        { "type": "h3", "text": "7. Timeline and constraints" },
+        {
+          "type": "p",
+          "inline": [
+            "The target launch date, any fixed deadlines (a trade show, a seasonal launch, a marketing campaign), and any blackout periods. Be honest about what deadlines are real and what are aspirational. A developer who knows a deadline is fixed will plan differently from a developer who knows it is flexible."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Example:"] },
+            " \"Target launch: October 1 (fixed — marketing campaign is booked for October 15). Blackout period: do not launch between November 20 and January 5 (our Q4 sales season). If launch is delayed, the campaign needs to be rescheduled, so the deadline is a hard constraint.\""
+          ]
+        },
+        { "type": "h3", "text": "8. Budget" },
+        {
+          "type": "p",
+          "inline": [
+            "A budget range, or at minimum a statement of what you expect the project to cost. Many buyers are uncomfortable sharing a budget, but withholding it produces one of two outcomes: quotes that are much higher than you can afford (wasting everyone's time), or quotes that are much lower than the project actually needs (producing a build that is missing features you expected). Share a range."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Example:"] },
+            " \"Budget: $25,000–$40,000 for the build. We can stretch to $45,000 if the case for a specific feature is strong. We also have a separate budget for ongoing maintenance.\""
+          ]
+        },
+        { "type": "h3", "text": "9. Decision process" },
+        {
+          "type": "p",
+          "inline": [
+            "Who makes the decision, what criteria will be used, and what the timeline is. This is how the developer knows how to prioritize their pitch, and it is how you avoid collecting quotes you will not actually evaluate."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Example:"] },
+            " \"Decision maker: me (founder), with input from our marketing lead. Criteria: platform fit and live portfolio first, price second. We are collecting quotes over the next two weeks and expect to make a decision by the end of the month.\""
+          ]
+        },
+        { "type": "h3", "text": "10. Attachments" },
+        {
+          "type": "p",
+          "inline": [
+            "Any reference material: current site URLs, existing design files, brand assets, analytics screenshots, or reference stores you admire. The more the developer can see, the more accurate the quote — and the fewer surprises later."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Example:"] },
+            " \"Attached: current site URL, Figma file with design system, analytics screenshot for traffic and conversion, and two reference stores (here and here) that we like the checkout flow for.\""
+          ]
+        }
+      ]
+    },
+    {
+      "id": "example",
+      "title": "A Worked Example",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Here is a condensed version of what a completed brief looks like for a small WooCommerce rebuild. This is the shape the template produces when filled in."
+          ]
+        },
+        { "type": "h3", "text": "Sample brief: small store rebuild" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Business context:"] }, " DTC skincare brand, 12 SKUs, $200k/year, growing 40%, US market, Q4 peak."],
+            [{ "b": ["Current situation:"] }, " WooCommerce on shared hosting, 27 plugins, 6.1s mobile load time, checkout completion below benchmark."],
+            [{ "b": ["Goals:"] }, " Mobile load under 2.5s, checkout completion up 15%+, launch before October 1."],
+            [{ "b": ["In scope:"] }, " Theme rebuild, plugin audit and cleanup, performance, checkout rebuild, data migration."],
+            [{ "b": ["Out of scope:"] }, " New design, new content, email setup, ad tracking."],
+            [{ "b": ["Platform:"] }, " WooCommerce (staying on current platform), Stripe, Klaviyo, ShipStation."],
+            [{ "b": ["Design/content:"] }, " Existing brand system (Figma provided), all content provided."],
+            [{ "b": ["Timeline:"] }, " Start by July 15, launch by October 1, no launch between Nov 20 – Jan 5."],
+            [{ "b": ["Budget:"] }, " $20,000–$30,000 build, separate maintenance budget."],
+            [{ "b": ["Decision process:"] }, " Founder decides, with input from marketing lead, within 2 weeks of quotes."],
+            [{ "b": ["Attachments:"] }, " Current URL, Figma file, analytics screenshot, two reference stores."]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "This example is exactly what the template file produces once filled in. The brief is 2 pages total, and any ecommerce developer can quote against it accurately."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "common-mistakes",
+      "title": "Common Brief Mistakes",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "These are the mistakes that turn a good-intentioned brief into one that produces vague quotes and scope disputes."
+          ]
+        },
+        { "type": "h3", "text": "Mistake 1: No out-of-scope list" },
+        {
+          "type": "p",
+          "inline": [
+            "The single biggest cause of scope disputes. If you list only what is in scope, the developer has no way to know what is not — and every \"we assumed that was included\" conversation starts here. Always list out-of-scope items explicitly."
+          ]
+        },
+        { "type": "h3", "text": "Mistake 2: No success metrics" },
+        {
+          "type": "p",
+          "inline": [
+            "\"Make the store better\" is not a goal. \"Reduce mobile load time to under 2.5s and lift checkout completion by 15%\" is a goal. Without a measurable success criterion, both you and the developer lose the ability to evaluate whether the project worked."
+          ]
+        },
+        { "type": "h3", "text": "Mistake 3: Withholding the budget" },
+        {
+          "type": "p",
+          "inline": [
+            "Buyers often think withholding the budget will produce lower quotes. It produces quotes that are either too high (wasting the developer's time and yours) or too low (missing features you actually need). Share a range."
+          ]
+        },
+        { "type": "h3", "text": "Mistake 4: Contradictory constraints" },
+        {
+          "type": "p",
+          "inline": [
+            "\"We need it in 4 weeks, full custom design, under $5,000\" is not a brief — it is a wish. If the constraints genuinely do not fit together, the developer will either decline or deliver something that misses one of them. Be honest about what is fixed and what is flexible."
+          ]
+        },
+        { "type": "h3", "text": "Mistake 5: No attachments" },
+        {
+          "type": "p",
+          "inline": [
+            "The developer is quoting against an abstract description. They will estimate conservatively (higher price) or optimistically (missed features). Attachments — current site URL, design files, analytics — make the quote accurate."
+          ]
+        },
+        { "type": "h3", "text": "Mistake 6: No decision process" },
+        {
+          "type": "p",
+          "inline": [
+            "The developer does not know what you will evaluate against, so they cannot pitch what matters. If you are deciding on portfolio quality, say so. If you are deciding on price, say so. Either is fine — but the developer should know."
+          ]
+        },
+        { "type": "h3", "text": "Mistake 7: Sending a brief that is too long" },
+        {
+          "type": "p",
+          "inline": [
+            "A 12-page brief with too much detail is often worse than a 3-page brief with the right detail. The developer will skim it and miss the important parts. If your brief is longer than 5–6 pages, condense it before sending."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the vetting process that pairs with the brief, see ",
+            { "a": "/questions-to-ask-ecommerce-developer", "t": ["questions to ask an ecommerce developer"] },
+            " and ",
+            { "a": "/ecommerce-developer-red-flags", "t": ["ecommerce developer red flags"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-to-use",
+      "title": "How to Use the Brief in the Hiring Process",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The brief is not a one-time document. It fits into the hiring process at a specific point and connects to the other steps."
+          ]
+        },
+        { "type": "h3", "text": "Step 1: Write the brief before you contact any developer" },
+        {
+          "type": "p",
+          "inline": [
+            "Writing the brief forces you to clarify your own requirements. Most buyers discover, in writing the brief, that they have not actually decided what they want. Better to discover that before you start collecting quotes than after."
+          ]
+        },
+        { "type": "h3", "text": "Step 2: Send the same brief to every developer you are considering" },
+        {
+          "type": "p",
+          "inline": [
+            "The point of the brief is comparable quotes. If you customize the brief per developer, the quotes are no longer comparable, and you cannot evaluate them against each other."
+          ]
+        },
+        { "type": "h3", "text": "Step 3: Use the questions developers ask as a vetting signal" },
+        {
+          "type": "p",
+          "inline": [
+            "A strong developer asks specific questions about the brief — \"What is the current cart abandonment rate?\" \"Do you need multi-currency?\" \"Which SKUs are your best sellers?\" A weak developer accepts the brief without engagement. The questions themselves are a signal — see ",
+            { "a": "/questions-to-ask-ecommerce-developer", "t": ["questions to ask an ecommerce developer"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Step 4: Use the quotes to refine the brief" },
+        {
+          "type": "p",
+          "inline": [
+            "The first round of quotes often reveals things you missed in the brief — an integration that is more complex than expected, a platform constraint, or a scope that is bigger than you thought. Update the brief for the second round of quotes, if you have one."
+          ]
+        },
+        { "type": "h3", "text": "Step 5: Convert the brief into the scope document" },
+        {
+          "type": "p",
+          "inline": [
+            "The brief is the input to the developer's scope document. The scope should be a more detailed version of the brief, with specific deliverables, acceptance criteria, and change-order terms. For what the scope document should contain, see ",
+            { "a": "/ecommerce-development-process-milestones#phase-2", "t": ["the scope and contract phase"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Step 6: Reference the brief during the build" },
+        {
+          "type": "p",
+          "inline": [
+            "When scope questions come up during the build — and they will — the brief is the reference point. \"Was this in scope?\" is answered by looking at the brief. This is why the brief should be preserved (not just the developer's interpretation of it) and referenced in the contract."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the full hiring process, see ",
+            { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+            ". For the pricing context that goes into the budget section, see ",
+            { "a": "/ecommerce-website-developer-cost", "t": ["ecommerce website developer cost"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "title": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "How long should an ecommerce brief be?",
+          "a": [
+            "2–4 pages for a small or mid-market build. Longer than 6 pages is usually too long to be read carefully; shorter than 1 page is usually too vague to quote accurately. The template file provides the exact length."
+          ]
+        },
+        {
+          "q": "What should I include in the brief that most people forget?",
+          "a": [
+            "Three things most briefs miss: (1) an explicit out-of-scope list, (2) measurable success metrics, and (3) a stated budget range. Each of these is a common cause of vague quotes or scope disputes."
+          ]
+        },
+        {
+          "q": "Should I share my budget in the brief?",
+          "a": [
+            "Yes, with a range. Withholding it produces quotes that are either too high (wasting everyone's time) or too low (missing features you need). A range is enough — it gives the developer the context they need without locking you into a specific number. See the ",
+            { "a": "#common-mistakes", "t": ["common mistakes section"] },
+            "."
+          ]
+        },
+        {
+          "q": "Should I ask the developer to write the brief?",
+          "a": [
+            "No. The brief is the client's document — it is how you communicate what you want. A developer can help you refine it, but a developer who writes the brief is a developer who is defining their own scope. Send the brief to the developer; expect them to respond with questions and then with a scope document."
+          ]
+        },
+        {
+          "q": "Can I use the template for a small project?",
+          "a": [
+            "Yes. For a small project, some sections can be shorter — the business context and current situation can be one line each, and the attachments section can be empty. But do not skip the sections on scope, success metrics, budget, and timeline. Those are the ones that actually prevent scope creep."
+          ]
+        },
+        {
+          "q": "What if I do not know the platform yet?",
+          "a": [
+            "Say so in the brief. \"Platform: open to recommendation\" is a legitimate answer. The developer can recommend a platform, and their recommendation is itself a signal of their expertise — see ",
+            { "a": "/shopify-vs-woocommerce-vs-custom", "t": ["Shopify vs WooCommerce vs custom builds"] },
+            "."
+          ]
+        },
+        {
+          "q": "Should I include a design in the brief?",
+          "a": [
+            "Only if you have one. If you have an existing brand system and design files, attach them. If you need design, say so explicitly in the scope section — do not assume the developer will include design unless they have quoted for it. Design is often 20–30% of a small build."
+          ]
+        },
+        {
+          "q": "What if a developer refuses to quote against the brief?",
+          "a": [
+            "That is a red flag. A developer who will not quote against a written brief is either unable to read carefully or planning to charge based on vague scope later. Both are reasons to look elsewhere — see ",
+            { "a": "/ecommerce-developer-red-flags", "t": ["ecommerce developer red flags"] },
+            "."
+          ]
+        },
+        {
+          "q": "How does the brief relate to the contract?",
+          "a": [
+            "The brief is the input; the contract is the agreement. The contract should reference the brief (or the scope document that was derived from it), so the scope is legally defined. See ",
+            { "a": "/ecommerce-developer-contract-payment-terms", "t": ["ecommerce developer contract and payment terms"] },
+            "."
+          ]
+        },
+        {
+          "q": "What if the quotes I get are all much higher than my budget?",
+          "a": [
+            "That is useful information — it means either your scope is larger than your budget supports, or the developers are pricing for a larger project than you described. The answer is usually to reduce scope (phase the launch), not to lower the budget and hope. For how to reduce scope, see the budget section of ",
+            { "a": "/ecommerce-website-developer-cost", "t": ["ecommerce website developer cost"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "title": "Next Steps",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Download the template, fill in the sections, and send the same brief to every developer you are considering. A clear brief is the single most effective thing you can do to get accurate quotes and avoid scope creep."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": [{ "a": "/downloads/ecommerce-developer-brief-template.docx", "t": ["Download the free ecommerce developer brief template (Word, editable)"] }] }
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the full hiring process, return to ",
+            { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+            ". For what happens after the brief, see ",
+            { "a": "/ecommerce-development-process-milestones", "t": ["the ecommerce development process"] },
+            " and ",
+            { "a": "/ecommerce-developer-contract-payment-terms", "t": ["ecommerce developer contract and payment terms"] },
+            ". If you want to discuss your brief with us, ",
+            { "a": "/contact", "t": ["contact us"] },
+            "."
+          ]
+        }
+      ],
+      "cta": true
+    }
+  ]
+}
