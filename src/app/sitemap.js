@@ -17,6 +17,7 @@ export default function sitemap() {
     { path: "/privacy", priority: 0.2 },
     { path: "/guides", priority: 0.8 },
     { path: "/ecommerce-developers-by-city", priority: 0.8 },
+    { path: "/client-reviews", priority: 0.8 },
   ].map((p) => ({
     url: `${siteUrl}${p.path}`,
     lastModified: now,

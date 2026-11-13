@@ -46,7 +46,7 @@ export function allGuides() {
 
 export function getGuide(slug) {
   return allGuides().find((g) => g.slug === slug) || null;
-}
+} 
 
 // Pages of the main site that guide text may link to.
 // Anything not listed here and not a live guide is shown as plain text, so visitors never hit a 404.
@@ -55,7 +55,7 @@ const ALIASES = {
   "/contact": "/contact",
   "/ecommerce-development-services": "/services",
   "/ecommerce-build-case-study": "/case-studies",
-  "/client-reviews": "/portfolio#client-reviews",
+  "/client-reviews": "/client-reviews",
   "/shopify-vs-woocommerce-vs-custom": "/blog/shopify-vs-woocommerce",
   // Add this line — the download file, not a guide
   "/downloads/ecommerce-developer-brief-template.docx": "/downloads/ecommerce-developer-brief-template.docx",
