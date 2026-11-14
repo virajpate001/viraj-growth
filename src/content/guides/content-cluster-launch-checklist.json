@@ -1,0 +1,633 @@
+{
+  "slug": "content-cluster-launch-checklist",
+  "kind": "article",
+  "topic": "Marketing",
+  "order": 28,
+  "title": "Content Cluster Launch Checklist: Final Refresh & Sitemap",
+  "description": "The final launch checklist for a 28-page content cluster: content refreshes, schema verification, sitemap submission, Search Console setup, and post-launch monitoring.",
+  "ogTitle": "Content Cluster Launch Checklist: Final Refresh & Sitemap",
+  "ogDescription": "Final refresh, schema verification, sitemap submission, and post-launch monitoring — the closing checklist for a large content cluster.",
+  "published": "2026-11-06",
+  "updated": "2026-11-06",
+  "h1": "Content Cluster Launch Checklist: Final Refresh and Sitemap",
+  "intro": [
+    {
+      "type": "summary",
+      "inline": [
+        { "b": ["What this page is:"] },
+        " the final operations day. It closes the 30-day roadmap by doing three things — ",
+        { "b": ["refreshing the pages that changed most during the audit"] },
+        ", ",
+        { "b": ["verifying schema and canonical tags across the whole cluster"] },
+        ", and ",
+        { "b": ["submitting the sitemap to Search Console"] },
+        ". It assumes Day 29's audit is complete and the cluster is structurally sound."
+      ]
+    },
+    {
+      "type": "p",
+      "inline": [
+        "After this day, the cluster moves from \"being built\" to \"being indexed.\" That is a different phase — the content is done, the internal linking is done, and now the work is monitoring indexing, watching ranking patterns, and iterating on the pages that do not perform as expected over the following 30–90 days."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-this-day-does",
+      "title": "What This Day Does",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Day 29 found the structural problems. Day 30 fixes the last of them, verifies the whole cluster is ready for indexing, and submits it. This is the day the cluster moves from \"internally complete\" to \"externally live.\""
+          ]
+        },
+        { "type": "h3", "text": "What is in scope" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Content refreshes"] }, " for the pages whose internal linking changed significantly during the audit, or whose content needs a final update based on what you learned while building the cluster."],
+            [{ "b": ["Schema verification"] }, " across all 28 pages — confirming every page has the right schema type, that the schema matches visible content, and that there are no duplicate or conflicting schema blocks."],
+            [{ "b": ["Sitemap submission"] }, " to Google Search Console and Bing Webmaster Tools."],
+            [{ "b": ["Search Console setup"] }, " — confirm the domain is verified, the sitemap is submitted, and the coverage report is clean."],
+            [{ "b": ["Analytics verification"] }, " — confirm the site is tracked, key events (quote request, brief download, contact form) are firing, and that UTM parameters for social traffic are being captured."]
+          ]
+        },
+        { "type": "h3", "text": "What is out of scope" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["New content."] }, " Day 30 is not the day to add more pages. The cluster is complete; the goal is to launch what exists."],
+            [{ "b": ["Design changes."] }, " Unless a design problem is actively breaking conversion, do not change design on launch day."],
+            [{ "b": ["Platform changes."] }, " Never migrate or make major platform changes on the same day as a cluster launch. Too many variables at once."]
+          ]
+        },
+        { "type": "h3", "text": "Time budget" },
+        {
+          "type": "p",
+          "inline": [
+            "The full day takes 4–6 hours of active work, plus time for verification to propagate (sitemap submission, Search Console indexing, analytics events). Most of the active work is in steps 1 and 2; steps 3–5 are mostly configuration and confirmation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "content-refresh",
+      "title": "Step 1: Content Refreshes",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The cluster has been built over 29 days. During that time, some things changed — internal linking was adjusted, some pages revealed gaps that needed patching, and some claims that were true on Day 1 may not be true on Day 30. This step is where you close those gaps before launch."
+          ]
+        },
+        { "type": "h3", "text": "What to refresh" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Internal links that were added during the audit."] }, " If Day 29 added links from the pillar to the case study and reviews, verify those links read naturally in context — not bolted on."],
+            [{ "b": ["Cross-references that changed."] }, " If a page referred to \"the case study\" before the case study was published, verify the reference now points correctly."],
+            [{ "b": ["Last updated dates."] }, " Every page should have a \"Last updated\" line, and it should reflect the actual update date (which may be today's date if you refreshed the page)."],
+            [{ "b": ["Numbers and dates that may have shifted."] }, " Pricing ranges, salary figures, or platform descriptions that were true on Day 1 may need adjustment if market data has changed during the build."],
+            [{ "b": ["Tone consistency."] }, " Read 3–4 random pages from different sections and confirm the voice is consistent. Inconsistency happens when a large cluster is built over weeks."]
+          ]
+        },
+        { "type": "h3", "text": "What not to refresh" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Pages that are already performing well."] }, " If a page has been live for a week and is getting traffic, do not touch it on launch day — the risk of breaking something outweighs the marginal improvement."],
+            [{ "b": ["Opinion pieces and editorial content."] }, " If a page makes an argument, do not soften it on launch day. The argument is the reason the page exists."],
+            [{ "b": ["Pages where the \"refresh\" would be a rewrite."] }, " If a page needs a full rewrite, do it as a separate project after launch — not in a hurried patch on Day 30."]
+          ]
+        },
+        { "type": "h3", "text": "How to prioritize refreshes" },
+        {
+          "type": "ol",
+          "items": [
+            [{ "b": ["Pillar page."] }, " The most important page in the cluster. Verify every internal link to a cluster page works, every price range is consistent with the cost guide, every claim matches the current process."],
+            [{ "b": ["Geo hub."] }, " The hub for the 7 city pages. Verify the comparison table numbers still match the individual city pages."],
+            [{ "b": ["Portfolio and case study."] }, " The trust cluster. Verify the review count in the aggregate rating matches the actual reviews, the case study numbers are consistent with the portfolio summary, and every cross-link between them works."],
+            [{ "b": ["Cost guide and contract page."] }, " The commercial core. Verify pricing is consistent with the freelancer cost page and that the payment schedules match the process page."],
+            [{ "b": ["All other pages."] }, " Spot-check for internal link consistency and consistency of claims."]
+          ]
+        },
+        { "type": "h3", "text": "What a typical refresh looks like" },
+        {
+          "type": "p",
+          "inline": [
+            "For most pages, the refresh is 5–15 minutes of small edits: fixing an internal link's anchor text, updating the \"Last updated\" date, correcting a numeric cross-reference, or smoothing a sentence where a link was added. It is not a rewrite. If a page needs more than 15 minutes of edits, it should be flagged for a post-launch update rather than fixed on launch day."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "schema-verification",
+      "title": "Step 2: Schema Verification",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Schema has been added to each page as it was built, but schema consistency across the whole cluster has not been verified in one place. This step does that verification."
+          ]
+        },
+        { "type": "h3", "text": "Schema types expected in this cluster" },
+        {
+          "type": "table",
+          "head": [
+            ["Page type"],
+            ["Schema type(s)"],
+            ["Common issue"]
+          ],
+          "rows": [
+            [["Pillar page"], ["Article, FAQPage"], ["FAQ schema must match visible FAQ content"]],
+            [["Cost guide, freelancer USA cost"], ["Article, FAQPage"], ["Prices in schema should match visible prices"]],
+            [["Near-me guide, near-me FAQ"], ["Article, FAQPage"], ["FAQ schema (many questions) matches visible content"]],
+            [["City pages (7)"], ["Article, ProfessionalService, FAQPage"], ["areaServed must match the city in the page content"]],
+            [["Geo hub"], ["CollectionPage, BreadcrumbList, FAQPage"], ["hasPart must list all 7 city pages"]],
+            [["Portfolio"], ["WebPage, AggregateRating, Organization/Review"], ["AggregateRating must reflect actual review count"]],
+            [["Reviews"], ["WebPage, AggregateRating, Organization/Review"], ["Review schema matches visible named reviews"]],
+            [["Case study"], ["Article, FAQPage"], ["Case study numbers in schema match visible numbers"]],
+            [["Glossary"], ["DefinedTermSet"], ["hasDefinedTerm URLs match actual anchor IDs"]],
+            [["All editorial pages"], ["Article (baseline)"], ["Every page should have Article schema"]]
+          ]
+        },
+        { "type": "h3", "text": "How to verify" },
+        {
+          "type": "ol",
+          "items": [
+            [{ "b": ["Validate every page in the Rich Results Test."] }, " For a 28-page cluster, this takes roughly 30 minutes if done in one session. Note any pages that fail validation or show warnings."],
+            [{ "b": ["Check the schema markup validator"] }, " for a random sample (5 pages) to confirm the structured data parses correctly at the schema.org level, not just the Google level."],
+            [{ "b": ["Manually compare schema to visible content on 3–4 key pages."] }, " Confirm that the FAQ schema on the pillar matches the visible FAQ sections, the areaServed in the city page schema matches the city, the aggregateRating on reviews matches the visible aggregate rating, and the hasPart array in the geo hub schema lists every city page URL."],
+            [{ "b": ["Check for duplicate schema blocks."] }, " Each page should have one Article schema, one FAQPage schema (if applicable), one breadcrumb schema. Duplicate blocks confuse Google."]
+          ]
+        },
+        { "type": "h3", "text": "Common schema problems to fix" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["FAQ schema without visible FAQ content."] }, " Google requires the schema to reflect visible content. If a page has FAQ schema but the questions are not visible, remove the schema (not add the content — that would be a different fix)."],
+            [{ "b": ["AggregateRating without visible reviews."] }, " The portfolio and reviews pages can legitimately have AggregateRating (they show reviews). The pillar or cost guide should not, unless they also show reviews."],
+            [{ "b": ["Review schema mismatched with visible reviews."] }, " If the schema claims 5 reviews but only 3 are visible, remove the other 2 from the schema."],
+            [{ "b": ["BreadcrumbList with broken or missing URLs."] }, " Breadcrumbs should point to real URLs, not placeholders."],
+            [{ "b": ["Missing dates."] }, " Article schema should have datePublished and dateModified. Missing dates reduce the schema's usefulness."]
+          ]
+        },
+        { "type": "h3", "text": "One-shot verification" },
+        {
+          "type": "p",
+          "inline": [
+            "The fastest full verification is: (1) Rich Results Test on 5 pages (one from each cluster), (2) confirm they show valid and no errors, (3) spot-check the schema on the same 5 pages against visible content, (4) fix anything found. This takes 30–45 minutes and covers the most likely problem cases without validating all 28 pages individually."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sitemap",
+      "title": "Step 3: Sitemap Submission",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The sitemap tells Google which pages exist and when they were last updated. A well-maintained sitemap accelerates indexing, especially for a newly launched cluster."
+          ]
+        },
+        { "type": "h3", "text": "How to generate the sitemap" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["WordPress / WooCommerce:"] }, " Yoast SEO or Rank Math generate a sitemap automatically at /sitemap_index.xml or /sitemap.xml. Verify it includes all 28 cluster pages."],
+            [{ "b": ["Shopify:"] }, " Shopify generates the sitemap automatically at /sitemap.xml. Verify it includes all pages (Shopify's default sitemap only includes products, collections, and pages — not blog posts, unless configured)."],
+            [{ "b": ["Custom site:"] }, " generate the sitemap manually or with a tool like Screaming Frog or XML-Sitemaps.com."]
+          ]
+        },
+        { "type": "h3", "text": "What the sitemap should contain" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["All 28 cluster pages"] }, " from this roadmap."],
+            [{ "b": ["Correct lastmod dates"] }, " — the date each page was last updated, in ISO 8601 format (e.g., 2026-11-06)."],
+            [{ "b": ["No broken URLs."] }, " Every URL in the sitemap should return a 200 status code."],
+            [{ "b": ["No redirects."] }, " URLs in the sitemap should be the canonical URL, not a URL that redirects."],
+            [{ "b": ["No noindex pages."] }, " Pages with a noindex meta tag should not be in the sitemap."]
+          ]
+        },
+        { "type": "h3", "text": "How to submit" },
+        {
+          "type": "ol",
+          "items": [
+            [{ "b": ["Google Search Console:"] }, " Sitemaps → Add a new sitemap → enter the sitemap URL (e.g., sitemap_index.xml or sitemap.xml) → Submit."],
+            [{ "b": ["Bing Webmaster Tools:"] }, " same process. Bing also accepts sitemaps via the IndexNow API, which can accelerate indexing for Bing specifically."],
+            [{ "b": ["robots.txt:"] }, " add a line at the end of robots.txt pointing to the sitemap: Sitemap: https://example.com/sitemap.xml. This is redundant with Search Console submission but useful for other search engines."]
+          ]
+        },
+        { "type": "h3", "text": "What to expect after submission" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Google Search Console:"] }, " \"Sitemap submitted successfully\" confirms receipt, but indexing is separate. Most pages index within 1–7 days; some take longer."],
+            [{ "b": ["Coverage report:"] }, " watch this for the first 7 days. Pages will appear as \"Discovered,\" \"Crawled,\" or \"Indexed.\" Any \"Error\" or \"Excluded\" statuses need investigation."],
+            [{ "b": ["Bing Webmaster Tools:"] }, " Bing indexes faster than Google for many sites. Expect to see indexed pages within 1–3 days."]
+          ]
+        },
+        { "type": "h3", "text": "If pages do not index" },
+        {
+          "type": "p",
+          "inline": [
+            "For pages that remain \"Discovered — currently not indexed\" for more than 2 weeks, the cause is almost always one of: (1) insufficient internal linking (check the audit), (2) thin content (reconsider the page), or (3) crawl budget issues (larger sites). The fix is usually more internal links and stronger content, not more submissions. Submitting the same URL multiple times does not accelerate indexing."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "search-console",
+      "title": "Step 4: Search Console Setup",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Search Console is the primary tool for monitoring indexing, search performance, and technical issues. Verify the setup is complete before launching."
+          ]
+        },
+        { "type": "h3", "text": "Verification checklist" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Property verified"] }, " — both the domain property (example.com) and the URL-prefix property (https://www.example.com) should be verified. The domain property covers all subdomains and protocols."],
+            [{ "b": ["Sitemap submitted"] }, " — see Step 3."],
+            [{ "b": ["robots.txt accessible"] }, " — https://example.com/robots.txt should return 200 and not block cluster pages."],
+            [{ "b": ["Core Web Vitals report enabled"] }, " — requires data, which takes 28 days to populate."],
+            [{ "b": ["URL inspection"] }, " — inspect 3–5 key pages (pillar, geo hub, case study) and confirm they are indexed. If not indexed, use \"Request Indexing\" for the pillar and top hubs."],
+            [{ "b": ["Mobile usability"] }, " — should show zero issues on the main pages."],
+            [{ "b": ["Manual actions"] }, " — should show \"No issues detected.\" If there is a manual action, it must be resolved before launch."]
+          ]
+        },
+        { "type": "h3", "text": "Users and access" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Owner access"] }, " for you (the site owner)."],
+            [{ "b": ["Full access"] }, " for any team member who will monitor the site."],
+            [{ "b": ["Restricted access"] }, " for anyone else (e.g., a client viewing data)."]
+          ]
+        },
+        { "type": "h3", "text": "Search Console filters and views" },
+        {
+          "type": "p",
+          "inline": [
+            "Set up saved filters for the cluster pages — a filter that shows only pages in this cluster helps monitor the cluster's performance specifically, rather than the whole site's performance. The filter can be based on URL contains /ecommerce-, or on a specific list of URLs."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "analytics",
+      "title": "Step 5: Analytics Verification",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Analytics is how you know whether the cluster is working. Verify it is set up correctly before launch, because retroactively fixing analytics is painful and often impossible for early traffic."
+          ]
+        },
+        { "type": "h3", "text": "Analytics checklist" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Tracking tag is present"] }, " on every page — Google Analytics 4 tag, Google Tag Manager, or an alternative (Plausible, Fathom, etc.)."],
+            [{ "b": ["Pageview fires"] }, " correctly on page load, with the correct page title and URL."],
+            [{ "b": ["Key events are set up and firing:"] }, " quote request submission, contact form submission, brief template download, book-a-call click (if using Calendly or similar)."],
+            [{ "b": ["UTM parameters"] }, " are captured correctly for social traffic and any paid traffic."],
+            [{ "b": ["Internal traffic is filtered"] }, " — your own visits to the site should not be counted as customer traffic. Set up an IP filter or a GA4 \"internal traffic\" definition."],
+            [{ "b": ["Goals are configured"] }, " — GA4 conversions should match the events above, so that conversion reports show the right data."]
+          ]
+        },
+        { "type": "h3", "text": "Testing events before launch" },
+        {
+          "type": "ol",
+          "items": [
+            [{ "b": ["Use GA4 Realtime report"] }, " while testing. Submit a test contact form, download a test brief, click a \"book a call\" link — confirm each event appears in Realtime within seconds."],
+            [{ "b": ["Use Google Tag Manager Preview mode"] }, " (if using GTM) to verify that tags fire correctly on each page and each event."],
+            [{ "b": ["Use a UTM test link"] }, " for the first social post — verify the traffic appears in GA4 with the correct source/medium/campaign parameters."]
+          ]
+        },
+        { "type": "h3", "text": "What to look at first" },
+        {
+          "type": "p",
+          "inline": [
+            "In the first 7 days after launch, the analytics to watch are: total sessions (baseline traffic level), pages per session (whether internal linking is working), average time on page (whether content is engaging — for a long-form pillar page, expect 3+ minutes), bounce rate (for cluster pages, high bounce may indicate the page is a dead end or did not match search intent), and conversion events (quote requests and brief downloads are leading indicators; expect low counts in the first week, but any conversions are positive signals)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "launch-checklist",
+      "title": "Final Launch Checklist",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Use this checklist to confirm the cluster is ready. Every item should be checked before the cluster is considered launched."
+          ]
+        },
+        { "type": "h3", "text": "Content" },
+        {
+          "type": "ul",
+          "items": [
+            ["☐ All 28 pages from the roadmap are published."],
+            ["☐ Pillar page is up to date — links, prices, and cross-references all correct."],
+            ["☐ Geo hub has a valid comparison table matching the individual city pages."],
+            ["☐ Portfolio, reviews, and case study all cross-link to each other."],
+            ["☐ Cost guide and freelancer cost page are numerically consistent."],
+            ["☐ Contract terms is consistent with the process page."],
+            ["☐ \"Last updated\" dates are present on all pages and reflect actual update dates."],
+            ["☐ Tone and voice are consistent across pages."]
+          ]
+        },
+        { "type": "h3", "text": "Internal links" },
+        {
+          "type": "ul",
+          "items": [
+            ["☐ Day 29 audit checklist is fully satisfied."],
+            ["☐ No orphan pages."],
+            ["☐ No broken internal links."],
+            ["☐ Every page at depth 3 or less from the homepage."],
+            ["☐ All fragment links have matching IDs on target pages."],
+            ["☐ Anchor text diversity is adequate (no anchor used more than 10 times to the same page)."]
+          ]
+        },
+        { "type": "h3", "text": "Schema" },
+        {
+          "type": "ul",
+          "items": [
+            ["☐ Every page has Article schema."],
+            ["☐ FAQ schema on all pages with visible FAQ sections, matching visible content."],
+            ["☐ AggregateRating on portfolio and reviews, reflecting actual review counts."],
+            ["☐ ProfessionalService + areaServed on all 7 city pages."],
+            ["☐ CollectionPage + hasPart on geo hub, listing all 7 city pages."],
+            ["☐ DefinedTermSet on glossary."],
+            ["☐ BreadcrumbList on all pages."],
+            ["☐ No duplicate schema blocks."],
+            ["☐ No schema entries claiming content that is not visible on the page."]
+          ]
+        },
+        { "type": "h3", "text": "Technical" },
+        {
+          "type": "ul",
+          "items": [
+            ["☐ Sitemap includes all 28 pages with correct lastmod dates."],
+            ["☐ Sitemap submitted to Google Search Console."],
+            ["☐ Sitemap submitted to Bing Webmaster Tools."],
+            ["☐ robots.txt does not block any cluster page."],
+            ["☐ robots.txt references the sitemap."],
+            ["☐ Every page has a self-referencing canonical tag."],
+            ["☐ No www/non-www or HTTP/HTTPS inconsistency."],
+            ["☐ Every page returns a 200 status code."],
+            ["☐ No noindex tags on cluster pages (unless intentional)."]
+          ]
+        },
+        { "type": "h3", "text": "Search Console" },
+        {
+          "type": "ul",
+          "items": [
+            ["☐ Property verified (domain and URL-prefix)."],
+            ["☐ No manual actions."],
+            ["☐ No mobile usability issues."],
+            ["☐ URL inspection shows key pages indexed (or \"Discovered — currently not indexed,\" which is expected for new content)."]
+          ]
+        },
+        { "type": "h3", "text": "Analytics" },
+        {
+          "type": "ul",
+          "items": [
+            ["☐ Tracking tag fires on all pages."],
+            ["☐ Pageviews tracked correctly."],
+            ["☐ Quote request, contact form, brief download, and book-a-call events all firing."],
+            ["☐ UTM parameters captured correctly."],
+            ["☐ Internal traffic filtered out."]
+          ]
+        },
+        { "type": "h3", "text": "Content delivery" },
+        {
+          "type": "ul",
+          "items": [
+            ["☐ Brief template download works."],
+            ["☐ Contact form works."],
+            ["☐ Any linked PDFs, images, or attachments load correctly."],
+            ["☐ Mobile experience is functional on the key pages."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "post-launch",
+      "title": "Post-Launch Monitoring: The First 90 Days",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Launching is not the end — it is the beginning of the monitoring phase. The cluster will not rank immediately; search indexing and authority accumulation take time. The first 90 days are about tracking, iterating, and adjusting based on what the data shows."
+          ]
+        },
+        { "type": "h3", "text": "Week 1: Verify indexing" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Search Console:"] }, " verify all 28 pages appear in the coverage report."],
+            [{ "b": ["Spot-check indexing"] }, " by searching for exact page titles in Google."],
+            [{ "b": ["Re-request indexing"] }, " for the pillar, geo hub, and case study if they are not indexed within 7 days."],
+            [{ "b": ["Analytics:"] }, " verify pageviews and events are firing correctly."],
+            [{ "b": ["Uptime:"] }, " monitor for any downtime or 5xx errors."]
+          ]
+        },
+        { "type": "h3", "text": "Week 2–4: Watch for indexing issues" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Coverage report:"] }, " any \"Error\" or \"Excluded\" statuses need investigation. Common causes: thin content, duplicate content, server issues."],
+            [{ "b": ["Core Web Vitals:"] }, " if the report shows issues, prioritize fixing them."],
+            [{ "b": ["Search impressions:"] }, " if pages start showing impressions in Search Console, the indexing is working. If there are zero impressions after 4 weeks, something is wrong."],
+            [{ "b": ["Bounce rate:"] }, " high bounce rate on specific pages may indicate intent mismatch or poor content."]
+          ]
+        },
+        { "type": "h3", "text": "Month 2–3: Iterate based on data" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Pages with impressions but low CTR"] }, " — the title or meta description may not match the search intent. Rewrite and re-test."],
+            [{ "b": ["Pages with high bounce rate"] }, " — the content may not fully answer the query. Add more depth or restructure."],
+            [{ "b": ["Pages that rank on page 2 (positions 11–20)"] }, " — these are the easiest wins. Add more internal links, expand the content, or refresh the data to push into page 1."],
+            [{ "b": ["Pages with zero impressions after 90 days"] }, " — the page is not being indexed or is competing with stronger pages. Either improve the content substantially or consolidate."]
+          ]
+        },
+        { "type": "h3", "text": "Months 4–6: Consolidate and expand" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Consolidate pages that underperformed"] }, " — merge similar pages into a single stronger page rather than leaving both to compete."],
+            [{ "b": ["Expand pages that overperformed"] }, " — if a page is ranking well but has more demand than the content supports, expand it into a full sub-topic."],
+            [{ "b": ["Add pages based on the queries the cluster is winning"] }, " — Search Console shows the exact queries driving impressions. Add pages for queries that are related but not yet covered."],
+            [{ "b": ["Refresh pricing and process pages"] }, " — these go stale quickly and affect conversion."]
+          ]
+        },
+        { "type": "h3", "text": "What to track weekly" },
+        {
+          "type": "ul",
+          "items": [
+            ["Total sessions from organic search."],
+            ["Total impressions and clicks in Search Console."],
+            ["Average position for the top 10 queries."],
+            ["Conversion events (quote requests, brief downloads)."],
+            ["Any new errors or coverage issues in Search Console."]
+          ]
+        },
+        { "type": "h3", "text": "What to track monthly" },
+        {
+          "type": "ul",
+          "items": [
+            ["Pages that moved up or down by 5+ positions."],
+            ["New keywords the cluster is ranking for."],
+            ["Pages that lost traffic — investigate and refresh."],
+            ["Pages that gained traffic — analyze what worked and apply to underperforming pages."],
+            ["Overall cluster performance — is the cluster as a whole gaining authority?"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "when-to-refresh",
+      "title": "When to Refresh the Cluster Again",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "A content cluster is not a set-and-forget asset. Search algorithms change, market conditions change, and the cluster itself will age. The refresh schedule below keeps the cluster current."
+          ]
+        },
+        { "type": "h3", "text": "Refresh cadence" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Quarterly (every 3 months):"] }, " Refresh pricing pages and any page with current-year data (dates, numbers, statistics)."],
+            [{ "b": ["Every 6 months:"] }, " Full internal-link audit (repeat Day 29's process)."],
+            [{ "b": ["Annually:"] }, " Full content refresh — read every page and update anything stale. Reassess whether the cluster structure still makes sense."],
+            [{ "b": ["When a major platform change happens"] }, " (e.g., Shopify changes its pricing, a major plugin is deprecated, a new platform emerges) — refresh the platform comparison page and any pages that reference the change."],
+            [{ "b": ["When a significant industry change happens"] }, " (e.g., Google's Helpful Content system updates, AI search behavior changes) — refresh the pages that reference the change, or add a new page addressing it."]
+          ]
+        },
+        { "type": "h3", "text": "Signals that the cluster needs a refresh now" },
+        {
+          "type": "ul",
+          "items": [
+            ["Traffic to a page has dropped by 20%+ without an obvious cause."],
+            ["A page that used to rank on page 1 is now on page 3."],
+            ["Search Console shows a manual action or coverage error."],
+            ["A key competitor published a page on the same topic and is ranking above yours."],
+            ["A significant industry event happened that the cluster does not address."],
+            ["The \"Last updated\" date is more than 6 months old."]
+          ]
+        },
+        { "type": "h3", "text": "What a refresh is not" },
+        {
+          "type": "p",
+          "inline": [
+            "A refresh is not a rewrite. If a page is fundamentally wrong or irrelevant, it should be merged with another page or removed. If it is slightly out of date, it should be refreshed with current data. The distinction matters: rewriting a page that already ranks well will likely hurt its ranking, while refreshing data on the same page keeps the ranking and improves the content."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "title": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "How long after launch does the cluster start ranking?",
+          "a": [
+            "Indexing usually happens within 1–7 days. Ranking on page 1 typically takes 30–90 days for new sites, or 1–4 weeks for established sites with existing authority. The cluster structure accelerates this (compared to publishing the same 28 pages without internal linking), but does not eliminate the time required for Google to evaluate the content."
+          ]
+        },
+        {
+          "q": "What if pages are not indexed after 30 days?",
+          "a": [
+            "The most common causes are: insufficient internal linking (check Day 29's audit), thin content (each page should have a clear reason to exist), or crawl budget issues (larger sites). The fix is more internal links and stronger content, not more submissions. Submitting the same URL multiple times does not accelerate indexing."
+          ]
+        },
+        {
+          "q": "Should I launch the whole cluster at once, or in batches?",
+          "a": [
+            "For a new cluster, launch at once. The internal-link structure only makes sense when all pages exist. For a larger site adding to an existing cluster, you can add in batches — but the new batch should link to the existing cluster and the existing cluster should link back to the new batch within 1–2 weeks."
+          ]
+        },
+        {
+          "q": "Can I launch on a Friday?",
+          "a": [
+            "Not recommended. If something goes wrong, you want support available. Launch on a Tuesday or Wednesday, with the following 48 hours reserved for monitoring and fixes. This is the same principle from the process guide — launch on a Tuesday or Wednesday."
+          ]
+        },
+        {
+          "q": "What if a page breaks or has an issue after launch?",
+          "a": [
+            "Fix it immediately. Do not wait for a weekly review. Broken pages, checkout bugs, and error pages should be resolved the same day. For content issues (typos, wrong numbers), fix within 24–48 hours. The urgency is different from feature development — live pages are what customers see."
+          ]
+        },
+        {
+          "q": "Should I keep the Last updated date current?",
+          "a": [
+            "Yes. Updating the \"Last updated\" date when you make meaningful changes is honest and helps with freshness signals. Do not update the date without making changes — Google detects this and it can hurt trust."
+          ]
+        },
+        {
+          "q": "How do I know if the cluster is working?",
+          "a": [
+            "The signals: (1) pages index within 1–2 weeks, (2) pages start showing impressions in Search Console within 2–4 weeks, (3) some pages start ranking in the top 20 within 30 days, (4) conversion events increase over 60–90 days. If none of these happen after 90 days, the problem is more likely the content than the structure — see the post-launch section."
+          ]
+        },
+        {
+          "q": "What is the most important thing after launch?",
+          "a": [
+            "Watching Search Console for indexing issues and Search Console search queries for ranking patterns. The data from Search Console is what tells you which pages to expand, which to consolidate, and which to refresh. It is the feedback loop that turns the cluster from a static asset into a growing one."
+          ]
+        },
+        {
+          "q": "Should I add the cluster pages to the main navigation?",
+          "a": [
+            "The top hubs (pillar, geo hub, portfolio, reviews, glossary) should be in the main navigation or footer for depth-1 access. The individual city pages and peripheral cluster pages can remain at depth 2–3 via the hubs. Adding every page to the navigation creates a crowded menu that hurts UX without meaningfully improving crawl."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "title": "The Roadmap, Complete",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "This is the end of the 30-day roadmap. Over the past 30 days, the cluster was built (Days 1–28), audited (Day 29), and launched (this day). What happens next is not part of the 30-day roadmap — it is the ongoing operation of the cluster, which follows the refresh and monitoring cadence described above."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the pillar that anchors the cluster, return to ",
+            { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+            ". For the audit that this day completes, see ",
+            { "a": "/internal-link-audit", "t": ["the internal-link audit"] },
+            ". For the geo cluster, see ",
+            { "a": "/ecommerce-developers-by-city", "t": ["ecommerce developers by city"] },
+            ". For the trust cluster, see ",
+            { "a": "/portfolio", "t": ["our ecommerce portfolio"] },
+            ", ",
+            { "a": "/ecommerce-build-case-study", "t": ["the case study"] },
+            ", and ",
+            { "a": "/client-reviews", "t": ["client reviews"] },
+            ". If you want help with any part of the roadmap — building, auditing, or operating a content cluster — ",
+            { "a": "/contact", "t": ["contact us"] },
+            "."
+          ]
+        }
+      ],
+      "cta": true
+    }
+  ]
+}

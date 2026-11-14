@@ -1,0 +1,678 @@
+{
+  "slug": "internal-link-audit",
+  "kind": "article",
+  "topic": "Marketing",
+  "order": 27,
+  "title": "Internal Link Audit: Ecommerce Content Cluster",
+  "description": "The internal-link audit process for a 28-page ecommerce content cluster: how to find orphans, fix broken anchors, rebalance authority, and verify the structure.",
+  "ogTitle": "Internal Link Audit: Ecommerce Content Cluster",
+  "ogDescription": "The repeatable process for auditing internal links across a 28-page content cluster, with specific steps and checklists.",
+  "published": "2026-11-06",
+  "updated": "2026-11-06",
+  "h1": "Internal Link Audit: The Complete Process for an Ecommerce Content Cluster",
+  "intro": [
+    {
+      "type": "summary",
+      "inline": [
+        { "b": ["What this page is:"] },
+        " the operations checklist for auditing the internal linking of a large ecommerce content cluster — in this case, the 28-page cluster built over the previous 28 days. Every step below can be done in a single working day, and the result is a cluster where every page is reachable within three clicks of the homepage, every key page has adequate internal link authority, and no page is orphaned."
+      ]
+    },
+    {
+      "type": "p",
+      "inline": [
+        "This is not an SEO theory page. It is the exact process we use to audit and fix a cluster after it has been built, and it assumes you have already published the 28 pages from this roadmap. If you are still building the cluster, this page can wait — do the audit on the day of publication, not before."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-audit",
+      "title": "Why an Internal Link Audit Matters",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "A cluster of 28 pages with poor internal linking is not a cluster — it is 28 pages that happen to share a topic. What makes it a cluster is the internal linking structure that tells Google which pages are the hubs, which are the spokes, and which pages are the most important within the topic. Google reads internal linking as an editorial signal: pages with more internal links pointing to them are treated as more important."
+          ]
+        },
+        { "type": "h3", "text": "What an audit prevents" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Orphan pages."] }, " Pages with no internal links pointing to them, which Google may not crawl or may treat as low-priority."],
+            [{ "b": ["Broken links."] }, " Internal links pointing to pages that do not exist or have moved. These waste crawl budget and confuse Google."],
+            [{ "b": ["Anchor text dilution."] }, " Every page linking to another page with the same anchor text — which looks manipulative and dilutes rather than strengthens the signal."],
+            [{ "b": ["Authority imbalance."] }, " Pages that should be important (the pillar, the geo hub, the case study) not receiving enough internal links, while peripheral pages receive too many."],
+            [{ "b": ["Deep click depth."] }, " Pages that require more than three clicks from the homepage, which reduces their crawl frequency and search visibility."]
+          ]
+        },
+        { "type": "h3", "text": "What an audit does not fix" },
+        {
+          "type": "p",
+          "inline": [
+            "An internal link audit does not fix weak content, poor search intent matching, or low domain authority. It is a ",
+            { "i": ["structural"] },
+            " optimization — important for making the cluster function, but not a substitute for the content itself being good. If a page is not performing, and the internal linking is already correct, the problem is almost certainly the content or the intent match."
+          ]
+        },
+        { "type": "h3", "text": "When to do it" },
+        {
+          "type": "p",
+          "inline": [
+            "Ideally the audit is done on the day the cluster is published, before any significant amount of time has passed. Google will have already crawled some of the pages, and the internal linking corrections will feed into the next crawl. It is much easier to fix structural issues early than after the cluster has been live for months."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "audit-steps",
+      "title": "The 8 Audit Steps",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The audit below is sequential — each step depends on the one before it. Do them in order."
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            ["#"],
+            ["Step"],
+            ["Tool"],
+            ["Time"]
+          ],
+          "rows": [
+            [["1"], ["Crawl the site"], ["Screaming Frog (or similar)"], ["30 min"]],
+            [["2"], ["Find orphan pages"], ["Screaming Frog + Google Search Console"], ["20 min"]],
+            [["3"], ["Fix broken internal links"], ["Screaming Frog"], ["30 min"]],
+            [["4"], ["Audit anchor text diversity"], ["Manual review + spreadsheet"], ["45 min"]],
+            [["5"], ["Check authority distribution"], ["Screaming Frog + Ahrefs (or similar)"], ["45 min"]],
+            [["6"], ["Verify click depth"], ["Screaming Frog"], ["20 min"]],
+            [["7"], ["Check cluster cross-linking"], ["Manual review"], ["45 min"]],
+            [["8"], ["Verify schema and canonical"], ["Schema validator + manual review"], ["30 min"]]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "Total: roughly 4 hours for a single audit pass. For a 28-page cluster, this is one working day, including time to fix the issues as they are found."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crawl",
+      "title": "Step 1: Crawl the Site",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Start by crawling the entire site, not just the cluster. The crawl gives you a complete picture of every page, every link, and every issue."
+          ]
+        },
+        { "type": "h3", "text": "What to use" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Screaming Frog"] }, " (free tier up to 500 URLs) — the standard for internal link auditing. Exports every link, every anchor, and every status code."],
+            [{ "b": ["Sitebulb"] }, " — an alternative with better visualization, but paid."],
+            [{ "b": ["Ahrefs Site Audit"] }, " — good if you already have Ahrefs, but slower for large sites."]
+          ]
+        },
+        { "type": "h3", "text": "How to configure the crawl" },
+        {
+          "type": "ul",
+          "items": [
+            ["Crawl the entire site, including subdomains if relevant."],
+            ["Enable JavaScript rendering (this catches client-side links that a basic crawl misses)."],
+            ["Set the user agent to match Googlebot."],
+            ["Include the XML sitemap as a starting point."]
+          ]
+        },
+        { "type": "h3", "text": "What to look for in the crawl output" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Total URLs crawled."] }, " Should match your expected number of pages (28 cluster pages + any other site pages)."],
+            [{ "b": ["Pages with no inbound internal links"] }, " (orphans) — the next step covers this."],
+            [{ "b": ["Pages with 4xx or 5xx status codes."] }, " These are broken and need to be fixed or redirected."],
+            [{ "b": ["Pages with 3xx redirects."] }, " Internal links should point directly to the final URL, not to a redirect."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "orphans",
+      "title": "Step 2: Find Orphan Pages",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "An orphan page is a page that has no internal links pointing to it. Orphans are bad for two reasons: Google may not crawl them (because nothing links to them), and even if Google does crawl them (via sitemap), they receive no internal authority and rank poorly."
+          ]
+        },
+        { "type": "h3", "text": "How to find orphans" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Screaming Frog:"] }, " Reports → Crawl Analysis → Orphan URLs (requires connecting to Google Analytics or Search Console for full accuracy)."],
+            [{ "b": ["Manual check:"] }, " For each page in the sitemap, search the crawl output for internal links pointing to it. If zero, it is an orphan."]
+          ]
+        },
+        { "type": "h3", "text": "Common orphan patterns in a cluster" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Hub pages that were never linked from the homepage."] }, " The geo hub and the glossary are particularly vulnerable if they were not added to the main navigation."],
+            [{ "b": ["Download pages."] }, " The brief template may have its download link, but the page itself may be orphaned if nothing links to it."],
+            [{ "b": ["Case study pages."] }, " The case study may only be linked from the portfolio page, which itself may not be linked from the homepage."],
+            [{ "b": ["Reviews page."] }, " The reviews page may only be linked from the portfolio page, which means it is effectively orphaned."]
+          ]
+        },
+        { "type": "h3", "text": "How to fix orphans" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Add links from the homepage."] }, " Add links to the top-level hubs (pillar, geo hub, portfolio, reviews, glossary) from the homepage."],
+            [{ "b": ["Add links from related pages."] }, " Every orphan page should be linked from at least one related cluster page."],
+            [{ "b": ["Check the sitemap."] }, " The XML sitemap should include all pages, but sitemap inclusion is not a substitute for internal linking — it just tells Google the page exists."]
+          ]
+        },
+        { "type": "h3", "text": "In this cluster specifically" },
+        {
+          "type": "p",
+          "inline": [
+            "The pages most at risk of being orphaned are:"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            ["The city pages — linked only from the geo hub and each other."],
+            ["The geo hub — linked only from the city pages and the near-me guide."],
+            ["The glossary — linked only from wherever you add it, which may be nowhere."],
+            ["The internal-link audit (this page) — linked only from the pages it describes."]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "Verify each of those has at least two inbound internal links from within the cluster before moving to the next step."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "broken",
+      "title": "Step 3: Fix Broken Internal Links",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Broken internal links are 404s (page not found) or 500s (server error). They waste crawl budget, they confuse Google, and they frustrate readers. Every internal link in the cluster should resolve to a 200 status code, without a redirect chain."
+          ]
+        },
+        { "type": "h3", "text": "How to find broken links" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Screaming Frog:"] }, " Response Codes → Client Error (4xx) — these are broken links."],
+            [{ "b": ["Screaming Frog:"] }, " Response Codes → Redirection (3xx) — these are redirects, which should be replaced with direct links."]
+          ]
+        },
+        { "type": "h3", "text": "Common broken-link patterns in this cluster" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Anchor fragments."] }, " Links like /ecommerce-developer-contract-payment-terms/#change-orders fail if the target page does not have an element with that ID. Every anchor fragment must have a matching ID on the target page."],
+            [{ "b": ["Slug changes."] }, " If a page URL changed between draft and publication, older links may still point to the old URL."],
+            [{ "b": ["Missing pages."] }, " If a page in the cluster was not published (e.g., if you skipped a day), links to it are broken."],
+            [{ "b": ["Typos in URLs."] }, " Manual link insertion can produce typos that do not surface until the crawl."]
+          ]
+        },
+        { "type": "h3", "text": "How to fix broken links" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Update the link to the correct URL."] }, " Preferred fix — internal links should point directly to the final destination."],
+            [{ "b": ["Add the missing anchor ID."] }, " If a fragment link fails because the target page lacks an element with that ID, add the ID to the target page."],
+            [{ "b": ["Add a 301 redirect."] }, " If the original URL should never be used again, redirect it. But internal links should still point to the final URL, not to the redirect."],
+            [{ "b": ["Remove the link."] }, " If the target page genuinely does not exist and should not, remove the link rather than leaving it broken."]
+          ]
+        },
+        { "type": "h3", "text": "Fragment-ID rule" },
+        {
+          "type": "p",
+          "inline": [
+            "Every fragment link (e.g., #change-orders) requires a matching element ID on the target page. This cluster uses a lot of fragment links — the contract page, the process page, the near-me guide, and the cost page all have fragment anchors referenced from multiple pages. Verify every one of them by checking the target page's HTML."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anchor-text",
+      "title": "Step 4: Audit Anchor Text Diversity",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Anchor text — the visible text of a link — tells Google what the target page is about. The ideal pattern is: one exact-match anchor per important page, several partial and semantic anchors, and no anchor repeated dozens of times. This pattern looks natural and produces the strongest signal."
+          ]
+        },
+        { "type": "h3", "text": "How to audit anchor text" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Screaming Frog:"] }, " Bulk Export → Inlinks → export a spreadsheet with columns: Source URL, Destination URL, Anchor Text."],
+            [{ "b": ["Group by destination URL."] }, " This shows every anchor pointing to each page."],
+            [{ "b": ["Count the anchor frequency."] }, " If the same anchor appears 20+ times pointing to the same page, that is excessive."]
+          ]
+        },
+        { "type": "h3", "text": "What a healthy anchor pattern looks like" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["One exact-match anchor"] }, " from the most authoritative source (usually the pillar or the homepage)."],
+            [{ "b": ["Two or three partial-match anchors"] }, " from related cluster pages."],
+            [{ "b": ["Semantic anchors"] }, " from pages where the link is contextually relevant."],
+            [{ "b": ["Branded or URL-only anchors"] }, " are fine — most sites have some."]
+          ]
+        },
+        { "type": "h3", "text": "Common anchor-text problems in this cluster" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["\"Click here\" and \"read more.\""] }, " These are not anchors — they waste the linking opportunity. Replace them with descriptive anchors."],
+            [{ "b": ["Repeated exact-match anchors."] }, " If every geo page links to the pillar with the anchor \"how to hire an ecommerce website developer,\" that looks manipulative. Vary the anchor per page."],
+            [{ "b": ["Missing anchor text"] }, " (image-only links). Every link should have descriptive visible text."],
+            [{ "b": ["Anchors that do not match the target page."] }, " If the anchor says \"cost guide\" but the target is the contract page, the anchor is misleading."]
+          ]
+        },
+        { "type": "h3", "text": "How to fix anchor text" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Add descriptive anchors"] }, " where they are currently \"click here\" or \"read more.\""],
+            [{ "b": ["Vary exact-match anchors"] }, " across different pages linking to the same target."],
+            [{ "b": ["Use the specific anchor for fragment links"] }, " — if the link points to #change-orders, the anchor should reference change orders, not just \"contract terms.\""]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "authority",
+      "title": "Step 5: Check Authority Distribution",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Internal linking distributes authority — the more internal links pointing to a page, the more \"important\" it seems to Google. In a well-structured cluster, authority flows from peripheral pages toward the hubs, not the other way around. The hubs (pillar, geo hub, portfolio) should have the most inbound internal links."
+          ]
+        },
+        { "type": "h3", "text": "How to check" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Screaming Frog:"] }, " Reports → Link Metrics → Inlink Count per page."],
+            [{ "b": ["Ahrefs:"] }, " Internal Link Rank or Page Authority — shows how much internal authority each page receives."]
+          ]
+        },
+        { "type": "h3", "text": "The expected pattern in this cluster" },
+        {
+          "type": "p",
+          "inline": [
+            "In order of inbound internal link count (highest to lowest), the pattern should roughly be:"
+          ]
+        },
+        {
+          "type": "ol",
+          "items": [
+            [{ "b": ["Pillar"] }, " — highest inbound count."],
+            [{ "b": ["Geo hub"] }, " and ", { "b": ["portfolio"] }, " — second-highest."],
+            [{ "b": ["Cost guide"] }, ", ", { "b": ["contract terms"] }, ", ", { "b": ["process"] }, " — heavily linked operational pages."],
+            [{ "b": ["Checklist"] }, ", ", { "b": ["red flags"] }, ", ", { "b": ["case study"] }, " — the trust pages."],
+            [{ "b": ["City pages"] }, ", ", { "b": ["platform comparison"] }, ", ", { "b": ["role comparison"] }, " — mid-tier pages."],
+            [{ "b": ["Glossary"] }, ", ", { "b": ["internal-link audit (this page)"] }, ", ", { "b": ["near-me FAQ"] }, " — lower-tier reference pages."]
+          ]
+        },
+        { "type": "h3", "text": "How to fix an imbalance" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Add links to underlinked important pages."] }, " If the case study is receiving fewer internal links than the near-me FAQ, add 2–3 links from high-traffic cluster pages to the case study."],
+            [{ "b": ["Remove links to overlinked peripheral pages."] }, " If the glossary is receiving 15 internal links but the pillar is receiving 8, that is inverted — redirect some of those links to the pillar."],
+            [{ "b": ["Do not overcorrect."] }, " The goal is a reasonable distribution, not a perfect one. If the pillar has 40 internal links and the glossary has 8, that is healthy. If the pillar has 12 and the glossary has 8, that is a problem."]
+          ]
+        },
+        { "type": "h3", "text": "One-shot check" },
+        {
+          "type": "p",
+          "inline": [
+            "For this cluster, the pillar should have at least 15 inbound internal links (one from every page that mentions it). If it has fewer, that is a signal that the internal linking structure is not working."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "depth",
+      "title": "Step 6: Verify Click Depth",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Click depth is the number of clicks it takes to reach a page from the homepage. Pages at depth 1 (linked from homepage) are treated as most important. Pages at depth 4+ are crawled less frequently and tend to rank worse."
+          ]
+        },
+        { "type": "h3", "text": "Target click depth" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Homepage:"] }, " depth 0."],
+            [{ "b": ["Pillar and top hubs (geo hub, portfolio):"] }, " depth 1 (linked directly from homepage)."],
+            [{ "b": ["Main cluster pages:"] }, " depth 2 (linked from the pillar or a hub)."],
+            [{ "b": ["City pages:"] }, " depth 2 or 3 (linked from the geo hub, which is at depth 1)."],
+            [{ "b": ["Glossary, internal-link audit:"] }, " depth 2 or 3."]
+          ]
+        },
+        { "type": "h3", "text": "How to check" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Screaming Frog:"] }, " Reports → Crawl Analysis → Crawl Depth (shows each page's click depth from the start URL)."]
+          ]
+        },
+        { "type": "h3", "text": "What to do if click depth is too high" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Add the page to the main navigation or footer."] }, " The most effective fix — main-nav links are depth 1 everywhere on the site."],
+            [{ "b": ["Add links from high-authority pages."] }, " A single link from the pillar (depth 1) makes the target depth 2."],
+            [{ "b": ["Check for accidental depth-4 pages."] }, " Sometimes a page is deep because it is only linked from another deep page. Add a direct link from a shallower page."]
+          ]
+        },
+        { "type": "h3", "text": "Where depth problems typically occur in this cluster" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["City pages"] }, " at depth 3 (homepage → geo hub → city page). Acceptable, but adding city links to the footer would bring them to depth 1 and help them rank faster."],
+            [{ "b": ["Case study"] }, " at depth 3 (homepage → portfolio → case study). Should be depth 2 — add a link from the pillar or homepage."],
+            [{ "b": ["Reviews"] }, " at depth 3 (homepage → portfolio → reviews). Same fix — add a link from the pillar or homepage."],
+            [{ "b": ["Glossary"] }, " at depth 2 or 3 depending on where you linked it. Add it to the footer for depth 1."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cross-page",
+      "title": "Step 7: Check Cluster Cross-Linking",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Every page in the cluster should link to and be linked from at least two other pages in the same cluster. This is what makes the cluster a cluster — the cross-linking tells Google these pages are topically related."
+          ]
+        },
+        { "type": "h3", "text": "The cluster structure to verify" },
+        {
+          "type": "table",
+          "head": [
+            ["Cluster"],
+            ["Pages"],
+            ["Cross-link rule"]
+          ],
+          "rows": [
+            [["Hiring process"], ["Pillar, checklist, red flags, cost, contract, process, brief, top developers, developer vs designer, jobs"], ["Each links to pillar and at least two others in this cluster"]],
+            [["Platform"], ["Shopify vs WooCommerce, WordPress developer"], ["Cross-link to each other and to the pillar"]],
+            [["Geo"], ["Geo hub, near-me guide, near-me FAQ, 7 city pages"], ["City pages link to geo hub and each other; hub links to all city pages"]],
+            [["Trust"], ["Portfolio, case study, reviews"], ["Each links to the other two and to the pillar"]],
+            [["Reference"], ["Glossary, internal-link audit"], ["Link to the cluster broadly, especially the pillar"]]
+          ]
+        },
+        { "type": "h3", "text": "How to check" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Manual spot-check."] }, " For each page, list the internal links it contains and the pages that link to it. Verify at least two cross-links within the cluster."],
+            [{ "b": ["Screaming Frog export."] }, " Filter the inlinks spreadsheet by cluster — the export shows which pages link to which."]
+          ]
+        },
+        { "type": "h3", "text": "Common cross-link gaps in this cluster" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["City pages not linking to each other."] }, " Each city page should link to all 6 other cities (as specified in the city page internal-link section). Verify each city page has all 6."],
+            [{ "b": ["Platform pages not linking to the pillar."] }, " The WordPress developer page and the platform comparison should both link to the pillar, not just to each other."],
+            [{ "b": ["The brief not linking to the process."] }, " The brief is the input to the process; the process is what happens after. They should link to each other."],
+            [{ "b": ["The reviews page not linking to the case study."] }, " The reviews page references the case study in review 1, but should also have a general link to it."]
+          ]
+        },
+        { "type": "h3", "text": "Fix strategy" },
+        {
+          "type": "p",
+          "inline": [
+            "For each gap, add the missing cross-link at the natural place in the content — not in a \"related posts\" block at the end. Contextual links in the body text are worth more than a footer widget. If a natural place does not exist, edit the content to create one."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "schema",
+      "title": "Step 8: Verify Schema and Canonical",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Schema and canonical tags are not internal links, but they play a similar role — they tell Google which page is the canonical version and what the page is about. A cluster with correct schema and canonicals is much easier for Google to interpret than one without."
+          ]
+        },
+        { "type": "h3", "text": "Canonical verification" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Every page has a self-referencing canonical."] }, " The <link rel=\"canonical\"> tag should point to the page's own URL, not to another page."],
+            [{ "b": ["No canonicals point to a different page."] }, " Unless the page is intentionally a duplicate (e.g., a paginated version), canonicals should be self-referencing."],
+            [{ "b": ["www vs non-www consistency."] }, " Pick one and use it everywhere. Mixed www/non-www canonicals cause duplicate-content problems."],
+            [{ "b": ["HTTP vs HTTPS consistency."] }, " Canonicals should use https://, never http://."]
+          ]
+        },
+        { "type": "h3", "text": "Schema verification" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Article schema"] }, " on all editorial pages."],
+            [{ "b": ["FAQPage schema"] }, " on all pages with visible FAQ sections (and only on pages where the FAQ is visible — hidden FAQ schema is a manual-action risk)."],
+            [{ "b": ["HowTo schema"] }, " on process-oriented pages (optional but useful for the process page and the checklist)."],
+            [{ "b": ["CollectionPage schema"] }, " on the geo hub, portfolio, and reviews."],
+            [{ "b": ["DefinedTermSet schema"] }, " on the glossary."],
+            [{ "b": ["BreadcrumbList schema"] }, " on all pages (improves SERP display)."],
+            [{ "b": ["Organization schema"] }, " on the homepage, with logo and contact info."]
+          ]
+        },
+        { "type": "h3", "text": "How to verify" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Google Rich Results Test"] }, " — test 3–5 pages to confirm schema parses correctly."],
+            [{ "b": ["Schema Markup Validator"] }, " — schema.org's official validator, stricter than Google's."],
+            [{ "b": ["Manual review"] }, " — check that schema matches visible content on each page. If a schema entry claims a review that is not visible, remove it."]
+          ]
+        },
+        { "type": "h3", "text": "Common schema problems in this cluster" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["FAQ schema that does not match visible FAQ content."] }, " Google requires the schema to reflect what is visible on the page."],
+            [{ "b": ["AggregateRating without visible reviews."] }, " Do not use AggregateRating schema unless you have visible reviews on the page (the portfolio and reviews pages do, so it is valid there)."],
+            [{ "b": ["Multiple schema blocks conflicting."] }, " If a page has both Article and FAQPage schema, that is fine — but not two Article schema blocks."],
+            [{ "b": ["Missing breadcrumbs."] }, " Most of the cluster pages do not have breadcrumb schema. Adding it improves SERP appearance but is not a strict requirement."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "audit-checklist",
+      "title": "Final Audit Checklist",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Use this checklist after completing the 8 steps above to confirm the audit is done."
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            ["☐ All 28 pages from the roadmap are published."],
+            ["☐ All 28 pages return a 200 status code."],
+            ["☐ No 4xx or 5xx responses for internal links."],
+            ["☐ No 3xx redirects for internal links (all internal links point to final URLs)."],
+            ["☐ No orphan pages — every page has at least two inbound internal links."],
+            ["☐ Every page is at depth 3 or less from the homepage."],
+            ["☐ The pillar has the highest inbound internal link count."],
+            ["☐ The geo hub, portfolio, and reviews are linked from at least 5 pages each."],
+            ["☐ No anchor text appears more than 10 times pointing to the same page."],
+            ["☐ Every page has at least one exact-match anchor pointing to it."],
+            ["☐ All fragment links (e.g., #change-orders) have matching element IDs on their target pages."],
+            ["☐ Every page has a self-referencing canonical tag."],
+            ["☐ Every page with a visible FAQ has FAQPage schema matching the visible content."],
+            ["☐ No page has hidden FAQ schema (schema without visible matching content)."],
+            ["☐ XML sitemap includes all 28 cluster pages, with correct lastmod dates."],
+            ["☐ robots.txt does not block any cluster page."],
+            ["☐ Google Search Console shows all 28 pages indexed (or in the process of being indexed)."]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "If any of these are not satisfied, fix them before considering the audit complete. Most take a few minutes; the whole checklist should take 30–60 minutes after the 8 steps are done."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "when-to-repeat",
+      "title": "When to Repeat the Audit",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Internal linking is not a one-time task. As the site grows and new pages are added, the internal link structure needs to evolve with it. The audit should be repeated on a regular cadence, and additionally whenever new content is added."
+          ]
+        },
+        { "type": "h3", "text": "Recommended schedule" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Immediately after the cluster is published"] }, " (the audit described on this page)."],
+            [{ "b": ["30 days after publication"] }, " — check that Search Console shows the expected indexing, and review any pages that are not being indexed."],
+            [{ "b": ["Every 6 months"] }, " — a full re-audit as a routine maintenance activity."],
+            [{ "b": ["Whenever new content is added"] }, " — a mini-audit: verify the new pages are linked from at least two existing pages, and that they link to at least two existing pages."],
+            [{ "b": ["When a page is removed or merged"] }, " — check that no internal links point to the removed page, and that any pages that were linking to it now link elsewhere."]
+          ]
+        },
+        { "type": "h3", "text": "Signals that an audit is overdue" },
+        {
+          "type": "ul",
+          "items": [
+            ["Search Console shows pages that are \"Discovered — currently not indexed\" for more than 4 weeks."],
+            ["Search Console shows the \"Crawled — currently not indexed\" status for a page that should be indexed."],
+            ["Organic traffic to a cluster page has dropped significantly for no apparent content reason."],
+            ["You have added 5 or more new pages since the last audit."],
+            ["You have restructured URLs or changed the site's navigation."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "title": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "How long does an internal link audit take?",
+          "a": [
+            "For a 28-page cluster, the 8 steps take roughly 4 hours, and the final checklist takes 30–60 minutes. Total: about one working day. The initial crawl takes the longest (30 min); everything else is faster once the tools are set up."
+          ]
+        },
+        {
+          "q": "What is the most common issue found in an audit like this?",
+          "a": [
+            "Broken fragment links and orphan pages. Fragment links fail because the target page does not have an element with the expected ID. Orphans happen when a page is published without being linked from anywhere — common for the glossary and the reviews page in a large cluster."
+          ]
+        },
+        {
+          "q": "Do I need paid tools to do an audit?",
+          "a": [
+            "No. Screaming Frog's free tier (up to 500 URLs) covers everything needed for a 28-page cluster. Ahrefs is useful but not required. Google Search Console (free) is essential for indexing verification."
+          ]
+        },
+        {
+          "q": "How many internal links per page is too many?",
+          "a": [
+            "There is no hard limit, but 100+ internal links per page is usually a sign of a menu-heavy or widget-heavy design, not a well-structured article. For cluster pages, 5–15 contextual internal links is a healthy range. Footer and navigation links are separate from this count."
+          ]
+        },
+        {
+          "q": "Should I use \"nofollow\" on internal links?",
+          "a": [
+            "Rarely. Nofollow on internal links wastes the linking opportunity and is usually a sign of confusion about how nofollow works. Use nofollow only for links to genuinely low-value pages (e.g., privacy policy, terms of service) — and even then, follow is usually fine."
+          ]
+        },
+        {
+          "q": "What is the difference between click depth and internal link count?",
+          "a": [
+            "Click depth is the shortest path from the homepage to a page. Internal link count is the total number of pages linking to a page. Both matter, but they measure different things — a page can have high internal link count and high click depth (if all its inbound links come from deep pages), which is a structural problem."
+          ]
+        },
+        {
+          "q": "How often should I update internal links on existing pages?",
+          "a": [
+            "Every time you add a new page, check whether existing pages should link to it. And every time you update a page, check whether its existing internal links still point to the right targets. Beyond that, the 6-month full audit is sufficient for most sites."
+          ]
+        },
+        {
+          "q": "What if a page cannot be fixed?",
+          "a": [
+            "If a page genuinely cannot be indexed (e.g., it is behind a login wall or has a noindex tag), it should not be linked from the cluster in a way that suggests it is indexable. Either remove the links or redirect the page to a relevant alternative."
+          ]
+        },
+        {
+          "q": "Should the audit be done by an SEO or by a developer?",
+          "a": [
+            "Either can do the audit, but the fixes usually need developer involvement. An SEO can identify the issues (orphans, broken links, anchor problems) and recommend the fixes; a developer implements them if the CMS does not allow direct editing. For small sites with a simple CMS, one person can do both."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "title": "Next Steps",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Run the 8 steps, then the final checklist. If the checklist is satisfied, the cluster is structurally sound and ready for the long-term indexing phase. If not, fix the issues before moving on — structural problems compound, and they are much easier to fix now than after months of content has been built on top of them."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the underlying structure that the audit verifies, see ",
+            { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+            " (the pillar), ",
+            { "a": "/ecommerce-developers-by-city", "t": ["ecommerce developers by city"] },
+            " (the geo hub), and ",
+            { "a": "/portfolio", "t": ["our ecommerce portfolio"] },
+            " (the trust hub). For the full 30-day roadmap, see the ",
+            { "a": "/hire-ecommerce-website-developer", "t": ["pillar page"] },
+            " for the outline. If you need a professional internal-link audit, ",
+            { "a": "/contact", "t": ["contact us"] },
+            "."
+          ]
+        }
+      ],
+      "cta": true
+    }
+  ]
+}

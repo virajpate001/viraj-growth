@@ -1,0 +1,849 @@
+{
+  "slug": "ecommerce-development-glossary",
+  "kind": "article",
+  "topic": "Reference",
+  "order": 26,
+  "title": "Ecommerce Development Glossary: A-Z Terms Explained",
+  "description": "An A-Z glossary of ecommerce development terms: platform, technical, and commercial vocabulary explained in plain language for store owners hiring developers.",
+  "ogTitle": "Ecommerce Development Glossary: Every Term You Need to Know",
+  "ogDescription": "Plain-language definitions of every ecommerce development term, from A/B testing to Z-index, organized for quick lookup.",
+  "published": "2026-11-06",
+  "updated": "2026-11-06",
+  "h1": "Ecommerce Development Glossary: Every Term You Need to Know",
+  "intro": [
+    {
+      "type": "p",
+      "inline": [
+        { "b": ["What this page is:"] },
+        " a plain-language glossary of the terms you will encounter when hiring a developer, reading a proposal, or discussing a project. The 90+ terms below are organized alphabetically, with each definition written for a store owner — not for a developer — and with links to the deeper page where each concept is covered in context."
+      ]
+    },
+    {
+      "type": "p",
+      "inline": [
+        "Use this page as a reference, not a read-through. If you are mid-project and a developer used a term you are not sure about, use Ctrl+F (Cmd+F on Mac) to search for it. For the full hiring process, see ",
+        { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+        "."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "a",
+      "title": "A",
+      "blocks": [
+        { "type": "h3", "text": "A/B testing" },
+        {
+          "type": "p",
+          "inline": [
+            "Comparing two versions of a page or element (e.g., a checkout button) to see which performs better. Measured by a specific metric like conversion rate. Useful for optimizing checkout, product pages, and CTAs."
+          ]
+        },
+        { "type": "h3", "text": "Acceptance criteria" },
+        {
+          "type": "p",
+          "inline": [
+            "The specific conditions a deliverable must meet to be considered complete. \"Checkout processes test orders successfully across iOS Safari, Android Chrome, and desktop\" is an acceptance criterion. Without it, \"done\" is subjective — see ",
+            { "a": "/ecommerce-developer-contract-payment-terms#contract-clauses", "t": ["contract clauses"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "API (Application Programming Interface)" },
+        {
+          "type": "p",
+          "inline": [
+            "A way for two software systems to communicate. In ecommerce, APIs connect the store to payment gateways, shipping providers, ERP systems, and other tools. Headless commerce is built almost entirely on APIs."
+          ]
+        },
+        { "type": "h3", "text": "Average Order Value (AOV)" },
+        {
+          "type": "p",
+          "inline": [
+            "The average amount a customer spends per order. A common ecommerce KPI, often used to measure the effect of checkout optimization, upsells, and bundles."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "title": "B",
+      "blocks": [
+        { "type": "h3", "text": "Backend" },
+        {
+          "type": "p",
+          "inline": [
+            "The server-side part of a store that customers do not see: order processing, payment logic, shipping calculations, database queries, and integrations with other systems. See ",
+            { "a": "/developer-vs-web-designer-vs-full-stack#back-end", "t": ["back-end developer"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "BigCommerce" },
+        {
+          "type": "p",
+          "inline": [
+            "A hosted ecommerce platform, comparable to Shopify but with a different pricing and feature set. Often chosen by mid-market stores that have outgrown basic Shopify plans. See ",
+            { "a": "/shopify-vs-woocommerce-vs-custom", "t": ["Shopify vs WooCommerce vs custom"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Brief" },
+        {
+          "type": "p",
+          "inline": [
+            "A document you send to a developer describing your project so they can quote accurately. Covers business context, scope, timeline, budget, and success metrics. See ",
+            { "a": "/ecommerce-developer-brief-template", "t": ["the brief template"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "title": "C",
+      "blocks": [
+        { "type": "h3", "text": "Cart abandonment" },
+        {
+          "type": "p",
+          "inline": [
+            "The percentage of shoppers who add items to their cart but do not complete checkout. Reducing cart abandonment is one of the highest-leverage improvements in ecommerce — see ",
+            { "a": "/ecommerce-build-case-study", "t": ["the case study"] },
+            " where checkout completion improved 21%."
+          ]
+        },
+        { "type": "h3", "text": "CDN (Content Delivery Network)" },
+        {
+          "type": "p",
+          "inline": [
+            "A network of servers distributed geographically to deliver your store's assets (images, scripts, stylesheets) faster to customers around the world. Important for performance, especially for stores with international customers."
+          ]
+        },
+        { "type": "h3", "text": "Change order" },
+        {
+          "type": "p",
+          "inline": [
+            "A written agreement to modify the project scope, with a defined cost and timeline impact. The standard process is written request, written estimate, written approval, then work begins — see ",
+            { "a": "/ecommerce-developer-contract-payment-terms#change-orders", "t": ["change orders"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Checkout" },
+        {
+          "type": "p",
+          "inline": [
+            "The final step of the buying process where the customer enters payment and shipping information. The highest-risk part of an ecommerce store because bugs cost real revenue — see ",
+            { "a": "/ecommerce-build-case-study#what-we-did", "t": ["how a real checkout rebuild improved completion 21%"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "CMS (Content Management System)" },
+        {
+          "type": "p",
+          "inline": [
+            "Software for managing website content. WordPress is the most common CMS; Shopify has its own content system. In ecommerce, a CMS is often combined with an ecommerce platform (e.g., WordPress + WooCommerce)."
+          ]
+        },
+        { "type": "h3", "text": "CPC (Cost Per Click)" },
+        {
+          "type": "p",
+          "inline": [
+            "The amount an advertiser pays each time someone clicks their ad. In your keyword data, the term \"ecommerce website developer\" has a CPC of $51.35 — a strong signal of commercial intent — see ",
+            { "a": "/ecommerce-website-developer-cost", "t": ["the cost guide"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "CRO (Conversion Rate Optimization)" },
+        {
+          "type": "p",
+          "inline": [
+            "The practice of improving a store's conversion rate through testing, UX improvements, and analysis. Related to but distinct from development — a developer implements CRO changes, but CRO strategy is usually a separate role."
+          ]
+        },
+        { "type": "h3", "text": "CRM (Customer Relationship Management)" },
+        {
+          "type": "p",
+          "inline": [
+            "Software for managing customer relationships, sales, and support. In ecommerce, a CRM is often integrated with the store to sync customer data, orders, and support history."
+          ]
+        },
+        { "type": "h3", "text": "Core Web Vitals" },
+        {
+          "type": "p",
+          "inline": [
+            "Google's set of metrics for measuring page experience: Largest Contentful Paint (LCP), Interaction to Next Paint (INP), and Cumulative Layout Shift (CLS). They affect search ranking, and they correlate with conversion rate — see ",
+            { "a": "/wordpress-ecommerce-website-developer#performance", "t": ["performance on WooCommerce"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "CSS (Cascading Style Sheets)" },
+        {
+          "type": "p",
+          "inline": [
+            "The language that controls the visual appearance of a website: colors, fonts, layout, spacing. Front-end developers use CSS to implement designs."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "title": "D",
+      "blocks": [
+        { "type": "h3", "text": "Database" },
+        {
+          "type": "p",
+          "inline": [
+            "The structured storage for a store's data: products, customers, orders, reviews, and more. WooCommerce uses a MySQL database; headless systems may use other database types."
+          ]
+        },
+        { "type": "h3", "text": "DNS (Domain Name System)" },
+        {
+          "type": "p",
+          "inline": [
+            "The system that translates your domain name (e.g., example.com) into the IP address of the server hosting your store. DNS changes are usually part of a launch or migration — see ",
+            { "a": "/ecommerce-development-process-milestones#phase-6", "t": ["the launch phase"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "D2C (Direct-to-Consumer)" },
+        {
+          "type": "p",
+          "inline": [
+            "A business model where brands sell directly to customers, bypassing retailers and distributors. Most D2C brands run their own ecommerce store, often on Shopify."
+          ]
+        },
+        { "type": "h3", "text": "Dropshipping" },
+        {
+          "type": "p",
+          "inline": [
+            "A fulfillment model where the store does not hold inventory — orders are forwarded to a supplier who ships directly to the customer. Common in small dropshipping stores, less common in mid-market."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "title": "E",
+      "blocks": [
+        { "type": "h3", "text": "Ecommerce" },
+        {
+          "type": "p",
+          "inline": [
+            "The buying and selling of goods or services online. In this context, it usually refers to a store built on a platform like Shopify, WooCommerce, or a custom stack. See ",
+            { "a": "/shopify-vs-woocommerce-vs-custom", "t": ["platform comparison"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "ERP (Enterprise Resource Planning)" },
+        {
+          "type": "p",
+          "inline": [
+            "Software for managing a business's core operations: inventory, orders, accounting, purchasing, and more. Ecommerce stores integrate with ERPs to sync product data, orders, and inventory in real time. ERP integration is one of the most complex parts of a mid-market build."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f",
+      "title": "F",
+      "blocks": [
+        { "type": "h3", "text": "Frontend" },
+        {
+          "type": "p",
+          "inline": [
+            "The part of a store that customers see and interact with: pages, buttons, forms, product images, and the cart UI. Distinct from the backend. See ",
+            { "a": "/developer-vs-web-designer-vs-full-stack#front-end", "t": ["front-end developer"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Full-stack" },
+        {
+          "type": "p",
+          "inline": [
+            "A developer who works across both frontend and backend. The most common profile for ecommerce developers, especially on Shopify and WooCommerce. See ",
+            { "a": "/developer-vs-web-designer-vs-full-stack#full-stack", "t": ["full-stack developer"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g",
+      "title": "G",
+      "blocks": [
+        { "type": "h3", "text": "Gateway (Payment Gateway)" },
+        {
+          "type": "p",
+          "inline": [
+            "The service that processes card payments: Stripe, PayPal, Razorpay, PayU, Cashfree, Adyen, Braintree, etc. Gateway choice affects checkout conversion, fees, and compliance. See ",
+            { "a": "/wordpress-ecommerce-website-developer#security", "t": ["PCI and security on WooCommerce"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Git" },
+        {
+          "type": "p",
+          "inline": [
+            "A version control system that tracks changes to code over time. Every professional developer uses Git, and every project should have its code stored in a Git repository (typically GitHub, GitLab, or Bitbucket). Ask for repo access at handover."
+          ]
+        },
+        { "type": "h3", "text": "Google Analytics 4 (GA4)" },
+        {
+          "type": "p",
+          "inline": [
+            "Google's current analytics platform, which replaced Universal Analytics in 2023. Standard for measuring traffic, conversions, and user behavior. Should be verified before launch, not after — see ",
+            { "a": "/ecommerce-development-process-milestones#phase-6", "t": ["the launch phase"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h",
+      "title": "H",
+      "blocks": [
+        { "type": "h3", "text": "Headless commerce" },
+        {
+          "type": "p",
+          "inline": [
+            "An architecture where the storefront (frontend) is separated from the backend ecommerce platform, connected via APIs. Offers more flexibility and performance but costs more and requires a smaller pool of developers. See ",
+            { "a": "/shopify-vs-woocommerce-vs-custom#custom", "t": ["custom and headless builds"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Hosting" },
+        {
+          "type": "p",
+          "inline": [
+            "The service that runs your store's server. Shopify is fully hosted. WooCommerce requires you to choose a host — from shared hosting (cheap, slow) to managed WooCommerce hosting (more expensive, faster, more secure). Hosting choice affects performance, security, and cost — see ",
+            { "a": "/ecommerce-website-developer-cost#hidden-costs", "t": ["hidden costs"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "HTML (HyperText Markup Language)" },
+        {
+          "type": "p",
+          "inline": [
+            "The language that structures a web page: headings, paragraphs, links, images, forms. Every web page is built on HTML, regardless of the platform."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i",
+      "title": "I",
+      "blocks": [
+        { "type": "h3", "text": "Integration" },
+        {
+          "type": "p",
+          "inline": [
+            "A connection between your store and another system: ERP, CRM, shipping provider, email platform, or accounting. Each integration adds development, testing, and maintenance cost — see ",
+            { "a": "/ecommerce-website-developer-cost#cost-drivers", "t": ["cost drivers"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "IP ownership (Intellectual Property)" },
+        {
+          "type": "p",
+          "inline": [
+            "Who owns the code, designs, and licenses after a project is complete. You should own custom code and designs on final payment — see ",
+            { "a": "/ecommerce-developer-contract-payment-terms#ip-ownership", "t": ["IP ownership in contracts"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "j",
+      "title": "J",
+      "blocks": [
+        { "type": "h3", "text": "JavaScript" },
+        {
+          "type": "p",
+          "inline": [
+            "The programming language that makes websites interactive: product filters, dropdown menus, cart updates, and form validation. Used alongside HTML and CSS on every modern store."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "k",
+      "title": "K",
+      "blocks": [
+        { "type": "h3", "text": "KPI (Key Performance Indicator)" },
+        {
+          "type": "p",
+          "inline": [
+            "A metric used to measure success. Common ecommerce KPIs include conversion rate, average order value, cart abandonment rate, and customer lifetime value. Your brief should specify which KPIs the project is trying to move — see ",
+            { "a": "/ecommerce-developer-brief-template#section-details", "t": ["the brief structure"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l",
+      "title": "L",
+      "blocks": [
+        { "type": "h3", "text": "Landing page" },
+        {
+          "type": "p",
+          "inline": [
+            "A standalone page designed for a specific marketing campaign, with a single goal (e.g., a product launch or a lead magnet). Different from a product page, which is part of the store's standard navigation."
+          ]
+        },
+        { "type": "h3", "text": "Largest Contentful Paint (LCP)" },
+        {
+          "type": "p",
+          "inline": [
+            "One of Google's Core Web Vitals. Measures how long it takes for the largest visible element on a page to load. Target is under 2.5 seconds. See ",
+            { "a": "/wordpress-ecommerce-website-developer#performance", "t": ["performance on WooCommerce"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Liquid" },
+        {
+          "type": "p",
+          "inline": [
+            "Shopify's templating language. Shopify developers use Liquid to build themes and customize the storefront. If you are hiring a Shopify developer, Liquid expertise is a baseline requirement."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "m",
+      "title": "M",
+      "blocks": [
+        { "type": "h3", "text": "Magento (Adobe Commerce)" },
+        {
+          "type": "p",
+          "inline": [
+            "An enterprise ecommerce platform, used by larger retailers. More complex and more expensive than Shopify or WooCommerce, but more flexible for enterprise requirements. See ",
+            { "a": "/shopify-vs-woocommerce-vs-custom", "t": ["platform comparison"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Maintenance" },
+        {
+          "type": "p",
+          "inline": [
+            "The ongoing work of keeping a store up to date, secure, and performing well. Includes updates, backups, monitoring, and small enhancements. Distinct from warranty (which covers bugs) — see ",
+            { "a": "/ecommerce-developer-contract-payment-terms#warranty-support", "t": ["warranty vs support vs maintenance"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Milestone" },
+        {
+          "type": "p",
+          "inline": [
+            "A defined checkpoint in a project, with a specific deliverable and sign-off. Milestones structure both the process and the payment schedule — see ",
+            { "a": "/ecommerce-development-process-milestones#milestones", "t": ["milestones"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "n",
+      "title": "N",
+      "blocks": [
+        { "type": "h3", "text": "\"Near me\" (search intent)" },
+        {
+          "type": "p",
+          "inline": [
+            "A search query modifier indicating local intent, e.g., \"ecommerce website developer near me.\" Signals that the searcher wants a provider in their geographic area. See ",
+            { "a": "/ecommerce-website-developer-near-me", "t": ["how to find an ecommerce developer near you"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Next.js" },
+        {
+          "type": "p",
+          "inline": [
+            "A React framework commonly used for headless ecommerce storefronts. Enables fast page loads, SEO-friendly rendering, and modern developer workflows. Most headless storefronts in 2026 are built on Next.js."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "o",
+      "title": "O",
+      "blocks": [
+        { "type": "h3", "text": "On-page SEO" },
+        {
+          "type": "p",
+          "inline": [
+            "The practice of optimizing individual pages for search engines: titles, meta descriptions, headings, internal links, structured data. In ecommerce, important for product pages, category pages, and blog content."
+          ]
+        },
+        { "type": "h3", "text": "Order Management System (OMS)" },
+        {
+          "type": "p",
+          "inline": [
+            "Software for tracking and fulfilling orders across channels. Often integrated with the ecommerce platform and the ERP. Adds complexity to a build — factor into scope."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p",
+      "title": "P",
+      "blocks": [
+        { "type": "h3", "text": "PCI DSS (Payment Card Industry Data Security Standard)" },
+        {
+          "type": "p",
+          "inline": [
+            "The security standard for handling card data. In ecommerce, the safest approach is to minimize PCI scope by tokenizing payments or using hosted checkout. See ",
+            { "a": "/wordpress-ecommerce-website-developer#security", "t": ["PCI compliance on WooCommerce"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "PHP" },
+        {
+          "type": "p",
+          "inline": [
+            "The programming language that powers WordPress and WooCommerce. WooCommerce developers should be fluent in PHP. Not used on Shopify or headless React builds."
+          ]
+        },
+        { "type": "h3", "text": "PIM (Product Information Management)" },
+        {
+          "type": "p",
+          "inline": [
+            "Software for managing product data at scale: attributes, descriptions, images, variants, and translations. Often integrated with the store and the ERP for stores with large catalogs."
+          ]
+        },
+        { "type": "h3", "text": "Plugin" },
+        {
+          "type": "p",
+          "inline": [
+            "An add-on to a CMS or platform that adds functionality. WordPress and WooCommerce rely heavily on plugins; Shopify uses apps (functionally similar). Plugin management is a major part of ongoing maintenance — see ",
+            { "a": "/wordpress-ecommerce-website-developer#plugins", "t": ["plugin audit experience"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Portfolio" },
+        {
+          "type": "p",
+          "inline": [
+            "A developer's collection of completed work. For an ecommerce developer, the portfolio should include live ecommerce stores you can open and test — not just screenshots. See ",
+            { "a": "/portfolio", "t": ["our ecommerce portfolio"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q",
+      "title": "Q",
+      "blocks": [
+        { "type": "h3", "text": "QA (Quality Assurance)" },
+        {
+          "type": "p",
+          "inline": [
+            "The testing phase before launch where the store is checked for bugs, edge cases, and cross-device issues. Compressed or skipped QA is one of the most common causes of post-launch failures — see ",
+            { "a": "/ecommerce-development-process-milestones#phase-5", "t": ["the QA phase"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Quote" },
+        {
+          "type": "p",
+          "inline": [
+            "A written proposal from a developer, with a price and (ideally) a scope of work. A quote without a scope is not a real quote. See ",
+            { "a": "/ecommerce-developer-brief-template", "t": ["the brief"] },
+            " that produces comparable quotes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r",
+      "title": "R",
+      "blocks": [
+        { "type": "h3", "text": "React" },
+        {
+          "type": "p",
+          "inline": [
+            "A JavaScript library for building user interfaces. Commonly used for modern headless storefronts (often with Next.js). Not used in standard Shopify or WooCommerce builds."
+          ]
+        },
+        { "type": "h3", "text": "Red flag" },
+        {
+          "type": "p",
+          "inline": [
+            "A warning sign in a developer's answer, portfolio, or contract. Not all red flags are disqualifying — but some are. See ",
+            { "a": "/ecommerce-developer-red-flags", "t": ["ecommerce developer red flags"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Responsive design" },
+        {
+          "type": "p",
+          "inline": [
+            "Designing a site to adapt automatically to different screen sizes: mobile, tablet, and desktop. Non-negotiable for modern ecommerce, since the majority of traffic is mobile."
+          ]
+        },
+        { "type": "h3", "text": "Retainer" },
+        {
+          "type": "p",
+          "inline": [
+            "An ongoing monthly fee for services. In ecommerce, typically used for maintenance agreements. Usually includes a defined number of hours per month plus priority support."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s",
+      "title": "S",
+      "blocks": [
+        { "type": "h3", "text": "Scope of work" },
+        {
+          "type": "p",
+          "inline": [
+            "The written definition of what will be built, including both in-scope and out-of-scope items. The scope is the core of the contract and the reference point when change requests come up — see ",
+            { "a": "/ecommerce-developer-contract-payment-terms#contract-clauses", "t": ["contract clauses"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Scope creep" },
+        {
+          "type": "p",
+          "inline": [
+            "The gradual expansion of scope beyond what was originally agreed, usually without a corresponding budget or timeline increase. The most common cause of budget overruns. The brief and change-order process are the main defenses — see ",
+            { "a": "/ecommerce-developer-contract-payment-terms#change-orders", "t": ["change orders"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Shopify" },
+        {
+          "type": "p",
+          "inline": [
+            "The most common hosted ecommerce platform, especially for D2C brands. Fast to launch, low maintenance, but with a customization ceiling. See ",
+            { "a": "/shopify-vs-woocommerce-vs-custom#shopify", "t": ["Shopify strengths and limits"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Sitemap" },
+        {
+          "type": "p",
+          "inline": [
+            "A file listing all pages of a website, used by search engines for indexing. In ecommerce, especially important after a migration or platform change — an outdated sitemap causes SEO problems."
+          ]
+        },
+        { "type": "h3", "text": "SLA (Service Level Agreement)" },
+        {
+          "type": "p",
+          "inline": [
+            "A defined service commitment, usually response times for critical issues. In ecommerce, you should have an SLA for checkout outages, security incidents, and other critical issues — see ",
+            { "a": "/ecommerce-developer-contract-payment-terms#warranty-support", "t": ["warranty and support"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "SSL (Secure Sockets Layer) / TLS" },
+        {
+          "type": "p",
+          "inline": [
+            "The encryption protocol that secures data in transit between the browser and the server. All ecommerce stores need SSL — the \"https://\" in the URL. Free through Let's Encrypt, usually bundled with hosting."
+          ]
+        },
+        { "type": "h3", "text": "Staging environment" },
+        {
+          "type": "p",
+          "inline": [
+            "A copy of the live store used for development and testing, so bugs are caught before they reach customers. A developer who does not use staging is a Tier 1 red flag — see ",
+            { "a": "/ecommerce-developer-red-flags#technical-red-flags", "t": ["technical red flags"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Stripe" },
+        {
+          "type": "p",
+          "inline": [
+            "One of the most common payment gateways, especially for D2C brands. Offers hosted and on-site checkout, and is known for good developer experience and documentation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t",
+      "title": "T",
+      "blocks": [
+        { "type": "h3", "text": "Tax (sales tax, VAT, GST)" },
+        {
+          "type": "p",
+          "inline": [
+            "Taxes on sales. Varies by country and region. In ecommerce, tax calculation is usually handled by the platform or a tax plugin, but complex cases (multi-country, multi-state) require custom configuration — see ",
+            { "a": "/ecommerce-development-process-milestones#phase-4", "t": ["the build phase"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Template" },
+        {
+          "type": "p",
+          "inline": [
+            "A pre-built design for a store, customized with your brand. Templates are cheaper and faster than custom design, and for most stores they look just as good. See ",
+            { "a": "/ecommerce-website-developer-cost#how-to-save", "t": ["how to reduce cost"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Theme" },
+        {
+          "type": "p",
+          "inline": [
+            "Another term for a template in the context of Shopify or WordPress. A theme defines the visual design and layout of a store. Shopify themes are typically built on Liquid; WooCommerce themes on PHP and WordPress."
+          ]
+        },
+        { "type": "h3", "text": "Timezone overlap" },
+        {
+          "type": "p",
+          "inline": [
+            "The number of working hours two teams share. A key factor in choosing between a local and a remote developer — significant overlap means faster communication. See ",
+            { "a": "/ecommerce-website-developer-near-me#local-vs-remote", "t": ["local vs remote"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "u",
+      "title": "U",
+      "blocks": [
+        { "type": "h3", "text": "UI (User Interface)" },
+        {
+          "type": "p",
+          "inline": [
+            "The visual and interactive elements of a store: buttons, forms, navigation, and layout. Distinct from UX (which is about the overall experience), though the two are often designed together."
+          ]
+        },
+        { "type": "h3", "text": "UX (User Experience)" },
+        {
+          "type": "p",
+          "inline": [
+            "The overall experience of using a store: how easy it is to find products, add to cart, and complete checkout. UX problems show up as cart abandonment and low conversion — see ",
+            { "a": "/ecommerce-build-case-study#starting-point", "t": ["a real example of UX problems"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v",
+      "title": "V",
+      "blocks": [
+        { "type": "h3", "text": "Version control" },
+        {
+          "type": "p",
+          "inline": [
+            "Software for tracking changes to code over time, enabling multiple developers to work on the same codebase without conflicts, and allowing rollback if something breaks. Git is the standard. See Git above."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "w",
+      "title": "W",
+      "blocks": [
+        { "type": "h3", "text": "Warranty" },
+        {
+          "type": "p",
+          "inline": [
+            "A defined period after launch during which bugs in the delivered scope are fixed at no charge. Typically 30–90 days. Distinct from support and maintenance — see ",
+            { "a": "/ecommerce-developer-contract-payment-terms#warranty-support", "t": ["warranty vs support vs maintenance"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Webhook" },
+        {
+          "type": "p",
+          "inline": [
+            "A way for two systems to notify each other of events in real time. In ecommerce, webhooks are used for things like notifying your email platform when an order is placed, or your fulfillment system when a shipment is created."
+          ]
+        },
+        { "type": "h3", "text": "WooCommerce" },
+        {
+          "type": "p",
+          "inline": [
+            "The most common WordPress-based ecommerce plugin. Free, highly customizable, but requires more maintenance than Shopify. See ",
+            { "a": "/wordpress-ecommerce-website-developer", "t": ["what to look for in a WordPress ecommerce developer"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "WordPress" },
+        {
+          "type": "p",
+          "inline": [
+            "The most popular CMS in the world. Combined with WooCommerce, it forms one of the two dominant ecommerce platforms. See ",
+            { "a": "/wordpress-ecommerce-website-developer", "t": ["WordPress ecommerce developer"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "x",
+      "title": "X",
+      "blocks": [
+        { "type": "h3", "text": "XML sitemap" },
+        {
+          "type": "p",
+          "inline": [
+            "A specific format for a sitemap that search engines can read. Usually auto-generated by the platform or an SEO plugin. Should be submitted to Google Search Console after launch."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "y",
+      "title": "Y",
+      "blocks": [
+        { "type": "h3", "text": "YoY (Year-over-Year)" },
+        {
+          "type": "p",
+          "inline": [
+            "A comparison of a metric to the same period in the previous year. Standard ecommerce KPI for measuring growth, since it normalizes for seasonality."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "z",
+      "title": "Z",
+      "blocks": [
+        { "type": "h3", "text": "Z-index" },
+        {
+          "type": "p",
+          "inline": [
+            "A CSS property that controls the stacking order of elements on a page. Rarely relevant to a store owner, but occasionally comes up in checkout bugs (e.g., \"the payment button is behind the shipping form\")."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "title": "Next Steps",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "If you are evaluating a developer and a term came up that is not in this glossary, ask the developer to explain it. A strong developer explains jargon in plain language; a weak one hides behind it. The glossary is a reference, not a substitute for asking questions — see ",
+            { "a": "/questions-to-ask-ecommerce-developer", "t": ["questions to ask an ecommerce developer"] },
+            "."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the full hiring process, return to ",
+            { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+            ". For platform comparisons, see ",
+            { "a": "/shopify-vs-woocommerce-vs-custom", "t": ["Shopify vs WooCommerce vs custom"] },
+            ". For the process where these terms appear in context, see ",
+            { "a": "/ecommerce-development-process-milestones", "t": ["the ecommerce development process"] },
+            ". If you have a term you want explained in a project context, ",
+            { "a": "/contact", "t": ["contact us"] },
+            "."
+          ]
+        }
+      ],
+      "cta": true
+    }
+  ]
+}

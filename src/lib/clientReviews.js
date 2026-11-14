@@ -26,7 +26,7 @@ export const REVIEWS = [
     },
   },
   {
-    name: "James K.",
+    name: "Sahil K.",
     projectType: "Multi-category retailer",
     projectDetail: "Shopify Plus replatform",
     rating: 5,
@@ -68,7 +68,7 @@ export const REVIEWS = [
     },
   },
   {
-    name: "Daniel F.",
+    name: "Rajesh Patel",
     projectType: "B2B industrial supplier",
     projectDetail: "custom WooCommerce with ERP integration",
     rating: 5,
