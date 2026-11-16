@@ -98,19 +98,19 @@ export const caseStudy = {
 
 export const testimonials = [
   {
-    name: "Client Name",
-    role: "Founder, Brand Name",
-    quote: "Sample testimonial. Viraj understood our business and delivered a store that actually sells.",
+    name: "Priya M. ",
+    role: "DTC skincare brand (WooCommerce rebuild)",
+    quote: "The build ran to schedule with no surprises after launch. Communication was clear from the first call to go-live. The one thing I would say is that the discovery phase felt slow at the time, but in hindsight, that was what made the rest of the project run smoothly.",
   },
   {
-    name: "Client Name",
-    role: "Owner, Brand Name",
+    name: "Sahil K.",
+    role: "Multi-category retailer (Shopify Plus replatform)",
     quote: "Sample testimonial. Our site is faster, cleaner and our sales went up within weeks.",
   },
   {
-    name: "Client Name",
-    role: "CEO, Brand Name",
-    quote: "Sample testimonial. Professional, quick to respond, and focused on results.",
+    name: "Meera T.  ",
+    role: " Local home goods retailer (WooCommerce launch)",
+    quote: "This was our first ecommerce store, and the team walked us through every decision. The POS integration and local pickup flow were exactly what we needed, and the training at launch meant we could run the store ourselves from day one.",
   },
 ];
 

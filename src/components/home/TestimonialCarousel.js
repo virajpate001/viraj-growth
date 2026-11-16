@@ -67,7 +67,7 @@ export default function TestimonialCarousel({ items }) {
                 <Star key={n} size={16} fill="currentColor" />
               ))}
             </div>
-            <blockquote className="mt-6 max-w-4xl font-display text-2xl leading-snug sm:text-3xl lg:text-4xl">
+            <blockquote className="mt-6 max-w-4xl font-display text-2xl leading-snug sm:text-2xl lg:text-2xl">
               “{t.quote}”
             </blockquote>
             <figcaption className="mt-8 flex items-center gap-4">
