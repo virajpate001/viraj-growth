@@ -1,0 +1,519 @@
+{
+  "slug": "best-website-developer-ecommerce",
+  "kind": "article",
+  "topic": "Hiring",
+  "order": 30,
+  "title": "Best Website Developer for Ecommerce Stores (2026)",
+  "description": "How to find the best website developer for your ecommerce store: the ecommerce-specific criteria, platform fit, and the vetting questions that matter.",
+  "ogTitle": "Best Website Developer for Ecommerce Stores: What to Look For",
+  "ogDescription": "The ecommerce-specific criteria that separate the best website developers from well-marketed ones, with a scoring framework and vetting questions.",
+  "published": "2026-11-16",
+  "updated": "2026-11-16",
+  "h1": "Best Website Developer for Ecommerce Stores: What to Look For in 2026",
+  "intro": [
+    {
+      "type": "summary",
+      "inline": [
+        { "b": ["In short:"] },
+        " the best website developer for an ecommerce store is not a general web developer with some ecommerce experience — it is a developer with ",
+        { "b": ["demonstrated depth on your specific platform"] },
+        " (Shopify, WooCommerce, headless, or enterprise), a ",
+        { "b": ["live portfolio of stores you can test"] },
+        ", and ",
+        { "b": ["measurable results on checkout and performance"] },
+        ". The single biggest mistake buyers make is hiring a strong general developer who has never built a store that actually sells."
+      ]
+    },
+    {
+      "type": "p",
+      "inline": [
+        "This guide covers the ecommerce-specific criteria that matter, the vetting questions that test them, the red flags in \"best ecommerce developer\" claims, and how the choice differs across platforms. It's the ecommerce-specific companion to ",
+        { "a": "/best-website-developer", "t": ["best website developer"] },
+        ", which covers the general framework. For the full hiring process, see ",
+        { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+        "."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-different",
+      "title": "Why Ecommerce Is Different",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "An ecommerce store has all the complexity of a general website plus the operational complexity of a retail business. A strong general developer can build a functional store; they often cannot build a store that sells well. The difference is not the design or the code quality — it is the ecommerce-specific knowledge that general developers usually lack."
+          ]
+        },
+        { "type": "h3", "text": "What ecommerce adds that general websites do not have" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Transactional complexity."] }, " Carts, checkout flows, order management, refunds, and returns."],
+            [{ "b": ["Payment integration."] }, " Payment gateways, PCI compliance, tokenization, and 3D Secure."],
+            [{ "b": ["Shipping and tax logic."] }, " Zones, rates, weight-based shipping, and tax calculations across regions."],
+            [{ "b": ["Inventory and product data."] }, " SKU management, variants, and integration with ERP or PIM systems."],
+            [{ "b": ["Performance at scale."] }, " Product-heavy pages, image optimization, and caching strategies that work with WooCommerce or Shopify's model."],
+            [{ "b": ["Conversion optimization."] }, " Every ecommerce developer should know what a good checkout completion rate looks like, and why."]
+          ]
+        },
+        { "type": "h3", "text": "What this means for hiring" },
+        {
+          "type": "p",
+          "inline": [
+            "A general developer who has built ten content sites is not the same as an ecommerce developer who has built ten stores. The general developer may be technically excellent and still miss the specific details that make a store work — the checkout edge cases, the payment failure modes, the performance at scale. If your project is ecommerce, the \"best\" developer is almost always one with demonstrated ecommerce depth. For the general framework, see ",
+            { "a": "/best-website-developer", "t": ["best website developer"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "five-criteria",
+      "title": "The Five Ecommerce-Specific Criteria",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "These are the criteria that differentiate a strong ecommerce developer from a general developer with ecommerce experience. The general criteria from the ",
+            { "a": "/best-website-developer#five-criteria", "t": ["best website developer"] },
+            " guide still apply — this page adds the ecommerce-specific depth."
+          ]
+        },
+        { "type": "h3", "text": "1. Platform depth, not just platform familiarity" },
+        {
+          "type": "p",
+          "inline": [
+            "The developer should have built stores on your specific platform — not just used it, but built production stores on it at scale. A Shopify developer should be fluent in Liquid, Shopify APIs, and app ecosystem trade-offs. A WooCommerce developer should be fluent in PHP, WordPress hooks, and plugin conflict resolution. A headless developer should be fluent in React, Next.js, and Storefront API. For the platform comparison, see ",
+            { "a": "/shopify-vs-woocommerce-vs-custom", "t": ["Shopify vs WooCommerce vs custom builds"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "2. Checkout and payment expertise" },
+        {
+          "type": "p",
+          "inline": [
+            "Checkout is the highest-risk part of any store because bugs cost real revenue. The developer should be able to explain how they have handled payment gateway integration, PCI compliance, tax calculation, and failed-payment edge cases. A developer who treats checkout as part of \"general QA\" rather than as a dedicated phase is not an ecommerce developer — they are a general developer who has worked on a store. For a real example of what checkout work looks like, see ",
+            { "a": "/ecommerce-build-case-study#what-we-did", "t": ["how a real checkout rebuild improved completion 21%"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "3. Performance on ecommerce sites" },
+        {
+          "type": "p",
+          "inline": [
+            "Ecommerce sites are harder to make fast than content sites because product and checkout pages are heavier and caching is more complex. A strong ecommerce developer should be able to answer specifics: which caching layer, how they handle cart and checkout caching (which is usually excluded from full-page caching), what mobile load time they target, and how they keep the WooCommerce or Shopify database performant at scale. See ",
+            { "a": "/wordpress-ecommerce-website-developer#performance", "t": ["performance on WooCommerce"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "4. Integration experience" },
+        {
+          "type": "p",
+          "inline": [
+            "Every ecommerce store of any size needs integrations: ERP, CRM, accounting, email, inventory, and analytics. A strong developer should be able to describe specific integrations they have built and how they handled the data sync challenges. \"We'll figure it out\" is not an integration answer."
+          ]
+        },
+        { "type": "h3", "text": "5. Post-launch support for a live store" },
+        {
+          "type": "p",
+          "inline": [
+            "A live ecommerce store has different post-launch needs than a content site. Checkout bugs cost revenue immediately, security incidents affect customer trust, and platform updates can break the store if they are not tested. A strong ecommerce developer should have a specific support arrangement, a same-day response time for critical issues, and a maintenance plan. See ",
+            { "a": "/ecommerce-developer-contract-payment-terms#warranty-support", "t": ["warranty vs support vs maintenance"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "platform",
+      "title": "Platform Matters More Than People Think",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The single biggest cause of failed ecommerce hires is a developer whose expertise does not match your platform. A brilliant Shopify developer will struggle on a headless Next.js build, and vice versa. This is not a matter of intelligence — it is a matter of specific platform knowledge that takes years to build."
+          ]
+        },
+        { "type": "h3", "text": "What platform depth looks like by platform" },
+        {
+          "type": "table",
+          "head": [
+            ["Platform"],
+            ["What a strong developer should know"]
+          ],
+          "rows": [
+            [["Shopify"], ["Liquid, Shopify APIs, app ecosystem, Shopify Plus, checkout customization limits"]],
+            [["WooCommerce"], ["PHP, WordPress hooks, plugin audit and conflict resolution, performance at scale"]],
+            [["Headless (Shopify + Next.js)"], ["React, Next.js, Storefront API, data fetching patterns, Core Web Vitals on headless stores"]],
+            [["BigCommerce"], ["Stencil, BigCommerce APIs, app integration, mid-market scaling"]],
+            [["Magento / Adobe Commerce"], ["Magento architecture, performance tuning, enterprise integrations, multi-store setups"]]
+          ]
+        },
+        { "type": "h3", "text": "Why \"any platform\" claims are a red flag" },
+        {
+          "type": "p",
+          "inline": [
+            "No one is genuinely deep in every platform. A developer who claims deep expertise in Shopify, WooCommerce, Magento, headless, and custom builds is a generalist with shallow experience across all of them. The \"best\" ecommerce developer for your project is almost always one who has deliberately specialised in your platform. See ",
+            { "a": "/best-website-developer-red-flags", "t": ["red flags in \"best website developer\" claims"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Platform choice and developer choice are connected" },
+        {
+          "type": "p",
+          "inline": [
+            "If you have not yet chosen a platform, the choice determines the developer pool. Shopify has the largest developer pool; headless has the smallest. If you are choosing a platform now, read the comparison of ",
+            { "a": "/shopify-vs-woocommerce-vs-custom", "t": ["Shopify vs WooCommerce vs custom"] },
+            " before you start shortlisting developers."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comparison-table",
+      "title": "Comparison Framework: How to Score Finalists",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Use the table below to compare three to five finalists on the same criteria. Score each candidate 1 to 5 on each row, then total. This is the ecommerce-specific version of the general framework."
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            ["Criterion"],
+            ["What to look for"],
+            ["Score (1-5)"]
+          ],
+          "rows": [
+            [["Platform depth"], ["Specialises in your platform, has built production stores on it"], ["__"]],
+            [["Checkout and payment expertise"], ["Specific examples of checkout work, PCI awareness, failure-mode testing"], ["__"]],
+            [["Performance on ecommerce"], ["Cites specific caching, image, and database techniques for stores"], ["__"]],
+            [["Integration experience"], ["Specific integrations built, with data-sync challenges described"], ["__"]],
+            [["Post-launch support"], ["Same-day response for critical issues, defined maintenance plan"], ["__"]],
+            [["Live portfolio"], ["Three live ecommerce stores that pass a mobile checkout test"], ["__"]],
+            [["Measurable results"], ["Specific numbers (load time, conversion, order volume)"], ["__"]],
+            [["Reference quality"], ["Two recent ecommerce clients willing to speak by phone"], ["__"]]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "Add the totals. For ecommerce, platform depth and checkout expertise are the two criteria that predict success most reliably. If a candidate scores below 3 on either, do not hire them regardless of their total score."
+          ]
+        },
+        { "type": "h3", "text": "What a strong ecommerce score looks like" },
+        {
+          "type": "p",
+          "inline": [
+            "A strong ecommerce developer typically scores 4 or 5 on all eight rows, with platform depth and reference quality highest. That pattern — where the developer's own ecommerce clients are the strongest evidence — is the clearest signal of a top-tier ecommerce developer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vetting-questions",
+      "title": "Vetting Questions for Ecommerce Developers",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "These questions are specifically designed to test ecommerce depth. Ask them in this order."
+          ]
+        },
+        {
+          "type": "ol",
+          "items": [
+            [{ "b": ["\"Which ecommerce platform do you specialise in, and how many stores have you built on it?\""] }, " A strong developer gives a specific number and platform. A weak developer claims to build on everything."],
+            [{ "b": ["\"Show me three live ecommerce stores you built. What was your specific role on each?\""] }, " A strong developer distinguishes solo builds from team contributions. A weak developer claims full credit for everything."],
+            [{ "b": ["\"How do you handle PCI compliance and payment tokenization?\""] }, " A strong developer explains tokenization, hosted checkout, and minimizing PCI scope. A weak developer is confused about what PCI actually means."],
+            [{ "b": ["\"Walk me through how you tested checkout before launch. What edge cases did you cover?\""] }, " A strong developer describes failed payments, coupon stacking, address validation, tax calculation, and multi-item orders. A weak developer says \"we test everything.\""],
+            [{ "b": ["\"How do you approach caching on an ecommerce site, and how do you handle cart and checkout pages?\""] }, " A strong developer explains why cart and checkout pages cannot be cached like content pages. A weak developer gives a generic \"we use caching\" answer."],
+            [{ "b": ["\"What integrations have you built into an ecommerce store?\""] }, " A strong developer names specific systems (ERP, CRM, accounting, email) and describes the data-sync challenges. A weak developer says \"we integrate with anything.\""],
+            [{ "b": ["\"What is your response time for a checkout outage?\""] }, " A strong developer gives a specific same-day answer. A weak developer says \"we're flexible.\""],
+            [{ "b": ["\"What could go wrong on my project, and how would you handle it?\""] }, " A strong developer names specific risks and specific mitigations. A weak developer says \"we don't expect any issues.\""]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the general vetting checklist, see ",
+            { "a": "/questions-to-ask-ecommerce-developer", "t": ["questions to ask an ecommerce developer"] },
+            ". For the platform-specific questions, see ",
+            { "a": "/wordpress-ecommerce-website-developer#vetting-questions", "t": ["WordPress ecommerce developer vetting questions"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "red-flags",
+      "title": "Red Flags Specific to Ecommerce",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The general red flags apply — see ",
+            { "a": "/ecommerce-developer-red-flags", "t": ["common red flags when hiring a developer"] },
+            ". These are the ones specific to ecommerce that are especially important."
+          ]
+        },
+        { "type": "h3", "text": "Checkout red flags" },
+        {
+          "type": "ul",
+          "items": [
+            ["\"We test checkout as part of general QA.\" — Checkout should be a dedicated QA phase, not part of a general sweep."],
+            ["Cannot describe what failed-payment testing looks like."],
+            ["Has never thought about PCI compliance scope."]
+          ]
+        },
+        { "type": "h3", "text": "Performance red flags" },
+        {
+          "type": "ul",
+          "items": [
+            ["Cannot name a specific caching solution for ecommerce."],
+            ["Does not know that cart and checkout pages cannot be full-page cached."],
+            ["Cannot give a specific mobile load time target."]
+          ]
+        },
+        { "type": "h3", "text": "Integration red flags" },
+        {
+          "type": "ul",
+          "items": [
+            ["\"We integrate with anything.\" — No one does, and the claim signals inexperience."],
+            ["Cannot name a specific ERP or CRM integration they have built."],
+            ["Has no data-sync process for handling conflicts or failed syncs."]
+          ]
+        },
+        { "type": "h3", "text": "Portfolio red flags" },
+        {
+          "type": "ul",
+          "items": [
+            ["Portfolio shows content sites, not ecommerce stores."],
+            ["Portfolio stores are stock theme demos with no custom checkout."],
+            ["Portfolio stores are all very small (fewer than 50 SKUs) — suggests limited experience at scale."]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the \"best\" claim specifically, see ",
+            { "a": "/best-website-developer-red-flags", "t": ["red flags in \"best website developer\" claims"] },
+            ". For the full list, see ",
+            { "a": "/ecommerce-developer-red-flags", "t": ["common red flags when hiring a developer"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "general-vs-ecommerce",
+      "title": "When a General Developer Is Fine",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Most of this page has argued that ecommerce requires ecommerce-specific expertise. That is true — but it is not always necessary to hire an ecommerce specialist. The distinction matters only when the store has real ecommerce complexity."
+          ]
+        },
+        { "type": "h3", "text": "When a general developer is sufficient" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Very small catalog"] }, " (under 20 SKUs) with standard products."],
+            [{ "b": ["Template-based store"] }, " with no custom checkout logic."],
+            [{ "b": ["No complex integrations"] }, " — no ERP, no CRM, no PIM."],
+            [{ "b": ["Standard single-currency, single-region"] }, " store."],
+            [{ "b": ["Brochure-style store"] }, " where ecommerce is a secondary feature."]
+          ]
+        },
+        { "type": "h3", "text": "When an ecommerce specialist is necessary" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Custom checkout"] }, " logic or non-standard payment flow."],
+            [{ "b": ["Multi-currency, multi-language, or multi-region"] }, " selling."],
+            [{ "b": ["ERP, CRM, or PIM integration"] }, "."],
+            [{ "b": ["High-traffic stores"] }, " with performance requirements."],
+            [{ "b": ["Migrations"] }, " from a legacy platform with SEO preservation."],
+            [{ "b": ["Large catalogs"] }, " (hundreds or thousands of SKUs)."]
+          ]
+        },
+        { "type": "h3", "text": "How to decide" },
+        {
+          "type": "p",
+          "inline": [
+            "Look at your brief. If your project is a standard template store with a small catalog and no integrations, a strong general developer who has built a few stores will do fine. If your project has any of the complexity factors above, hire an ecommerce specialist. The mistake is hiring a generalist for a project that needs a specialist — not the other way around. See ",
+            { "a": "/best-website-developer-small-business", "t": ["best website developer for small business"] },
+            " if your project is closer to the general end."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "choosing",
+      "title": "How to Choose Between Finalists",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "If you have three to five finalists who all score well on the framework above, the decision usually comes down to four tiebreakers. The tiebreakers are the same as the general framework, but weighted for ecommerce."
+          ]
+        },
+        { "type": "h3", "text": "Tiebreaker 1: Checkout and payment experience" },
+        {
+          "type": "p",
+          "inline": [
+            "For ecommerce, this is the most predictive tiebreaker. A developer who has solved checkout problems on five similar stores is a better bet than one with broader experience but less checkout depth. Ask about their most complex checkout project and listen for specific edge cases."
+          ]
+        },
+        { "type": "h3", "text": "Tiebreaker 2: Reference quality from similar stores" },
+        {
+          "type": "p",
+          "inline": [
+            "A reference from a store similar to yours — same platform, similar scale, similar complexity — is worth more than three references from content sites. Ask for references whose projects most resemble yours."
+          ]
+        },
+        { "type": "h3", "text": "Tiebreaker 3: Performance track record" },
+        {
+          "type": "p",
+          "inline": [
+            "A developer who can cite performance improvements on stores they have built is more likely to deliver a fast store than one who cannot. Ask for specific before-and-after numbers."
+          ]
+        },
+        { "type": "h3", "text": "Tiebreaker 4: Post-launch responsiveness" },
+        {
+          "type": "p",
+          "inline": [
+            "Checkout outages cost revenue by the hour. A developer with a same-day response time for critical issues is a stronger choice for ecommerce than one without a defined SLA, even if everything else is equal. See ",
+            { "a": "/ecommerce-developer-contract-payment-terms#warranty-support", "t": ["warranty vs support vs maintenance"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "What should not be a tiebreaker" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Price."] }, " A 20 percent price difference is small compared to the cost of a failed ecommerce launch. If a developer is dramatically cheaper than the others, that is worth examining, not celebrating."],
+            [{ "b": ["Awards and badges."] }, " A Shopify Partner badge is a weak positive signal; a \"top developer\" badge is usually pay-to-play. Neither replaces a live portfolio."],
+            [{ "b": ["Brand-name clients."] }, " A developer who built one page for a famous brand is not necessarily better than one who built ten full stores for mid-market clients."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "title": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "How do I find the best website developer for my ecommerce store?",
+          "a": [
+            "Start with referrals from other ecommerce founders, then verify each candidate against the five ecommerce criteria above: platform depth, checkout expertise, performance, integrations, and post-launch support. Avoid generic \"best developer\" directories — they rarely reflect ecommerce-specific capability. See the ",
+            { "a": "#five-criteria", "t": ["five criteria"] },
+            "."
+          ]
+        },
+        {
+          "q": "Is a Shopify developer better than a WooCommerce developer?",
+          "a": [
+            "Neither is universally better — it depends on your platform. A Shopify developer is the right choice if you are on Shopify or Shopify Plus; a WooCommerce developer is the right choice if you are on WooCommerce. The mistake is hiring a developer who does not specialise in your platform. See ",
+            { "a": "/shopify-vs-woocommerce-vs-custom", "t": ["Shopify vs WooCommerce vs custom"] },
+            "."
+          ]
+        },
+        {
+          "q": "How much does the best ecommerce developer cost?",
+          "a": [
+            "Rates vary widely. In the US, ecommerce developers typically charge $75 to $200 per hour; in India, ₹500 to ₹4,500. Platform specialists command a 10–30% premium. For the full cost breakdown, see ",
+            { "a": "/ecommerce-website-developer-cost", "t": ["ecommerce website developer cost"] },
+            "."
+          ]
+        },
+        {
+          "q": "Do I need a specialist or can a general developer build my store?",
+          "a": [
+            "It depends on your project. For a small template store with a standard catalog and no integrations, a strong general developer is fine. For anything with custom checkout, complex integrations, multi-currency, or high traffic, hire an ecommerce specialist. See ",
+            { "a": "#general-vs-ecommerce", "t": ["when a general developer is fine"] },
+            "."
+          ]
+        },
+        {
+          "q": "What should I look for in an ecommerce developer's portfolio?",
+          "a": [
+            "Three live ecommerce stores you can open on mobile and test the checkout yourself. Stores should be similar in scale and complexity to yours, not just aesthetically impressive. If the portfolio shows only content sites, they are not an ecommerce developer."
+          ]
+        },
+        {
+          "q": "How long does it take to build an ecommerce store?",
+          "a": [
+            "A small template store takes 6–10 weeks; a mid-market build with integrations takes 10–16 weeks; a headless or enterprise build takes 4–9 months. The timeline depends on scope, platform, integrations, and how quickly your team reviews and signs off. See ",
+            { "a": "/ecommerce-development-process-milestones", "t": ["the ecommerce development process"] },
+            "."
+          ]
+        },
+        {
+          "q": "What is the biggest red flag when hiring an ecommerce developer?",
+          "a": [
+            "\"We test checkout as part of general QA.\" Checkout is the highest-risk part of the store and should be a dedicated QA phase with specific edge-case testing. A developer who does not treat it that way has not worked on enough stores to know where the real bugs are. See ",
+            { "a": "/ecommerce-developer-red-flags#technical-red-flags", "t": ["technical red flags"] },
+            "."
+          ]
+        },
+        {
+          "q": "Should I hire a local ecommerce developer or a remote one?",
+          "a": [
+            "Not necessarily local. Local matters when you need timezone overlap, in-person kickoff or launch support, or the ability to verify the developer in person. For most ecommerce projects, remote is fine and often better value. See ",
+            { "a": "/best-website-developer-near-me", "t": ["best website developer near me"] },
+            "."
+          ]
+        },
+        {
+          "q": "How do I verify a developer's ecommerce results?",
+          "a": [
+            "Ask for two references whose projects are similar to yours and for the live URLs of the stores in question. Open the stores yourself, run PageSpeed Insights on them, and ask the references specifically what changed. Claims without verification are marketing, not evidence. See ",
+            { "a": "/ecommerce-build-case-study", "t": ["the ecommerce build case study"] },
+            " for what a real, verifiable case study looks like."
+          ]
+        },
+        {
+          "q": "What is the most reliable vetting signal for an ecommerce developer?",
+          "a": [
+            "Live ecommerce stores you can open on mobile and take through checkout yourself. A developer with three live, functional ecommerce stores is almost always a legitimate ecommerce developer. A developer with no live stores is not."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "title": "Next Steps",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Shortlist three to five ecommerce developers, score them on the framework above, and use checkout experience and reference quality as your tiebreakers. A structured comparison is the single most reliable way to avoid a bad ecommerce hire."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the general framework, see ",
+            { "a": "/best-website-developer", "t": ["best website developer"] },
+            ". For the full hiring process, return to ",
+            { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+            ". For the platform comparison, see ",
+            { "a": "/shopify-vs-woocommerce-vs-custom", "t": ["Shopify vs WooCommerce vs custom"] },
+            ". For the comparison across finalists, see ",
+            { "a": "/top-web-developers-ecommerce-websites", "t": ["comparing top web developers"] },
+            ". If you want a shortlist of verified ecommerce developers for your project, ",
+            { "a": "/contact", "t": ["contact us"] },
+            "."
+          ]
+        }
+      ],
+      "cta": true
+    }
+  ]
+}

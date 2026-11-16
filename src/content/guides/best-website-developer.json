@@ -1,0 +1,520 @@
+{
+  "slug": "best-website-developer",
+  "kind": "article",
+  "topic": "Hiring",
+  "order": 29,
+  "title": "Best Website Developer: How to Evaluate and Choose",
+  "description": "How to evaluate and choose the best website developer: the criteria that matter, the red flags that don't, and a scoring framework for comparing finalists.",
+  "ogTitle": "Best Website Developer: How to Evaluate and Choose in 2026",
+  "ogDescription": "The criteria that actually matter when comparing website developers, plus a scoring framework and the red flags hidden inside 'best of' claims.",
+  "published": "2026-11-16",
+  "updated": "2026-11-16",
+  "h1": "Best Website Developer: How to Evaluate and Choose in 2026",
+  "intro": [
+    {
+      "type": "summary",
+      "inline": [
+        { "b": ["In short:"] },
+        " the \"best\" website developer is not the one with the most awards, the biggest portfolio, or the highest Google ranking — it is the one whose ",
+        { "b": ["platform fit, live portfolio, measurable results, process maturity, and post-launch support match your specific project"] },
+        ". The best way to find them is to stop looking for the \"best\" developer in general and start evaluating developers against the same five criteria for your project."
+      ]
+    },
+    {
+      "type": "p",
+      "inline": [
+        "This guide is the evaluation framework, not a paid directory. It covers what \"best\" actually means, the five criteria that matter, the red flags hidden in \"best of\" claims, and a scoring framework for comparing finalists. If you are hiring an ecommerce developer specifically, see ",
+        { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+        " for the deeper process. For the top-developers comparison, see ",
+        { "a": "/top-web-developers-ecommerce-websites", "t": ["comparing top web developers"] },
+        "."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-best-means",
+      "title": "What \"Best\" Actually Means",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "\"Best website developer\" is a marketing phrase, not a credential. There is no industry certification, no authoritative ranking, and no single developer who is objectively \"the best\" for every project. Search for \"best website developer\" and you will find listicles that are almost entirely pay-to-play — directories where placement is bought, not earned."
+          ]
+        },
+        { "type": "h3", "text": "What \"best\" usually claims" },
+        {
+          "type": "ul",
+          "items": [
+            ["Years in business."],
+            ["Number of projects delivered."],
+            ["Client logos or recognisable brand names."],
+            ["Awards, directory placements, or \"top developer\" badges."],
+            ["Aggregate review scores."]
+          ]
+        },
+        { "type": "h3", "text": "What \"best\" should actually mean for your project" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Platform fit."] }, " Depth on the specific platform or stack you are using, not general web experience."],
+            [{ "b": ["Live portfolio."] }, " Sites you can open, test on mobile, and use — not screenshots."],
+            [{ "b": ["Measurable results."] }, " Load time, conversion, or traffic changes they can cite."],
+            [{ "b": ["Process maturity."] }, " Staging, QA, milestones, and change-order handling that are documented."],
+            [{ "b": ["Post-launch support."] }, " A clear maintenance and warranty arrangement, not a disappearing act after launch."]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "If a developer cannot speak to all five, their \"best\" claim is not relevant to your project, no matter how many badges they display. This is the same principle the ",
+            { "a": "/questions-to-ask-ecommerce-developer", "t": ["hiring checklist"] },
+            " is built around."
+          ]
+        },
+        { "type": "h3", "text": "\"Best\" for ecommerce is a different question" },
+        {
+          "type": "p",
+          "inline": [
+            "A \"best website developer\" for a content site is not necessarily the \"best\" for an ecommerce store. Ecommerce adds checkout flows, payment gateways, shipping, tax, and integration with back-office systems — areas where general web developers often have limited experience. If your project is an ecommerce store, the \"best\" developer is almost always one with specific ecommerce depth, not general web experience. See ",
+            { "a": "/best-website-developer-ecommerce", "t": ["best website developer for ecommerce stores"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "five-criteria",
+      "title": "The Five Criteria That Matter",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "These five criteria are what actually differentiate a strong website developer from a well-marketed one. Run every candidate through them in the same order."
+          ]
+        },
+        { "type": "h3", "text": "1. Platform fit" },
+        {
+          "type": "p",
+          "inline": [
+            "The developer should specialise in the platform your site is built on, not offer \"websites on any platform.\" A brilliant WordPress developer will struggle on a custom Next.js build, and vice versa. Ask for the platform they have built the most sites on, and verify it against their portfolio. For platform-specific vetting, see ",
+            { "a": "/shopify-vs-woocommerce-vs-custom", "t": ["Shopify vs WooCommerce vs custom builds"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "2. Live portfolio" },
+        {
+          "type": "p",
+          "inline": [
+            "Ask for three live websites. Then open each one on mobile and test the main user flow yourself. This is the single most reliable signal in the entire evaluation, and it takes ten minutes. A developer with a genuinely strong portfolio will encourage this; a developer with a weak one will send screenshots instead."
+          ]
+        },
+        { "type": "h3", "text": "3. Measurable results" },
+        {
+          "type": "p",
+          "inline": [
+            "A strong developer cites numbers: load time before and after, conversion rate lift, or traffic change. A weak developer cites only aesthetics. The specific metrics matter less than the habit of measuring — the developers who track results are also the ones who understand why their work matters. For a concrete example, see ",
+            { "a": "/ecommerce-build-case-study", "t": ["the ecommerce build case study"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "4. Process maturity" },
+        {
+          "type": "p",
+          "inline": [
+            "Ask how they handle staging, QA, milestones, change requests, and handover. A strong developer has a documented process and will describe it without prompting. A weak developer will say \"we figure it out as we go.\" This is where most mid-market projects fail, and it is entirely avoidable — see ",
+            { "a": "/ecommerce-development-process-milestones", "t": ["the ecommerce development process"] },
+            " for what a mature process looks like."
+          ]
+        },
+        { "type": "h3", "text": "5. Post-launch support" },
+        {
+          "type": "p",
+          "inline": [
+            "Ask what happens after launch: warranty period, maintenance options, response times, and what is in scope for the retainer. A strong developer has a clear answer and a written agreement. A weak developer goes quiet after the final invoice, which is when most of the real work (maintenance, bug fixes, iteration) begins. See ",
+            { "a": "/ecommerce-developer-contract-payment-terms#warranty-support", "t": ["warranty vs support vs maintenance"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comparison-table",
+      "title": "Comparison Framework: How to Score Finalists",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Use the table below to compare three to five finalists on the same criteria. Score each candidate 1 to 5 on each row, then total. This forces a structured comparison instead of a gut decision driven by the last sales call."
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            ["Criterion"],
+            ["What to look for"],
+            ["Score (1-5)"]
+          ],
+          "rows": [
+            [["Platform fit"], ["Specialises in your platform, has built multiple sites on it"], ["__"]],
+            [["Live portfolio"], ["Three live URLs that pass a mobile test of the main user flow"], ["__"]],
+            [["Measurable results"], ["Cites specific numbers (load time, conversion, traffic)"], ["__"]],
+            [["Process maturity"], ["Documented staging, QA, milestones, change orders, handover"], ["__"]],
+            [["Post-launch support"], ["Written warranty, maintenance options, defined response times"], ["__"]],
+            [["Reference quality"], ["Two recent references willing to speak by phone"], ["__"]],
+            [["Commercial clarity"], ["Written scope, payment milestones, IP ownership, change-order terms"], ["__"]]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "Add the totals. If two finalists are within 2 points of each other, weight platform fit and reference quality highest — those are the criteria that predict actual project success. If a candidate scores below 3 on any single row, do not hire them regardless of their total score, because a single weak criterion (process, support, or references) usually turns out to be the failure point of the project."
+          ]
+        },
+        { "type": "h3", "text": "What a strong score looks like" },
+        {
+          "type": "p",
+          "inline": [
+            "A genuinely strong website developer typically scores 4 or 5 on all seven rows, with the reference quality row scoring highest. That pattern — where the developer's own clients are the strongest evidence — is the clearest signal of a top-tier developer."
+          ]
+        },
+        { "type": "h3", "text": "What a weak score looks like" },
+        {
+          "type": "p",
+          "inline": [
+            "A well-marketed developer with a weak actual portfolio often scores high on the \"years in business\" and \"client logos\" they present voluntarily, but low on the criteria above once you probe. This is why the criteria matter: marketing material and actual capability diverge sharply in this market."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "where-to-find",
+      "title": "Where to Find the Best Developers",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The quality of your shortlist depends on where you source it. Some sources are heavily pay-to-play; others are self-regulating."
+          ]
+        },
+        { "type": "h3", "text": "Higher-quality sources" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Referrals from people in your network."] }, " The single highest-quality source, because the person recommending has actually paid the developer."],
+            [{ "b": ["Industry communities for your platform."] }, " WordPress and Shopify communities, agency-adjacent Slack groups, and founder groups often surface the same reliable names."],
+            [{ "b": ["LinkedIn with specificity."] }, " Search for developers who post about the specific platform you use, not generalist \"web developers.\""],
+            [{ "b": ["City-specific search"] }, " if you want a local team. See ", { "a": "/ecommerce-developers-by-city", "t": ["ecommerce developers by city"] }, "."]
+          ]
+        },
+        { "type": "h3", "text": "Lower-quality sources" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Directory listicles and \"top 10\" articles."] }, " Usually pay-to-play; ranking reflects marketing spend, not capability."],
+            [{ "b": ["Generic \"web developer\" marketplaces."] }, " Wide talent range, but you carry all of the vetting burden."],
+            [{ "b": ["Awards and badges."] }, " Some are legitimate (e.g., WordPress VIP, Shopify Partner status), many are not meaningful for your specific project scope."]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the full sourcing breakdown including marketplaces and local directories, see ",
+            { "a": "/hire-ecommerce-website-developer#where-to-find", "t": ["where to find an ecommerce developer"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vetting-questions",
+      "title": "Vetting Questions That Separate the Best from the Rest",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "These questions are specifically designed to test the difference between a well-marketed developer and a genuinely strong one. Ask them in this order."
+          ]
+        },
+        {
+          "type": "ol",
+          "items": [
+            [{ "b": ["\"Which platform do you specialise in, and why that one?\""] }, " A strong developer gives a specific, confident answer and can name trade-offs. A weak developer claims to do everything."],
+            [{ "b": ["\"Show me three live websites you built, and tell me what you did on each.\""] }, " A strong developer opens their laptop and walks you through the sites. A weak developer sends a PDF or a link to a theme demo."],
+            [{ "b": ["\"What was the measured result on your most successful project?\""] }, " A strong developer cites specific numbers. A weak developer cites \"high client satisfaction\" or avoids the question."],
+            [{ "b": ["\"Walk me through how you handle a mid-project change request.\""] }, " A strong developer describes a written change-order process with a clear cost and timeline impact. A weak developer says \"we'll figure it out.\""],
+            [{ "b": ["\"Who specifically will work on my project, and what is their platform experience?\""] }, " A strong developer names the team. A weak developer hides behind \"our team\" or \"our global capability.\""],
+            [{ "b": ["\"What happens after launch — warranty, maintenance, response times?\""] }, " A strong developer has a written answer. A weak developer treats this as a future problem."],
+            [{ "b": ["\"Can I speak to two recent clients whose projects are similar to mine?\""] }, " A strong developer readily provides references. A weak developer stalls, or provides references that cannot speak to the work."],
+            [{ "b": ["\"What could go wrong on my project, and how would you handle it?\""] }, " A strong developer names specific risks and specific mitigations. A weak developer says \"we don't expect any issues,\" which is the single biggest red flag in the entire call."]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the full vetting checklist, see ",
+            { "a": "/questions-to-ask-ecommerce-developer", "t": ["questions to ask an ecommerce developer"] },
+            ". For the red flags in the answers themselves, see ",
+            { "a": "/best-website-developer-red-flags", "t": ["red flags in \"best website developer\" claims"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "red-flags",
+      "title": "Red Flags in \"Best\" Claims",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The developers with the strongest marketing are not always the strongest developers. These are the signals that a \"best\" claim is marketing, not capability."
+          ]
+        },
+        { "type": "h3", "text": "Portfolio red flags" },
+        {
+          "type": "ul",
+          "items": [
+            ["Portfolio shows screenshots, not live URLs."],
+            ["Portfolio sites are stock theme demos with brand colours swapped."],
+            ["Portfolio mixes content sites and ecommerce sites with no distinction — suggests the developer does not specialise in either."]
+          ]
+        },
+        { "type": "h3", "text": "Claims red flags" },
+        {
+          "type": "ul",
+          "items": [
+            ["Claims deep expertise in every platform (WordPress, Shopify, WooCommerce, Magento, headless, custom) — no one is genuinely deep on all of them."],
+            ["Cites award badges prominently without specifics on the projects that earned them."],
+            ["Uses \"we\" heavily without naming who will work on your project."],
+            ["Cannot provide two recent references."]
+          ]
+        },
+        { "type": "h3", "text": "Process red flags" },
+        {
+          "type": "ul",
+          "items": [
+            ["Requests full payment upfront, or refuses to define milestones."],
+            ["Has no documented QA or staging process."],
+            ["Treats the contract as a formality to sign after the project starts."]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the full list with examples, see ",
+            { "a": "/ecommerce-developer-red-flags", "t": ["common red flags when hiring a developer"] },
+            ". For the \"best\" claim specifically, see ",
+            { "a": "/best-website-developer-red-flags", "t": ["red flags in \"best website developer\" claims"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ecommerce-vs-general",
+      "title": "Ecommerce vs General Website Developers",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "A critical distinction that most \"best website developer\" lists ignore: the best general website developer is usually not the best ecommerce developer, and vice versa."
+          ]
+        },
+        { "type": "h3", "text": "What general website developers do well" },
+        {
+          "type": "ul",
+          "items": [
+            ["Content sites, blogs, marketing sites, brochure sites."],
+            ["Design-heavy or brand-heavy sites."],
+            ["Small business websites with standard features."],
+            ["Quick launches on templates."]
+          ]
+        },
+        { "type": "h3", "text": "What ecommerce developers do well" },
+        {
+          "type": "ul",
+          "items": [
+            ["Product catalogs, cart, and checkout flows."],
+            ["Payment gateway integration and PCI compliance."],
+            ["Shipping, tax, and inventory logic."],
+            ["Integration with ERP, CRM, and back-office systems."],
+            ["Performance at scale (hundreds or thousands of SKUs)."]
+          ]
+        },
+        { "type": "h3", "text": "Why the distinction matters" },
+        {
+          "type": "p",
+          "inline": [
+            "An ecommerce store has all the complexity of a general website plus the operational complexity of a retail business. A general developer can build a functional ecommerce store, but often misses the specifics that separate a store that works from a store that converts. If your project is ecommerce, the \"best\" developer is almost always one with specific ecommerce depth. See ",
+            { "a": "/best-website-developer-ecommerce", "t": ["best website developer for ecommerce stores"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "When the distinction does not matter" },
+        {
+          "type": "p",
+          "inline": [
+            "For a small brochure site, a personal blog, or a marketing landing page, the ecommerce distinction is irrelevant. A strong general developer will do excellent work. The distinction matters mainly for stores, booking systems, and any site with real transactional complexity."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "choosing",
+      "title": "How to Choose Between Finalists",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "If you have three to five finalists who all score well on the framework above, the decision usually comes down to four tiebreakers."
+          ]
+        },
+        { "type": "h3", "text": "Tiebreaker 1: Reference quality" },
+        {
+          "type": "p",
+          "inline": [
+            "The developer whose references are the most willing to speak openly is usually the safest bet. A reference who says \"honestly, here's what went wrong and how they handled it\" is worth more than three references who give generic praise."
+          ]
+        },
+        { "type": "h3", "text": "Tiebreaker 2: Fit with your scope" },
+        {
+          "type": "p",
+          "inline": [
+            "A developer who has built five sites exactly like yours is a better choice than one who has built twenty different kinds. Specificity of experience predicts success more reliably than breadth."
+          ]
+        },
+        { "type": "h3", "text": "Tiebreaker 3: Process transparency" },
+        {
+          "type": "p",
+          "inline": [
+            "The developer who showed you the most of their process — staging, milestones, QA, change orders — is usually the one who will communicate best during the project. Process transparency during the sales process predicts process transparency during delivery."
+          ]
+        },
+        { "type": "h3", "text": "Tiebreaker 4: Cultural and communication fit" },
+        {
+          "type": "p",
+          "inline": [
+            "You will spend weeks or months working with this developer. If the calls are uncomfortable, the written updates are vague, or the communication style does not match yours, the project will be harder even if the technical work is strong."
+          ]
+        },
+        { "type": "h3", "text": "What should not be a tiebreaker" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Price."] }, " A 20 percent price difference is small compared to the cost of a failed build. If a developer is dramatically cheaper than the others, that is worth examining, not celebrating."],
+            [{ "b": ["Awards and badges."] }, " They are marketing, not evidence."],
+            [{ "b": ["Brand-name clients."] }, " A developer who built one small page for a famous brand is not necessarily better than one who built ten full sites for mid-market clients."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "title": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "How do I find the best website developer?",
+          "a": [
+            "Start with referrals from people you trust, then verify each candidate against the five criteria above: platform fit, live portfolio, measurable results, process maturity, and post-launch support. Avoid directory listicles, which are usually pay-to-play."
+          ]
+        },
+        {
+          "q": "Are \"top 10\" developer lists trustworthy?",
+          "a": [
+            "Usually not. Most are pay-to-play: agencies pay for placement, and rankings reflect marketing spend rather than capability. The exception is platform-specific partner directories (e.g., WordPress VIP, Shopify Partners), which are a weaker signal but not entirely paid."
+          ]
+        },
+        {
+          "q": "Should I hire the cheapest \"best\" developer?",
+          "a": [
+            "No. A 20 percent price difference is small compared to the cost of a failed build. Compare on the five criteria first, then use price as a tiebreaker only between finalists who all score well."
+          ]
+        },
+        {
+          "q": "How many developers should I shortlist?",
+          "a": [
+            "Three to five is the right range. Fewer than three and you have no real comparison; more than five and you will confuse yourself. The point of a shortlist is to compare, not to exhaust the market."
+          ]
+        },
+        {
+          "q": "What is the single most reliable vetting signal?",
+          "a": [
+            "Live portfolio sites you can open on mobile and test yourself. A developer with three live, functional websites is almost always a legitimate developer. A developer with no live sites is not."
+          ]
+        },
+        {
+          "q": "Do the best developers always cost more?",
+          "a": [
+            "Usually, but not always. The premium reflects delivery reliability and process maturity more than pure skill. For a small, well-scoped project, a mid-tier developer can deliver excellent work at a lower price. For a complex or high-stakes build, the premium is usually worth it. See ",
+            { "a": "/freelancer-vs-agency-vs-in-house", "t": ["freelancer vs agency vs in-house"] },
+            " for the model comparison."
+          ]
+        },
+        {
+          "q": "How do I verify a developer's claimed results?",
+          "a": [
+            "Ask for two client references and for live URLs of the sites in question. Open the sites yourself, and ask the references specifically what changed. Claims without verification are marketing, not evidence."
+          ]
+        },
+        {
+          "q": "What if I need an ecommerce store specifically?",
+          "a": [
+            "The \"best\" developer for an ecommerce store is almost always one with specific ecommerce depth, not general web experience. See ",
+            { "a": "/best-website-developer-ecommerce", "t": ["best website developer for ecommerce stores"] },
+            " for the criteria that matter on ecommerce projects, and ",
+            { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+            " for the full process."
+          ]
+        },
+        {
+          "q": "Is a local developer better than a remote one?",
+          "a": [
+            "Not necessarily. Local matters when you need timezone overlap, in-person meetings, or the ability to verify the developer in person. For most projects, remote is fine and often better value. See ",
+            { "a": "/best-website-developer-near-me", "t": ["best website developer near me"] },
+            " for the comparison."
+          ]
+        },
+        {
+          "q": "What if I do not know what kind of developer I need?",
+          "a": [
+            "Start with your project scope, not the developer type. A clear brief — see ",
+            { "a": "/ecommerce-developer-brief-template", "t": ["the brief template"] },
+            " — will tell you what kind of developer you actually need. If you are still unsure, see ",
+            { "a": "/developer-vs-web-designer-vs-full-stack", "t": ["developer vs web designer vs full-stack"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "title": "Next Steps",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Shortlist three to five candidates, score them on the framework above, and use reference quality and scope fit as your tiebreakers. A structured comparison is the single most reliable way to avoid a bad hire in this market."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the full hiring process, return to ",
+            { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+            ". For ecommerce-specific criteria, see ",
+            { "a": "/best-website-developer-ecommerce", "t": ["best website developer for ecommerce stores"] },
+            ". For local vs remote comparison, see ",
+            { "a": "/best-website-developer-near-me", "t": ["best website developer near me"] },
+            ". For the comparison across finalists, see ",
+            { "a": "/top-web-developers-ecommerce-websites", "t": ["comparing top web developers"] },
+            ". If you want a shortlist of verified developers for your project, ",
+            { "a": "/contact", "t": ["contact us"] },
+            "."
+          ]
+        }
+      ],
+      "cta": true
+    }
+  ]
+}
