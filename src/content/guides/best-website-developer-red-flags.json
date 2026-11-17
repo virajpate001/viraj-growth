@@ -1,0 +1,557 @@
+{
+  "slug": "best-website-developer-red-flags",
+  "kind": "article",
+  "topic": "Hiring",
+  "order": 32,
+  "title": "Red Flags in \"Best Website Developer\" Claims",
+  "description": "How to spot red flags in 'best website developer' claims: the marketing tactics, portfolio tricks, and contract terms that reveal a weak developer behind a strong pitch.",
+  "ogTitle": "Red Flags in 'Best Website Developer' Claims: What to Watch For",
+  "ogDescription": "The specific red flags hidden inside 'best website developer' claims, and how to verify a developer's real capability behind the marketing.",
+  "published": "2026-11-17",
+  "updated": "2026-11-17",
+  "h1": "Red Flags in \"Best Website Developer\" Claims: What to Watch For",
+  "intro": [
+    {
+      "type": "summary",
+      "inline": [
+        { "b": ["In short:"] },
+        " red flags in \"best website developer\" claims fall into five categories — ",
+        { "b": ["portfolio misrepresentation, vague expertise claims, marketing-driven rankings, contract traps, and behavioral signals"] },
+        ". Any single flag is a warning; a pattern across two or more categories is a reason to walk away. The fastest way to see the real developer behind the pitch is to ask for three live URLs and two client references, then check both."
+      ]
+    },
+    {
+      "type": "p",
+      "inline": [
+        "This page is the skepticism layer of the \"best website developer\" cluster. Where ",
+        { "a": "/best-website-developer", "t": ["the pillar"] },
+        " teaches the framework, this page teaches what to watch out for when the framework is being gamed. It expands on the general ",
+        { "a": "/ecommerce-developer-red-flags", "t": ["ecommerce developer red flags"] },
+        ", but specifically focuses on red flags that appear in the \"best of\" claim itself. For the general vetting checklist, see ",
+        { "a": "/questions-to-ask-ecommerce-developer", "t": ["questions to ask an ecommerce developer"] },
+        "."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-best-is-a-red-flag-magnet",
+      "title": "Why \"Best\" Attracts Red Flags",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "\"Best website developer\" is one of the most overused and most competitive modifiers in service marketing. That makes it a magnet for two specific kinds of companies: strong developers who genuinely want to signal their quality, and weak developers who know that the fastest way to look strong is to claim \"best\" and pay for placement."
+          ]
+        },
+        { "type": "h3", "text": "What \"best\" claims usually mean" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Directory placements."] }, " Paid listings in \"top 10\" articles — the ranking reflects marketing spend, not capability."],
+            [{ "b": ["Award badges."] }, " Some are legitimate (e.g., WordPress VIP, Shopify Partner), many are pay-to-play or meaningless for your project."],
+            [{ "b": ["Client logos."] }, " A logo proves the developer built something for a famous brand; it does not prove they built the right thing or built it well."],
+            [{ "b": ["Aggregate review scores."] }, " High ratings on platforms that allow incentivized reviews are worth less than a reference call with a real client."]
+          ]
+        },
+        { "type": "h3", "text": "Why this matters for your decision" },
+        {
+          "type": "p",
+          "inline": [
+            "The \"best\" claim is not evidence of quality — it is a claim that must be verified like any other. The red flags below are the specific ways the claim gets manipulated. If you see two or more of them, you are looking at a developer whose strength is marketing, not development. For the general framework, see ",
+            { "a": "/best-website-developer", "t": ["best website developer"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "portfolio-red-flags",
+      "title": "Portfolio Red Flags",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The portfolio is where red flags are easiest to spot and hardest to fake. These are the \"best website developer\" specific ones."
+          ]
+        },
+        { "type": "h3", "text": "1. Screenshots instead of live URLs" },
+        {
+          "type": "p",
+          "inline": [
+            "A \"best of\" portfolio that shows only screenshots is not a portfolio — it is a design gallery. Any developer can screenshot a theme demo or a beautiful site they did not build. Live URLs are the only credible portfolio evidence. If a developer refuses to provide live URLs, that is the answer."
+          ]
+        },
+        { "type": "h3", "text": "2. \"Our portfolio is confidential\"" },
+        {
+          "type": "p",
+          "inline": [
+            "Live URLs are public by definition. A developer claiming their portfolio is confidential is either misrepresenting their work or has no portfolio to show. Either way, do not proceed. This is the single most common red flag in the \"best\" tier of the market."
+          ]
+        },
+        { "type": "h3", "text": "3. Portfolio sites are theme demos with brand colors swapped" },
+        {
+          "type": "p",
+          "inline": [
+            "Open the live URLs. If the design matches a well-known theme demo with brand colors swapped and no custom content, the developer did not build the site — they installed a theme. This is the most common form of portfolio misrepresentation and it is not rare."
+          ]
+        },
+        { "type": "h3", "text": "4. All portfolio sites are from one or two years ago" },
+        {
+          "type": "p",
+          "inline": [
+            "A developer who has not shipped anything in the last year is either inactive or building things they cannot show. Ask when each portfolio site was last updated and what was shipped in the last six months. Recent work matters more than a large portfolio."
+          ]
+        },
+        { "type": "h3", "text": "5. Portfolio sites are broken, slow, or look abandoned" },
+        {
+          "type": "p",
+          "inline": [
+            "If the developer's own portfolio sites are slow, broken, or show expired SSL certificates, they cannot maintain their own work — and they will not maintain yours. This is one of the fastest, most reliable signals in the entire evaluation."
+          ]
+        },
+        { "type": "h3", "text": "6. Portfolio is all one type of site, but the developer claims expertise in everything" },
+        {
+          "type": "p",
+          "inline": [
+            "A portfolio of ten content sites and a claim of \"ecommerce, headless, enterprise\" expertise is a contradiction. The portfolio should match the claim. If it does not, the claim is marketing."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For what a strong portfolio looks like, see ",
+            { "a": "/portfolio", "t": ["our ecommerce portfolio"] },
+            ". For the full portfolio vetting process, see the portfolio section of ",
+            { "a": "/hire-ecommerce-website-developer#vetting-questions", "t": ["how to hire an ecommerce website developer"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "expertise-red-flags",
+      "title": "Expertise Red Flags",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The \"best\" claim is often paired with an expertise claim. These are the ways the expertise claim gets stretched beyond what the developer can actually do."
+          ]
+        },
+        { "type": "h3", "text": "1. Claims deep expertise in every platform" },
+        {
+          "type": "p",
+          "inline": [
+            "No one is genuinely deep in WordPress, Shopify, WooCommerce, Magento, BigCommerce, headless, and custom builds. A developer who claims deep expertise in all of them is a generalist with shallow experience across all of them. Look for one or two platforms of genuine depth, with gaps acknowledged."
+          ]
+        },
+        { "type": "h3", "text": "2. Claims expertise in platforms they have not built on" },
+        {
+          "type": "p",
+          "inline": [
+            "A \"best developer\" who claims Shopify expertise but whose portfolio shows only WordPress sites is a WordPress developer who is willing to learn Shopify on your project. Ask for the specific platform portfolio before accepting the claim."
+          ]
+        },
+        { "type": "h3", "text": "3. Uses \"we\" without naming who works on the project" },
+        {
+          "type": "p",
+          "inline": [
+            "\"Our team of experts\" is a marketing phrase. \"The lead developer on your project will be X, who has built fifteen WooCommerce stores\" is an answer. Ask specifically who will work on your project, and whether they are permanent staff or contractors."
+          ]
+        },
+        { "type": "h3", "text": "4. Cannot describe the trade-offs of their own recommendations" },
+        {
+          "type": "p",
+          "inline": [
+            "A strong developer explains why they recommend a specific approach and what they traded off. A weak developer says \"this is the best way\" without engaging with the trade-offs. The inability to articulate trade-offs is one of the strongest signals of shallow expertise."
+          ]
+        },
+        { "type": "h3", "text": "5. Uses jargon as a barrier" },
+        {
+          "type": "p",
+          "inline": [
+            "A strong developer can explain technical decisions in plain language. A developer who cannot explain their work without jargon is often hiding a lack of depth behind vocabulary. Ask a follow-up question in plain language and see if the answer stays clear."
+          ]
+        },
+        { "type": "h3", "text": "6. Claims to be \"the best\" without being able to say what \"best\" means" },
+        {
+          "type": "p",
+          "inline": [
+            "\"We are the best website developer\" is a claim. \"We are the best website developer for mid-market WooCommerce stores with ERP integrations, and here is why\" is a claim with a definition. A developer who cannot define what they are best at is not actually best at anything in particular."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ranking-red-flags",
+      "title": "Ranking Red Flags",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The \"best website developer\" search results are dominated by rankings and directories. These are the red flags in the rankings themselves."
+          ]
+        },
+        { "type": "h3", "text": "1. The ranking has no methodology" },
+        {
+          "type": "p",
+          "inline": [
+            "A \"top 10\" list with no explanation of how the list was compiled is almost always paid placement. A legitimate ranking would explain its criteria, show its data, and include at least one or two developers who did not pay for the placement."
+          ]
+        },
+        { "type": "h3", "text": "2. The ranking includes only sponsored placements" },
+        {
+          "type": "p",
+          "inline": [
+            "Check the fine print. Many \"top developer\" articles are sponsored content — every developer on the list paid to be there. This does not mean the developers are bad, but it does mean the ranking is not evidence of quality."
+          ]
+        },
+        { "type": "h3", "text": "3. The ranking has no negative reviews or critical feedback" },
+        {
+          "type": "p",
+          "inline": [
+            "A ranking where every developer is described in glowing terms is not a ranking — it is a collection of press releases. Real rankings include trade-offs and criticisms, because no developer is the best at everything."
+          ]
+        },
+        { "type": "h3", "text": "4. The ranking is updated more often than the developer has shipped new work" },
+        {
+          "type": "p",
+          "inline": [
+            "If the ranking is updated quarterly but the developer's portfolio has not changed in two years, the ranking is not tracking quality — it is tracking the developer's marketing budget."
+          ]
+        },
+        { "type": "h3", "text": "5. The ranking is dominated by large agencies" },
+        {
+          "type": "p",
+          "inline": [
+            "A \"best developer\" ranking that only includes large agencies is a ranking for large-agency budgets. Small-business buyers, ecommerce founders, and other buyers with smaller projects should look at a different list — or skip the list entirely and use the framework from ",
+            { "a": "/best-website-developer", "t": ["best website developer"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "How to use rankings without being fooled" },
+        {
+          "type": "p",
+          "inline": [
+            "Treat rankings as a starting point for your shortlist, not an answer. Use them to discover developers you might not have found otherwise, then verify each one against the framework. A developer whose ranking is earned (via a real methodology) will have a strong portfolio and references; a developer whose ranking is bought will not."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contract-red-flags",
+      "title": "Contract Red Flags",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The \"best\" claim often hides in a polished sales process, and the contract is where the real terms become visible. These are the red flags that appear specifically in \"best\" claims when you get to the contract stage."
+          ]
+        },
+        { "type": "h3", "text": "1. Full payment upfront" },
+        {
+          "type": "p",
+          "inline": [
+            "\"Best\" developers do not require full payment upfront. Standard practice is a 25–50 percent deposit with the remainder tied to milestones. A developer who requires full payment upfront is either cash-flow stressed or has a history of disputes with clients. This is a hard stop. See ",
+            { "a": "/ecommerce-developer-contract-payment-terms#payment-schedules", "t": ["payment schedules"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "2. Developer retains IP ownership" },
+        {
+          "type": "p",
+          "inline": [
+            "A \"best\" developer who keeps the IP on the code and designs is a developer who is planning to lock you in. You should own the custom code and designs on final payment. See ",
+            { "a": "/ecommerce-developer-contract-payment-terms#ip-ownership", "t": ["IP ownership"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "3. Unlimited revisions with a long timeline" },
+        {
+          "type": "p",
+          "inline": [
+            "\"Unlimited revisions\" is often offered by developers who are confident you will not ask for many — or who plan to deliver shallow work that requires fewer revisions. Either way, it is often worse for the client than a fixed-scope contract with a clear change-order process."
+          ]
+        },
+        { "type": "h3", "text": "4. No warranty, or a warranty that covers nothing" },
+        {
+          "type": "p",
+          "inline": [
+            "A \"best\" developer should offer a standard warranty (30–90 days on delivered scope). A warranty that excludes everything that might actually break is a warranty in name only. See ",
+            { "a": "/ecommerce-developer-contract-payment-terms#warranty-support", "t": ["warranty vs support vs maintenance"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "5. Maintenance pricing that is not defined" },
+        {
+          "type": "p",
+          "inline": [
+            "\"We'll figure out maintenance after launch\" is a red flag. A developer who cannot describe the maintenance offering before the project starts does not have a maintenance offering. See ",
+            { "a": "/ecommerce-developer-contract-payment-terms#warranty-support", "t": ["warranty vs support vs maintenance"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "6. No written contract, or a contract with no scope" },
+        {
+          "type": "p",
+          "inline": [
+            "\"We work on trust\" is not a contract. A \"best\" developer should provide a written contract with a defined scope, deliverables, milestones, and payment schedule. If they do not, the \"best\" claim is not backed by standard professional practice. See ",
+            { "a": "/ecommerce-developer-contract-payment-terms#contract-clauses", "t": ["contract clauses"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "behavioral-red-flags",
+      "title": "Behavioral Red Flags",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The sales conversation is a preview of the project conversation. These behavioral signals are particularly common in \"best\" claims, because the sales process is often the part of the business the developer has optimized most."
+          ]
+        },
+        { "type": "h3", "text": "1. Pushes you to decide quickly" },
+        {
+          "type": "p",
+          "inline": [
+            "\"We have one slot left this month\" or \"the price goes up tomorrow\" is a pressure tactic. A strong developer lets you make a considered decision. A developer who pressures you is telling you something about how they will handle questions during the project."
+          ]
+        },
+        { "type": "h3", "text": "2. Disparages competitors" },
+        {
+          "type": "p",
+          "inline": [
+            "A developer who spends more time criticizing competitors than explaining their own work is a developer whose value is defined by comparison, not by capability. A strong developer can explain their strengths without tearing down others."
+          ]
+        },
+        { "type": "h3", "text": "3. Cannot name a single thing they are not good at" },
+        {
+          "type": "p",
+          "inline": [
+            "\"We are good at everything\" is not a virtue — it is a lack of self-awareness or a refusal to be honest. A strong developer knows their limits and will tell you when a project is not a good fit."
+          ]
+        },
+        { "type": "h3", "text": "4. Is annoyed by thorough vetting" },
+        {
+          "type": "p",
+          "inline": [
+            "Vetting protects both sides. A developer who is annoyed by being asked for references, portfolio, and contract terms is telling you something about how they will handle your questions during the project."
+          ]
+        },
+        { "type": "h3", "text": "5. Explains \"best\" in terms of awards, not outcomes" },
+        {
+          "type": "p",
+          "inline": [
+            "A developer who answers \"why are you the best?\" with a list of awards is telling you what they value. A developer who answers with specific client outcomes is telling you what they actually deliver. The second is a stronger signal than the first."
+          ]
+        },
+        { "type": "h3", "text": "6. Does not ask questions about your business" },
+        {
+          "type": "p",
+          "inline": [
+            "A strong developer asks about your business, your customers, and your goals before proposing anything. A weak developer pitches their services without understanding your context. The absence of questions is a red flag — it signals a sales-first, not client-first, approach."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-to-verify",
+      "title": "How to Verify Behind the \"Best\" Claim",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The fastest way to see the real developer behind the pitch is to run the same three checks on every candidate, regardless of how \"best\" their claim is."
+          ]
+        },
+        { "type": "h3", "text": "Check 1: Three live URLs" },
+        {
+          "type": "p",
+          "inline": [
+            "Ask for three live websites. Open each one on mobile, test the main user flow, and check performance on PageSpeed Insights. If the site is broken, slow, or clearly a theme demo, the \"best\" claim is marketing. If the site is fast, functional, and clearly customized, the claim has evidence behind it."
+          ]
+        },
+        { "type": "h3", "text": "Check 2: Two references" },
+        {
+          "type": "p",
+          "inline": [
+            "Ask for two references whose projects are similar to yours. Call them. Ask what went well, what did not, and whether they would hire the developer again. The hesitation in the answer to the last question is informative. A developer whose references are willing to speak openly is a developer with a strong track record."
+          ]
+        },
+        { "type": "h3", "text": "Check 3: The contract" },
+        {
+          "type": "p",
+          "inline": [
+            "Read the contract before you sign. Confirm that scope, milestones, payment schedule, IP ownership, warranty, and dispute resolution are all covered. A \"best\" claim that is not backed by a proper contract is not backed by standard professional practice. See ",
+            { "a": "/ecommerce-developer-contract-payment-terms", "t": ["contract and payment terms"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "The one-question version" },
+        {
+          "type": "p",
+          "inline": [
+            "If you only have time for one question, ask: \"What is a project you turned down, and why?\" A strong developer will answer openly — they know their limits and turn down projects that are not a fit. A weak developer will either claim they never turn anything down or give a vague non-answer."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the full vetting checklist, see ",
+            { "a": "/questions-to-ask-ecommerce-developer", "t": ["questions to ask an ecommerce developer"] },
+            ". For what a strong portfolio looks like, see ",
+            { "a": "/portfolio", "t": ["our ecommerce portfolio"] },
+            ". For the case study that shows real numbers, see ",
+            { "a": "/ecommerce-build-case-study", "t": ["the ecommerce build case study"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "when-to-walk",
+      "title": "When to Walk Away",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Some red flags are warnings. Others are reasons to end the conversation immediately, regardless of how strong the rest of the pitch looked."
+          ]
+        },
+        { "type": "h3", "text": "Hard stops" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Refuses to provide live URLs."] }, " Screenshots are not a portfolio."],
+            [{ "b": ["Claims \"our portfolio is confidential.\""] }, " Live URLs are public."],
+            [{ "b": ["Requires full payment upfront."] }, " Removes all your leverage."],
+            [{ "b": ["Refuses to sign a contract, or the contract has no scope."] }, " Standard professional practice is a written contract."],
+            [{ "b": ["No warranty or no maintenance offering."] }, " Predicts a disappearing act after launch."],
+            [{ "b": ["Developer retains IP ownership."] }, " Locks you in without any way to take the site to another developer."],
+            [{ "b": ["Claims deep expertise in every platform."] }, " No one is genuinely deep in all of them."],
+            [{ "b": ["\"We don't expect anything to go wrong.\""] }, " Every project has surprises; a developer who says otherwise is inexperienced or disingenuous."]
+          ]
+        },
+        { "type": "h3", "text": "When to walk vs. when to verify further" },
+        {
+          "type": "p",
+          "inline": [
+            "A hard stop is a walk, no further discussion. A warning is a signal to verify further. The difference matters: if a developer has a strong portfolio but a vague contract, verify the contract terms before you walk — they may simply need to add clauses. If a developer has no live URLs, no amount of conversation will change the fact that they cannot show their work."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the full list of hard stops in the broader hiring context, see ",
+            { "a": "/ecommerce-developer-red-flags#disqualifying", "t": ["answers that should end the conversation"] },
+            ". For the \"best\" claim specifically, the hard stops above are the most important."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "title": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "How do I know if a \"best website developer\" is legitimate?",
+          "a": [
+            "Ask for three live URLs and two references, then check both. A developer who can provide three live sites you can open on mobile and test, plus two references who are willing to speak openly, is almost always legitimate. A developer who cannot is not."
+          ]
+        },
+        {
+          "q": "Are \"top 10\" developer lists trustworthy?",
+          "a": [
+            "Usually not. Most are pay-to-play: agencies pay for placement, and rankings reflect marketing spend rather than capability. The exception is platform-specific partner directories (e.g., WordPress VIP, Shopify Partners), which are a weaker signal but not entirely paid. See the ",
+            { "a": "#ranking-red-flags", "t": ["ranking red flags section"] },
+            "."
+          ]
+        },
+        {
+          "q": "What is the biggest red flag in a \"best website developer\" claim?",
+          "a": [
+            "The developer cannot provide live URLs, or claims their portfolio is confidential. A \"best\" claim with no live evidence is marketing. Live URLs are public by definition, and any developer with a genuine portfolio can share them."
+          ]
+        },
+        {
+          "q": "Should I ignore a developer just because they paid for a \"best\" ranking?",
+          "a": [
+            "No. Paid rankings are a signal about the developer's marketing strategy, not their capability. Some very strong developers do pay for directory placement, especially early in their marketing. The point is not to ignore ranked developers, but to verify them the same way you verify any other developer — against the three checks in this page."
+          ]
+        },
+        {
+          "q": "Why do developers make \"best\" claims if they are not actually the best?",
+          "a": [
+            "Because \"best\" is what buyers search for. The claim is a marketing position, not a factual statement. Most developers who use \"best\" do not claim to be the single best developer in the world — they claim to be best for a specific type of project or a specific type of client. The red flags appear when the \"best\" claim is not backed by evidence."
+          ]
+        },
+        {
+          "q": "What if a developer has a strong portfolio but a bad contract?",
+          "a": [
+            "That combination is a warning, not a walk. A strong portfolio with a bad contract may mean the developer is a great builder but a weak business owner — or that the contract template is outdated and needs updating. Ask for specific clauses to be added. If the developer refuses to add standard clauses (scope, IP ownership, warranty), then it is a walk. See ",
+            { "a": "/ecommerce-developer-contract-payment-terms", "t": ["contract and payment terms"] },
+            "."
+          ]
+        },
+        {
+          "q": "What if a developer has a weak portfolio but a great contract?",
+          "a": [
+            "That combination is also a walk. A great contract cannot fix a developer who cannot build. The contract is a safety net for when things go wrong, not a substitute for a developer who can deliver the work."
+          ]
+        },
+        {
+          "q": "How do I verify a developer's claimed results?",
+          "a": [
+            "Ask for two references and for live URLs of the sites in question. Open the sites yourself, run PageSpeed Insights on them, and ask the references specifically what changed. Claims without verification are marketing, not evidence. See ",
+            { "a": "/ecommerce-build-case-study", "t": ["the ecommerce build case study"] },
+            " for what a verifiable case study looks like."
+          ]
+        },
+        {
+          "q": "Is \"best\" ever a legitimate claim?",
+          "a": [
+            "\"Best for X\" is legitimate if X is specific and verifiable — \"best for mid-market WooCommerce stores with ERP integrations\" is a claim that can be checked. \"Best website developer\" without qualification is not verifiable and should not be treated as evidence of quality."
+          ]
+        },
+        {
+          "q": "What if I have already signed with a developer who has red flags?",
+          "a": [
+            "Review the contract first. If the contract covers milestones and deliverables, enforce them. If it does not, document the issues in writing, propose a specific remediation plan, and set a deadline. If the developer does not meet it, consult a lawyer about your options. Prevention is much cheaper than recovery — which is why the vetting process matters."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "title": "Next Steps",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The next time you see a \"best website developer\" claim, ask for three live URLs and two references. If the developer can provide both, the claim has evidence. If not, the claim is marketing. The same three checks work on any developer, regardless of how they market themselves."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the framework that the checks are based on, see ",
+            { "a": "/best-website-developer", "t": ["best website developer"] },
+            ". For the ecommerce-specific version, see ",
+            { "a": "/best-website-developer-ecommerce", "t": ["best website developer for ecommerce stores"] },
+            ". For the small-business version, see ",
+            { "a": "/best-website-developer-small-business", "t": ["best website developer for small business"] },
+            ". For the general red flags list, see ",
+            { "a": "/ecommerce-developer-red-flags", "t": ["ecommerce developer red flags"] },
+            ". If you want a shortlist of developers who pass these checks, ",
+            { "a": "/contact", "t": ["contact us"] },
+            "."
+          ]
+        }
+      ],
+      "cta": true
+    }
+  ]
+}

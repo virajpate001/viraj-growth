@@ -1,0 +1,525 @@
+{
+  "slug": "best-website-developer-small-business",
+  "kind": "article",
+  "topic": "Hiring",
+  "order": 31,
+  "title": "Best Website Developer for Small Business (2026)",
+  "description": "How to find the best website developer for a small business: what to look for, realistic costs, the questions that matter, and how to avoid overpaying.",
+  "ogTitle": "Best Website Developer for Small Business: What to Look For",
+  "ogDescription": "The small-business-specific criteria for choosing a website developer, with realistic costs and the vetting questions that matter.",
+  "published": "2026-11-17",
+  "updated": "2026-11-17",
+  "h1": "Best Website Developer for Small Business: What to Look For in 2026",
+  "intro": [
+    {
+      "type": "summary",
+      "inline": [
+        { "b": ["In short:"] },
+        " the best website developer for a small business is not the one with the biggest portfolio or the highest price — it is the one who has ",
+        { "b": ["built sites for businesses like yours"] },
+        ", charges ",
+        { "b": ["a price that fits a small-business budget"] },
+        ", and offers ",
+        { "b": ["a support arrangement that does not leave you stranded"] },
+        " after launch. For most small businesses, the right developer is a solo freelancer or a small agency, not a large one."
+      ]
+    },
+    {
+      "type": "p",
+      "inline": [
+        "This guide covers the small-business-specific criteria, realistic cost ranges, the questions that reveal whether a developer is a good fit for a small business, and how to avoid the two most common mistakes: overpaying for a build you do not need, and hiring a developer who disappears after launch. It's the small-business companion to ",
+        { "a": "/best-website-developer", "t": ["best website developer"] },
+        ", which covers the general framework."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-different",
+      "title": "Why Small Business Is Different",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "A small business website has different requirements from an enterprise site or an ecommerce store. It is usually simpler (fewer pages, fewer integrations), but it has different pressures: tighter budget, faster timeline, and the owner is usually the person making the decision with less technical context."
+          ]
+        },
+        { "type": "h3", "text": "What small business websites usually need" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["A brochure site"] }, " — 5 to 15 pages explaining services, showing work, and providing contact information."],
+            [{ "b": ["Local SEO"] }, " — Google Business Profile setup, local keyword targeting, and schema for a physical location."],
+            [{ "b": ["Lead capture"] }, " — a contact form, a phone number, or a booking link, not a full ecommerce system."],
+            [{ "b": ["Mobile-first design"] }, " — most small business traffic is mobile."],
+            [{ "b": ["Simple maintenance"] }, " — updates, backups, and security, but not the continuous development of a growing ecommerce store."]
+          ]
+        },
+        { "type": "h3", "text": "What small business websites usually do not need" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Custom code."] }, " A well-adapted template is almost always sufficient."],
+            [{ "b": ["Complex integrations."] }, " No ERP, no CRM, no PIM, usually no ecommerce."],
+            [{ "b": ["Enterprise platforms."] }, " WordPress, Webflow, Squarespace, or Shopify (if selling) are usually enough."],
+            [{ "b": ["A full agency."] }, " A solo freelancer or small agency is almost always a better fit for the budget."]
+          ]
+        },
+        { "type": "h3", "text": "What this means for hiring" },
+        {
+          "type": "p",
+          "inline": [
+            "The \"best\" developer for a small business is often not the most technically advanced — it is the one who is honest about what the business actually needs, charges accordingly, and is available when something breaks. The biggest mistake small businesses make is hiring a developer who sells them an ecommerce build when they need a brochure site, or a full agency when a freelancer would do. For the general framework, see ",
+            { "a": "/best-website-developer", "t": ["best website developer"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "five-criteria",
+      "title": "The Five Criteria for Small Business",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "These are the criteria that differentiate a strong small-business developer from a general developer or an agency that is too large for the project. The general criteria from the ",
+            { "a": "/best-website-developer#five-criteria", "t": ["best website developer"] },
+            " guide still apply — this page adds the small-business-specific depth."
+          ]
+        },
+        { "type": "h3", "text": "1. Experience with small-business sites" },
+        {
+          "type": "p",
+          "inline": [
+            "The developer should have built sites for businesses of similar scale and type. A developer who has only worked on enterprise sites will likely over-engineer the project and overcharge; a developer who has only built tiny personal blogs may not have the depth for a business. Look for a portfolio that includes small-business sites you can review — not just enterprise case studies."
+          ]
+        },
+        { "type": "h3", "text": "2. Honest scoping" },
+        {
+          "type": "p",
+          "inline": [
+            "The best small-business developer is the one who tells you that a $3,000 brochure site is the right answer when you ask about a $15,000 custom build. Honest scoping is rarer than you would expect in this market. Ask \"what do you think my business actually needs?\" and listen for whether the answer aligns with your budget and goals, or with the developer's typical project size."
+          ]
+        },
+        { "type": "h3", "text": "3. Local SEO experience" },
+        {
+          "type": "p",
+          "inline": [
+            "For a small business, local visibility is often more important than broad search visibility. The developer should know how to set up Google Business Profile, add local schema, and optimize for local keywords. A developer who only does \"web design\" without any SEO experience is a fit for the visual side but not the traffic side."
+          ]
+        },
+        { "type": "h3", "text": "4. Transparent pricing" },
+        {
+          "type": "p",
+          "inline": [
+            "Small businesses need predictable costs. The developer should give a written quote with a scope, not an hourly estimate that could balloon. Ask for a fixed-price quote with a defined scope, plus a clear hourly rate for changes outside the scope."
+          ]
+        },
+        { "type": "h3", "text": "5. Reliable post-launch support" },
+        {
+          "type": "p",
+          "inline": [
+            "Most small businesses do not have an internal developer. That means the developer you hire is also the person who will fix the contact form when it breaks at 5pm on a Friday. Ask about response times, maintenance plans, and what happens if the developer is unavailable. A developer who \"disappears after launch\" is a much bigger problem for a small business than for a company with an internal team. See ",
+            { "a": "/ecommerce-developer-contract-payment-terms#warranty-support", "t": ["warranty vs support vs maintenance"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cost",
+      "title": "What a Small Business Should Expect to Spend",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Small business website costs vary widely by scope, but the ranges below are realistic for 2026. They assume a solo freelancer or small agency, not a full-service agency."
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            ["Project type"],
+            ["Typical cost (US)"],
+            ["Typical cost (India)"]
+          ],
+          "rows": [
+            [["Brochure site, 5 - 10 pages, template"], ["$1,500 - $5,000"], ["₹15,000 - ₹50,000"]],
+            [["Brochure site, 10 - 20 pages, custom design"], ["$4,000 - $12,000"], ["₹40,000 - ₹1,20,000"]],
+            [["Booking site (restaurant, salon, etc.)"], ["$2,000 - $8,000"], ["₹20,000 - ₹80,000"]],
+            [["Small ecommerce store (under 50 SKUs)"], ["$4,000 - $12,000"], ["₹40,000 - ₹1,20,000"]],
+            [["Monthly maintenance"], ["$50 - $300"], ["₹1,500 - ₹10,000"]]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "These are total first-year costs, including the build and initial setup but not ongoing hosting or domain registration, which add another $50 to $500 per year depending on the platform. For the full cost picture including hidden costs, see ",
+            { "a": "/ecommerce-website-developer-cost", "t": ["ecommerce website developer cost"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "What drives cost up" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Custom design"] }, " — usually 30 to 50 percent of the total cost for a small brochure site."],
+            [{ "b": ["Number of pages"] }, " — more pages mean more content, more design, more testing."],
+            [{ "b": ["Booking or ecommerce functionality"] }, " — adds checkout, payment, or scheduling logic."],
+            [{ "b": ["Custom integrations"] }, " — CRM, email marketing, or scheduling tools."],
+            [{ "b": ["Copywriting and photography"] }, " — if you need the developer to provide these, the cost increases significantly."]
+          ]
+        },
+        { "type": "h3", "text": "What keeps cost down" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Template-based build"] }, " — a well-adapted template is almost always sufficient for a small business."],
+            [{ "b": ["You provide the content"] }, " — writing your own copy and providing your own photos reduces cost significantly."],
+            [{ "b": ["Fewer pages"] }, " — 5 well-written pages beat 20 thin ones, and cost less."],
+            [{ "b": ["No ecommerce"] }, " — if you do not actually sell online, you do not need an ecommerce build."],
+            [{ "b": ["Clear scope from day one"] }, " — the biggest driver of cost overruns is scope creep."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comparison-table",
+      "title": "Comparison Framework: How to Score Finalists",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Use the table below to compare three to five finalists on the same criteria. Score each candidate 1 to 5 on each row, then total. This is the small-business-specific version of the general framework."
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            ["Criterion"],
+            ["What to look for"],
+            ["Score (1-5)"]
+          ],
+          "rows": [
+            [["Small-business portfolio"], ["Live sites for small businesses similar to yours"], ["__"]],
+            [["Honest scoping"], ["Tells you what your business actually needs, not what they want to sell"], ["__"]],
+            [["Local SEO experience"], ["Knows Google Business Profile, local schema, local keywords"], ["__"]],
+            [["Transparent pricing"], ["Written quote with defined scope, clear change-order terms"], ["__"]],
+            [["Post-launch support"], ["Defined response time, maintenance plan, availability"], ["__"]],
+            [["Reference quality"], ["Two recent small-business clients willing to speak by phone"], ["__"]],
+            [["Communication"], ["Responds in reasonable time, explains things in plain language"], ["__"]]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "Add the totals. For small business, honest scoping and post-launch support are the two criteria that predict long-term satisfaction most reliably. If a candidate scores below 3 on either, do not hire them regardless of their total score."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vetting-questions",
+      "title": "Vetting Questions for Small-Business Developers",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "These questions are specifically designed to test fit for a small-business project. Ask them in this order."
+          ]
+        },
+        {
+          "type": "ol",
+          "items": [
+            [{ "b": ["\"What do you think my business actually needs?\""] }, " A strong developer asks follow-up questions and scopes down. A weak developer immediately pitches an ecommerce or enterprise build you did not ask for."],
+            [{ "b": ["\"Show me three sites you built for small businesses like mine.\""] }, " A strong developer has a relevant portfolio. A weak developer shows enterprise work or content sites that do not resemble yours."],
+            [{ "b": ["\"What is your experience with local SEO?\""] }, " A strong developer describes Google Business Profile setup, local schema, and local keyword targeting. A weak developer says \"we do the basics.\""],
+            [{ "b": ["\"Can you give me a fixed-price quote with a clear scope?\""] }, " A strong developer provides one. A weak developer only quotes hourly, which for a small business often means the project runs over budget."],
+            [{ "b": ["\"What happens if the site breaks on a weekend?\""] }, " A strong developer gives a specific response-time commitment. A weak developer says \"call me anytime,\" which is not a commitment."],
+            [{ "b": ["\"Do you offer a maintenance plan, and what does it cover?\""] }, " A strong developer has a defined maintenance offering. A weak developer says \"we fix things when they break,\" which is not a plan."],
+            [{ "b": ["\"What do you recommend if my business does not actually need a custom build?\""] }, " A strong developer tells you honestly that a template will do. A weak developer over-sells because the custom build is what they make money on."],
+            [{ "b": ["\"Can I speak to two recent small-business clients?\""] }, " A strong developer provides references readily. A weak developer stalls, or provides references who cannot speak to a small-business project."]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the general vetting checklist, see ",
+            { "a": "/questions-to-ask-ecommerce-developer", "t": ["questions to ask an ecommerce developer"] },
+            ". For the brief that produces better answers, see ",
+            { "a": "/ecommerce-developer-brief-template", "t": ["the brief template"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "red-flags",
+      "title": "Red Flags Specific to Small Business",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The general red flags apply — see ",
+            { "a": "/ecommerce-developer-red-flags", "t": ["common red flags when hiring a developer"] },
+            ". These are the ones that are especially important when the client is a small business."
+          ]
+        },
+        { "type": "h3", "text": "Scoping red flags" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Pitches a build bigger than your brief."] }, " If you ask for a 5-page brochure site and they pitch an ecommerce build, they are not listening to your business."],
+            [{ "b": ["Cannot explain why they recommend a specific platform."] }, " \"We always use X\" is not a recommendation — it is a habit."],
+            [{ "b": ["Quotes only hourly, no fixed price."] }, " For a small business, this is the single biggest cause of budget overruns."]
+          ]
+        },
+        { "type": "h3", "text": "Support red flags" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Cannot commit to a response time."] }, " \"I'm always available\" is not a commitment."],
+            [{ "b": ["No maintenance offering."] }, " If they do not offer maintenance, you will not have a developer to call when something breaks."],
+            [{ "b": ["No warranty at all."] }, " A developer who will not fix their own bugs is not a developer you want to hire."]
+          ]
+        },
+        { "type": "h3", "text": "Portfolio red flags" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["All portfolio sites are large or enterprise."] }, " Suggests they may over-engineer a small-business project."],
+            [{ "b": ["All portfolio sites are content sites, none are business sites."] }, " Suggests limited experience with small-business needs."],
+            [{ "b": ["Portfolio sites are broken, slow, or look abandoned."] }, " A developer who cannot maintain their own portfolio will not maintain your site."]
+          ]
+        },
+        { "type": "h3", "text": "Communication red flags" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Explains everything in jargon."] }, " A strong developer can explain their work in plain language; a weak one uses jargon as a barrier."],
+            [{ "b": ["Slow responses during the sales process."] }, " Predicts slow responses during the project."],
+            [{ "b": ["Pushes you to decide quickly."] }, " A developer who pressures you to sign immediately is telling you something about how they will handle questions during the project."]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the \"best\" claim specifically, see ",
+            { "a": "/best-website-developer-red-flags", "t": ["red flags in \"best website developer\" claims"] },
+            ". For the full list, see ",
+            { "a": "/ecommerce-developer-red-flags", "t": ["common red flags when hiring a developer"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "when-to-hire",
+      "title": "When to Hire a Developer vs Do It Yourself",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Not every small business needs a developer. The DIY tools — Squarespace, Wix, Shopify (for simple stores), Carrd — are genuinely sufficient for some projects. The question is whether the DIY savings justify the time and the limitations."
+          ]
+        },
+        { "type": "h3", "text": "When DIY is a good choice" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Brochure site with under 5 pages"] }, " and no special functionality."],
+            [{ "b": ["You enjoy the design process"] }, " and are willing to spend 20 to 40 hours on it."],
+            [{ "b": ["You have a strong brand already"] }, " and only need to put it online."],
+            [{ "b": ["You are not planning to grow the site significantly"] }, " over the next two years."],
+            [{ "b": ["You have a template that matches your brand"] }, " almost perfectly."]
+          ]
+        },
+        { "type": "h3", "text": "When a developer is worth it" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["The site needs custom functionality"] }, " — booking, ecommerce, or integrations."],
+            [{ "b": ["Local SEO matters"] }, " and you do not want to learn it yourself."],
+            [{ "b": ["You have a specific brand or design"] }, " that templates cannot accommodate."],
+            [{ "b": ["You plan to grow the site"] }, " and need a foundation that will scale."],
+            [{ "b": ["You do not have 20 to 40 hours"] }, " to spend on the site."],
+            [{ "b": ["Your time is more valuable"] }, " doing what your business actually does."]
+          ]
+        },
+        { "type": "h3", "text": "The middle path" },
+        {
+          "type": "p",
+          "inline": [
+            "Many small businesses start with DIY and hire a developer for specific improvements: SEO setup, performance fixes, or a specific feature. This is a reasonable path — build the site yourself first, then hire a developer to fix what is not working. The mistake is spending months on a DIY site only to discover you need a developer anyway."
+          ]
+        },
+        { "type": "h3", "text": "When you need a specialist, not a generalist" },
+        {
+          "type": "p",
+          "inline": [
+            "For a small business with an ecommerce component, the \"best\" developer is often a small-business ecommerce specialist, not a generalist. See ",
+            { "a": "/best-website-developer-ecommerce", "t": ["best website developer for ecommerce stores"] },
+            " if your small business sells online."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "choosing",
+      "title": "How to Choose Between Finalists",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "If you have three to five finalists who all score well on the framework above, the decision usually comes down to four tiebreakers."
+          ]
+        },
+        { "type": "h3", "text": "Tiebreaker 1: Honest scoping" },
+        {
+          "type": "p",
+          "inline": [
+            "The developer who told you what you actually need — even if it means a smaller project — is the one to hire. That honesty will carry through the project when they tell you about scope changes and unexpected issues."
+          ]
+        },
+        { "type": "h3", "text": "Tiebreaker 2: Reference quality from similar businesses" },
+        {
+          "type": "p",
+          "inline": [
+            "A reference from a business similar to yours — similar size, similar industry, similar goals — is worth more than three references from unrelated projects. Ask for references whose situation most resembles yours."
+          ]
+        },
+        { "type": "h3", "text": "Tiebreaker 3: Communication clarity" },
+        {
+          "type": "p",
+          "inline": [
+            "The developer who explained things in plain language during the sales process is the one who will communicate clearly during the project. Jargon-heavy communication is a warning sign, not a sign of expertise."
+          ]
+        },
+        { "type": "h3", "text": "Tiebreaker 4: Post-launch responsiveness" },
+        {
+          "type": "p",
+          "inline": [
+            "For a small business, a developer who responds within a day is worth more than a developer who is more technically advanced but slow to respond. A broken contact form on a Friday costs real leads by Monday. See ",
+            { "a": "/ecommerce-developer-contract-payment-terms#warranty-support", "t": ["warranty vs support vs maintenance"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "What should not be a tiebreaker" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Price."] }, " A 20 percent price difference is small compared to the cost of a site that does not work. If a developer is dramatically cheaper than the others, that is worth examining, not celebrating."],
+            [{ "b": ["Awards and badges."] }, " They are marketing, not evidence."],
+            [{ "b": ["Brand-name clients."] }, " A developer who built one page for a famous brand is not necessarily better than one who built ten sites for small businesses like yours."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "title": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "How much should a small business pay for a website?",
+          "a": [
+            "A brochure site with 5 to 10 pages typically costs $1,500 to $5,000 from a solo freelancer in the US, or ₹15,000 to ₹50,000 in India. Custom design or additional pages push the cost higher. For the full range, see the ",
+            { "a": "#cost", "t": ["cost section"] },
+            "."
+          ]
+        },
+        {
+          "q": "What is the difference between a small-business developer and a general developer?",
+          "a": [
+            "A small-business developer understands the specific needs of a small business: tight budgets, local SEO, simple maintenance, and honest scoping. A general developer can build the site but often over-engineers it, overcharges for it, or lacks the local SEO experience that matters for a small business."
+          ]
+        },
+        {
+          "q": "Should I hire a freelancer or an agency for my small business website?",
+          "a": [
+            "For most small-business sites, a solo freelancer or small agency is a better fit than a full agency. A larger agency typically charges more and is designed for larger projects. See ",
+            { "a": "/freelancer-vs-agency-vs-in-house", "t": ["freelancer vs agency vs in-house"] },
+            "."
+          ]
+        },
+        {
+          "q": "Do I need a developer at all, or can I use Squarespace or Wix?",
+          "a": [
+            "For a simple brochure site with no special functionality, DIY platforms are sufficient. For anything with custom functionality, local SEO needs, or a plan to grow, a developer is usually worth the cost. See ",
+            { "a": "#when-to-hire", "t": ["when to hire vs DIY"] },
+            "."
+          ]
+        },
+        {
+          "q": "How long does it take to build a small business website?",
+          "a": [
+            "A template-based brochure site takes 2 to 4 weeks. A custom-designed site takes 4 to 8 weeks. A small ecommerce or booking site takes 6 to 10 weeks. The timeline depends on scope and how quickly you provide content and feedback. See ",
+            { "a": "/ecommerce-development-process-milestones", "t": ["the development process"] },
+            "."
+          ]
+        },
+        {
+          "q": "What is the biggest red flag when hiring a small-business developer?",
+          "a": [
+            "Pitching a build bigger than your brief. If you ask for a 5-page brochure site and they pitch an ecommerce build, they are not listening to your business. The second biggest red flag is quoting only hourly with no fixed price — this is the most common cause of budget overruns for small businesses."
+          ]
+        },
+        {
+          "q": "Should I hire a local developer or a remote one?",
+          "a": [
+            "Not necessarily local. Local matters when you need timezone overlap, in-person meetings, or local SEO expertise. For most small-business sites, remote is fine and often better value. See ",
+            { "a": "/best-website-developer-near-me", "t": ["best website developer near me"] },
+            "."
+          ]
+        },
+        {
+          "q": "What should I look for in a small-business developer's portfolio?",
+          "a": [
+            "Live sites for small businesses similar to yours in size and type. A portfolio of only enterprise sites is a red flag — it suggests the developer may over-engineer your project. A portfolio of only personal sites is also a red flag — it suggests limited experience with business needs."
+          ]
+        },
+        {
+          "q": "How do I verify a developer's claimed results?",
+          "a": [
+            "Ask for two references whose projects are similar to yours, and for the live URLs of the sites in question. Open the sites yourself and ask the references specifically what changed. Claims without verification are marketing, not evidence."
+          ]
+        },
+        {
+          "q": "What is a fair price for website maintenance for a small business?",
+          "a": [
+            "Monthly maintenance for a small-business site typically runs $50 to $300 per month (or ₹1,500 to ₹10,000 in India), covering updates, backups, security, and a small number of support hours. If the developer does not offer maintenance at all, that is a red flag — you will need it eventually."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "title": "Next Steps",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Shortlist three to five small-business developers, score them on the framework above, and use honest scoping and post-launch support as your tiebreakers. A structured comparison is the single most reliable way to avoid overpaying for a site you do not need."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the general framework, see ",
+            { "a": "/best-website-developer", "t": ["best website developer"] },
+            ". For the ecommerce-specific version, see ",
+            { "a": "/best-website-developer-ecommerce", "t": ["best website developer for ecommerce stores"] },
+            ". For the full hiring process, return to ",
+            { "a": "/hire-ecommerce-website-developer", "t": ["how to hire an ecommerce website developer"] },
+            ". For the brief that produces better quotes, see ",
+            { "a": "/ecommerce-developer-brief-template", "t": ["the brief template"] },
+            ". If you want a shortlist of verified small-business developers for your project, ",
+            { "a": "/contact", "t": ["contact us"] },
+            "."
+          ]
+        }
+      ],
+      "cta": true
+    }
+  ]
+}
