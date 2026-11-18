@@ -1,0 +1,490 @@
+{
+  "slug": "website-developer-shrivardhan",
+  "kind": "article",
+  "topic": "Local",
+  "order": 34,
+  "draft": true,
+  "title": "Website Developer in Shrivardhan | Local Business Web Design",
+  "description": "Hire a website developer for your Shrivardhan business: local business needs, realistic costs, remote service, and the questions to ask before you commit.",
+  "ogTitle": "Website Developer in Shrivardhan: Local Business Web Design",
+  "ogDescription": "What Shrivardhan businesses need from a website developer, with realistic costs and the questions to ask before hiring.",
+  "published": "2026-11-19",
+  "updated": "2026-11-19",
+  "h1": "Website Developer in Shrivardhan: Local Business Web Design",
+  "intro": [
+    {
+      "type": "summary",
+      "inline": [
+        { "b": ["In short:"] },
+        " Shrivardhan businesses need a website that works on mobile, appears in local search, and is simple to maintain. For most local businesses, a ",
+        { "b": ["brochure site (5–10 pages) or a small booking site"] },
+        " is the right scope, costing roughly ",
+        { "b": ["₹15,000 to ₹80,000"] },
+        " depending on the complexity. We provide this service remotely — we are not based in Shrivardhan, and we tell you that up front, because the alternative is pretending we have a local office and wasting your time."
+      ]
+    },
+    {
+      "type": "p",
+      "inline": [
+        "This guide covers what Shrivardhan businesses actually need from a website, realistic local costs, what remote service means in practice, and the questions to ask before hiring any developer. It's part of our ",
+        { "a": "/website-developers-raigad", "t": ["Raigad district guide"] },
+        ". If you are also considering Diveagar or Borli, see the ",
+        { "a": "/website-developer-diveagar", "t": ["Diveagar guide"] },
+        " and ",
+        { "a": "/website-developer-borli", "t": ["Borli guide"] },
+        "."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-shrivardhan",
+      "title": "Why Shrivardhan Businesses Need a Website",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Shrivardhan is a coastal town in Raigad district, Maharashtra, with a mixed local economy — fishing, agriculture, retail, and a growing tourism sector around the beach and the historic sites nearby. For a business in this economy, a website does three specific things that a Google Business Profile alone cannot."
+          ]
+        },
+        { "type": "h3", "text": "What a website does that a Google Business Profile does not" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Shows your full offering."] }, " A Google Business Profile shows a category, hours, and reviews. A website shows your menu, your services, your photos, and your story — at any length you need."],
+            [{ "b": ["Controls the narrative."] }, " Reviews are written by customers. A website is written by you. It is the one place where the description of your business is entirely yours."],
+            [{ "b": ["Captures direct inquiries."] }, " A phone call comes from someone who found your number. A website form or booking link captures inquiries from people who found you in search and are not ready to call yet — a much larger group."],
+            [{ "b": ["Supports seasonal demand."] }, " Shrivardhan has tourism peaks. A website can show seasonal hours, seasonal menus, and seasonal offerings, and can be updated in minutes as the season changes."],
+            [{ "b": ["Builds trust before the first contact."] }, " A tourist deciding between three homestays will choose the one with a professional website. A local customer comparing two shops will do the same."]
+          ]
+        },
+        { "type": "h3", "text": "Which Shrivardhan businesses benefit most" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Homestays and guesthouses"] }, " — especially those wanting direct bookings instead of relying entirely on OTAs."],
+            [{ "b": ["Restaurants and food businesses"] }, " — menu display, hours, location, and online ordering or reservations."],
+            [{ "b": ["Retail shops"] }, " — product display, hours, and contact, especially for visitors who want to check before traveling."],
+            [{ "b": ["Service businesses"] }, " — plumbers, electricians, repair services, and similar trades who want to be found in local search."],
+            [{ "b": ["Fishing and agricultural businesses"] }, " — a brochure site that shows the operation, contact information, and any direct-sale options."]
+          ]
+        },
+        { "type": "h3", "text": "Which businesses do not need a website yet" },
+        {
+          "type": "p",
+          "inline": [
+            "A very small shop with a steady local customer base and no interest in growing beyond it may not need a website — a Google Business Profile is sufficient. A website is worth building when you want to reach new customers, support a growing business, or compete with businesses that already have one. If you are not sure, the honest answer is: start with a Google Business Profile, and add a website when you have a specific goal it serves."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "what-businesses-need",
+      "title": "What a Shrivardhan Business Actually Needs",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Most local businesses do not need an ecommerce store or a custom application. They need a small, well-built website that does a few specific things well. The table below shows the typical scope for different business types."
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            ["Business type"],
+            ["Typical website scope"],
+            ["Key features"]
+          ],
+          "rows": [
+            [["Homestay / guesthouse"], ["5 - 8 page site with booking"], ["Photo gallery, room types, booking form or link to booking engine, location map, reviews"]],
+            [["Restaurant / food business"], ["4 - 6 page site"], ["Menu, hours, location, photo gallery, contact, optional online ordering link"]],
+            [["Retail shop"], ["4 - 6 page site"], ["Product categories, photo gallery, hours, location, contact"]],
+            [["Service business (trades)"], ["3 - 5 page site"], ["Services list, service area, contact form, phone number, reviews"]],
+            [["Fishing / agriculture"], ["3 - 5 page brochure site"], ["About, products, contact, photo gallery"]]
+          ]
+        },
+        { "type": "h3", "text": "Features most local businesses do not need" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Full ecommerce"] }, " with cart and checkout — unless you are genuinely selling products online."],
+            [{ "b": ["Custom user accounts"] }, " — rarely needed for a local business."],
+            [{ "b": ["Complex integrations"] }, " with ERP or CRM — most local businesses do not have these systems."],
+            [{ "b": ["Custom design from scratch"] }, " — a well-adapted template is usually sufficient and much cheaper."]
+          ]
+        },
+        { "type": "h3", "text": "Features most local businesses do need but often skip" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Mobile-first design"] }, " — most local search traffic is mobile. A desktop-only site is a real problem."],
+            [{ "b": ["Fast load times"] }, " — visitors on mobile data will leave a slow site before they see it."],
+            [{ "b": ["Local SEO setup"] }, " — Google Business Profile verification, local schema, and local keyword targeting."],
+            [{ "b": ["A clear contact method"] }, " — a phone number and a contact form, prominently displayed."],
+            [{ "b": ["Easy updates"] }, " — you should be able to change hours, menus, and photos without calling the developer."]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "If you are not sure what scope your business needs, the ",
+            { "a": "/ecommerce-developer-brief-template", "t": ["brief template"] },
+            " is a good starting point — it will help you define the scope before you request quotes. For the broader question of ecommerce vs brochure, see ",
+            { "a": "/ecommerce-vs-brochure-website", "t": ["ecommerce vs brochure website"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "local-cost",
+      "title": "What It Costs in Shrivardhan",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Website costs in Shrivardhan are typically lower than in Mumbai or Pune, but higher than in smaller towns. The table below gives realistic 2026 ranges for the scope described above."
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            ["Project type"],
+            ["Typical cost (INR)"],
+            ["Timeline"]
+          ],
+          "rows": [
+            [["Brochure site (3 - 5 pages)"], ["₹15,000 - ₹40,000"], ["2 - 3 weeks"]],
+            [["Business site (5 - 10 pages)"], ["₹30,000 - ₹60,000"], ["3 - 4 weeks"]],
+            [["Homestay site with booking form"], ["₹40,000 - ₹80,000"], ["4 - 6 weeks"]],
+            [["Small ecommerce store (under 50 products)"], ["₹60,000 - ₹1,20,000"], ["6 - 8 weeks"]],
+            [["Monthly maintenance"], ["₹1,500 - ₹5,000 / month"], ["Ongoing"]]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "These ranges assume the client provides their own content (text, photos) and uses a template or adapted theme. Custom design from scratch, or the developer providing photography or copywriting, will push the cost significantly higher."
+          ]
+        },
+        { "type": "h3", "text": "What drives the cost up" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Custom design"] }, " — usually ₹10,000 to ₹30,000 extra depending on scope."],
+            [{ "b": ["Booking functionality"] }, " — a booking engine integration or custom booking form adds complexity."],
+            [{ "b": ["Photography"] }, " — if the developer has to source or take photos, this adds significantly."],
+            [{ "b": ["Copywriting"] }, " — if the developer writes the content, expect ₹5,000 to ₹20,000 extra."],
+            [{ "b": ["Ecommerce"] }, " — checkout, payment gateway, shipping, and product setup."]
+          ]
+        },
+        { "type": "h3", "text": "What keeps the cost down" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Template-based build"] }, " — a well-adapted template is almost always sufficient for a local business."],
+            [{ "b": ["You provide the content"] }, " — writing your own text and providing your own photos reduces cost meaningfully."],
+            [{ "b": ["Fewer pages"] }, " — 5 well-written pages beat 20 thin ones and cost less."],
+            [{ "b": ["Clear scope from day one"] }, " — the biggest cost driver is scope creep."]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the full pricing context across Indian cities, see ",
+            { "a": "/website-developer-cost-raigad", "t": ["website development cost in Raigad district"] },
+            " and ",
+            { "a": "/ecommerce-website-developer-cost", "t": ["ecommerce website developer cost"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "remote-service",
+      "title": "What \"Remote Service\" Means in Practice",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "We are not based in Shrivardhan. This is a deliberate choice, and it is one you should understand before you contact us. Here is exactly what remote service means."
+          ]
+        },
+        { "type": "h3", "text": "What you get with remote service" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Communication via video calls and WhatsApp."] }, " The kickoff call, the design review, and the launch check-in are all done via video. You see the developer, and they see you."],
+            [{ "b": ["Staging access from day one."] }, " You can see the site being built, and you can review it on your own device without needing to be in the same room."],
+            [{ "b": ["Written documentation of decisions."] }, " Every scope change, design choice, and timeline adjustment is documented in writing, so you have a record."],
+            [{ "b": ["Same quality of build."] }, " The site is built the same way it would be if the developer were local. The location of the developer does not change the quality of the code."],
+            [{ "b": ["Cost savings."] }, " Remote service is typically 10 to 30 percent cheaper than local service, because the developer does not carry local overheads."]
+          ]
+        },
+        { "type": "h3", "text": "What you do not get with remote service" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["In-person meetings."] }, " Every meeting is via video."],
+            [{ "b": ["On-site visits."] }, " The developer cannot visit your business to take photos or see the space."],
+            [{ "b": ["Same-timezone emergency support."] }, " We are in IST, so IST business hours are fine, but late-night emergencies may be handled asynchronously."],
+            [{ "b": ["Local contract and payment handling."] }, " The contract is remote, but we use a standard Indian contract that works across states."]
+          ]
+        },
+        { "type": "h3", "text": "How to decide if remote service is right for you" },
+        {
+          "type": "p",
+          "inline": [
+            "Remote service works well if: (1) you are comfortable with video calls, (2) you can provide your own content and photos, (3) you do not need in-person support, and (4) you want to save money. Remote service is not right for you if: (1) you strongly prefer in-person meetings, (2) you need a developer who can visit your site, or (3) you need emergency support outside business hours."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "If you want a local developer in Shrivardhan or nearby, we can help you with the vetting process — see ",
+            { "a": "/website-developers-raigad#local-vs-remote", "t": ["local vs remote comparison"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "local-vs-remote",
+      "title": "Local Developer vs Remote: The Honest Comparison",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "For a Shrivardhan business, the choice between a local developer and a remote one is a real decision. Here is the honest comparison."
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            ["Factor"],
+            ["Local developer"],
+            ["Remote developer"]
+          ],
+          "rows": [
+            [["Cost"], ["10 - 25% higher"], ["Lower"]],
+            [["In-person meetings"], ["Easy"], ["Video only"]],
+            [["Local market knowledge"], ["Stronger"], ["Weaker (but can be built)"]],
+            [["Talent pool"], ["Limited in Shrivardhan"], ["Larger"]],
+            [["Availability"], ["Depends on the local market"], ["Usually faster"]],
+            [["Emergency support"], ["Faster (if in-person)"], ["Async for late-night issues"]],
+            [["Local references"], ["Available"], ["May not be"]]
+          ]
+        },
+        { "type": "h3", "text": "When a local developer is worth the premium" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["You strongly prefer in-person meetings."] }, ""],
+            [{ "b": ["You need a developer who can visit your site."] }, " For a homestay, a restaurant, or a retail shop, having a developer who has seen the space matters."],
+            [{ "b": ["You want local references you can call and visit."] }, ""],
+            [{ "b": ["You need emergency support outside business hours."] }, ""]
+          ]
+        },
+        { "type": "h3", "text": "When remote is a better choice" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["You are comfortable with video calls and written communication."] }, ""],
+            [{ "b": ["You want to save 10-25 percent."] }, ""],
+            [{ "b": ["You can provide your own content and photos."] }, ""],
+            [{ "b": ["You are willing to trade some convenience for a better price."] }, ""]
+          ]
+        },
+        { "type": "h3", "text": "The honest recommendation" },
+        {
+          "type": "p",
+          "inline": [
+            "For most Shrivardhan businesses, a local developer in Shrivardhan or nearby (Mahad, Mangaon, or Mumbai) is a reasonable choice, especially if you value in-person meetings or local references. Remote service is a better fit if you are price-sensitive, comfortable with video calls, and can provide your own content. Both are legitimate choices — the key is to vet the developer carefully regardless of location. See the vetting questions below."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vetting",
+      "title": "Questions to Ask Before Hiring Any Developer",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The questions below are specific to a local business in Shrivardhan, but they apply to any developer — local or remote. Ask them before you commit to a quote."
+          ]
+        },
+        {
+          "type": "ol",
+          "items": [
+            [{ "b": ["\"Show me three live websites you built for businesses like mine.\""] }, " A strong developer has a relevant portfolio. A weak developer shows enterprise sites or personal projects that do not resemble yours."],
+            [{ "b": ["\"What do you think my business actually needs?\""] }, " A strong developer asks follow-up questions and proposes a scoped-down solution. A weak developer immediately pitches an ecommerce build you did not ask for."],
+            [{ "b": ["\"How do you handle local SEO?\""] }, " A strong developer describes Google Business Profile setup, local schema, and local keyword targeting. A weak developer says \"we do the basics.\""],
+            [{ "b": ["\"What happens if the site breaks on a weekend?\""] }, " A strong developer gives a specific response-time commitment. A weak developer says \"call me anytime,\" which is not a commitment."],
+            [{ "b": ["\"Can you give me a fixed-price quote with a clear scope?\""] }, " A strong developer provides one. A weak developer only quotes hourly, which for a small business often means the project runs over budget."],
+            [{ "b": ["\"Who will actually work on my project?\""] }, " A strong developer names the team. A weak developer hides behind \"our team\" without specifics."],
+            [{ "b": ["\"What does maintenance cost, and what does it cover?\""] }, " A strong developer has a defined maintenance offering. A weak developer says \"we fix things when they break,\" which is not a plan."],
+            [{ "b": ["\"Can I speak to two recent clients?\""] }, " A strong developer provides references readily. A weak developer stalls, or provides references that cannot speak to the work."]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the full vetting checklist, see ",
+            { "a": "/questions-to-ask-ecommerce-developer", "t": ["questions to ask an ecommerce developer"] },
+            ". For the general framework, see ",
+            { "a": "/best-website-developer", "t": ["best website developer"] },
+            ". For the red flags, see ",
+            { "a": "/best-website-developer-red-flags", "t": ["red flags in \"best\" claims"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "local-seo",
+      "title": "Local SEO for Shrivardhan Businesses",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "For most Shrivardhan businesses, local SEO is more valuable than general SEO. The people you want to reach are searching for businesses like yours in Shrivardhan, not \"best homestay in India.\" Local SEO is how you appear when they search."
+          ]
+        },
+        { "type": "h3", "text": "The five local SEO essentials" },
+        {
+          "type": "ol",
+          "items": [
+            [{ "b": ["Google Business Profile."] }, " Claim and verify your Google Business Profile. Add photos, hours, categories, and a description. This is the single most important local SEO action, and it is free."],
+            [{ "b": ["Local schema on the website."] }, " Add LocalBusiness schema with your address, phone number, and hours. This helps Google connect your website to your local business."],
+            [{ "b": ["Location-specific content."] }, " Mention Shrivardhan in your page titles, descriptions, and content. Not keyword-stuffed, but naturally — a homestay's website should mention its Shrivardhan location on the homepage, the contact page, and the location page."],
+            [{ "b": ["Reviews."] }, " Ask happy customers for Google reviews. Reviews are a major local ranking factor and a major conversion factor. Aim for 20+ reviews within the first year."],
+            [{ "b": ["Consistent NAP."] }, " Name, Address, and Phone number should be identical across your website, Google Business Profile, and any other directories. Inconsistency confuses Google."]
+          ]
+        },
+        { "type": "h3", "text": "What local SEO does not need" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Paid ads."] }, " Local SEO is free; it just takes time. Ads are a separate decision."],
+            [{ "b": ["Backlinks from national sites."] }, " Local backlinks (local news, local directories, local associations) are more valuable than national ones."],
+            [{ "b": ["Blog content for its own sake."] }, " A local business does not need a blog unless it has something specific to say. A good brochure site is more valuable than a mediocre blog."]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the broader local SEO guide, see ",
+            { "a": "/coastal-maharashtra-website-guide", "t": ["coastal Maharashtra website guide"] },
+            ". For the homestay-specific version, see ",
+            { "a": "/tourism-business-website-guide", "t": ["tourism business website guide"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "title": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "How much does a website cost in Shrivardhan?",
+          "a": [
+            "A brochure site (3-5 pages) typically costs ₹15,000 to ₹40,000. A business site (5-10 pages) costs ₹30,000 to ₹60,000. A homestay site with booking functionality costs ₹40,000 to ₹80,000. These ranges assume a template-based build with content provided by the client."
+          ]
+        },
+        {
+          "q": "Do I need a local developer or can I hire remotely?",
+          "a": [
+            "It depends on your preferences. Local matters if you need in-person meetings, on-site visits, or local references. Remote is a better fit if you are comfortable with video calls, want to save 10-25%, and can provide your own content. Both are legitimate choices — see the ",
+            { "a": "#local-vs-remote", "t": ["local vs remote comparison"] },
+            "."
+          ]
+        },
+        {
+          "q": "What should a Shrivardhan business website include?",
+          "a": [
+            "Most local businesses need: a homepage, a services or products page, a contact page with a phone number and a form, and a location page with a map. For homestays and restaurants, add a photo gallery and a booking form or reservation link. Mobile-first design and fast load times are non-negotiable."
+          ]
+        },
+        {
+          "q": "How long does it take to build a website for a Shrivardhan business?",
+          "a": [
+            "A brochure site takes 2 to 3 weeks. A business site takes 3 to 4 weeks. A homestay site with booking functionality takes 4 to 6 weeks. The timeline depends on the scope and how quickly you provide content and feedback."
+          ]
+        },
+        {
+          "q": "Do I need ecommerce for my Shrivardhan business?",
+          "a": [
+            "Only if you are actually selling products online. For most local businesses, a brochure site with a contact form or booking link is sufficient. If you sell physical products and want to sell them online, an ecommerce store makes sense. See ",
+            { "a": "/ecommerce-vs-brochure-website", "t": ["ecommerce vs brochure website"] },
+            "."
+          ]
+        },
+        {
+          "q": "What is local SEO, and do I need it?",
+          "a": [
+            "Local SEO is how you appear when someone searches for your business type in your area. For most Shrivardhan businesses, local SEO is more valuable than general SEO. The five essentials are Google Business Profile, local schema, location-specific content, reviews, and consistent NAP. See the ",
+            { "a": "#local-seo", "t": ["local SEO section"] },
+            "."
+          ]
+        },
+        {
+          "q": "Can I update the website myself after launch?",
+          "a": [
+            "Yes, if the developer uses a content management system (CMS). WordPress, Shopify, and similar platforms let you update text, photos, and hours without calling the developer. This should be part of the scope — ask the developer to include training and documentation."
+          ]
+        },
+        {
+          "q": "What is a fair price for website maintenance?",
+          "a": [
+            "For a small local business site, maintenance typically costs ₹1,500 to ₹5,000 per month. This covers updates, backups, security, and a small number of support hours. If the developer does not offer maintenance at all, that is a red flag — you will need it eventually."
+          ]
+        },
+        {
+          "q": "Do I need a website if I already have a Google Business Profile?",
+          "a": [
+            "A Google Business Profile is important, but it is not a substitute for a website. A website shows your full offering, tells your story, and captures inquiries from people not ready to call. For a growing business, a website is worth the investment. For a very small shop with a steady local customer base, a Google Business Profile may be sufficient."
+          ]
+        },
+        {
+          "q": "What if I am not based in Shrivardhan but want to reach Shrivardhan customers?",
+          "a": [
+            "A website can reach Shrivardhan customers regardless of where you are based, but local SEO is harder without a local presence. If you have a physical business in Shrivardhan, the local SEO signals are straightforward. If you do not, you will need to rely on content and paid ads rather than local SEO."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "title": "Next Steps",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "If you are a Shrivardhan business considering a website, start with a clear brief — what the site needs to do, who it is for, and what your budget is. Then use the vetting questions above to evaluate developers, whether local or remote."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the Raigad district overview, see ",
+            { "a": "/website-developers-raigad", "t": ["website developers in Raigad district"] },
+            ". For the neighboring towns, see ",
+            { "a": "/website-developer-diveagar", "t": ["Diveagar"] },
+            " and ",
+            { "a": "/website-developer-borli", "t": ["Borli"] },
+            ". For the coastal business guide, see ",
+            { "a": "/coastal-maharashtra-website-guide", "t": ["coastal Maharashtra website guide"] },
+            ". For the ecommerce-specific questions, see ",
+            { "a": "/ecommerce-vs-brochure-website", "t": ["ecommerce vs brochure website"] },
+            ". If you want a shortlist of verified developers for your project, ",
+            { "a": "/contact", "t": ["contact us"] },
+            "."
+          ]
+        }
+      ],
+      "cta": true
+    }
+  ]
+}
