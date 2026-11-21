@@ -1,0 +1,501 @@
+{
+  "slug": "ecommerce-vs-brochure-website",
+  "kind": "article",
+  "topic": "Local",
+  "order": 41,
+  "draft": true,
+  "title": "Ecommerce vs Brochure Website: What Your Business Needs",
+  "description": "Ecommerce vs brochure website: what each one does, what each costs, and how to decide which your business actually needs — with a decision table by business type.",
+  "ogTitle": "Ecommerce vs Brochure Website: What Your Business Actually Needs",
+  "ogDescription": "Ecommerce vs brochure website compared: what each does, what each costs, and how to decide for your business.",
+  "published": "2026-11-06",
+  "updated": "2026-11-06",
+  "h1": "Ecommerce vs Brochure Website: What Your Business Actually Needs",
+  "intro": [
+    {
+      "type": "summary",
+      "inline": [
+        { "b": ["In short:"] },
+        " choose a ",
+        { "b": ["brochure website"] },
+        " if your goal is to be found, show what you do, and capture inquiries — this is what 80 to 90 percent of small businesses actually need. Choose an ",
+        { "b": ["ecommerce website"] },
+        " only if you are genuinely selling physical or digital products online and can support the ongoing work of running a store. Most businesses that think they need ecommerce actually need a brochure site with a contact form and a WhatsApp button."
+      ]
+    },
+    {
+      "type": "p",
+      "inline": [
+        "This guide covers what each type of website does, what each costs, what each requires after launch, and a decision framework by business type. It's written for small business owners in coastal Maharashtra and beyond — the same decision applies to a local shop in Borli, a homestay in Diveagar, or a small retailer in Mumbai. For the coastal business context, see ",
+        { "a": "/coastal-maharashtra-website-guide", "t": ["coastal Maharashtra website guide"] },
+        ". For tourism businesses, see ",
+        { "a": "/tourism-business-website-guide", "t": ["tourism business website guide"] },
+        "."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-each-does",
+      "title": "What Each Type of Website Does",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The difference between a brochure website and an ecommerce website is not the visual design — it is the function. A brochure site informs and captures inquiries; an ecommerce site sells products and processes transactions. These are fundamentally different jobs, with different requirements and different ongoing costs."
+          ]
+        },
+        { "type": "h3", "text": "What a brochure website does" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Shows who you are and what you do."] }, " A clear explanation of your business, services, or products (without selling them online)."],
+            [{ "b": ["Shows your location and hours."] }, " Essential for local businesses and visitors."],
+            [{ "b": ["Captures inquiries."] }, " A contact form, a phone number, a WhatsApp button — the ways people reach out."],
+            [{ "b": ["Builds trust."] }, " Reviews, photos, testimonials, and a professional appearance that makes people comfortable contacting you."],
+            [{ "b": ["Supports local SEO."] }, " A brochure site with local SEO is how you appear when someone searches for your business type in your area."]
+          ]
+        },
+        { "type": "h3", "text": "What an ecommerce website does" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Shows a product catalog."] }, " Product pages with photos, descriptions, prices, and variants."],
+            [{ "b": ["Handles cart and checkout."] }, " A complete purchase flow, including payment processing."],
+            [{ "b": ["Manages inventory."] }, " Tracks stock, handles out-of-stock items, and updates availability."],
+            [{ "b": ["Calculates shipping and tax."] }, " Shipping rates, tax rates, and delivery options based on location."],
+            [{ "b": ["Processes orders."] }, " Order confirmation, fulfillment, tracking, and returns."],
+            [{ "b": ["Handles payments and refunds."] }, " Payment gateway integration, refund processing, and customer communication about transactions."]
+          ]
+        },
+        { "type": "h3", "text": "The key difference" },
+        {
+          "type": "p",
+          "inline": [
+            "A brochure site is a ",
+            { "i": ["marketing and information"] },
+            " tool. An ecommerce site is an ",
+            { "i": ["operations"] },
+            " tool. A brochure site can be built once and left mostly alone; an ecommerce site is a continuous operational commitment. This is why the \"do I need ecommerce?\" question is not just about features — it is about whether you are prepared to run a store, not just launch one."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cost-comparison",
+      "title": "Cost Comparison",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The cost difference between a brochure site and an ecommerce site is significant — not just at the build stage, but in the ongoing costs. The table below compares the two."
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            ["Factor"],
+            ["Brochure website"],
+            ["Ecommerce website"]
+          ],
+          "rows": [
+            [["Build cost (small)"], ["₹15,000 - ₹60,000"], ["₹60,000 - ₹1,50,000"]],
+            [["Build cost (mid-market)"], ["₹40,000 - ₹1,00,000"], ["₹1,50,000 - ₹5,00,000+"]],
+            [["Typical timeline"], ["2 - 4 weeks"], ["6 - 12 weeks"]],
+            [["Hosting"], ["₹2,000 - ₹15,000 / year"], ["₹5,000 - ₹30,000 / year"]],
+            [["Platform subscription"], ["Usually none"], ["₹2,000 - ₹5,000 / month"]],
+            [["Maintenance"], ["₹1,000 - ₹4,000 / month"], ["₹3,000 - ₹15,000 / month"]],
+            [["Payment gateway fees"], ["None"], ["2 - 3% per transaction"]],
+            [["Total first-year"], ["₹40,000 - ₹1,20,000"], ["₹1,00,000 - ₹3,00,000+"]]
+          ]
+        },
+        { "type": "h3", "text": "What the cost difference actually means" },
+        {
+          "type": "p",
+          "inline": [
+            "An ecommerce site typically costs 2–4 times more than a brochure site in the first year, and continues to cost more in every subsequent year. For a small business, this is a meaningful difference. It only makes sense if the ecommerce site generates enough additional revenue to cover the higher cost — which is not always the case, especially for businesses with a small product catalog or a local-only customer base."
+          ]
+        },
+        { "type": "h3", "text": "What is not included in these ranges" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Product photography"] }, " — ₹200 to ₹2,000 per product for professional photos."],
+            [{ "b": ["Copywriting"] }, " — product descriptions, category pages, and about pages."],
+            [{ "b": ["Payment gateway setup"] }, " — usually free, but some gateways have onboarding costs."],
+            [{ "b": ["Marketing"] }, " — running an ecommerce store without marketing is usually a waste; budget for at least some."],
+            [{ "b": ["Inventory management"] }, " — time, or software cost, to manage stock."],
+            [{ "b": ["Customer service"] }, " — handling returns, refunds, and product questions."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ongoing-work",
+      "title": "The Ongoing Work Each Requires",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The biggest difference between a brochure site and an ecommerce site is not the cost — it is the ongoing work. A brochure site is mostly done after launch. An ecommerce site is just beginning."
+          ]
+        },
+        { "type": "h3", "text": "What a brochure site requires after launch" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Occasional content updates"] }, " — new photos, updated hours, new services, seasonal changes. Maybe 1–2 hours per month."],
+            [{ "b": ["Basic maintenance"] }, " — updates, backups, and security, usually handled by a maintenance plan."],
+            [{ "b": ["Review responses"] }, " — responding to Google reviews, which takes 15 minutes per week."],
+            [{ "b": ["Local SEO upkeep"] }, " — keeping the Google Business Profile current, posting occasional updates."]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Total: 2–5 hours per month, mostly optional."] },
+            " A brochure site can go weeks without attention and still function."
+          ]
+        },
+        { "type": "h3", "text": "What an ecommerce site requires after launch" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Product management"] }, " — adding new products, updating prices, managing stock, removing discontinued items. Several hours per week."],
+            [{ "b": ["Order fulfillment"] }, " — processing orders, packing, shipping, and tracking. This is a daily operational task."],
+            [{ "b": ["Customer service"] }, " — answering questions, handling returns, processing refunds, dealing with complaints. Several hours per week, often more."],
+            [{ "b": ["Marketing"] }, " — email campaigns, social media, paid ads, or content — without marketing, the store does not get traffic. Several hours per week minimum."],
+            [{ "b": ["Technical maintenance"] }, " — plugin updates, security patches, performance checks, integration issues. A few hours per month, plus emergencies."],
+            [{ "b": ["Analytics and optimization"] }, " — monitoring conversion rates, testing changes, optimizing the funnel. Ongoing."]
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Total: 15–30+ hours per week"] },
+            " for a small store, more as the store grows. An ecommerce site is a business, not a website — it requires the operational work of running a business."
+          ]
+        },
+        { "type": "h3", "text": "What this means for your decision" },
+        {
+          "type": "p",
+          "inline": [
+            "The most common mistake small businesses make is building an ecommerce site without realizing the ongoing work it requires. A store that is not maintained — products not updated, orders not shipped on time, customer service slow — is worse than a brochure site with a contact form. If you are not prepared to run a store, a brochure site is the better choice, and it can be upgraded to ecommerce later."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "decision-table",
+      "title": "Decision Table by Business Type",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Match your business type to the table below. The right column gives the recommended starting point, not a fixed rule."
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            ["Business type"],
+            ["Recommended starting point"]
+          ],
+          "rows": [
+            [["Local retail shop (physical store)"], ["Brochure site with product categories and contact"]],
+            [["Service business (trades, repairs, professional services)"], ["Brochure site with services, location, and contact"]],
+            [["Homestay, guesthouse, resort"], ["Brochure site with booking form or booking engine"]],
+            [["Restaurant"], ["Brochure site with menu, hours, and contact"]],
+            [["Activity provider (water sports, tours)"], ["Brochure site with activity descriptions and booking form"]],
+            [["Fishing, agriculture"], ["Brochure site with about, products, and contact"]],
+            [["D2C brand selling physical products"], ["Ecommerce site (Shopify or WooCommerce)"]],
+            [["Small online-only retailer"], ["Ecommerce site (Shopify is usually the fastest path)"]],
+            [["B2B wholesale with online ordering"], ["Ecommerce site with B2B features (often on Shopify or WooCommerce)"]],
+            [["Digital product creator (courses, ebooks)"], ["Ecommerce site or platform-specific tool (Gumroad, Teachable, etc.)"]]
+          ]
+        },
+        { "type": "h3", "text": "How to use the table" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Most local businesses:"] }, " brochure site is the right answer."],
+            [{ "b": ["Most online sellers:"] }, " ecommerce is the right answer."],
+            [{ "b": ["Mixed businesses (retail + online):"] }, " ecommerce, but start small — Shopify with a small product catalog, then grow."],
+            [{ "b": ["Uncertain:"] }, " start with a brochure site, and upgrade to ecommerce when you have a specific reason."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "misconceptions",
+      "title": "Common Misconceptions",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "These are the misconceptions that lead small businesses to build ecommerce sites they do not need."
+          ]
+        },
+        { "type": "h3", "text": "Misconception 1: \"Every business needs an online store.\"" },
+        {
+          "type": "p",
+          "inline": [
+            "Not true. Most local businesses need a brochure site, not a store. A local shop with a physical location, a service business, a homestay, or a restaurant — these are brochure-site candidates, not ecommerce candidates. The ecommerce site is only worth it if you are genuinely selling products online."
+          ]
+        },
+        { "type": "h3", "text": "Misconception 2: \"An ecommerce site will bring more customers.\"" },
+        {
+          "type": "p",
+          "inline": [
+            "An ecommerce site does not bring customers on its own — marketing does. Building a store without a marketing plan is a common and expensive mistake. If you are not prepared to invest in marketing (email, social, ads, or content), a brochure site with strong local SEO will bring more customers than a store that no one knows about."
+          ]
+        },
+        { "type": "h3", "text": "Misconception 3: \"We can add ecommerce later.\"" },
+        {
+          "type": "p",
+          "inline": [
+            "True, but with a caveat. A brochure site can be upgraded to ecommerce later, but it is not always a smooth upgrade — the site may need to be rebuilt on a different platform. If you are confident you will need ecommerce within 1–2 years, it may be worth starting on an ecommerce platform (even with a small catalog) rather than rebuilding later. See the ",
+            { "a": "#when-to-switch", "t": ["when to switch section"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Misconception 4: \"Ecommerce is just a cart and checkout.\"" },
+        {
+          "type": "p",
+          "inline": [
+            "Ecommerce is much more than a cart and checkout. It is inventory management, order fulfillment, customer service, returns, payment processing, shipping, tax, and marketing. The website is the easy part; the operations are the hard part. If you have not thought about the operations, you are not ready for ecommerce."
+          ]
+        },
+        { "type": "h3", "text": "Misconception 5: \"WooCommerce is free, so WooCommerce is cheaper.\"" },
+        {
+          "type": "p",
+          "inline": [
+            "WooCommerce's core platform is free, but a real store has significant costs: hosting, premium plugins, maintenance, security, and time. On a total first-year basis, WooCommerce and Shopify are usually comparable for a small store. The \"free\" platform often has higher ongoing costs than the paid one. See ",
+            { "a": "/shopify-vs-woocommerce-vs-custom", "t": ["Shopify vs WooCommerce vs custom"] },
+            " for the full comparison."
+          ]
+        },
+        { "type": "h3", "text": "Misconception 6: \"I can run ecommerce as a side project.\"" },
+        {
+          "type": "p",
+          "inline": [
+            "Some people can, but it is harder than it looks. A store that is not actively managed (products not updated, orders shipped late, customer service slow) loses customers quickly. Ecommerce rewards attention; it penalizes neglect. If you cannot commit 15+ hours per week, a brochure site may be a better fit until you can."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brochure-plus",
+      "title": "The Middle Ground: Brochure Plus",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The choice between brochure and ecommerce is not binary. There is a middle option — a brochure site with limited transactional functionality — that serves many businesses better than either extreme."
+          ]
+        },
+        { "type": "h3", "text": "What \"brochure plus\" means" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Brochure site with a booking form."] }, " A homestay that takes inquiries via a form, not a full booking engine. Guests submit dates, you confirm manually. This is what most small homestays should start with."],
+            [{ "b": ["Brochure site with a reservation form."] }, " A restaurant that takes reservations via a form or WhatsApp, not a full table-management system."],
+            [{ "b": ["Brochure site with a simple product catalog and inquiry."] }, " A local shop that shows its products online, and takes inquiries or WhatsApp orders, without a full ecommerce checkout."],
+            [{ "b": ["Brochure site with a payment link."] }, " A business that takes a deposit or full payment via a payment link (Razorpay, Stripe, etc.) without a full cart system."]
+          ]
+        },
+        { "type": "h3", "text": "When brochure plus is the right choice" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Your volume is too low to justify a full ecommerce system."] }, " A homestay with 2 rooms does not need a booking engine; a form is enough."],
+            [{ "b": ["Your products or services need a conversation before purchase."] }, " Custom orders, B2B sales, or services with variable pricing are often better handled with an inquiry than a checkout."],
+            [{ "b": ["You are not ready for the ongoing work of ecommerce."] }, " A brochure-plus site is much easier to maintain than a full store."],
+            [{ "b": ["You want to test demand before committing."] }, " A brochure-plus site is a way to see whether there is real online demand before investing in a full ecommerce build."]
+          ]
+        },
+        { "type": "h3", "text": "What brochure plus costs" },
+        {
+          "type": "p",
+          "inline": [
+            "A brochure-plus site typically costs ₹30,000 to ₹80,000 to build, with lower ongoing costs than a full ecommerce site. It is a good middle option for businesses that want more than a brochure but less than a full store."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "when-to-switch",
+      "title": "When to Switch from Brochure to Ecommerce",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "If you start with a brochure site, you can upgrade to ecommerce later. The question is when. The signals below are the ones that indicate it is time."
+          ]
+        },
+        { "type": "h3", "text": "Signals that it is time to add ecommerce" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["You are already selling online informally."] }, " You are taking orders via WhatsApp or phone, and the volume is growing. A full ecommerce site will save time and reduce errors."],
+            [{ "b": ["Your product catalog is growing."] }, " When you have more than 20–30 SKUs, managing them informally becomes inefficient."],
+            [{ "b": ["You have a repeatable product."] }, " If your product is standard (not custom or conversation-based), an ecommerce site is a good fit."],
+            [{ "b": ["You have the operational capacity."] }, " You have someone who can process orders daily, handle customer service, and manage inventory."],
+            [{ "b": ["You have a marketing plan."] }, " You have a way to drive traffic to the store — email list, social media, ads, or content."],
+            [{ "b": ["You have a budget for the build and the ongoing costs."] }, " At least ₹1,00,000 to start, plus monthly operating costs."]
+          ]
+        },
+        { "type": "h3", "text": "Signals that it is not yet time" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["You are not selling online yet."] }, " If you have not tested online demand, a brochure-plus site is a cheaper way to test."],
+            [{ "b": ["Your volume is very low."] }, " If you get 2–3 orders a week, a full ecommerce system is overkill."],
+            [{ "b": ["You do not have the time to run a store."] }, " If you cannot commit 15+ hours per week, wait until you can."],
+            [{ "b": ["You do not have a marketing plan."] }, " A store with no traffic is worse than a brochure site with strong local SEO."]
+          ]
+        },
+        { "type": "h3", "text": "How to upgrade" },
+        {
+          "type": "p",
+          "inline": [
+            "The upgrade path depends on the platform. If you built the brochure site on WordPress, adding WooCommerce is straightforward. If you built it on a static platform, you may need to rebuild on Shopify or WooCommerce. Ask your developer what the upgrade path looks like before you choose a platform — it can save you significant cost later."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the platform choice, see ",
+            { "a": "/shopify-vs-woocommerce-vs-custom", "t": ["Shopify vs WooCommerce vs custom"] },
+            ". For the cost of an ecommerce build, see ",
+            { "a": "/ecommerce-website-developer-cost", "t": ["ecommerce website developer cost"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "title": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "What is the difference between a brochure website and an ecommerce website?",
+          "a": [
+            "A brochure website informs visitors and captures inquiries. An ecommerce website sells products and processes transactions. The brochure site is a marketing tool; the ecommerce site is an operations tool. See the ",
+            { "a": "#what-each-does", "t": ["what each does section"] },
+            "."
+          ]
+        },
+        {
+          "q": "Do I need ecommerce for my business?",
+          "a": [
+            "Only if you are genuinely selling products online. Most local businesses — retail shops with a physical presence, service businesses, homestays, restaurants — need a brochure site, not an ecommerce store. See the ",
+            { "a": "#decision-table", "t": ["decision table"] },
+            "."
+          ]
+        },
+        {
+          "q": "How much more does an ecommerce site cost than a brochure site?",
+          "a": [
+            "An ecommerce site typically costs 2–4 times more than a brochure site in the first year, and continues to cost more in every subsequent year. For a small store, the first-year difference is usually ₹60,000 to ₹2,00,000. See the ",
+            { "a": "#cost-comparison", "t": ["cost comparison"] },
+            "."
+          ]
+        },
+        {
+          "q": "What does ecommerce require after launch?",
+          "a": [
+            "A lot more than a brochure site. Product management, order fulfillment, customer service, marketing, and technical maintenance — typically 15–30+ hours per week for a small store. An ecommerce site is a business, not just a website. See the ",
+            { "a": "#ongoing-work", "t": ["ongoing work section"] },
+            "."
+          ]
+        },
+        {
+          "q": "Can I start with a brochure site and add ecommerce later?",
+          "a": [
+            "Yes, but the upgrade is not always smooth. The site may need to be rebuilt on a different platform. If you are confident you will need ecommerce within 1–2 years, it may be worth starting on an ecommerce platform with a small catalog. See the ",
+            { "a": "#when-to-switch", "t": ["when to switch section"] },
+            "."
+          ]
+        },
+        {
+          "q": "What is a brochure-plus website?",
+          "a": [
+            "A brochure site with limited transactional functionality — a booking form, a reservation form, a product catalog with inquiry, or a payment link. It is a middle option for businesses that want more than a brochure but less than a full store. See the ",
+            { "a": "#brochure-plus", "t": ["brochure plus section"] },
+            "."
+          ]
+        },
+        {
+          "q": "Is Shopify or WooCommerce better for a small store?",
+          "a": [
+            "Shopify is faster to launch and easier to maintain. WooCommerce is more flexible and gives you full ownership. For most small stores, Shopify is the simpler choice. See ",
+            { "a": "/shopify-vs-woocommerce-vs-custom", "t": ["Shopify vs WooCommerce vs custom"] },
+            "."
+          ]
+        },
+        {
+          "q": "What if I am not sure whether I need ecommerce?",
+          "a": [
+            "Start with a brochure site. It is cheaper, faster, and easier to maintain. If you find that you need transactional functionality later, you can upgrade — or add a brochure-plus feature like a booking form or payment link."
+          ]
+        },
+        {
+          "q": "How long does an ecommerce site take to build?",
+          "a": [
+            "A small ecommerce store takes 6 to 12 weeks. The timeline depends on the number of products, the complexity of the checkout, and the integrations required. See ",
+            { "a": "/ecommerce-development-process-milestones", "t": ["the ecommerce development process"] },
+            "."
+          ]
+        },
+        {
+          "q": "What if I sell only a few products?",
+          "a": [
+            "For very few products (under 10), a brochure site with a product catalog and a payment link (or WhatsApp ordering) may be sufficient. You do not need a full ecommerce system for a small catalog. See the ",
+            { "a": "#brochure-plus", "t": ["brochure plus section"] },
+            "."
+          ]
+        },
+        {
+          "q": "Do I need ecommerce to sell services?",
+          "a": [
+            "Usually not. Services (plumbing, design, consulting, etc.) are usually sold through conversation, not a checkout flow. A brochure site with a contact form or booking form is usually the right answer. The exception is if you sell packaged services with fixed pricing — then a simple ecommerce or booking system may work."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "title": "Next Steps",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The decision is not \"brochure vs ecommerce\" — it is \"what does my business actually need?\" For most local businesses, a brochure site with a contact form, a WhatsApp button, and local SEO is the right choice. For businesses that genuinely sell products online and can support the ongoing work, ecommerce is the right choice. If you are in between, a brochure-plus site may be the right fit."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the coastal Maharashtra context, see ",
+            { "a": "/coastal-maharashtra-website-guide", "t": ["coastal Maharashtra website guide"] },
+            ". For tourism businesses, see ",
+            { "a": "/tourism-business-website-guide", "t": ["tourism business website guide"] },
+            ". For the town-specific guides, see ",
+            { "a": "/website-developer-shrivardhan", "t": ["Shrivardhan"] },
+            ", ",
+            { "a": "/website-developer-diveagar", "t": ["Diveagar"] },
+            ", and ",
+            { "a": "/website-developer-borli", "t": ["Borli"] },
+            ". For the platform choice, see ",
+            { "a": "/shopify-vs-woocommerce-vs-custom", "t": ["Shopify vs WooCommerce vs custom"] },
+            ". If you want help deciding what your business actually needs, ",
+            { "a": "/contact", "t": ["contact us"] },
+            "."
+          ]
+        }
+      ],
+      "cta": true
+    }
+  ]
+}

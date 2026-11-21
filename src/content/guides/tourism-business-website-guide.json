@@ -1,0 +1,661 @@
+{
+  "slug": "tourism-business-website-guide",
+  "kind": "article",
+  "topic": "Local",
+  "order": 40,
+  "draft": true,
+  "title": "Tourism Business Website Guide: Homestays & Resorts",
+  "description": "A website guide for homestays, resorts, and tourism businesses: booking systems, photography, OTA strategy, seasonal pricing, and realistic costs.",
+  "ogTitle": "Tourism Business Website Guide: Homestays, Resorts & Restaurants",
+  "ogDescription": "What tourism businesses need from a website: booking systems, photography, OTA strategy, seasonal pricing, and realistic costs.",
+  "published": "2026-11-06",
+  "updated": "2026-11-06",
+  "h1": "Tourism Business Website Guide: Homestays, Resorts, and Restaurants",
+  "intro": [
+    {
+      "type": "summary",
+      "inline": [
+        { "b": ["What this guide is:"] },
+        " a practical guide for tourism businesses — homestays, guesthouses, resorts, and restaurants — on what a website actually needs to do, how booking systems work, what photography costs, and how to reduce OTA dependency. It is written for owners, not developers."
+      ]
+    },
+    {
+      "type": "p",
+      "inline": [
+        "Tourism businesses have different website requirements than any other kind of business. The website has to sell an experience (not a product), handle bookings (not just inquiries), and support seasonal demand (not year-round demand). This guide covers what is specific to tourism, and how to build a website that actually gets bookings."
+      ]
+    },
+    {
+      "type": "p",
+      "inline": [
+        "It's part of our ",
+        { "a": "/coastal-maharashtra-website-guide", "t": ["coastal Maharashtra website guide"] },
+        " and ",
+        { "a": "/website-developers-raigad", "t": ["Raigad district guide"] },
+        ". For the town-specific versions, see ",
+        { "a": "/website-developer-diveagar", "t": ["Diveagar"] },
+        " (the most tourism-heavy town in the cluster) and ",
+        { "a": "/website-developer-shrivardhan", "t": ["Shrivardhan"] },
+        ". For costs, see ",
+        { "a": "/website-developer-cost-raigad", "t": ["website development cost in Raigad district"] },
+        "."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-different",
+      "title": "Why Tourism Websites Are Different",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "A tourism website is not a product website and not a brochure site. It is a sales tool for an experience, and it has to do specific things that other kinds of websites do not."
+          ]
+        },
+        { "type": "h3", "text": "What makes tourism websites different" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["You are selling an experience, not a product."] }, " A product has a spec sheet. An experience has photos, atmosphere, reviews, and location. The website has to convey all of that in a way a product page does not."],
+            [{ "b": ["Bookings, not just inquiries."] }, " A tourism business needs the website to convert visitors into confirmed bookings, not just phone calls or emails. That requires a booking flow, not just a contact form."],
+            [{ "b": ["Seasonal demand is fundamental."] }, " Tourism businesses live by seasonal patterns. The website has to handle seasonal pricing, seasonal availability, and seasonal content — all of which are updatable without a developer."],
+            [{ "b": ["Photos are the product."] }, " A restaurant can get away with mediocre photos if the food is good. A homestay cannot — the photos are what the guest is buying. Good photography is not optional."],
+            [{ "b": ["Reviews drive bookings."] }, " Travelers rely heavily on reviews. The website has to display reviews, link to Google reviews, and build trust signals."],
+            [{ "b": ["Mobile-first is non-negotiable."] }, " Most tourism searches happen on mobile, often at the last minute. A site that works poorly on mobile loses bookings."]
+          ]
+        },
+        { "type": "h3", "text": "What a tourism website does not need" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["A full ecommerce store"] }, " — you are selling a stay, not a product. A booking flow is different from a cart and checkout."],
+            [{ "b": ["Custom user accounts"] }, " — guests do not need to log in; they need to book quickly."],
+            [{ "b": ["A blog"] }, " — unless you have a specific content strategy, a blog is a distraction from the booking flow."],
+            [{ "b": ["Multi-language"] }, " — unless you have a significant international guest base, English plus Hindi/Marathi is usually enough."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "booking-systems",
+      "title": "Booking Systems: Options and Trade-offs",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The booking system is the most important decision in a tourism website. It determines how guests book, how much you pay in fees, and how much control you have over the guest relationship. The four options below are the main ones, with their trade-offs."
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            ["Option"],
+            ["Cost"],
+            ["Fees"],
+            ["Best for"]
+          ],
+          "rows": [
+            [["Booking form (WhatsApp/email)"], ["Included in website build"], ["None"], ["Homestays with 1–3 rooms and low inquiry volume"]],
+            [["Booking engine (on-site)"], ["₹15,000–₹40,000 integration + monthly subscription"], ["Payment gateway (2–3%) + platform subscription"], ["Guesthouses and resorts with 4+ rooms"]],
+            [["Booking engine + OTA sync"], ["₹20,000–₹50,000 integration + monthly subscription"], ["Payment gateway + platform subscription"], ["Businesses that already use OTAs and want to add direct bookings"]],
+            [["OTA links only"], ["Included in website build"], ["OTA commission (15–25%)"], ["Very small homestays with low booking volume, or businesses just starting out"]]
+          ]
+        },
+        { "type": "h3", "text": "Option 1: Booking form (WhatsApp or email)" },
+        {
+          "type": "p",
+          "inline": [
+            "The simplest and cheapest option. The guest fills in a form with their dates and contact details, and the form sends a WhatsApp message or email to you. You reply manually to confirm availability and take payment."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Pros:"] },
+            " zero cost, no monthly subscription, personal communication."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Cons:"] },
+            " manual confirmation, slower response, guests may abandon if they want instant confirmation."
+          ]
+        },
+        { "type": "h3", "text": "Option 2: Booking engine (on-site)" },
+        {
+          "type": "p",
+          "inline": [
+            "A real booking engine that shows real-time availability, calculates rates, and processes payment. Typically built on a hospitality booking platform (Staah, AxisRooms, or similar) that integrates with the website."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Pros:"] },
+            " instant confirmation, real-time availability, professional experience, reduces staff time."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Cons:"] },
+            " higher upfront cost, monthly subscription, more complex to set up and maintain."
+          ]
+        },
+        { "type": "h3", "text": "Option 3: Booking engine + OTA integration" },
+        {
+          "type": "p",
+          "inline": [
+            "The booking engine integrates with OTAs (Booking.com, MakeMyTrip, Airbnb) so that availability is synced across all channels. A guest can book directly on your website, and the booking is reflected in your OTA calendars."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Pros:"] },
+            " same as Option 2, plus guaranteed availability sync across channels. No double bookings."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Cons:"] },
+            " higher cost, more complex setup, requires coordination with OTA account management."
+          ]
+        },
+        { "type": "h3", "text": "Option 4: OTA links only" },
+        {
+          "type": "p",
+          "inline": [
+            "The website shows the property, describes the rooms, and links to the OTA listings for booking. The guest books on the OTA, and you pay the OTA commission."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Pros:"] },
+            " lowest website cost, familiar booking experience for guests."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            { "b": ["Cons:"] },
+            " OTA commission on every booking, no direct guest relationship, no control over the listing."
+          ]
+        },
+        { "type": "h3", "text": "Which option is right for you" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Homestay with 1–3 rooms:"] }, " Option 1 (booking form) is usually sufficient."],
+            [{ "b": ["Guesthouse with 4–10 rooms:"] }, " Option 2 or 3 (booking engine) is usually worth it."],
+            [{ "b": ["Resort with 10+ rooms:"] }, " Option 3 (booking engine + OTA sync) is usually necessary."],
+            [{ "b": ["Very small homestay with low volume:"] }, " Option 4 (OTA links) may be sufficient, but it does not solve the commission problem."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "photography",
+      "title": "Photography: The Most Important Investment",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "For a tourism business, photography is not a nice-to-have — it is the product. A guest choosing a homestay or resort is choosing based on the photos more than any other factor. Poor photos cost bookings regardless of how nice the property actually is."
+          ]
+        },
+        { "type": "h3", "text": "What good tourism photography looks like" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Natural light."] }, " Photos taken during golden hour or with bright natural light, not harsh flash or dim indoor lighting."],
+            [{ "b": ["Multiple angles."] }, " Every room from multiple angles, the exterior from multiple angles, the view from the property."],
+            [{ "b": ["Scale."] }, " Photos that show the size of the rooms and the property — a wide shot of the room, not just a close-up of the bed."],
+            [{ "b": ["Detail shots."] }, " Close-ups of the small things that make the property special — the breakfast, the garden, the view from the balcony."],
+            [{ "b": ["People (optional)."] }, " Some tourism photos include people to show scale and atmosphere; others do not. Either is fine, but it should be consistent."],
+            [{ "b": ["Consistency."] }, " Photos in the same lighting and style across all rooms and areas."]
+          ]
+        },
+        { "type": "h3", "text": "What to avoid" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Stock photos."] }, " A stock photo of a beach that is not your beach is misleading and will be spotted."],
+            [{ "b": ["Smartphone photos in poor light."] }, " Phone cameras are good in daylight; in dim indoor lighting they are not."],
+            [{ "b": ["Photos from multiple years."] }, " Mixed lighting and styles across a gallery looks unprofessional."],
+            [{ "b": ["Photos that are clearly from a different season."] }, " A photo of a sunny beach in a listing for a monsoon stay is misleading."]
+          ]
+        },
+        { "type": "h3", "text": "What photography costs" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Professional property shoot:"] }, " ₹15,000 to ₹50,000, depending on the photographer, the property size, and how many rooms are being shot."],
+            [{ "b": ["Video or drone footage:"] }, " ₹10,000 to ₹30,000 extra, worth it for resorts with distinctive geography."],
+            [{ "b": ["Copy photo editing from your own photos:"] }, " ₹2,000 to ₹10,000, if you have good raw photos but need them edited."]
+          ]
+        },
+        { "type": "h3", "text": "When photography is worth the investment" },
+        {
+          "type": "p",
+          "inline": [
+            "For a homestay, guesthouse, or resort, professional photography is almost always worth it. The cost is small relative to the booking revenue it can generate. A ₹20,000 photography investment that increases bookings by even 10% pays back within a season. For a small restaurant or activity provider, professional photography is also worth it, but the scope can be smaller — a half-day shoot rather than a full property shoot."
+          ]
+        },
+        { "type": "h3", "text": "How to use the photos on the website" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Hero image on the homepage"] }, " — the single best photo, above the fold."],
+            [{ "b": ["Gallery on every room or service page"] }, " — 3–6 photos per room or service."],
+            [{ "b": ["Photo-driven booking flow"] }, " — photos next to each room option in the booking form."],
+            [{ "b": ["Photo-driven social sharing"] }, " — Open Graph images that show the property when the page is shared."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ota-vs-direct",
+      "title": "OTA vs Direct Bookings",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Most tourism businesses get a significant portion of their bookings through OTAs — Booking.com, MakeMyTrip, Goibibo, Airbnb, and similar platforms. OTAs are a legitimate way to get bookings, but they come with costs and limitations that a direct booking channel avoids."
+          ]
+        },
+        { "type": "h3", "text": "What OTAs cost you" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["15–25% commission on every booking."] }, " On a ₹3,000 weekend night, the OTA takes ₹450 to ₹750."],
+            [{ "b": ["The guest relationship."] }, " The OTA owns the guest's contact information. You cannot market directly to them after the stay."],
+            [{ "b": ["The guest experience."] }, " The OTA controls the listing page. You cannot fully control the story that is told."],
+            [{ "b": ["Ranking within the OTA."] }, " You compete with every other property for top placement, and OTA ranking algorithms favor paid placements and high review counts."]
+          ]
+        },
+        { "type": "h3", "text": "What direct bookings save you" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["0% commission."] }, " Only payment gateway fees (2–3%) if you take online payment, or nothing if the guest pays on arrival."],
+            [{ "b": ["The guest relationship."] }, " You own the contact information and can market directly for future stays."],
+            [{ "b": ["Control of the story."] }, " The website is entirely yours — photos, copy, pricing, positioning."],
+            [{ "b": ["Repeat bookings."] }, " Guests who book direct are much more likely to book direct again. A repeat guest list is a real asset."]
+          ]
+        },
+        { "type": "h3", "text": "The realistic mix" },
+        {
+          "type": "p",
+          "inline": [
+            "Most tourism businesses should not abandon OTAs — they are a valuable source of new guests, especially at the start. The right mix is usually: OTAs for discovery and new guests, the website for direct bookings from returning guests and referrals. As your direct booking channel grows, the OTA share can decrease, but it rarely goes to zero, and that is fine."
+          ]
+        },
+        { "type": "h3", "text": "How to grow the direct channel" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["A website with a clear booking flow."] }, " The essential first step."],
+            [{ "b": ["Google Business Profile optimization."] }, " When guests search for a homestay or restaurant in your area, your listing should be prominent."],
+            [{ "b": ["Reviews on Google."] }, " Google reviews influence both the Google Business Profile and the website's trust."],
+            [{ "b": ["A WhatsApp list."] }, " Collect WhatsApp numbers from direct guests and send periodic offers for off-season stays."],
+            [{ "b": ["Repeat guest offers."] }, " A 10–15% discount for returning guests is a strong incentive and cheaper than OTA commission."],
+            [{ "b": ["A \"book direct\" message on the website."] }, " Tell guests why booking direct is better for them — often a better rate, more flexibility, direct communication."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seasonal",
+      "title": "Seasonal Pricing and Availability",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Tourism businesses live by seasonal patterns. The website has to handle seasonal pricing and availability without requiring a developer for every update."
+          ]
+        },
+        { "type": "h3", "text": "What seasonal pricing looks like" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Weekend rates."] }, " Friday and Saturday nights are usually priced higher than weeknights."],
+            [{ "b": ["Holiday rates."] }, " Diwali, New Year, school holidays, and festival periods are priced higher."],
+            [{ "b": ["Off-season rates."] }, " Monsoon and low-season periods are priced lower, sometimes with additional offers."],
+            [{ "b": ["Last-minute rates."] }, " Sometimes lower, to fill empty rooms on short notice."]
+          ]
+        },
+        { "type": "h3", "text": "How to display seasonal pricing on the website" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Rate calendar."] }, " A calendar showing rates for each date, updated in the admin panel."],
+            [{ "b": ["Room rate cards."] }, " A card per room type showing the rate range (e.g., \"₹2,500 weekdays, ₹3,500 weekends\")."],
+            [{ "b": ["Seasonal banners."] }, " A banner at the top of the site announcing the current season's rates or offers."],
+            [{ "b": ["\"Book direct\" seasonal offers."] }, " A discount code or offer visible only on the website, not on OTAs."]
+          ]
+        },
+        { "type": "h3", "text": "How to make seasonal pricing updatable" },
+        {
+          "type": "p",
+          "inline": [
+            "The website should be built on a platform that lets you update pricing yourself — without calling the developer. For a simple site, this might be a WordPress admin panel. For a booking engine site, it might be the booking platform's rate management interface. Either way, the ability to update pricing without a developer is essential for a seasonal business."
+          ]
+        },
+        { "type": "h3", "text": "What to ask a developer about seasonal pricing" },
+        {
+          "type": "ul",
+          "items": [
+            ["Can I update pricing and availability myself, without calling you?"],
+            ["How do I set different rates for weekends, holidays, and off-season?"],
+            ["Can I display a rate calendar, or do I have to update rates manually on each room page?"],
+            ["Can I create seasonal offers that are visible only on the website, not on OTAs?"]
+          ]
+        },
+        { "type": "h3", "text": "Seasonal content beyond pricing" },
+        {
+          "type": "p",
+          "inline": [
+            "Pricing is only part of seasonal content. A tourism website should also be able to show:"
+          ]
+        },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Seasonal photos"] }, " — the property in monsoon, in summer, in winter."],
+            [{ "b": ["Seasonal activities"] }, " — what is available during the current season (e.g., water sports in summer, birdwatching in winter)."],
+            [{ "b": ["Seasonal hours"] }, " — restaurants, activities, and other services may have seasonal hours."],
+            [{ "b": ["Seasonal messaging"] }, " — \"Book early for Diwali weekend\" or \"Monsoon specials available now.\""]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reviews",
+      "title": "Reviews and Social Proof",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Travelers rely heavily on reviews when choosing where to stay or eat. Reviews are a major factor in both search ranking and booking conversion, and a tourism website has to make reviews prominent."
+          ]
+        },
+        { "type": "h3", "text": "Where reviews come from" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Google reviews"] }, " — the most important, because they show up in Google search and on Google Maps."],
+            [{ "b": ["OTA reviews"] }, " — Booking.com, MakeMyTrip, Airbnb reviews, which potential guests will check independently."],
+            [{ "b": ["TripAdvisor"] }, " — especially for restaurants and activities."],
+            [{ "b": ["Direct testimonials"] }, " — quotes collected from past guests, published on the website."]
+          ]
+        },
+        { "type": "h3", "text": "How to display reviews on the website" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["A dedicated reviews page"] }, " — a selection of reviews from various sources, with links to the source."],
+            [{ "b": ["Reviews on room or service pages"] }, " — 2–3 reviews per room type or service, relevant to that specific offering."],
+            [{ "b": ["A Google review widget"] }, " — a live widget showing the current Google reviews and rating."],
+            [{ "b": ["An aggregate rating"] }, " — a summary at the top of the site (e.g., \"4.8 from 120 Google reviews\")."]
+          ]
+        },
+        { "type": "h3", "text": "How to get more reviews" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Ask at checkout."] }, " A simple \"Please leave a Google review\" card at checkout or in the room."],
+            [{ "b": ["Ask via WhatsApp after the stay."] }, " A follow-up message a day after checkout, with a direct link to the Google review page."],
+            [{ "b": ["Respond to every review."] }, " Responding to reviews signals to Google and to future guests that you engage with feedback."],
+            [{ "b": ["Make it easy."] }, " A direct link to the Google review page, not a multi-step process."]
+          ]
+        },
+        { "type": "h3", "text": "How to handle negative reviews" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Respond politely and specifically."] }, " Acknowledge the issue, say what you are doing about it, and invite the guest to return."],
+            [{ "b": ["Do not argue."] }, " A defensive response looks worse than the negative review itself."],
+            [{ "b": ["Fix the problem if it is real."] }, " A negative review about a fixable issue is an opportunity, not a defeat."],
+            [{ "b": ["Do not delete or hide."] }, " Hiding negative reviews is worse than the reviews themselves — future guests will find them elsewhere."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "what-to-include",
+      "title": "What a Tourism Website Needs",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "A tourism website needs a specific set of pages and features. The list below covers the minimum for a homestay, guesthouse, resort, or restaurant."
+          ]
+        },
+        { "type": "h3", "text": "Essential pages" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Homepage"] }, " — the hero photo, a short pitch, the location, and a clear \"Book\" or \"Check availability\" button."],
+            [{ "b": ["Rooms (or Menu or Activities)"] }, " — one page per room type, menu section, or activity, with photos, description, and pricing."],
+            [{ "b": ["Gallery"] }, " — a selection of the best photos of the property, rooms, and surroundings."],
+            [{ "b": ["Location"] }, " — where you are, how to get there, and a map."],
+            [{ "b": ["Reviews"] }, " — a selection of reviews and a link to your Google reviews."],
+            [{ "b": ["About"] }, " — the story of the place and the people."],
+            [{ "b": ["Contact"] }, " — phone, WhatsApp, email, and a contact form or booking form."],
+            [{ "b": ["Booking"] }, " — either a booking form or a booking engine page, linked from every page."]
+          ]
+        },
+        { "type": "h3", "text": "Essential features" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Booking flow"] }, " — the primary conversion mechanism; every page should have a clear path to it."],
+            [{ "b": ["WhatsApp button"] }, " — prominently displayed, especially on mobile."],
+            [{ "b": ["Mobile-first design"] }, " — the site should be designed for mobile first, then adapted for desktop."],
+            [{ "b": ["Fast load times"] }, " — under 3 seconds on 4G for the first load."],
+            [{ "b": ["Local SEO"] }, " — Google Business Profile, local schema, and local keyword targeting."],
+            [{ "b": ["Rate calendar or rate cards"] }, " — showing seasonal pricing, updatable by the owner."],
+            [{ "b": ["Review widget"] }, " — showing current Google reviews and rating."]
+          ]
+        },
+        { "type": "h3", "text": "Optional but valuable features" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Booking engine with OTA sync"] }, " — for businesses with steady demand."],
+            [{ "b": ["Multi-language support"] }, " — if you have international guests."],
+            [{ "b": ["Local recommendations page"] }, " — a page with nearby attractions, restaurants, and activities, which is useful for guests and good for SEO."],
+            [{ "b": ["Photo gallery with seasonal categories"] }, " — photos grouped by season."],
+            [{ "b": ["A \"book direct\" incentive"] }, " — a discount or offer visible only on the website."]
+          ]
+        },
+        { "type": "h3", "text": "What to skip" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Blog"] }, " — unless you have a specific content strategy, a blog is a distraction."],
+            [{ "b": ["Long about pages"] }, " — 300–500 words is enough; guests do not read long stories."],
+            [{ "b": ["Complex user accounts"] }, " — guests do not need to log in; they need to book quickly."],
+            [{ "b": ["Custom mobile app"] }, " — a mobile-friendly website is sufficient for most tourism businesses."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "costs",
+      "title": "Realistic Costs",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The table below gives typical 2026 cost ranges for tourism websites. These are the same ranges as in the Diveagar guide and the Raigad cost guide, collected here for easy reference."
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            ["Project type"],
+            ["Typical cost (INR)"],
+            ["Timeline"]
+          ],
+          "rows": [
+            [["Homestay site with booking form"], ["₹40,000 - ₹80,000"], ["4 - 6 weeks"]],
+            [["Guesthouse site with booking engine"], ["₹80,000 - ₹1,20,000"], ["6 - 8 weeks"]],
+            [["Resort site with booking engine + OTA sync"], ["₹1,20,000 - ₹2,00,000"], ["8 - 12 weeks"]],
+            [["Restaurant site (menu + reservations)"], ["₹25,000 - ₹60,000"], ["3 - 4 weeks"]],
+            [["Activity provider site with booking"], ["₹40,000 - ₹80,000"], ["4 - 6 weeks"]]
+          ]
+        },
+        { "type": "h3", "text": "What is not included" },
+        {
+          "type": "ul",
+          "items": [
+            [{ "b": ["Professional photography"] }, " — ₹15,000 to ₹50,000 for a property shoot."],
+            [{ "b": ["Copywriting"] }, " — ₹5,000 to ₹20,000 if a copywriter writes the content."],
+            [{ "b": ["Domain and hosting"] }, " — ₹2,000 to ₹15,000 per year."],
+            [{ "b": ["Monthly maintenance"] }, " — ₹2,000 to ₹6,000 per month."],
+            [{ "b": ["Booking platform subscription"] }, " — ₹2,000 to ₹10,000 per month, if using a booking engine."],
+            [{ "b": ["Payment gateway fees"] }, " — 2–3% per transaction."]
+          ]
+        },
+        { "type": "h3", "text": "Total first-year cost" },
+        {
+          "type": "p",
+          "inline": [
+            "For a small homestay with a booking form, the total first-year cost is usually ₹60,000 to ₹1,20,000 (build + photography + hosting + maintenance). For a guesthouse with a booking engine, ₹1,20,000 to ₹1,80,000. For a resort with OTA sync, ₹1,80,000 to ₹2,80,000. The build cost is only part of the picture."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "title": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "What does a tourism business need on its website?",
+          "a": [
+            "A homepage, room or service pages with photos, a gallery, a location page, a reviews section, an about page, and a contact page — plus a booking flow (form or engine), a WhatsApp button, mobile-first design, and local SEO. See the ",
+            { "a": "#what-to-include", "t": ["what to include section"] },
+            "."
+          ]
+        },
+        {
+          "q": "Do I need a booking engine or is a booking form enough?",
+          "a": [
+            "For a homestay with 1–3 rooms and a low volume of inquiries, a booking form via WhatsApp is sufficient. For a guesthouse or resort with 4+ rooms and steady demand, a booking engine is usually worth the investment. See the ",
+            { "a": "#booking-systems", "t": ["booking systems section"] },
+            "."
+          ]
+        },
+        {
+          "q": "How much does a tourism website cost?",
+          "a": [
+            "A homestay site with a booking form costs ₹40,000 to ₹80,000. A guesthouse with a booking engine costs ₹80,000 to ₹1,20,000. A resort with OTA integration costs ₹1,20,000 to ₹2,00,000. These ranges do not include photography or ongoing costs. See the ",
+            { "a": "#costs", "t": ["costs section"] },
+            "."
+          ]
+        },
+        {
+          "q": "Do I need professional photography?",
+          "a": [
+            "For a homestay, guesthouse, or resort, yes — photos are the product, and good photos are the difference between a booking and no booking. Professional photography typically costs ₹15,000 to ₹50,000 for a property shoot. See the ",
+            { "a": "#photography", "t": ["photography section"] },
+            "."
+          ]
+        },
+        {
+          "q": "How do I reduce my dependency on OTAs?",
+          "a": [
+            "Build a direct booking channel: a website with a clear booking flow, an optimized Google Business Profile, a strong review strategy, and a repeat-guest program. OTAs are still valuable for discovery, but a strong direct channel reduces your commission costs over time. See the ",
+            { "a": "#ota-vs-direct", "t": ["OTA vs direct section"] },
+            "."
+          ]
+        },
+        {
+          "q": "How do I handle seasonal pricing on my website?",
+          "a": [
+            "Use a content management system or booking platform that lets you update pricing yourself, without a developer. Set different rates for weekends, holidays, and off-season, and display them clearly on the site. See the ",
+            { "a": "#seasonal", "t": ["seasonal pricing section"] },
+            "."
+          ]
+        },
+        {
+          "q": "Should I hire a local developer or a remote one for a tourism website?",
+          "a": [
+            "For most tourism websites, a remote developer is fine. Local matters if you need in-person photography, a developer who can visit the property, or emergency support during peak season. See the ",
+            { "a": "/website-developers-raigad#local-vs-remote", "t": ["local vs remote section"] },
+            " in the Raigad guide."
+          ]
+        },
+        {
+          "q": "How important are reviews for a tourism website?",
+          "a": [
+            "Very important. Travelers rely heavily on reviews when choosing where to stay or eat, and reviews are a major factor in both search ranking and booking conversion. The website should display reviews prominently and link to Google reviews. See the ",
+            { "a": "#reviews", "t": ["reviews section"] },
+            "."
+          ]
+        },
+        {
+          "q": "Do I need a blog on my tourism website?",
+          "a": [
+            "Usually not. A blog is a distraction from the booking flow unless you have a specific content strategy. A well-built brochure-and-booking site is more valuable than a mediocre blog. See the ",
+            { "a": "#what-to-include", "t": ["what to include section"] },
+            "."
+          ]
+        },
+        {
+          "q": "How long does it take to build a tourism website?",
+          "a": [
+            "A homestay site with a booking form takes 4 to 6 weeks. A guesthouse with a booking engine takes 6 to 8 weeks. A resort with OTA integration takes 8 to 12 weeks. The timeline depends on the complexity and how quickly you provide content and feedback."
+          ]
+        },
+        {
+          "q": "Can I integrate my website with my existing OTA listings?",
+          "a": [
+            "Yes, if the developer uses a booking engine that supports OTA integration (like Staah, AxisRooms, or similar). This lets a booking on your website be reflected in your OTA calendars, and vice versa. See the ",
+            { "a": "#booking-systems", "t": ["booking systems section"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "title": "Next Steps",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "If you are a tourism business, start with a clear brief: what the site needs to do (bookings, inquiries, or both), how you handle bookings today, and what your budget is. Then use the town-specific guides to evaluate developers — ",
+            { "a": "/website-developer-diveagar", "t": ["Diveagar"] },
+            " for tourism-heavy towns, and ",
+            { "a": "/website-developer-shrivardhan", "t": ["Shrivardhan"] },
+            " or ",
+            { "a": "/website-developer-borli", "t": ["Borli"] },
+            " for mixed economies."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the coastal Maharashtra guide, see ",
+            { "a": "/coastal-maharashtra-website-guide", "t": ["coastal Maharashtra website guide"] },
+            ". For the Raigad district overview, see ",
+            { "a": "/website-developers-raigad", "t": ["website developers in Raigad district"] },
+            ". For costs, see ",
+            { "a": "/website-developer-cost-raigad", "t": ["website development cost in Raigad district"] },
+            ". If you want help scoping a tourism website project, ",
+            { "a": "/contact", "t": ["contact us"] },
+            "."
+          ]
+        }
+      ],
+      "cta": true
+    }
+  ]
+}
