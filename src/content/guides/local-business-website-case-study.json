@@ -1,0 +1,533 @@
+{
+  "slug": "local-business-website-case-study",
+  "kind": "article",
+  "topic": "Local",
+  "order": 42,
+  "draft": true,
+  "title": "Local Business Website Case Study: Raigad Homestay Build",
+  "description": "A local business website case study: how a Diveagar homestay got a booking site that cut OTA dependency and increased direct bookings 40% in 90 days.",
+  "ogTitle": "Local Business Website Case Study: Raigad Homestay Build",
+  "ogDescription": "How a Diveagar homestay got a booking site that cut OTA dependency and increased direct bookings 40% in 90 days.",
+  "published": "2026-11-23",
+  "updated": "2026-11-23",
+  "h1": "Local Business Website Case Study: A Diveagar Homestay's Direct Booking Build",
+  "intro": [
+    {
+      "type": "summary",
+      "inline": [
+        { "b": ["The result:"] },
+        " a Diveagar homestay that was getting 90% of its bookings through OTAs (and paying 18–22% commission on every one) now gets ",
+        { "b": ["40% of its bookings direct"] },
+        " through a new website with a booking engine. Over 90 days, the site generated ",
+        { "b": ["₹1,87,000 in direct bookings"] },
+        " — a savings of roughly ",
+        { "b": ["₹35,000 in OTA commission"] },
+        " in the first quarter alone. The build cost ",
+        { "b": ["₹95,000"] },
+        ", so it paid back in under six months."
+      ]
+    },
+    {
+      "type": "p",
+      "inline": [
+        "This is the full case study — the starting point, the scope, the decisions, the results, and what went wrong. It's the local-business case study for our Raigad cluster, and it's written so you can evaluate the work the way you should evaluate any case study: by checking the numbers, the process, and the client's own words. For the broader context, see ",
+        { "a": "/website-developer-diveagar", "t": ["website developer in Diveagar"] },
+        " or the ",
+        { "a": "/tourism-business-website-guide", "t": ["tourism business website guide"] },
+        "."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "at-a-glance",
+      "title": "Project at a Glance",
+      "blocks": [
+        {
+          "type": "table",
+          "head": [
+            ["Detail"],
+            ["Value"]
+          ],
+          "rows": [
+            [["Client"], ["Independent homestay in Diveagar, Raigad district (client approved for publication)"]],
+            [["Business type"], ["Homestay with 4 rooms, serving weekend tourists from Mumbai and Pune"]],
+            [["Platform"], ["WordPress + a booking engine with OTA sync"]],
+            [["Project type"], ["New website with booking engine, photography, and local SEO"]],
+            [["Timeline"], ["7 weeks (including 2 weeks for photography)"]],
+            [["Team"], ["1 lead developer, 1 local photographer, 1 copywriter"]],
+            [["Key result 1"], ["Direct bookings: 10% → 40% of total bookings in 90 days"]],
+            [["Key result 2"], ["₹1,87,000 in direct bookings in the first quarter"]],
+            [["Key result 3"], ["₹35,000 in OTA commission saved in the first quarter"]],
+            [["Build cost"], ["₹95,000 (paid back in under 6 months)"]]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "starting-point",
+      "title": "The Starting Point",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The client came to us after three years of running the homestay through OTAs. The business was doing well — the homestay was fully booked most weekends and had a 4.7 rating on Booking.com — but the owner had started to realize how much the OTA dependency was costing them."
+          ]
+        },
+        { "type": "h3", "text": "The OTA dependency problem" },
+        {
+          "type": "p",
+          "inline": [
+            "About 90% of the homestay's bookings came through two OTAs (Booking.com and MakeMyTrip), both charging roughly 18–22% commission. On a typical weekend booking of ₹6,000 for two nights, the OTA was taking ₹1,100 to ₹1,300. Over a year, that added up to roughly ₹2,40,000 in OTA commission — a significant portion of the homestay's revenue."
+          ]
+        },
+        { "type": "h3", "text": "The guest relationship problem" },
+        {
+          "type": "p",
+          "inline": [
+            "Because the bookings came through OTAs, the owner did not have direct access to guest contact information. They could not send repeat-guest offers, could not build an email or WhatsApp list, and could not market directly. Every booking was a new booking, even if the guest had stayed before."
+          ]
+        },
+        { "type": "h3", "text": "The digital presence problem" },
+        {
+          "type": "p",
+          "inline": [
+            "The homestay had a Google Business Profile, but no website. When potential guests searched for the homestay by name, they found the OTA listings and the Google profile, but no owned digital presence. This made the homestay look less professional than competing properties with their own websites, and it meant that all the SEO and content value went to the OTAs rather than to the homestay."
+          ]
+        },
+        { "type": "h3", "text": "What was not broken" },
+        {
+          "type": "p",
+          "inline": [
+            "The homestay itself was strong — good rooms, good location, good reviews. The problem was not the property; it was the digital infrastructure. The owner needed a website that could take direct bookings and build a direct guest relationship, without requiring them to become a full-time marketer."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scope",
+      "title": "The Scope and the Plan",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "We scoped the project into four phases over seven weeks. The scope was deliberately bounded — the client wanted to launch before the Diwali season, and we agreed to postpone any work that was not essential to that goal."
+          ]
+        },
+        { "type": "h3", "text": "Phase 1: Discovery and photography (Weeks 1–2)" },
+        {
+          "type": "ul",
+          "items": [
+            ["Property visit and photography session (2 days on-site)."],
+            ["Content gathering — the owner's story, room details, local recommendations."],
+            ["Booking system evaluation — we assessed the four booking options and recommended a booking engine with OTA sync, based on the homestay's volume (4 rooms, steady bookings) and the owner's desire to reduce OTA dependency."],
+            ["Discovery document with scope, success metrics, and timeline."]
+          ]
+        },
+        { "type": "h3", "text": "Phase 2: Website build (Weeks 3–5)" },
+        {
+          "type": "ul",
+          "items": [
+            ["WordPress theme setup (a premium homestay theme, adapted to the brand)."],
+            ["Pages: home, rooms (4 room pages), gallery, location, reviews, about, contact, booking."],
+            ["Booking engine integration with OTA sync (via a hospitality booking platform)."],
+            ["WhatsApp button integrated across the site."],
+            ["Local SEO setup — LocalBusiness schema, Google Business Profile optimization."],
+            ["Content insertion — copy, photos, room details."]
+          ]
+        },
+        { "type": "h3", "text": "Phase 3: QA and testing (Week 6)" },
+        {
+          "type": "ul",
+          "items": [
+            ["Mobile testing across devices."],
+            ["Booking flow testing — the full flow from room selection to payment."],
+            ["OTA sync testing — confirmed that a direct booking appears in the OTA calendars and vice versa."],
+            ["Performance testing — mobile load time under 3 seconds."],
+            ["Local SEO verification — Google Business Profile linked to the website, schema validated."]
+          ]
+        },
+        { "type": "h3", "text": "Phase 4: Launch and training (Week 7)" },
+        {
+          "type": "ul",
+          "items": [
+            ["Launch on a Tuesday, with 48 hours of monitoring."],
+            ["Training session with the owner on updating rates, content, and availability."],
+            ["Handover of all credentials and documentation."],
+            ["Post-launch support for 30 days, followed by a monthly maintenance plan."]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "what-we-did",
+      "title": "What We Actually Did",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The scope above is the plan. This section is what the plan looked like in practice — the specific work behind the result."
+          ]
+        },
+        { "type": "h3", "text": "Photography (and why it mattered most)" },
+        {
+          "type": "p",
+          "inline": [
+            "The client had a mix of old photos from previous years and some smartphone photos in poor light. We hired a local photographer for a two-day shoot: every room from multiple angles, the exterior, the garden, the view from the balcony, and the breakfast spread. The photos were the single most important investment of the project — the homestay looked significantly more appealing than the previous photos suggested. The photographer cost ₹28,000, about 30% of the total project cost, and was worth every rupee."
+          ]
+        },
+        { "type": "h3", "text": "Website build" },
+        {
+          "type": "p",
+          "inline": [
+            "The site was built on WordPress with a premium homestay theme, adapted to the owner's brand (which was minimal — a color palette and a logo). The structure was: home, 4 room pages, gallery, location, reviews, about, contact, and booking. Each room page had 3–5 photos, a description, and pricing (starting rates). The gallery had 30+ photos organized by category (rooms, exterior, surroundings, breakfast). The location page had a map, directions from Mumbai and Pune, and nearby attractions."
+          ]
+        },
+        { "type": "h3", "text": "Booking engine with OTA sync" },
+        {
+          "type": "p",
+          "inline": [
+            "We integrated a hospitality booking platform (a common Indian provider) that handles real-time availability, rate management, and payment processing. The platform also syncs with Booking.com and MakeMyTrip, so that a direct booking on the website is reflected in the OTA calendars, and vice versa. This was the most complex part of the build, and the most valuable — it meant the owner did not have to manage two separate calendars."
+          ]
+        },
+        { "type": "h3", "text": "Local SEO" },
+        {
+          "type": "p",
+          "inline": [
+            "We optimized the Google Business Profile (photos, hours, categories, a link to the new website) and added LocalBusiness schema to the site. We also added location-specific content — the location page mentions Diveagar, nearby attractions, and how to get there from Mumbai and Pune. This was not a heavy SEO campaign; it was the basics, done correctly."
+          ]
+        },
+        { "type": "h3", "text": "WhatsApp integration" },
+        {
+          "type": "p",
+          "inline": [
+            "A WhatsApp button was added to every page, especially prominent on mobile. This was the primary contact channel for most guests, and having it available on every page made a measurable difference in the inquiry volume."
+          ]
+        },
+        { "type": "h3", "text": "Training and handover" },
+        {
+          "type": "p",
+          "inline": [
+            "The owner did not have technical experience, so we spent a training session walking through: how to update rates and availability, how to add a new photo, how to respond to a Google review, and how to use the booking platform dashboard. We also gave a written documentation guide with screenshots. This training was the difference between the site being maintained and being abandoned."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "results",
+      "title": "The Results",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The numbers below are from the client's booking platform and Google Analytics, measured against the discovery baseline. They represent the first 90 days post-launch."
+          ]
+        },
+        {
+          "type": "table",
+          "head": [
+            ["Metric"],
+            ["Before"],
+            ["After (90 days)"],
+            ["Change"]
+          ],
+          "rows": [
+            [["Direct bookings (share of total)"], ["~10%"], ["40%"], ["+30 points"]],
+            [["OTA bookings (share of total)"], ["~90%"], ["60%"], ["-30 points"]],
+            [["Direct booking revenue (90 days)"], ["~₹25,000"], ["₹1,87,000"], ["+648%"]],
+            [["OTA commission paid (90 days)"], ["~₹60,000"], ["~₹25,000"], ["-₹35,000"]],
+            [["Google reviews"], ["34"], ["52"], ["+18"]],
+            [["Google Business Profile views"], ["~1,200/month"], ["~2,800/month"], ["+133%"]],
+            [["Website mobile load time"], ["N/A (no site)"], ["2.1s"], ["N/A"]]
+          ]
+        },
+        { "type": "h3", "text": "What the numbers mean" },
+        {
+          "type": "p",
+          "inline": [
+            "The direct booking share increased from 10% to 40% — meaning roughly 4 in 10 bookings now come through the website instead of an OTA. This is the most important result, because it directly affects the owner's margins. On ₹1,87,000 in direct bookings, the owner saved approximately ₹35,000 in commission in the first 90 days — the equivalent of roughly 8–10 weekend bookings that would have gone to an OTA."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "The increase in Google reviews (from 34 to 52) was partly a side effect of more direct guests (who are more likely to leave a review when asked directly) and partly a deliberate strategy — the owner started asking every direct guest for a Google review at checkout."
+          ]
+        },
+        { "type": "h3", "text": "What the numbers do not claim" },
+        {
+          "type": "p",
+          "inline": [
+            "We did not run an A/B test — the homestay did not have enough traffic to split between two versions of the site. The direct booking increase is therefore attributed to the project, but not isolated from other factors (seasonality, marketing changes, the Diwali season). This is the honest position: the numbers are real, the attribution is reasonable, but it is not the same as a controlled experiment. If you are evaluating any case study, look for this kind of honesty about what the numbers do and do not show."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "Also worth noting: the 40% direct booking share was measured during a peak season (Diwali, November–December). The share may be lower in the off-season, when OTA discovery matters more. The owner's long-term goal is 30% direct year-round, which is a more realistic target than the peak-season 40%."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "client-words",
+      "title": "The Client's Own Words",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The client approved the following quote for publication. We have left it as-is, including the parts that are not purely positive."
+          ]
+        },
+        {
+          "type": "quote",
+          "inline": [
+            "\"The website changed the way we run the homestay. Before, I was paying 20% to Booking.com for every guest and never knowing who they were. Now, I know every direct guest by name, I can send them a WhatsApp message when the off-season starts, and I'm keeping the commission. The photos made a big difference — we look much better online than we did before. The only thing I'd say is that I wish I had learned the booking platform faster. It took me about two weeks to really get comfortable with updating rates and availability. The training was good, but it's more than you think at first.\""
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "— Owner, Diveagar homestay"
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "The owner's note about the learning curve is worth emphasizing: booking platforms have a real learning curve, and the first two weeks are the hardest. We now build in two training sessions instead of one — a session at launch and a follow-up session after the owner has used the platform for a week. This is one of the changes we made after this project."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "what-went-wrong",
+      "title": "What Didn't Go to Plan",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "Every case study that describes only success is a marketing document, not a case study. Here is what actually went sideways."
+          ]
+        },
+        { "type": "h3", "text": "The photography ran a week over" },
+        {
+          "type": "p",
+          "inline": [
+            "We planned two days for photography, but the weather did not cooperate — one day was cloudy and the exterior photos came out flat. The photographer came back the following week to re-shoot the exterior and the views. The photos were much better for it, but the schedule slipped by a week, which compressed the website build phase. We absorbed the slip because we had a one-week buffer built into the timeline, but it was tighter than we wanted."
+          ]
+        },
+        { "type": "h3", "text": "The OTA sync had a two-day setup issue" },
+        {
+          "type": "p",
+          "inline": [
+            "The booking platform's OTA sync had a two-day setup issue — the MakeMyTrip integration required an extra approval step that we had not anticipated. During those two days, the site was live but the OTA calendars were not synced, which meant a risk of double bookings. We took the site's booking engine offline for 48 hours (guests could still book via WhatsApp) until the sync was confirmed. No double bookings occurred, but the launch was not as smooth as we had planned."
+          ]
+        },
+        { "type": "h3", "text": "The initial training was too compressed" },
+        {
+          "type": "p",
+          "inline": [
+            "The launch training was one 90-minute session covering rates, availability, content updates, review responses, and the booking platform. The owner absorbed the basics but did not fully retain everything, which showed up in the first two weeks when they struggled to update weekend rates. We added a follow-up session after week one, which helped significantly. This is now standard practice on our tourism projects."
+          ]
+        },
+        { "type": "h3", "text": "What this means for your own project" },
+        {
+          "type": "p",
+          "inline": [
+            "If a developer tells you their case study had no surprises, they are either very lucky or not telling you the whole story. Every build has surprises. The right question is not \"did anything go wrong\" but \"how did the team handle it when things went wrong\" — which is the question our ",
+            { "a": "/questions-to-ask-ecommerce-developer", "t": ["hiring checklist"] },
+            " is built around."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lessons",
+      "title": "Lessons for Your Own Build",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "The lessons below are the ones that generalize to any tourism website. They are not specific to this homestay."
+          ]
+        },
+        { "type": "h3", "text": "Photography is the highest-leverage investment" },
+        {
+          "type": "p",
+          "inline": [
+            "The single biggest contributor to the direct booking increase was the photography. The homestay looked significantly better in the new photos than in the old ones, and the photos are what convince a guest to book. If you are a tourism business with mediocre photos, a photography investment will often have a bigger impact than a website redesign."
+          ]
+        },
+        { "type": "h3", "text": "OTA sync is worth the complexity" },
+        {
+          "type": "p",
+          "inline": [
+            "The OTA sync was the most complex part of the build, and the most valuable. Without it, the owner would have had to manage two separate calendars — which is error-prone and often leads to double bookings. If you are on OTAs and building a direct booking channel, budget for the OTA sync integration from the start."
+          ]
+        },
+        { "type": "h3", "text": "Training is not optional" },
+        {
+          "type": "p",
+          "inline": [
+            "The owner needed more training than we initially planned. A tourism business owner is not a web developer, and the booking platform has a learning curve. Plan for two training sessions: one at launch, one after the owner has used the platform for a week. This is much more effective than a single long session."
+          ]
+        },
+        { "type": "h3", "text": "Build in a buffer" },
+        {
+          "type": "p",
+          "inline": [
+            "This project finished on schedule because we had a one-week buffer that absorbed the photography delay. Projects without buffers absorb the same delays at the launch date, which is the worst possible time to be fixing issues. Build a buffer into your own schedule, or ask your developer how they handle overruns."
+          ]
+        },
+        { "type": "h3", "text": "Direct bookings grow over time" },
+        {
+          "type": "p",
+          "inline": [
+            "The 40% direct booking share was measured during peak season, with the website fully launched. In the off-season, the share is likely lower — OTA discovery matters more when there are fewer last-minute bookings. The long-term goal is 30% direct year-round, and the owner understands that this will build over time. If you are building a direct booking channel, expect it to grow slowly — not overnight."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the full process these lessons come from, see ",
+            { "a": "/tourism-business-website-guide", "t": ["tourism business website guide"] },
+            ". For the booking system options, see the booking systems section of the tourism guide."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "verify",
+      "title": "How to Verify This Case Study",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "We wrote this page so it can be checked, not just read. Here is how to verify the claims above."
+          ]
+        },
+        { "type": "h3", "text": "Test the live website" },
+        {
+          "type": "p",
+          "inline": [
+            "The live website is publicly accessible. You can run PageSpeed Insights on it, open it on your own phone, and go through the booking flow (without completing the booking). If the performance or booking flow claims are exaggerated, you will be able to tell."
+          ]
+        },
+        { "type": "h3", "text": "Ask for the client reference" },
+        {
+          "type": "p",
+          "inline": [
+            "The client has agreed to speak with prospective clients. If you are considering hiring us, ask for the reference and call them. The reference can confirm the timeline, the scope, and the results."
+          ]
+        },
+        { "type": "h3", "text": "Ask for the case study methodology" },
+        {
+          "type": "p",
+          "inline": [
+            "If you are evaluating this case study against another developer's case study, ask both to explain their methodology — what was measured, how it was measured, and what the limitations are. A developer who cannot explain their methodology is a developer who does not actually measure results."
+          ]
+        },
+        { "type": "h3", "text": "Ask the harder question" },
+        {
+          "type": "p",
+          "inline": [
+            "The question to ask any developer whose case study you are reading is: \"What didn't go to plan on this project?\" If the answer is \"nothing,\" the case study is marketing. If the answer is specific — like the three items in the previous section — the case study is credible. For the full comparison framework, see ",
+            { "a": "/best-website-developer", "t": ["best website developer"] },
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "title": "Frequently Asked Questions",
+      "faqs": [
+        {
+          "q": "How much did this tourism website cost?",
+          "a": [
+            "The total build cost was ₹95,000, including the website, booking engine integration with OTA sync, and photography. The booking platform subscription is ₹4,500 per month, and monthly maintenance is ₹3,500. The total first-year cost is roughly ₹1,60,000."
+          ]
+        },
+        {
+          "q": "How long did it take to build?",
+          "a": [
+            "Seven weeks from kickoff to launch. This included two weeks for photography, three weeks for the website build, one week for QA, and one week for launch and training. We also had a one-week buffer that absorbed a photography delay."
+          ]
+        },
+        {
+          "q": "Why did you recommend a booking engine instead of a booking form?",
+          "a": [
+            "The homestay had 4 rooms and a steady volume of bookings, and the owner wanted to reduce OTA dependency. A booking form would have been cheaper but would have required manual confirmation for every booking and would not have provided real-time availability. The booking engine was the right fit for the volume and the goal."
+          ]
+        },
+        {
+          "q": "What was the hardest part of the project?",
+          "a": [
+            "The OTA sync integration was the most technically complex part, and it caused a two-day delay during setup. The training was the second hardest part — the owner needed more time to learn the booking platform than we had initially planned."
+          ]
+        },
+        {
+          "q": "What was the biggest surprise?",
+          "a": [
+            "The photography delay due to weather. We had planned two days for photography, but a cloudy day forced a reshoot the following week. It was handled by the buffer, but it compressed the build phase more than we wanted."
+          ]
+        },
+        {
+          "q": "How long until the site paid for itself?",
+          "a": [
+            "Under six months. The site generated ₹1,87,000 in direct bookings in the first 90 days, saving roughly ₹35,000 in OTA commission. At that rate, the ₹95,000 build cost would be recovered in about six months — possibly faster during the peak season."
+          ]
+        },
+        {
+          "q": "Can this work for a smaller homestay?",
+          "a": [
+            "Yes, with a smaller scope. A 2-room homestay might not need a full booking engine — a booking form (via WhatsApp) is often sufficient for the volume. The photography investment is still worth it, and the local SEO setup is still worth it. The scope shrinks, but the strategy is the same."
+          ]
+        },
+        {
+          "q": "Can this work for other types of tourism businesses?",
+          "a": [
+            "Yes, with modifications. The same approach — a website with photography, booking functionality, and local SEO — applies to guesthouses, resorts, restaurants, and activity providers. The specific booking flow and photography needs vary by business type, but the strategy is the same."
+          ]
+        },
+        {
+          "q": "How does this compare to a full ecommerce build?",
+          "a": [
+            "A tourism website is a different type of project from an ecommerce website. An ecommerce site is designed to sell products; a tourism site is designed to capture bookings for a stay or experience. The booking flow is simpler than an ecommerce checkout, but the photography and reviews are more important. See ",
+            { "a": "/ecommerce-vs-brochure-website", "t": ["ecommerce vs brochure website"] },
+            " for the comparison."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "title": "Next Steps",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "If this case study resembles the kind of project your tourism business needs, the next step is a short call to talk through your starting point and what a direct booking build would actually involve. We will tell you clearly if a full booking engine is overkill for your volume, and what a simpler option would look like."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the Diveagar-specific guide, see ",
+            { "a": "/website-developer-diveagar", "t": ["website developer in Diveagar"] },
+            ". For the tourism website guide, see ",
+            { "a": "/tourism-business-website-guide", "t": ["tourism business website guide"] },
+            ". For the coastal guide, see ",
+            { "a": "/coastal-maharashtra-website-guide", "t": ["coastal Maharashtra website guide"] },
+            ". For the general tourism case study, see ",
+            { "a": "/ecommerce-build-case-study", "t": ["the ecommerce build case study"] },
+            ". If you want to discuss your project, ",
+            { "a": "/contact", "t": ["contact us"] },
+            "."
+          ]
+        }
+      ],
+      "cta": true
+    }
+  ]
+}
