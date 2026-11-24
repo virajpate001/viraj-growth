@@ -1,0 +1,398 @@
+{
+  "slug": "website-developer-raigad-faq",
+  "kind": "article",
+  "topic": "Local",
+  "order": 43,
+  "draft": true,
+  "title": "Website Developer Raigad: FAQ for Local Businesses",
+  "description": "Answers to the most common questions about hiring a website developer in Raigad district: costs, timelines, local vs remote, and what local businesses actually need.",
+  "ogTitle": "Website Developer Raigad: FAQ for Local Businesses",
+  "ogDescription": "Common questions from Raigad district businesses about website development answered: costs, timelines, local vs remote, and what to expect.",
+  "published": "2026-11-06",
+  "updated": "2026-11-06",
+  "h1": "Website Developer in Raigad: Frequently Asked Questions",
+  "intro": [
+    {
+      "type": "p",
+      "inline": [
+        "This page answers the questions Raigad district businesses ask most often when they are considering a website — costs, timelines, whether to hire local or remote, and what a website can realistically do for a small local business. Each answer links to the deeper page if you want the full detail."
+      ]
+    },
+    {
+      "type": "p",
+      "inline": [
+        "If you are starting from scratch, read ",
+        { "a": "/website-developers-raigad", "t": ["website developers in Raigad district"] },
+        " first. For costs, see ",
+        { "a": "/website-developer-cost-raigad", "t": ["website development cost in Raigad district"] },
+        ". For the town-specific guides, see ",
+        { "a": "/website-developer-shrivardhan", "t": ["Shrivardhan"] },
+        ", ",
+        { "a": "/website-developer-diveagar", "t": ["Diveagar"] },
+        ", and ",
+        { "a": "/website-developer-borli", "t": ["Borli"] },
+        "."
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "id": "cost-questions",
+      "title": "Cost Questions",
+      "blocks": [
+        { "type": "h3", "text": "How much does a website cost in Raigad district?" },
+        {
+          "type": "p",
+          "inline": [
+            "A brochure site (3–5 pages) typically costs ₹15,000 to ₹40,000. A business site (5–10 pages) costs ₹30,000 to ₹60,000. A homestay or guesthouse site with booking functionality costs ₹40,000 to ₹1,20,000 depending on whether it uses a booking form or a booking engine. A resort with OTA integration costs ₹1,20,000 to ₹2,00,000."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "These ranges assume a template-based build with content provided by the client. Professional photography, copywriting, and complex booking systems add cost. For the full breakdown, see ",
+            { "a": "/website-developer-cost-raigad", "t": ["website development cost in Raigad district"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "Why is there such a wide cost range?" },
+        {
+          "type": "p",
+          "inline": [
+            "The range reflects the differences in scope. A small brochure site for a local shop and a tourism site with a booking engine are different projects, even though both are \"websites.\" The cost depends on: the number of pages, whether you need booking functionality, whether you need professional photography, and whether you need custom design. Most Raigad businesses are at the low end of these ranges — the higher ranges are for tourism businesses with booking systems."
+          ]
+        },
+        { "type": "h3", "text": "Do I need to pay for professional photography?" },
+        {
+          "type": "p",
+          "inline": [
+            "For a tourism business (homestay, resort, restaurant), yes — photography is often the difference between a booking and no booking. For a local shop or service business, your own photos are usually sufficient. Professional photography costs ₹15,000 to ₹50,000 for a property shoot. See the ",
+            { "a": "/tourism-business-website-guide#photography", "t": ["photography section"] },
+            " in the tourism guide."
+          ]
+        },
+        { "type": "h3", "text": "What are the ongoing costs after the build?" },
+        {
+          "type": "p",
+          "inline": [
+            "Domain (₹800–₹2,000/year), hosting (₹2,000–₹15,000/year), maintenance (₹1,000–₹6,000/month), and for tourism sites with a booking engine, the platform subscription (₹2,000–₹10,000/month). For a small brochure site, the total ongoing cost is usually ₹2,000–₹5,000 per month. For a tourism site with a booking engine, ₹5,000–₹12,000 per month."
+          ]
+        },
+        { "type": "h3", "text": "Is a local Raigad developer cheaper than a Mumbai developer?" },
+        {
+          "type": "p",
+          "inline": [
+            "Usually 15–30% cheaper for the same scope, but the local talent pool is much smaller. For a standard brochure site, a Raigad developer can do the work well. For a tourism site with a booking engine, you may need to look at Mumbai or remote options. See the ",
+            { "a": "/website-developer-cost-raigad#raigad-vs-mumbai", "t": ["Raigad vs Mumbai section"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "What is the cheapest way to get a website in Raigad?" },
+        {
+          "type": "p",
+          "inline": [
+            "A template-based brochure site with content you provide yourself, from a solo freelancer. This typically costs ₹15,000 to ₹40,000. Avoiding custom design, professional photography, and booking engines keeps the cost down. If you are not sure you need a website at all, a Google Business Profile is free and may be sufficient for a small local business."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "local-vs-remote",
+      "title": "Local vs Remote Questions",
+      "blocks": [
+        { "type": "h3", "text": "Do I need a local developer in Raigad, or can I hire remotely?" },
+        {
+          "type": "p",
+          "inline": [
+            "It depends on your business. For a standard brochure site, remote is fine. For a tourism business with photography needs or a booking system, a local developer (or a hybrid approach) is often better. For most Raigad businesses, remote service is a reasonable choice — especially for standard brochure sites. See the ",
+            { "a": "/website-developers-raigad#local-vs-remote", "t": ["local vs remote section"] },
+            " in the Raigad guide."
+          ]
+        },
+        { "type": "h3", "text": "Are there actually any website developers in Raigad district?" },
+        {
+          "type": "p",
+          "inline": [
+            "Yes, but the local pool is small. Most developers in the district are concentrated in larger towns — Panvel, Alibaug, Mahad. In the smaller coastal villages (Shrivardhan, Diveagar, Borli), the local developer pool is very small, and many businesses end up hiring from Mumbai, Pune, or remotely. This is an honest picture of the local market."
+          ]
+        },
+        { "type": "h3", "text": "How do I verify a developer is actually based in Raigad?" },
+        {
+          "type": "p",
+          "inline": [
+            "The same verification steps as anywhere: check the address on Google Maps, ask for a video call from the office, request a local reference, and check the reviews for local-specific details. See the verification sections in the individual city guides."
+          ]
+        },
+        { "type": "h3", "text": "Do you have local offices in Raigad?" },
+        {
+          "type": "p",
+          "inline": [
+            "No. We provide remote service, and the city guides say so up front. The alternative — pretending we have local offices — would be misleading. If you want a local developer, we can help with the vetting process; the city guides explain how."
+          ]
+        },
+        { "type": "h3", "text": "Can a remote developer do photography for my homestay?" },
+        {
+          "type": "p",
+          "inline": [
+            "No. Photography requires a local presence. If you need professional photos, you will need to hire a local photographer separately. This is one of the reasons a tourism business may prefer a local developer — the developer can coordinate photography as part of the project."
+          ]
+        },
+        { "type": "h3", "text": "What if the local market does not have a developer who can do what I need?" },
+        {
+          "type": "p",
+          "inline": [
+            "Then remote is the right choice. For advanced needs (custom booking engines, OTA integration, complex integrations), you may need to look outside Raigad. The remote market is large and can serve Raigad businesses well."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "process-questions",
+      "title": "Process Questions",
+      "blocks": [
+        { "type": "h3", "text": "How long does it take to build a website in Raigad?" },
+        {
+          "type": "p",
+          "inline": [
+            "A brochure site takes 2–3 weeks. A business site takes 3–4 weeks. A homestay site with a booking form takes 4–6 weeks. A site with a booking engine and OTA integration takes 6–12 weeks. The timeline depends on scope, how quickly you provide content and feedback, and whether you need professional photography."
+          ]
+        },
+        { "type": "h3", "text": "What does the process look like?" },
+        {
+          "type": "p",
+          "inline": [
+            "The process has five phases: discovery (1–2 weeks), design (1–3 weeks), build (3–6 weeks), QA (1–2 weeks), and launch. Each phase has a deliverable and a sign-off. For the full process, see ",
+            { "a": "/ecommerce-development-process-milestones", "t": ["the ecommerce development process"] },
+            ". The phases are the same for a brochure site, just compressed."
+          ]
+        },
+        { "type": "h3", "text": "What do I need to provide?" },
+        {
+          "type": "p",
+          "inline": [
+            "Content (text and photos), any existing brand assets (logo, colors), and access to your domain and hosting. If you do not have content or photos, the developer can provide them, but this adds to the cost. The more you provide, the less the project costs and the faster it goes."
+          ]
+        },
+        { "type": "h3", "text": "Can I update the website myself after launch?" },
+        {
+          "type": "p",
+          "inline": [
+            "Yes, if the developer uses a content management system (CMS). WordPress, Shopify, and similar platforms let you update text, photos, hours, and prices without calling the developer. This should be part of the scope — ask the developer to include training and documentation. If the developer builds the site in a way that requires them for every change, that is a red flag."
+          ]
+        },
+        { "type": "h3", "text": "What happens if the site breaks after launch?" },
+        {
+          "type": "p",
+          "inline": [
+            "The developer should provide a warranty (30–90 days on delivered scope) and a maintenance plan. For a live site, same-day response for critical issues (site down, booking form broken) is standard. For non-urgent issues, 1–2 business days. If the developer does not offer maintenance, that is a red flag — you will need it eventually."
+          ]
+        },
+        { "type": "h3", "text": "What is a fair price for maintenance?" },
+        {
+          "type": "p",
+          "inline": [
+            "₹1,000 to ₹6,000 per month depending on the site's complexity. For a brochure site, ₹1,000 to ₹2,500 per month is typical. For a tourism site with a booking engine, ₹3,000 to ₹6,000 per month is typical. Maintenance covers updates, backups, security, and a small number of support hours."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "business-type-questions",
+      "title": "Business-Type Questions",
+      "blocks": [
+        { "type": "h3", "text": "Do I need a website for my small shop in Raigad?" },
+        {
+          "type": "p",
+          "inline": [
+            "It depends. If your entire customer base is local and you are fully booked, a Google Business Profile may be enough. If you want to reach customers outside the village, support a growing business, or compete with businesses that have websites, a brochure site is worth it. For a small shop, the typical scope is ₹15,000 to ₹40,000."
+          ]
+        },
+        { "type": "h3", "text": "I run a homestay. What does my website need?" },
+        {
+          "type": "p",
+          "inline": [
+            "A homestay website needs: a photo gallery, room details, a booking form or booking engine, a location page with directions, a reviews section, and a contact page with WhatsApp. The booking system is the biggest decision — a booking form is cheaper and sufficient for 1–3 rooms; a booking engine is worth it for 4+ rooms. See the ",
+            { "a": "/website-developer-diveagar#booking-systems", "t": ["booking systems section"] },
+            " in the Diveagar guide."
+          ]
+        },
+        { "type": "h3", "text": "I run a restaurant. Do I need a website?" },
+        {
+          "type": "p",
+          "inline": [
+            "A restaurant website is valuable for showing the menu, hours, and location, and for capturing reservations. It is not strictly necessary if you are fully booked and have a strong Google Business Profile, but it helps with visibility and professionalism. The typical scope is ₹25,000 to ₹60,000."
+          ]
+        },
+        { "type": "h3", "text": "I sell products. Do I need ecommerce?" },
+        {
+          "type": "p",
+          "inline": [
+            "Only if you are genuinely selling products online. For very few products (under 10), a brochure site with a product catalog and a WhatsApp order link may be sufficient. For a full catalog with checkout, you need an ecommerce site, which costs significantly more and requires ongoing operational work. See ",
+            { "a": "/ecommerce-vs-brochure-website", "t": ["ecommerce vs brochure website"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "I am a service business (plumber, electrician, etc.). Do I need a website?" },
+        {
+          "type": "p",
+          "inline": [
+            "A simple brochure site with your services, service area, and contact information is usually sufficient. It helps you appear in local search and gives potential customers a way to verify you are a real business. The typical cost is ₹15,000 to ₹35,000. A Google Business Profile is also important and should be set up alongside the website."
+          ]
+        },
+        { "type": "h3", "text": "Do I need a website if I already have a Google Business Profile?" },
+        {
+          "type": "p",
+          "inline": [
+            "A Google Business Profile is important, but it is not a substitute for a website. A website shows your full offering, tells your story, and captures inquiries from people not ready to call. For a growing business, a website is worth the investment. For a very small shop with a steady local customer base, a Google Business Profile may be sufficient."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "local-seo-questions",
+      "title": "Local SEO Questions",
+      "blocks": [
+        { "type": "h3", "text": "What is local SEO, and do I need it?" },
+        {
+          "type": "p",
+          "inline": [
+            "Local SEO is how you appear when someone searches for your business type in your area. For most Raigad businesses, local SEO is more valuable than general SEO. The five essentials are Google Business Profile, local schema, location-specific content, reviews, and consistent NAP. See the ",
+            { "a": "/coastal-maharashtra-website-guide#local-seo", "t": ["local SEO section"] },
+            " in the coastal guide."
+          ]
+        },
+        { "type": "h3", "text": "How do I get my business to show up on Google Maps?" },
+        {
+          "type": "p",
+          "inline": [
+            "Claim and verify your Google Business Profile. Add photos, hours, categories, and a description. Ask satisfied customers to leave Google reviews. Keep the profile updated with new photos and responses to reviews. This is free and is the single most important local SEO action for a Raigad business."
+          ]
+        },
+        { "type": "h3", "text": "Do I need to pay for SEO?" },
+        {
+          "type": "p",
+          "inline": [
+            "For most Raigad businesses, no. Basic local SEO (Google Business Profile, local schema, local content) is enough and is usually included in a good website build. Paid SEO services (monthly retainers of ₹5,000–₹20,000) are for businesses competing for competitive queries — most Raigad businesses do not need this."
+          ]
+        },
+        { "type": "h3", "text": "How long does local SEO take to work?" },
+        {
+          "type": "p",
+          "inline": [
+            "Local SEO is a slow build. For a new business with no Google reviews, expect 3–6 months to see meaningful local visibility. For a business with an established Google Business Profile and reviews, the website will usually start ranking within 1–3 months. The timeline depends on the competition in your specific area."
+          ]
+        },
+        { "type": "h3", "text": "Do I need to be on social media for local SEO?" },
+        {
+          "type": "p",
+          "inline": [
+            "No. Social media can help with discovery, but it is not a direct local SEO factor. Google's local algorithm looks at your website, Google Business Profile, reviews, and local citations — not your Instagram. Social media is a separate marketing channel, worth doing if you have the time, but not required for local SEO."
+          ]
+        },
+        { "type": "h3", "text": "What are local citations, and do I need them?" },
+        {
+          "type": "p",
+          "inline": [
+            "Local citations are mentions of your business name, address, and phone number on other websites — local directories, business associations, tourism boards, and local news sites. They help Google verify that your business is real and locally relevant. For Raigad businesses, a few local citations (Raigad-specific directories, tourism boards, local associations) are worth having."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "general-questions",
+      "title": "General Questions",
+      "blocks": [
+        { "type": "h3", "text": "Is a website worth it for a small Raigad business?" },
+        {
+          "type": "p",
+          "inline": [
+            "It depends on the business. For a small shop with a steady local customer base, a Google Business Profile may be enough. For a business trying to reach customers outside the area, a website is worth it. The question is not whether Raigad is big enough — it is whether a website serves a specific goal for your business."
+          ]
+        },
+        { "type": "h3", "text": "What should I look for in a developer's portfolio?" },
+        {
+          "type": "p",
+          "inline": [
+            "Live websites you can open and test, for businesses similar to yours. A portfolio of only enterprise sites is a red flag — it suggests the developer may over-engineer your project. A portfolio of only personal sites is also a red flag — it suggests limited experience with business needs. For the general framework, see ",
+            { "a": "/best-website-developer", "t": ["best website developer"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "What are the red flags when hiring a developer?" },
+        {
+          "type": "p",
+          "inline": [
+            "No live portfolio, refusal to provide references, full payment upfront, no written contract, no warranty, no maintenance offering, and \"we don't expect anything to go wrong.\" Any of these is a reason to walk away. For the full list, see ",
+            { "a": "/best-website-developer-red-flags", "t": ["red flags in \"best\" claims"] },
+            "."
+          ]
+        },
+        { "type": "h3", "text": "How many developers should I talk to?" },
+        {
+          "type": "p",
+          "inline": [
+            "Three to five is the right range. Fewer than three and you have no real comparison; more than five and you will confuse yourself. Use the same questions and the same framework for each candidate, so the comparison is apples-to-apples."
+          ]
+        },
+        { "type": "h3", "text": "What is a fair timeline for a small website in Raigad?" },
+        {
+          "type": "p",
+          "inline": [
+            "2–3 weeks for a brochure site, 3–4 weeks for a business site, 4–6 weeks for a homestay with a booking form, 6–12 weeks for a site with a booking engine. If a developer quotes much longer than this, ask why; if they quote much shorter, ask what they are cutting."
+          ]
+        },
+        { "type": "h3", "text": "Can I build the website myself instead of hiring a developer?" },
+        {
+          "type": "p",
+          "inline": [
+            "For a very simple brochure site, yes — platforms like Squarespace and Wix are sufficient. For anything with booking functionality, local SEO needs, or a plan to grow, a developer is usually worth the cost. See the ",
+            { "a": "/best-website-developer-small-business#when-to-hire", "t": ["DIY vs developer section"] },
+            " for the full comparison."
+          ]
+        },
+        { "type": "h3", "text": "What if I am not sure what my business needs?" },
+        {
+          "type": "p",
+          "inline": [
+            "Start with a clear brief. The ",
+            { "a": "/ecommerce-developer-brief-template", "t": ["brief template"] },
+            " will help you define what your business needs before you talk to developers. If you are still unsure, start with a brochure site — it is cheaper, faster, and easier to maintain than ecommerce, and can be upgraded later."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cta",
+      "title": "Next Steps",
+      "blocks": [
+        {
+          "type": "p",
+          "inline": [
+            "If you have questions this page does not answer, the best next step is a short call to discuss your specific business. We can help you think through whether a website is worth it, what scope makes sense, and what the realistic budget is."
+          ]
+        },
+        {
+          "type": "p",
+          "inline": [
+            "For the Raigad district overview, see ",
+            { "a": "/website-developers-raigad", "t": ["website developers in Raigad district"] },
+            ". For the cost guide, see ",
+            { "a": "/website-developer-cost-raigad", "t": ["website development cost in Raigad district"] },
+            ". For the town-specific guides, see ",
+            { "a": "/website-developer-shrivardhan", "t": ["Shrivardhan"] },
+            ", ",
+            { "a": "/website-developer-diveagar", "t": ["Diveagar"] },
+            ", and ",
+            { "a": "/website-developer-borli", "t": ["Borli"] },
+            ". For the coastal guide, see ",
+            { "a": "/coastal-maharashtra-website-guide", "t": ["coastal Maharashtra website guide"] },
+            ". If you want to discuss your project, ",
+            { "a": "/contact", "t": ["contact us"] },
+            "."
+          ]
+        }
+      ],
+      "cta": true
+    }
+  ]
+}
